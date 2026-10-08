@@ -4,39 +4,38 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Irenka Loves Korea · Aprende coreano</title>
-  <meta name="description" content="Plataforma kawaii para aprender coreano: Hangul, vocabulario, lecciones y práctica." />
-  <meta name="theme-color" content="#ffd6e7" />
+  <meta name="description" content="Plataforma de aprendizaje de coreano: Hangul, lecciones, vocabulario y práctica." />
+  <meta name="theme-color" content="#F8F5F2" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/estilos.css" />
 </head>
 <body>
   <header class="cabecera">
     <a href="#/" class="logo" aria-label="Ir al inicio">
-      <span class="logo-icono" aria-hidden="true">🐰</span>
-      <span class="logo-texto"><span id="nombre-sitio">Irenka Loves Korea</span><small>한국어 배우기</small></span>
+      <span id="nombre-sitio">Irenka Loves Korea</span>
     </a>
-    <button class="menu-boton" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">☰</button>
+    <button class="menu-boton" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
     <nav id="menu" class="menu">
-      <a href="#/" data-ruta="inicio">🏠 Inicio</a>
-      <a href="#/hangul" data-ruta="hangul">한 Hangul</a>
-      <a href="#/lecciones" data-ruta="lecciones">📚 Lecciones</a>
-      <a href="#/vocabulario" data-ruta="vocabulario">🍡 Vocabulario</a>
-      <a href="#/practica" data-ruta="practica">✏️ Práctica</a>
+      <a href="#/" data-ruta="inicio">Inicio</a>
+      <a href="#/hangul" data-ruta="hangul">Hangul</a>
+      <a href="#/lecciones" data-ruta="lecciones">Lecciones</a>
+      <a href="#/vocabulario" data-ruta="vocabulario">Vocabulario</a>
+      <a href="#/practica" data-ruta="practica">Práctica</a>
     </nav>
+    <span class="cabecera-ko" lang="ko">한국어</span>
   </header>
 
   <main id="app" class="contenido" tabindex="-1">
-    <div class="cargando">
-      <span class="rebote">🐰</span>
-      <p>Cargando… 잠깐만요!</p>
-    </div>
+    <div class="cargando"><p>Cargando…</p></div>
   </main>
 
   <footer class="pie">
-    <p>Hecho con 💗 por <span id="autora">Irenka</span> · <span lang="ko">화이팅!</span></p>
+    <p class="pie-marca">Irenka Loves Korea</p>
+    <div class="pie-linea"></div>
+    <p class="pie-texto">Hecho con amor por <span id="autora">Irenka</span> · <span lang="ko">화이팅</span></p>
   </footer>
 
   <script src="js/app.js"></script>

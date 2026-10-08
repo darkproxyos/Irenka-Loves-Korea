@@ -3,102 +3,96 @@
     {
       "id": "saludos",
       "nombre": "Saludos",
-      "emoji": "👋",
       "color": "rosa",
       "palabras": [
-        { "ko": "안녕하세요", "rom": "annyeonghaseyo", "es": "Hola (formal)", "emoji": "🙇‍♀️" },
-        { "ko": "안녕", "rom": "annyeong", "es": "Hola / Adiós (informal)", "emoji": "👋" },
-        { "ko": "감사합니다", "rom": "gamsahamnida", "es": "Gracias (formal)", "emoji": "🙏" },
-        { "ko": "고마워", "rom": "gomawo", "es": "Gracias (informal)", "emoji": "💕" },
-        { "ko": "죄송합니다", "rom": "joesonghamnida", "es": "Lo siento (formal)", "emoji": "🥺" },
-        { "ko": "네", "rom": "ne", "es": "Sí", "emoji": "⭕" },
-        { "ko": "아니요", "rom": "aniyo", "es": "No", "emoji": "❌" },
-        { "ko": "사랑해", "rom": "saranghae", "es": "Te quiero", "emoji": "💗" },
-        { "ko": "화이팅", "rom": "hwaiting", "es": "¡Ánimo! / ¡Tú puedes!", "emoji": "💪" }
+        { "ko": "안녕하세요", "rom": "annyeonghaseyo", "es": "Hola (formal)" },
+        { "ko": "안녕", "rom": "annyeong", "es": "Hola / Adiós (informal)" },
+        { "ko": "감사합니다", "rom": "gamsahamnida", "es": "Gracias (formal)" },
+        { "ko": "고마워", "rom": "gomawo", "es": "Gracias (informal)" },
+        { "ko": "죄송합니다", "rom": "joesonghamnida", "es": "Lo siento (formal)" },
+        { "ko": "네", "rom": "ne", "es": "Sí" },
+        { "ko": "아니요", "rom": "aniyo", "es": "No" },
+        { "ko": "사랑해", "rom": "saranghae", "es": "Te quiero" },
+        { "ko": "화이팅", "rom": "hwaiting", "es": "¡Ánimo! / ¡Tú puedes!" }
       ]
     },
     {
       "id": "numeros",
       "nombre": "Números",
-      "emoji": "🔢",
       "color": "lavanda",
       "palabras": [
-        { "ko": "일", "rom": "il", "es": "uno (1)", "emoji": "1️⃣" },
-        { "ko": "이", "rom": "i", "es": "dos (2)", "emoji": "2️⃣" },
-        { "ko": "삼", "rom": "sam", "es": "tres (3)", "emoji": "3️⃣" },
-        { "ko": "사", "rom": "sa", "es": "cuatro (4)", "emoji": "4️⃣" },
-        { "ko": "오", "rom": "o", "es": "cinco (5)", "emoji": "5️⃣" },
-        { "ko": "육", "rom": "yuk", "es": "seis (6)", "emoji": "6️⃣" },
-        { "ko": "칠", "rom": "chil", "es": "siete (7)", "emoji": "7️⃣" },
-        { "ko": "팔", "rom": "pal", "es": "ocho (8)", "emoji": "8️⃣" },
-        { "ko": "구", "rom": "gu", "es": "nueve (9)", "emoji": "9️⃣" },
-        { "ko": "십", "rom": "sip", "es": "diez (10)", "emoji": "🔟" }
+        { "ko": "일", "rom": "il", "es": "uno (1)" },
+        { "ko": "이", "rom": "i", "es": "dos (2)" },
+        { "ko": "삼", "rom": "sam", "es": "tres (3)" },
+        { "ko": "사", "rom": "sa", "es": "cuatro (4)" },
+        { "ko": "오", "rom": "o", "es": "cinco (5)" },
+        { "ko": "육", "rom": "yuk", "es": "seis (6)" },
+        { "ko": "칠", "rom": "chil", "es": "siete (7)" },
+        { "ko": "팔", "rom": "pal", "es": "ocho (8)" },
+        { "ko": "구", "rom": "gu", "es": "nueve (9)" },
+        { "ko": "십", "rom": "sip", "es": "diez (10)" }
       ]
     },
     {
       "id": "comida",
       "nombre": "Comida",
-      "emoji": "🍜",
       "color": "durazno",
       "palabras": [
-        { "ko": "밥", "rom": "bap", "es": "arroz / comida", "emoji": "🍚" },
-        { "ko": "김치", "rom": "gimchi", "es": "kimchi", "emoji": "🥬" },
-        { "ko": "떡볶이", "rom": "tteokbokki", "es": "tteokbokki (pastelitos de arroz picantes)", "emoji": "🌶️" },
-        { "ko": "라면", "rom": "ramyeon", "es": "ramen", "emoji": "🍜" },
-        { "ko": "물", "rom": "mul", "es": "agua", "emoji": "💧" },
-        { "ko": "우유", "rom": "uyu", "es": "leche", "emoji": "🥛" },
-        { "ko": "딸기", "rom": "ttalgi", "es": "fresa", "emoji": "🍓" },
-        { "ko": "사과", "rom": "sagwa", "es": "manzana", "emoji": "🍎" },
-        { "ko": "빵", "rom": "ppang", "es": "pan", "emoji": "🍞" },
-        { "ko": "커피", "rom": "keopi", "es": "café", "emoji": "☕" }
+        { "ko": "밥", "rom": "bap", "es": "arroz / comida" },
+        { "ko": "김치", "rom": "gimchi", "es": "kimchi" },
+        { "ko": "떡볶이", "rom": "tteokbokki", "es": "tteokbokki (pastelitos de arroz picantes)" },
+        { "ko": "라면", "rom": "ramyeon", "es": "ramen" },
+        { "ko": "물", "rom": "mul", "es": "agua" },
+        { "ko": "우유", "rom": "uyu", "es": "leche" },
+        { "ko": "딸기", "rom": "ttalgi", "es": "fresa" },
+        { "ko": "사과", "rom": "sagwa", "es": "manzana" },
+        { "ko": "빵", "rom": "ppang", "es": "pan" },
+        { "ko": "커피", "rom": "keopi", "es": "café" }
       ]
     },
     {
       "id": "animales",
       "nombre": "Animales",
-      "emoji": "🐾",
       "color": "menta",
       "palabras": [
-        { "ko": "고양이", "rom": "goyangi", "es": "gato", "emoji": "🐱" },
-        { "ko": "강아지", "rom": "gangaji", "es": "perrito", "emoji": "🐶" },
-        { "ko": "토끼", "rom": "tokki", "es": "conejo", "emoji": "🐰" },
-        { "ko": "곰", "rom": "gom", "es": "oso", "emoji": "🐻" },
-        { "ko": "판다", "rom": "panda", "es": "panda", "emoji": "🐼" },
-        { "ko": "호랑이", "rom": "horangi", "es": "tigre", "emoji": "🐯" },
-        { "ko": "새", "rom": "sae", "es": "pájaro", "emoji": "🐦" },
-        { "ko": "물고기", "rom": "mulgogi", "es": "pez", "emoji": "🐟" }
+        { "ko": "고양이", "rom": "goyangi", "es": "gato" },
+        { "ko": "강아지", "rom": "gangaji", "es": "perrito" },
+        { "ko": "토끼", "rom": "tokki", "es": "conejo" },
+        { "ko": "곰", "rom": "gom", "es": "oso" },
+        { "ko": "판다", "rom": "panda", "es": "panda" },
+        { "ko": "호랑이", "rom": "horangi", "es": "tigre" },
+        { "ko": "새", "rom": "sae", "es": "pájaro" },
+        { "ko": "물고기", "rom": "mulgogi", "es": "pez" }
       ]
     },
     {
       "id": "colores",
       "nombre": "Colores",
-      "emoji": "🎨",
       "color": "cielo",
       "palabras": [
-        { "ko": "빨간색", "rom": "ppalgansaek", "es": "rojo", "emoji": "❤️" },
-        { "ko": "분홍색", "rom": "bunhongsaek", "es": "rosa", "emoji": "🩷" },
-        { "ko": "노란색", "rom": "noransaek", "es": "amarillo", "emoji": "💛" },
-        { "ko": "초록색", "rom": "choroksaek", "es": "verde", "emoji": "💚" },
-        { "ko": "파란색", "rom": "paransaek", "es": "azul", "emoji": "💙" },
-        { "ko": "보라색", "rom": "borasaek", "es": "morado", "emoji": "💜" },
-        { "ko": "하얀색", "rom": "hayansaek", "es": "blanco", "emoji": "🤍" },
-        { "ko": "검은색", "rom": "geomeunsaek", "es": "negro", "emoji": "🖤" }
+        { "ko": "빨간색", "rom": "ppalgansaek", "es": "rojo" },
+        { "ko": "분홍색", "rom": "bunhongsaek", "es": "rosa" },
+        { "ko": "노란색", "rom": "noransaek", "es": "amarillo" },
+        { "ko": "초록색", "rom": "choroksaek", "es": "verde" },
+        { "ko": "파란색", "rom": "paransaek", "es": "azul" },
+        { "ko": "보라색", "rom": "borasaek", "es": "morado" },
+        { "ko": "하얀색", "rom": "hayansaek", "es": "blanco" },
+        { "ko": "검은색", "rom": "geomeunsaek", "es": "negro" }
       ]
     },
     {
       "id": "familia",
       "nombre": "Familia",
-      "emoji": "👨‍👩‍👧",
       "color": "limon",
       "palabras": [
-        { "ko": "엄마", "rom": "eomma", "es": "mamá", "emoji": "👩" },
-        { "ko": "아빠", "rom": "appa", "es": "papá", "emoji": "👨" },
-        { "ko": "언니", "rom": "eonni", "es": "hermana mayor (dicho por una chica)", "emoji": "👧" },
-        { "ko": "오빠", "rom": "oppa", "es": "hermano mayor (dicho por una chica)", "emoji": "👦" },
-        { "ko": "동생", "rom": "dongsaeng", "es": "hermano/a menor", "emoji": "🧒" },
-        { "ko": "할머니", "rom": "halmeoni", "es": "abuela", "emoji": "👵" },
-        { "ko": "할아버지", "rom": "harabeoji", "es": "abuelo", "emoji": "👴" },
-        { "ko": "친구", "rom": "chingu", "es": "amigo/a", "emoji": "🫶" }
+        { "ko": "엄마", "rom": "eomma", "es": "mamá" },
+        { "ko": "아빠", "rom": "appa", "es": "papá" },
+        { "ko": "언니", "rom": "eonni", "es": "hermana mayor (dicho por una chica)" },
+        { "ko": "오빠", "rom": "oppa", "es": "hermano mayor (dicho por una chica)" },
+        { "ko": "동생", "rom": "dongsaeng", "es": "hermano/a menor" },
+        { "ko": "할머니", "rom": "halmeoni", "es": "abuela" },
+        { "ko": "할아버지", "rom": "harabeoji", "es": "abuelo" },
+        { "ko": "친구", "rom": "chingu", "es": "amigo/a" }
       ]
     }
   ]

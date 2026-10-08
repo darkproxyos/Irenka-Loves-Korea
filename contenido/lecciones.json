@@ -3,7 +3,6 @@
     {
       "id": "hola-hangul",
       "titulo": "¡Hola, Hangul!",
-      "emoji": "🌸",
       "nivel": "Principiante",
       "color": "rosa",
       "resumen": "Conoce el alfabeto coreano y cómo se forman las sílabas.",
@@ -24,7 +23,6 @@
     {
       "id": "saludos",
       "titulo": "Saludos básicos",
-      "emoji": "👋",
       "nivel": "Principiante",
       "color": "lavanda",
       "resumen": "Aprende a saludar y despedirte con educación.",
@@ -40,12 +38,11 @@
         { "ko": "안녕히 계세요", "rom": "annyeonghi gyeseyo", "es": "Adiós (a quien se queda)" },
         { "ko": "감사합니다", "rom": "gamsahamnida", "es": "Gracias" }
       ],
-      "tip": "Al saludar formalmente, los coreanos suelen hacer una pequeña reverencia inclinando la cabeza. 🙇‍♀️"
+      "tip": "Al saludar formalmente, los coreanos suelen hacer una pequeña reverencia inclinando la cabeza."
     },
     {
       "id": "presentarse",
       "titulo": "Preséntate",
-      "emoji": "🙋‍♀️",
       "nivel": "Principiante",
       "color": "menta",
       "resumen": "Di tu nombre y algo sobre ti.",
@@ -60,12 +57,11 @@
         { "ko": "저는 학생이에요", "rom": "jeoneun haksaeng-ieyo", "es": "Soy estudiante" },
         { "ko": "만나서 반갑습니다", "rom": "mannaseo bangapseumnida", "es": "Mucho gusto" }
       ],
-      "tip": "Cambia \"이렌카\" por tu propio nombre escrito en Hangul y practica en voz alta. 🎤"
+      "tip": "Cambia \"이렌카\" por tu propio nombre escrito en Hangul y practica en voz alta."
     },
     {
       "id": "numeros",
       "titulo": "Números sino-coreanos",
-      "emoji": "🔢",
       "nivel": "Principiante",
       "color": "durazno",
       "resumen": "Cuenta del 1 al 100 con el sistema que viene del chino.",
@@ -80,12 +76,11 @@
         { "ko": "이십오", "rom": "isibo", "es": "25" },
         { "ko": "백", "rom": "baek", "es": "100" }
       ],
-      "tip": "Practica diciendo en coreano la fecha de tu cumpleaños o tu número de teléfono. 📱"
+      "tip": "Practica diciendo en coreano la fecha de tu cumpleaños o tu número de teléfono."
     },
     {
       "id": "particula-tema",
       "titulo": "La partícula 은 / 는",
-      "emoji": "🧩",
       "nivel": "Básico",
       "color": "cielo",
       "resumen": "Marca el tema de la oración como una coreana de verdad.",

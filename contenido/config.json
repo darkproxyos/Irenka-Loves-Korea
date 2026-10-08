@@ -1,9 +1,10 @@
 {
   "nombreSitio": "Irenka Loves Korea",
   "autora": "Irenka",
-  "saludo": "¡Hola! 안녕하세요!",
-  "titulo": "Aprende coreano de forma linda y divertida",
-  "descripcion": "Lecciones cortitas, el alfabeto Hangul, vocabulario con tarjetas y juegos para practicar. ¡Un pasito cada día! 🌸",
-  "mascota": "🐰",
-  "mensajeMascota": "같이 공부해요!"
+  "saludo": "Plataforma de aprendizaje de coreano",
+  "titulo": "Aprende coreano",
+  "tituloDestacado": "con calma y elegancia",
+  "descripcion": "Lecciones breves, el alfabeto Hangul, vocabulario y práctica. Un pequeño paso cada día.",
+  "frase": "같이 공부해요",
+  "cita": "Aprender un idioma es abrir una puerta a otra forma de ver el mundo."
 }

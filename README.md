@@ -1,6 +1,6 @@
 # 🐰 Irenka Loves Korea · 한국어 배우기
 
-Plataforma kawaii (colores pastel) para aprender coreano en español.
+Plataforma de aprendizaje de coreano en español, con estilo editorial y paleta rosa empolvado.
 
 ## ¿Qué tiene?
 

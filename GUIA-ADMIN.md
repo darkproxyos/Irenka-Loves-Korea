@@ -31,7 +31,7 @@ en GitHub, el sitio se actualiza solito (cuando Vercel esté conectado).
 En `contenido/vocabulario.json`, busca el tema y agrega una línea dentro de `"palabras"`:
 
 ```json
-{ "ko": "고양이", "rom": "goyangi", "es": "gato", "emoji": "🐱" }
+{ "ko": "고양이", "rom": "goyangi", "es": "gato" }
 ```
 
 | Campo   | Qué es                                   |
@@ -39,7 +39,6 @@ En `contenido/vocabulario.json`, busca el tema y agrega una línea dentro de `"p
 | `ko`    | La palabra en coreano                    |
 | `rom`   | Cómo se lee (romanización)               |
 | `es`    | Significado en español                   |
-| `emoji` | Un emoji decorativo (opcional)           |
 
 ## 🎨 Agregar un tema nuevo de vocabulario
 
@@ -49,19 +48,18 @@ Agrega un bloque nuevo dentro de `"categorias"`:
 {
   "id": "ropa",
   "nombre": "Ropa",
-  "emoji": "👗",
   "color": "rosa",
   "palabras": [
-    { "ko": "옷", "rom": "ot", "es": "ropa", "emoji": "👚" },
-    { "ko": "치마", "rom": "chima", "es": "falda", "emoji": "👗" },
-    { "ko": "모자", "rom": "moja", "es": "gorra", "emoji": "🧢" },
-    { "ko": "신발", "rom": "sinbal", "es": "zapatos", "emoji": "👟" }
+    { "ko": "옷", "rom": "ot", "es": "ropa", },
+    { "ko": "치마", "rom": "chima", "es": "falda", },
+    { "ko": "모자", "rom": "moja", "es": "gorra", },
+    { "ko": "신발", "rom": "sinbal", "es": "zapatos", }
   ]
 }
 ```
 
 - `id`: una palabra corta, en minúsculas y sin espacios ni acentos (no se puede repetir).
-- `color`: uno de `rosa`, `lavanda`, `menta`, `durazno`, `cielo`, `limon`.
+- `color`: el tono de fondo de la tarjeta. Opciones: `rosa`, `lavanda`, `menta`, `durazno`, `cielo`, `limon` (todos son tonos suaves de la paleta rosa/beige).
 - Para que el tema aparezca en **Práctica** necesita al menos **4 palabras**.
 
 ## 📚 Agregar una lección
@@ -72,7 +70,6 @@ En `contenido/lecciones.json` agrega un bloque dentro de `"lecciones"`. Aparecen
 {
   "id": "comida-coreana",
   "titulo": "Pidiendo comida",
-  "emoji": "🍜",
   "nivel": "Principiante",
   "color": "durazno",
   "resumen": "Frases para pedir en un restaurante coreano.",
@@ -93,18 +90,30 @@ En `contenido/lecciones.json` agrega un bloque dentro de `"lecciones"`. Aparecen
 
 ## 🏠 Cambiar los textos del inicio
 
-En `contenido/config.json` puedes cambiar el nombre del sitio, el saludo, el título,
-la descripción, la mascota (un emoji) y su mensajito.
+En `contenido/config.json`:
+
+| Campo              | Dónde aparece                                      |
+|--------------------|----------------------------------------------------|
+| `nombreSitio`      | Arriba a la izquierda y en el pie de página        |
+| `autora`           | "Hecho con amor por …"                             |
+| `saludo`           | Texto pequeño en mayúsculas sobre el título        |
+| `titulo`           | Título grande del inicio                           |
+| `tituloDestacado`  | Segunda parte del título, en cursiva rosa          |
+| `descripcion`      | Párrafo bajo el título                             |
+| `frase`            | Frase en coreano junto al arco                     |
+| `cita`             | Frase entre comillas sobre el progreso             |
 
 ## 🎀 Cambiar colores
 
-Los colores están al inicio de `css/estilos.css`, en la sección `:root`. Por ejemplo:
+Los colores están al inicio de `css/estilos.css`, en la sección `:root`. La paleta principal es:
 
 ```css
---rosa: #ffd6e7;
+--malva: #B18B87;
+--marfil: #F8F5F2;
+--rosa-polvo: #E0C3C0;
 ```
 
-Puedes elegir colores en https://coolors.co o cualquier selector de color.
+`--tinta` es el color del texto (café oscuro). Puedes elegir colores en https://coolors.co.
 
 ## 🔊 Sobre el audio
 
