@@ -1,0 +1,105 @@
+{
+  "lecciones": [
+    {
+      "id": "hola-hangul",
+      "titulo": "¡Hola, Hangul!",
+      "emoji": "🌸",
+      "nivel": "Principiante",
+      "color": "rosa",
+      "resumen": "Conoce el alfabeto coreano y cómo se forman las sílabas.",
+      "parrafos": [
+        "El alfabeto coreano se llama 한글 (Hangul). Lo creó el rey Sejong el Grande en el año 1443 para que todas las personas pudieran aprender a leer y escribir fácilmente.",
+        "Hangul tiene 14 consonantes básicas y 10 vocales básicas. ¡Con solo 24 letras puedes escribir cualquier palabra en coreano!",
+        "Las letras no se escriben en fila como en español: se juntan en bloques que forman una sílaba. Por ejemplo, ㄱ (g) + ㅏ (a) = 가 (ga).",
+        "Cada bloque siempre empieza con una consonante. Si la sílaba empieza con sonido de vocal, se usa ㅇ, que al inicio no suena: ㅇ + ㅏ = 아 (a)."
+      ],
+      "ejemplos": [
+        { "ko": "가", "rom": "ga", "es": "ㄱ + ㅏ" },
+        { "ko": "나", "rom": "na", "es": "ㄴ + ㅏ" },
+        { "ko": "아", "rom": "a", "es": "ㅇ (muda) + ㅏ" },
+        { "ko": "한국", "rom": "hanguk", "es": "Corea" }
+      ],
+      "tip": "Practica escribiendo tu nombre en Hangul. ¡Es la mejor forma de memorizar las letras!"
+    },
+    {
+      "id": "saludos",
+      "titulo": "Saludos básicos",
+      "emoji": "👋",
+      "nivel": "Principiante",
+      "color": "lavanda",
+      "resumen": "Aprende a saludar y despedirte con educación.",
+      "parrafos": [
+        "En coreano es muy importante el nivel de cortesía. Con personas mayores, desconocidas o en lugares formales se usa el lenguaje formal. Con amigos cercanos se puede usar el informal.",
+        "El saludo más común es 안녕하세요 (annyeonghaseyo). Sirve para decir hola a cualquier hora del día.",
+        "Para despedirte hay dos formas: 안녕히 가세요 se le dice a la persona que se va, y 안녕히 계세요 se le dice a la persona que se queda."
+      ],
+      "ejemplos": [
+        { "ko": "안녕하세요", "rom": "annyeonghaseyo", "es": "Hola (formal)" },
+        { "ko": "안녕", "rom": "annyeong", "es": "Hola / Adiós (con amigos)" },
+        { "ko": "안녕히 가세요", "rom": "annyeonghi gaseyo", "es": "Adiós (a quien se va)" },
+        { "ko": "안녕히 계세요", "rom": "annyeonghi gyeseyo", "es": "Adiós (a quien se queda)" },
+        { "ko": "감사합니다", "rom": "gamsahamnida", "es": "Gracias" }
+      ],
+      "tip": "Al saludar formalmente, los coreanos suelen hacer una pequeña reverencia inclinando la cabeza. 🙇‍♀️"
+    },
+    {
+      "id": "presentarse",
+      "titulo": "Preséntate",
+      "emoji": "🙋‍♀️",
+      "nivel": "Principiante",
+      "color": "menta",
+      "resumen": "Di tu nombre y algo sobre ti.",
+      "parrafos": [
+        "Para decir quién eres, usa la estructura: 저는 ___ 입니다 (jeoneun ___ imnida), que significa \"Yo soy ___\".",
+        "También puedes decir tu nombre con: 제 이름은 ___ 이에요 / 예요 (je ireumeun ___ ieyo / yeyo). Se usa 이에요 si el nombre termina en consonante y 예요 si termina en vocal.",
+        "Al conocer a alguien, termina con 만나서 반갑습니다 (mannaseo bangapseumnida): \"Mucho gusto en conocerte\"."
+      ],
+      "ejemplos": [
+        { "ko": "저는 이렌카입니다", "rom": "jeoneun irenka-imnida", "es": "Yo soy Irenka" },
+        { "ko": "제 이름은 이렌카예요", "rom": "je ireumeun irenka-yeyo", "es": "Mi nombre es Irenka" },
+        { "ko": "저는 학생이에요", "rom": "jeoneun haksaeng-ieyo", "es": "Soy estudiante" },
+        { "ko": "만나서 반갑습니다", "rom": "mannaseo bangapseumnida", "es": "Mucho gusto" }
+      ],
+      "tip": "Cambia \"이렌카\" por tu propio nombre escrito en Hangul y practica en voz alta. 🎤"
+    },
+    {
+      "id": "numeros",
+      "titulo": "Números sino-coreanos",
+      "emoji": "🔢",
+      "nivel": "Principiante",
+      "color": "durazno",
+      "resumen": "Cuenta del 1 al 100 con el sistema que viene del chino.",
+      "parrafos": [
+        "El coreano tiene DOS sistemas de números: el sino-coreano (de origen chino) y el nativo coreano. ¡Hoy aprendemos el sino-coreano!",
+        "Se usa para fechas, dinero, números de teléfono, minutos y pisos de edificios.",
+        "Los números grandes se forman como piezas de Lego: 십 (10) + 일 (1) = 십일 (11). 이 (2) + 십 (10) = 이십 (20). 이십 + 오 = 이십오 (25)."
+      ],
+      "ejemplos": [
+        { "ko": "일, 이, 삼", "rom": "il, i, sam", "es": "1, 2, 3" },
+        { "ko": "십일", "rom": "sibil", "es": "11" },
+        { "ko": "이십오", "rom": "isibo", "es": "25" },
+        { "ko": "백", "rom": "baek", "es": "100" }
+      ],
+      "tip": "Practica diciendo en coreano la fecha de tu cumpleaños o tu número de teléfono. 📱"
+    },
+    {
+      "id": "particula-tema",
+      "titulo": "La partícula 은 / 는",
+      "emoji": "🧩",
+      "nivel": "Básico",
+      "color": "cielo",
+      "resumen": "Marca el tema de la oración como una coreana de verdad.",
+      "parrafos": [
+        "En coreano, las palabras llevan \"etiquetas\" pequeñitas llamadas partículas que indican su función en la oración.",
+        "La partícula 은 / 는 marca el tema: aquello de lo que estás hablando. Es parecido a decir \"en cuanto a…\".",
+        "Usa 은 si la palabra termina en consonante (이름 → 이름은) y 는 si termina en vocal (저 → 저는)."
+      ],
+      "ejemplos": [
+        { "ko": "저는", "rom": "jeoneun", "es": "En cuanto a mí / Yo" },
+        { "ko": "이름은", "rom": "ireumeun", "es": "En cuanto al nombre" },
+        { "ko": "친구는 학생이에요", "rom": "chinguneun haksaeng-ieyo", "es": "Mi amigo/a es estudiante" }
+      ],
+      "tip": "Truco: mira si el último bloque tiene una consonante abajo (batchim). Si la tiene → 은. Si no → 는."
+    }
+  ]
+}

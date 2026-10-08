@@ -1,0 +1,30 @@
+{
+  "vocales": [
+    { "letra": "ㅏ", "rom": "a", "sonido": "아", "ejemplo": { "ko": "아이", "es": "niño/a" } },
+    { "letra": "ㅑ", "rom": "ya", "sonido": "야", "ejemplo": { "ko": "야구", "es": "béisbol" } },
+    { "letra": "ㅓ", "rom": "eo", "sonido": "어", "ejemplo": { "ko": "어머니", "es": "madre" } },
+    { "letra": "ㅕ", "rom": "yeo", "sonido": "여", "ejemplo": { "ko": "여자", "es": "mujer" } },
+    { "letra": "ㅗ", "rom": "o", "sonido": "오", "ejemplo": { "ko": "오이", "es": "pepino" } },
+    { "letra": "ㅛ", "rom": "yo", "sonido": "요", "ejemplo": { "ko": "요리", "es": "cocina" } },
+    { "letra": "ㅜ", "rom": "u", "sonido": "우", "ejemplo": { "ko": "우유", "es": "leche" } },
+    { "letra": "ㅠ", "rom": "yu", "sonido": "유", "ejemplo": { "ko": "유리", "es": "vidrio" } },
+    { "letra": "ㅡ", "rom": "eu", "sonido": "으", "ejemplo": { "ko": "음악", "es": "música" } },
+    { "letra": "ㅣ", "rom": "i", "sonido": "이", "ejemplo": { "ko": "이름", "es": "nombre" } }
+  ],
+  "consonantes": [
+    { "letra": "ㄱ", "rom": "g / k", "nombre": "기역", "sonido": "가", "ejemplo": { "ko": "가방", "es": "bolso" } },
+    { "letra": "ㄴ", "rom": "n", "nombre": "니은", "sonido": "나", "ejemplo": { "ko": "나무", "es": "árbol" } },
+    { "letra": "ㄷ", "rom": "d / t", "nombre": "디귿", "sonido": "다", "ejemplo": { "ko": "다리", "es": "pierna / puente" } },
+    { "letra": "ㄹ", "rom": "r / l", "nombre": "리을", "sonido": "라", "ejemplo": { "ko": "라면", "es": "ramen" } },
+    { "letra": "ㅁ", "rom": "m", "nombre": "미음", "sonido": "마", "ejemplo": { "ko": "모자", "es": "gorra" } },
+    { "letra": "ㅂ", "rom": "b / p", "nombre": "비읍", "sonido": "바", "ejemplo": { "ko": "바다", "es": "mar" } },
+    { "letra": "ㅅ", "rom": "s", "nombre": "시옷", "sonido": "사", "ejemplo": { "ko": "사과", "es": "manzana" } },
+    { "letra": "ㅇ", "rom": "muda / ng", "nombre": "이응", "sonido": "아", "ejemplo": { "ko": "오리", "es": "pato" } },
+    { "letra": "ㅈ", "rom": "j", "nombre": "지읒", "sonido": "자", "ejemplo": { "ko": "자동차", "es": "coche" } },
+    { "letra": "ㅊ", "rom": "ch", "nombre": "치읓", "sonido": "차", "ejemplo": { "ko": "친구", "es": "amigo/a" } },
+    { "letra": "ㅋ", "rom": "k", "nombre": "키읔", "sonido": "카", "ejemplo": { "ko": "코", "es": "nariz" } },
+    { "letra": "ㅌ", "rom": "t", "nombre": "티읕", "sonido": "타", "ejemplo": { "ko": "토끼", "es": "conejo" } },
+    { "letra": "ㅍ", "rom": "p", "nombre": "피읖", "sonido": "파", "ejemplo": { "ko": "포도", "es": "uva" } },
+    { "letra": "ㅎ", "rom": "h", "nombre": "히읗", "sonido": "하", "ejemplo": { "ko": "하늘", "es": "cielo" } }
+  ]
+}
