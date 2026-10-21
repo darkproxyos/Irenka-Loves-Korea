@@ -88,6 +88,17 @@ En `contenido/lecciones.json` agrega un bloque dentro de `"lecciones"`. Aparecen
 - `ejemplos` y `tip` son opcionales.
 - ⚠️ Si cambias el `id` de una lección ya existente, se pierde la marca de "terminada" de quien ya la hizo.
 
+## 💬 Agregar una frase útil
+
+En `contenido/frases.json`, busca la situación y agrega una línea dentro de `"frases"`:
+
+```json
+{ "ko": "포장해 주세요", "rom": "pojanghae juseyo", "es": "Para llevar, por favor", "nota": "Opcional: un consejo de cuándo usarla." }
+```
+
+- `nota` es opcional.
+- Para una situación nueva, agrega un bloque dentro de `"situaciones"` con `id` (minúsculas, números y guiones, sin repetir), `nombre`, `color` y su lista de `frases`.
+
 ## 🏠 Cambiar los textos del inicio
 
 En `contenido/config.json`:

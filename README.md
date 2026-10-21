@@ -7,6 +7,7 @@ Plataforma de aprendizaje de coreano en español, con estilo editorial y paleta 
 - **한 Hangul** — vocales y consonantes con su sonido (toca la letra para escucharla).
 - **📚 Lecciones** — explicaciones cortas con ejemplos, audio y tips. Se pueden marcar como terminadas.
 - **🍡 Vocabulario** — tarjetas que giran, organizadas por temas.
+- **💬 Frases útiles**: expresiones por situación (restaurante, compras, viaje…) con audio y buscador.
 - **✏️ Práctica** — mini examen de 10 preguntas (coreano → español o al revés).
 - **✨ Palabra del día** y barra de progreso en el inicio (el progreso se guarda en el navegador).
 
@@ -26,6 +27,7 @@ contenido/                 ✏️ Lo que se edita
   hangul.json              Letras del alfabeto
   vocabulario.json         Temas y palabras
   lecciones.json           Lecciones
+  frases.json              Frases útiles por situación
 scripts/validar-contenido.mjs   Revisa que el contenido no tenga errores
 ```
 

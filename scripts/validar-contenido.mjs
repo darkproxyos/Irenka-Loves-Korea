@@ -54,6 +54,19 @@ if (lecciones) {
   });
 }
 
+const frases = leer("frases");
+if (frases) {
+  const ids = new Set();
+  (frases.situaciones || []).forEach((s, i) => {
+    const donde = `frases.json situación ${i + 1}`;
+    requiere(s, ["id", "nombre", "frases"], donde);
+    if (s.id && !/^[a-z0-9-]+$/.test(s.id)) errores.push(`${donde}: el id "${s.id}" solo puede tener minúsculas, números y guiones`);
+    if (ids.has(s.id)) errores.push(`frases.json: el id "${s.id}" está repetido`);
+    ids.add(s.id);
+    (s.frases || []).forEach((f, j) => requiere(f, ["ko", "rom", "es"], `frases.json "${s.nombre}" frase ${j + 1}`));
+  });
+}
+
 if (errores.length) {
   console.error("❌ Se encontraron problemas en el contenido:\n");
   errores.forEach((e) => console.error(" • " + e));

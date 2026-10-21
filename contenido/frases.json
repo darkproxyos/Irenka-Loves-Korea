@@ -1,0 +1,75 @@
+{
+  "situaciones": [
+    {
+      "id": "restaurante",
+      "nombre": "Restaurante",
+      "color": "durazno",
+      "frases": [
+        { "ko": "메뉴 좀 주세요", "rom": "menyu jom juseyo", "es": "¿Me da el menú, por favor?" },
+        { "ko": "이거 주세요", "rom": "igeo juseyo", "es": "Deme esto, por favor", "nota": "Señala el plato en el menú mientras lo dices." },
+        { "ko": "물 좀 주세요", "rom": "mul jom juseyo", "es": "Agua, por favor" },
+        { "ko": "안 맵게 해 주세요", "rom": "an maepge hae juseyo", "es": "Sin picante, por favor" },
+        { "ko": "잘 먹겠습니다", "rom": "jal meokgetseumnida", "es": "¡Buen provecho!", "nota": "Se dice antes de comer, para agradecer la comida." },
+        { "ko": "맛있어요", "rom": "masisseoyo", "es": "¡Está delicioso!" },
+        { "ko": "잘 먹었습니다", "rom": "jal meogeotseumnida", "es": "Gracias por la comida", "nota": "Se dice al terminar de comer." },
+        { "ko": "계산해 주세요", "rom": "gyesanhae juseyo", "es": "La cuenta, por favor" }
+      ]
+    },
+    {
+      "id": "compras",
+      "nombre": "Compras",
+      "color": "rosa",
+      "frases": [
+        { "ko": "이거 얼마예요?", "rom": "igeo eolmayeyo?", "es": "¿Cuánto cuesta esto?" },
+        { "ko": "너무 비싸요", "rom": "neomu bissayo", "es": "Es muy caro" },
+        { "ko": "깎아 주세요", "rom": "kkakka juseyo", "es": "¿Me hace un descuento?", "nota": "Funciona en mercados tradicionales, no en tiendas grandes." },
+        { "ko": "카드 돼요?", "rom": "kadeu dwaeyo?", "es": "¿Aceptan tarjeta?" },
+        { "ko": "봉투 주세요", "rom": "bongtu juseyo", "es": "Una bolsa, por favor" },
+        { "ko": "그냥 구경하는 거예요", "rom": "geunyang gugyeonghaneun geoyeyo", "es": "Solo estoy mirando" }
+      ]
+    },
+    {
+      "id": "viaje",
+      "nombre": "De viaje",
+      "color": "cielo",
+      "frases": [
+        { "ko": "화장실이 어디예요?", "rom": "hwajangsiri eodiyeyo?", "es": "¿Dónde está el baño?" },
+        { "ko": "지하철역이 어디예요?", "rom": "jihacheollyeogi eodiyeyo?", "es": "¿Dónde está la estación de metro?" },
+        { "ko": "여기 가 주세요", "rom": "yeogi ga juseyo", "es": "Lléveme aquí, por favor", "nota": "En el taxi, mientras muestras la dirección en el teléfono." },
+        { "ko": "길을 잃었어요", "rom": "gireul ireosseoyo", "es": "Me perdí" },
+        { "ko": "사진 좀 찍어 주시겠어요?", "rom": "sajin jom jjigeo jusigesseoyo?", "es": "¿Me podría tomar una foto?" },
+        { "ko": "한국어 잘 못해요", "rom": "hangugeo jal motaeyo", "es": "No hablo bien coreano" },
+        { "ko": "천천히 말해 주세요", "rom": "cheoncheonhi malhae juseyo", "es": "Hable más despacio, por favor" },
+        { "ko": "다시 한번 말해 주세요", "rom": "dasi hanbeon malhae juseyo", "es": "¿Puede repetirlo, por favor?" }
+      ]
+    },
+    {
+      "id": "conocer-gente",
+      "nombre": "Conocer gente",
+      "color": "lavanda",
+      "frases": [
+        { "ko": "처음 뵙겠습니다", "rom": "cheoeum boepgetseumnida", "es": "Mucho gusto (muy formal)" },
+        { "ko": "만나서 반가워요", "rom": "mannaseo bangawoyo", "es": "Encantada de conocerte" },
+        { "ko": "이름이 뭐예요?", "rom": "ireumi mwoyeyo?", "es": "¿Cómo te llamas?" },
+        { "ko": "제 이름은 이렌카예요", "rom": "je ireumeun irenkayeyo", "es": "Me llamo Irenka", "nota": "Cambia 이렌카 por tu nombre. Si tu nombre termina en consonante, usa 이에요 en lugar de 예요." },
+        { "ko": "저는 멕시코 사람이에요", "rom": "jeoneun meksiko saramieyo", "es": "Soy de México", "nota": "Otros países: 스페인 (España), 아르헨티나 (Argentina), 콜롬비아 (Colombia), 페루 (Perú), 칠레 (Chile)." },
+        { "ko": "몇 살이에요?", "rom": "myeot sarieyo?", "es": "¿Cuántos años tienes?" },
+        { "ko": "우리 친구 해요!", "rom": "uri chingu haeyo!", "es": "¡Seamos amigos!" }
+      ]
+    },
+    {
+      "id": "kdrama",
+      "nombre": "Como en los K-dramas",
+      "color": "menta",
+      "frases": [
+        { "ko": "대박!", "rom": "daebak!", "es": "¡Increíble! / ¡Qué fuerte!" },
+        { "ko": "진짜?", "rom": "jinjja?", "es": "¿En serio?" },
+        { "ko": "괜찮아요", "rom": "gwaenchanayo", "es": "Está bien / ¿Estás bien?" },
+        { "ko": "보고 싶어요", "rom": "bogo sipeoyo", "es": "Te extraño" },
+        { "ko": "배고파요", "rom": "baegopayo", "es": "Tengo hambre" },
+        { "ko": "행복해요", "rom": "haengbokhaeyo", "es": "Soy feliz" },
+        { "ko": "아이고", "rom": "aigo", "es": "¡Ay! / ¡Uf!", "nota": "Se usa al cansarse, sorprenderse o lamentarse. ¡Las abuelas coreanas lo dicen mucho!" }
+      ]
+    }
+  ]
+}

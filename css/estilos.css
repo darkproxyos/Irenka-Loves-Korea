@@ -317,6 +317,21 @@ button { font-family: inherit; color: inherit; }
 .flash-atras .es { font-family: var(--serif); font-style: italic; font-size: 1.55rem; line-height: 1.25; text-align: center; }
 .flash-atras .rom { font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; }
 
+/* ---------- Frases útiles ---------- */
+.frases { max-width: 820px; }
+.buscador { max-width: 460px; margin: 0 auto clamp(2rem, 5vw, 3rem); }
+.buscador label { display: block; margin-bottom: .4rem; }
+.buscador input {
+  width: 100%; padding: .85rem 0; font: inherit; font-family: var(--serif); font-size: 1.25rem; color: var(--tinta);
+  background: transparent; border: none; border-bottom: 1px solid var(--tinta); border-radius: 0;
+}
+.buscador input::placeholder { color: var(--tinta-suave); font-style: italic; }
+.buscador input:focus { outline: none; border-bottom-color: var(--rosa-oscuro); }
+.frase { border-left: 3px solid var(--tono, var(--rosa-polvo)); padding-left: 1.2rem; padding-right: .5rem; }
+.frase .etiqueta { font-size: .64rem; color: var(--rosa-oscuro); }
+.frase-nota { margin: .5rem 0 0; font-size: .92rem; color: var(--tinta-suave); }
+.lista-frases .vacio { padding: 3rem 1rem; font-family: var(--serif); font-style: italic; font-size: 1.3rem; color: var(--tinta-suave); }
+
 /* ---------- Práctica ---------- */
 .quiz { max-width: 700px; margin: 0 auto; text-align: center; }
 .panel { background: var(--blanco); border: 1px solid var(--linea); padding: clamp(1.75rem, 5vw, 3.5rem); }

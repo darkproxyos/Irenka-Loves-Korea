@@ -110,6 +110,7 @@
       ["#/hangul", "El alfabeto Hangul", "Vocales y consonantes, con su sonido."],
       ["#/lecciones", "Lecciones", "Explicaciones breves con ejemplos."],
       ["#/vocabulario", "Vocabulario", "Tarjetas para memorizar por temas."],
+      ["#/frases", "Frases útiles", "Lo que necesitas decir en el día a día."],
       ["#/practica", "Práctica", "Un pequeño examen para ponerte a prueba."],
     ];
 
@@ -340,6 +341,67 @@
       </section>`;
   }
 
+  // ---------- Frases útiles ----------
+  // Quita acentos y mayúsculas para que «cafe» encuentre «café».
+  const normalizar = (texto) => String(texto ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+  function listaFrases(frases, conSituacion) {
+    if (!frases.length) return '<p class="vacio">No encontré frases con esa búsqueda.</p>';
+    const items = frases
+      .map(
+        (f) => `
+        <li class="ejemplo frase">
+          <div>
+            ${conSituacion ? `<span class="etiqueta">${esc(f.situacion)}</span>` : ""}
+            <div class="ko" lang="ko">${esc(f.ko)}</div>
+            <div class="rom">${esc(f.rom)}</div>
+            <div class="es">${esc(f.es)}</div>
+            ${f.nota ? `<p class="frase-nota">${esc(f.nota)}</p>` : ""}
+          </div>
+          ${botonAudio(f.ko)}
+        </li>`
+      )
+      .join("");
+    return `<ul class="ejemplos">${items}</ul>`;
+  }
+
+  function buscarFrases(texto) {
+    const q = normalizar(texto.trim());
+    const contenedor = app.querySelector(".lista-frases");
+    if (!contenedor) return;
+    if (!q) {
+      const activa = app.querySelector("[data-frases].activa");
+      const sit = datos.frases.situaciones.find((s) => s.id === activa?.dataset.frases) || datos.frases.situaciones[0];
+      contenedor.innerHTML = listaFrases(sit ? sit.frases : [], false);
+      return;
+    }
+    const resultados = datos.frases.situaciones
+      .flatMap((s) => s.frases.map((f) => ({ ...f, situacion: s.nombre })))
+      .filter((f) => [f.ko, f.rom, f.es, f.nota].some((campo) => normalizar(campo).includes(q)));
+    contenedor.innerHTML = listaFrases(resultados, true);
+  }
+
+  function paginaFrases(situacionId) {
+    const sits = datos.frases.situaciones;
+    const sit = sits.find((s) => s.id === situacionId) || sits[0];
+    if (!sit) return `<p class="vacio">Pronto habrá frases aquí.</p>`;
+
+    const pestanas = sits
+      .map((s) => `<button class="pestana ${s.id === sit.id ? "activa" : ""}" data-frases="${esc(s.id)}">${esc(s.nombre)}</button>`)
+      .join("");
+
+    return `
+      ${encabezado("Capítulo IV", "Frases <em>útiles</em>", "Expresiones listas para usar. Toca el altavoz para escuchar cómo se dicen.", "표현")}
+      <section class="envoltura frases" style="padding-bottom:clamp(4rem,8vw,6rem);--tono:${tono(sit.color)}">
+        <div class="buscador">
+          <label for="frases-buscar" class="etiqueta">Buscar una frase</label>
+          <input id="frases-buscar" type="search" placeholder="Ej. baño, gracias, 얼마…" autocomplete="off" />
+        </div>
+        <div class="pestanas">${pestanas}</div>
+        <div class="lista-frases" aria-live="polite">${listaFrases(sit.frases, false)}</div>
+      </section>`;
+  }
+
   // ---------- Práctica (quiz) ----------
   let quiz = null;
 
@@ -348,7 +410,7 @@
       .map((c) => `<option value="${esc(c.id)}">${esc(c.nombre)}</option>`)
       .join("");
     return `
-      ${encabezado("Capítulo IV", "Práctica", "Diez preguntas para descubrir cuánto recuerdas.", "연습")}
+      ${encabezado("Capítulo V", "Práctica", "Diez preguntas para descubrir cuánto recuerdas.", "연습")}
       <section class="envoltura quiz" style="padding-bottom:clamp(4rem,8vw,6rem)">
         <div class="panel">
           <div class="campos">
@@ -488,6 +550,7 @@
       case "lecciones": html = paginaLecciones(); break;
       case "leccion": html = paginaLeccion(param); break;
       case "vocabulario": html = paginaVocabulario(param); break;
+      case "frases": html = paginaFrases(param); break;
       case "practica": html = paginaPractica(); break;
       default: html = paginaNoEncontrada();
     }
@@ -525,6 +588,9 @@
     const vocab = t.closest("[data-vocab]");
     if (vocab) location.hash = "#/vocabulario/" + encodeURIComponent(vocab.dataset.vocab);
 
+    const frases = t.closest("[data-frases]");
+    if (frases) location.hash = "#/frases/" + encodeURIComponent(frases.dataset.frases);
+
     const completar = t.closest("[data-completar]");
     if (completar) {
       const progreso = leerProgreso();
@@ -546,6 +612,10 @@
     if (t.closest("[data-reiniciar]") && location.hash === "#/practica") navegar();
   });
 
+  app.addEventListener("input", (e) => {
+    if (e.target.id === "frases-buscar") buscarFrases(e.target.value);
+  });
+
   // ---------- Arranque ----------
   async function cargar(nombre) {
     const r = await fetch(`contenido/${nombre}.json`, { cache: "no-cache" });
@@ -557,9 +627,9 @@
     }
   }
 
-  Promise.all(["config", "hangul", "vocabulario", "lecciones"].map(cargar))
-    .then(([config, hangul, vocabulario, lecciones]) => {
-      Object.assign(datos, { config, hangul, vocabulario, lecciones });
+  Promise.all(["config", "hangul", "vocabulario", "lecciones", "frases"].map(cargar))
+    .then(([config, hangul, vocabulario, lecciones, frases]) => {
+      Object.assign(datos, { config, hangul, vocabulario, lecciones, frases });
       document.getElementById("nombre-sitio").textContent = config.nombreSitio;
       document.getElementById("autora").textContent = config.autora;
       document.querySelector(".pie-marca").textContent = config.nombreSitio;
