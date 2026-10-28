@@ -1,0 +1,469 @@
+{
+  "lecciones": [
+    {
+      "id": "idea-principal",
+      "titulo": "Tema, idea principal e ideas secundarias",
+      "resumen": "Encontrar de qué trata un texto, qué es lo más importante que dice y qué información lo apoya.",
+      "objetivos": [
+        "Diferenciar tema e idea principal.",
+        "Distinguir la idea principal de las ideas secundarias y los detalles.",
+        "Reconocer la función de cada párrafo."
+      ],
+      "secciones": [
+        {
+          "titulo": "Tema e idea principal",
+          "texto": [
+            "El **tema** responde a la pregunta «¿de qué trata el texto?» y se expresa en pocas palabras: «las abejas».",
+            "La **idea principal** responde a «¿qué dice el texto sobre ese tema?» y se expresa en una oración completa: «Las abejas son indispensables para la polinización de muchos cultivos».",
+            "Las **ideas secundarias** amplían, explican o ejemplifican la idea principal: causas, consecuencias, ejemplos, datos."
+          ]
+        },
+        {
+          "titulo": "Estrategias para encontrar la idea principal",
+          "lista": [
+            "Lee el **título** y la primera y última oración de cada párrafo: allí suele estar la información central.",
+            "Busca **palabras que se repiten**: suelen indicar el tema.",
+            "Aplica la **prueba de eliminación**: si quitas una oración y el texto pierde su sentido, es central; si solo pierde un detalle, es secundaria.",
+            "**Parafrasea**: intenta decir en una oración, con tus palabras, lo que el autor quiere comunicar."
+          ],
+          "recuadro": "Trampas típicas en las alternativas: (1) un **detalle verdadero** pero secundario; (2) una idea **demasiado general** o **demasiado específica**; (3) una afirmación que el texto **no dice** o que **exagera** («siempre», «el único», «todos»)."
+        },
+        {
+          "titulo": "Función de los párrafos",
+          "texto": [
+            "Cada párrafo cumple una función en el texto: **introducir** el tema, **definir**, **ejemplificar**, **presentar un problema**, **explicar causas o consecuencias**, **contrastar** o **concluir**. Preguntarse «¿para qué está este párrafo aquí?» ayuda a entender la estructura completa."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Tema", "definicion": "Asunto del que trata un texto; se expresa en pocas palabras." },
+        { "termino": "Idea principal", "definicion": "Información más importante que el texto comunica sobre su tema; se expresa en una oración." },
+        { "termino": "Idea secundaria", "definicion": "Información que amplía, explica o ejemplifica la idea principal." },
+        { "termino": "Paráfrasis", "definicion": "Expresar con palabras propias el contenido de un texto sin cambiar su sentido." }
+      ],
+      "ideasClave": [
+        "El tema dice **de qué** trata el texto; la idea principal, **qué se dice** de él.",
+        "Una alternativa puede ser verdadera según el texto y aun así ser solo un **detalle**.",
+        "Desconfía de alternativas con palabras absolutas como «siempre», «nunca» o «**el único**».",
+        "Si al eliminar una oración el texto pierde su sentido, esa oración es **central**."
+      ],
+      "preguntas": [
+        {
+          "texto": "Las abejas son conocidas por la miel, pero su aporte más valioso es otro: la polinización. Al pasar de flor en flor buscando néctar, transportan el polen que permite que muchas plantas formen frutos y semillas. Una parte importante de los cultivos que consumimos depende, en mayor o menor grado, de polinizadores como ellas.\n\nSin embargo, en varias regiones del mundo las poblaciones de abejas han disminuido. Entre las causas que estudian los científicos están la pérdida de hábitat, el uso de ciertos pesticidas, las enfermedades y el cambio climático. Proteger a las abejas, por lo tanto, no es solo cuidar a un insecto: es proteger parte de nuestra alimentación.",
+          "enunciado": "¿Cuál es la idea principal del texto?",
+          "alternativas": [
+            "Las abejas producen miel, un alimento muy valorado por las personas.",
+            "Los pesticidas son la única causa de la disminución de las abejas.",
+            "Las abejas son clave para la alimentación por su rol polinizador, por lo que su disminución es un problema que exige protegerlas.",
+            "El cambio climático afecta a todos los insectos del planeta."
+          ],
+          "correcta": 2,
+          "explicacion": "El texto parte señalando que el aporte más valioso de las abejas es la polinización, luego advierte que sus poblaciones disminuyen y concluye que protegerlas es proteger nuestra alimentación. La alternativa C integra esas tres partes.",
+          "descartes": [
+            "Es un detalle que el propio texto relativiza («pero su aporte más valioso es otro»).",
+            "Exagera: el texto menciona cuatro causas posibles, no una sola. La palabra «única» lo delata.",
+            null,
+            "Generaliza más allá del texto: no se habla de todos los insectos, solo de las abejas y otros polinizadores."
+          ],
+          "metodos": [
+            { "nombre": "Resumir cada párrafo", "pasos": ["Párrafo 1: las abejas son clave por la polinización.", "Párrafo 2: están disminuyendo y hay que protegerlas.", "Une ambos resúmenes: coincide con C."] },
+            { "nombre": "Descartar trampas", "pasos": ["A: detalle secundario.", "B: absolutiza («única»).", "D: generaliza a todos los insectos.", "Queda C."] }
+          ]
+        },
+        {
+          "texto": "Las abejas son conocidas por la miel, pero su aporte más valioso es otro: la polinización. Al pasar de flor en flor buscando néctar, transportan el polen que permite que muchas plantas formen frutos y semillas. Una parte importante de los cultivos que consumimos depende, en mayor o menor grado, de polinizadores como ellas.\n\nSin embargo, en varias regiones del mundo las poblaciones de abejas han disminuido. Entre las causas que estudian los científicos están la pérdida de hábitat, el uso de ciertos pesticidas, las enfermedades y el cambio climático. Proteger a las abejas, por lo tanto, no es solo cuidar a un insecto: es proteger parte de nuestra alimentación.",
+          "enunciado": "¿Cuál es la función principal del segundo párrafo?",
+          "alternativas": [
+            "Explicar cómo las abejas fabrican la miel.",
+            "Presentar un problema, sus posibles causas y la conclusión que se desprende de ello.",
+            "Refutar lo planteado en el primer párrafo.",
+            "Enumerar los cultivos que dependen de las abejas."
+          ],
+          "correcta": 1,
+          "explicacion": "El segundo párrafo se abre con «Sin embargo» para introducir un problema (la disminución de las abejas), enumera causas estudiadas y termina con «por lo tanto», que introduce la conclusión del texto.",
+          "descartes": [
+            "El texto no explica cómo se fabrica la miel en ningún párrafo.",
+            null,
+            "No contradice al primer párrafo: lo complementa. «Sin embargo» marca un contraste entre la importancia de las abejas y su disminución, no una refutación.",
+            "No se nombran cultivos específicos; se habla de ellos de forma general y en el primer párrafo."
+          ],
+          "metodos": [
+            { "nombre": "Seguir los conectores", "pasos": ["«Sin embargo» → aparece un problema que contrasta con lo anterior.", "«Entre las causas…» → se explican causas.", "«Por lo tanto» → conclusión.", "Problema + causas + conclusión = B."] },
+            { "nombre": "Verificar cada función", "pasos": ["Busca en el párrafo 2 evidencia de cada alternativa.", "Miel (A) y lista de cultivos (D): no aparecen.", "Refutar (C): no hay contradicción.", "Solo B tiene respaldo textual."] }
+          ]
+        },
+        {
+          "texto": "Las abejas son conocidas por la miel, pero su aporte más valioso es otro: la polinización. Al pasar de flor en flor buscando néctar, transportan el polen que permite que muchas plantas formen frutos y semillas. Una parte importante de los cultivos que consumimos depende, en mayor o menor grado, de polinizadores como ellas.\n\nSin embargo, en varias regiones del mundo las poblaciones de abejas han disminuido. Entre las causas que estudian los científicos están la pérdida de hábitat, el uso de ciertos pesticidas, las enfermedades y el cambio climático. Proteger a las abejas, por lo tanto, no es solo cuidar a un insecto: es proteger parte de nuestra alimentación.",
+          "enunciado": "¿Cuál de las siguientes afirmaciones corresponde a una idea secundaria del texto?",
+          "alternativas": [
+            "Las abejas transportan polen al pasar de flor en flor buscando néctar.",
+            "Proteger a las abejas es proteger parte de nuestra alimentación.",
+            "La pérdida de hábitat es la causa más importante de la disminución de las abejas.",
+            "Las abejas son más importantes que cualquier otro animal."
+          ],
+          "correcta": 0,
+          "explicacion": "Esta oración explica cómo ocurre la polinización: desarrolla y apoya la idea central (la importancia de las abejas como polinizadoras), pero por sí sola no es lo más importante del texto.",
+          "descartes": [
+            null,
+            "Es la conclusión del texto y forma parte de su idea principal, no una idea secundaria.",
+            "El texto menciona la pérdida de hábitat como una causa entre varias, sin decir que sea la más importante.",
+            "El texto no compara a las abejas con otros animales; es una afirmación que no aparece."
+          ],
+          "metodos": [
+            { "nombre": "Prueba de eliminación", "pasos": ["Si eliminas la oración de A, el texto sigue teniendo sentido: es un detalle explicativo.", "Si eliminas la de B, se pierde la conclusión: es central."] },
+            { "nombre": "Verificar en el texto", "pasos": ["C y D no están en el texto (agregan información).", "B es la conclusión (idea principal).", "Solo A está en el texto y cumple función de apoyo."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)", "url": "https://demre.cl" },
+        { "titulo": "OECD (2019). PISA 2018 Assessment and Analytical Framework — marco de lectura", "url": "https://doi.org/10.1787/b25efab8-en" },
+        { "titulo": "Currículum Nacional (MINEDUC) — Lengua y Literatura", "url": "https://www.curriculumnacional.cl" }
+      ]
+    },
+    {
+      "id": "inferencias",
+      "titulo": "Inferencias: leer entre líneas",
+      "resumen": "Obtener información que el texto no dice directamente, pero que se desprende de sus pistas.",
+      "objetivos": [
+        "Explicar qué es una inferencia y en qué se diferencia de una suposición.",
+        "Realizar inferencias a partir de pistas del texto.",
+        "Justificar cada inferencia con evidencia textual."
+      ],
+      "secciones": [
+        {
+          "titulo": "¿Qué es inferir?",
+          "texto": [
+            "**Inferir** es obtener información que no está escrita de manera explícita, combinando las **pistas del texto** con lo que ya **sabemos del mundo**. Si leemos «entró empapado y dejó el paraguas roto en la puerta», inferimos que llovía con fuerza, aunque el texto no lo diga.",
+            "Una inferencia **válida** se apoya en evidencia del texto. Una **sobreinterpretación** va más allá de lo que las pistas permiten: es inventar."
+          ]
+        },
+        {
+          "titulo": "Tipos frecuentes de inferencias",
+          "lista": [
+            "**Causa o consecuencia:** ¿por qué ocurrió algo? ¿qué pasará después?",
+            "**Emociones e intenciones** de los personajes, a partir de sus acciones o gestos.",
+            "**Lugar y tiempo** que no se nombran directamente.",
+            "**Significado** de una expresión o frase figurada.",
+            "**Opinión implícita** del autor, a partir de las palabras que elige."
+          ],
+          "recuadro": "Pregunta clave para cada alternativa: «¿Qué parte del texto me permite afirmar esto?». Si no encuentras ninguna pista, es probable que sea una suposición sin respaldo."
+        }
+      ],
+      "conceptos": [
+        { "termino": "Inferencia", "definicion": "Conclusión que se obtiene combinando pistas del texto con conocimientos previos, sin que el texto la diga directamente." },
+        { "termino": "Información explícita", "definicion": "Información que el texto expresa de manera directa." },
+        { "termino": "Información implícita", "definicion": "Información que no está escrita, pero que se puede deducir de lo que dice el texto." },
+        { "termino": "Sobreinterpretación", "definicion": "Conclusión que va más allá de lo que el texto permite afirmar; no tiene respaldo suficiente." }
+      ],
+      "ideasClave": [
+        "Una inferencia válida siempre se apoya en **evidencia** del texto.",
+        "Inferir combina las pistas del texto con los **conocimientos previos**.",
+        "Las acciones y gestos de un personaje permiten inferir sus **emociones**.",
+        "Si una alternativa es posible pero ninguna pista la sostiene, es una **sobreinterpretación**."
+      ],
+      "preguntas": [
+        {
+          "texto": "Camila revisó por tercera vez la mochila: el estuche, la calculadora, el carné de identidad. Afuera todavía estaba oscuro. En la cocina, su madre le había dejado pan con palta y un vaso de leche, que Camila apenas probó. Antes de salir, miró el calendario pegado en el refrigerador: un círculo rojo marcaba la fecha de hoy, rodeado de corazones dibujados por su hermano menor.",
+          "enunciado": "A partir del texto, se puede inferir que Camila:",
+          "alternativas": [
+            "está enferma y por eso no tiene apetito.",
+            "está nerviosa porque hoy tiene un evento importante, probablemente una evaluación.",
+            "está enojada con su madre por el desayuno.",
+            "va a viajar al extranjero ese día."
+          ],
+          "correcta": 1,
+          "explicacion": "Varias pistas convergen: revisa la mochila tres veces (inquietud), lleva calculadora y carné (objetos típicos de una prueba o examen), apenas come (nervios) y la fecha está marcada con un círculo rojo (día importante).",
+          "descartes": [
+            "Ninguna pista indica enfermedad; la falta de apetito se explica mejor por los nervios, junto con las demás señales.",
+            null,
+            "No hay evidencia de conflicto con su madre; de hecho, ella le preparó el desayuno.",
+            "El carné por sí solo no indica un viaje; no se mencionan maletas, pasaporte ni destino. Es una sobreinterpretación."
+          ],
+          "metodos": [
+            { "nombre": "Reunir pistas", "pasos": ["Revisa 3 veces la mochila → inquietud.", "Calculadora y carné → evaluación.", "Apenas come → nervios.", "Fecha marcada → día importante. Todo apunta a B."] },
+            { "nombre": "Buscar evidencia para cada alternativa", "pasos": ["A: no hay síntomas.", "C: no hay conflicto.", "D: no hay elementos de viaje.", "B: tiene varias pistas a favor."] }
+          ]
+        },
+        {
+          "texto": "Camila revisó por tercera vez la mochila: el estuche, la calculadora, el carné de identidad. Afuera todavía estaba oscuro. En la cocina, su madre le había dejado pan con palta y un vaso de leche, que Camila apenas probó. Antes de salir, miró el calendario pegado en el refrigerador: un círculo rojo marcaba la fecha de hoy, rodeado de corazones dibujados por su hermano menor.",
+          "enunciado": "¿Qué sugieren los corazones dibujados por el hermano menor alrededor de la fecha?",
+          "alternativas": [
+            "Que es el cumpleaños del hermano.",
+            "Que el hermano olvidó qué se celebraba ese día.",
+            "Que el hermano quiso darle ánimo o mostrarle cariño a Camila por ese día importante.",
+            "Que Camila dibuja corazones en todas las fechas del calendario."
+          ],
+          "correcta": 2,
+          "explicacion": "Los corazones rodean la fecha marcada como importante para Camila. Es razonable inferir que el hermano quiso expresarle apoyo o cariño, especialmente si ese día ella enfrenta una situación que la pone nerviosa.",
+          "descartes": [
+            "No hay pistas de que sea el cumpleaños de nadie; la fecha se relaciona con los preparativos de Camila.",
+            "Nada indica olvido; al contrario, dibujar alrededor de la fecha muestra que la tenía presente.",
+            null,
+            "El texto dice que los corazones los dibujó el hermano, no Camila, y solo menciona esa fecha."
+          ],
+          "metodos": [
+            { "nombre": "Significado del símbolo en contexto", "pasos": ["Los corazones simbolizan cariño.", "Están alrededor del día importante de Camila.", "Inferencia: apoyo afectivo del hermano."] },
+            { "nombre": "Contraste con el texto", "pasos": ["D contradice el texto (los hizo el hermano).", "B contradice la pista (sí recordaba la fecha).", "A no tiene pistas.", "Queda C."] }
+          ]
+        },
+        {
+          "texto": "Camila revisó por tercera vez la mochila: el estuche, la calculadora, el carné de identidad. Afuera todavía estaba oscuro. En la cocina, su madre le había dejado pan con palta y un vaso de leche, que Camila apenas probó. Antes de salir, miró el calendario pegado en el refrigerador: un círculo rojo marcaba la fecha de hoy, rodeado de corazones dibujados por su hermano menor.",
+          "enunciado": "La frase «Afuera todavía estaba oscuro» permite inferir principalmente que:",
+          "alternativas": [
+            "se había cortado la luz en el barrio.",
+            "Camila se preparaba muy temprano en la mañana.",
+            "se acercaba una tormenta.",
+            "Camila no iba a salir de su casa."
+          ],
+          "correcta": 1,
+          "explicacion": "La palabra «todavía» indica que pronto amanecerá, y Camila se prepara para salir («Antes de salir»). Se infiere que todo ocurre muy temprano, antes del amanecer.",
+          "descartes": [
+            "La oscuridad es «afuera» y se refiere a la hora del día; en la cocina hay actividad normal, nada sugiere un corte de luz.",
+            null,
+            "No se mencionan nubes, viento ni lluvia; «todavía» apunta al paso del tiempo, no al clima.",
+            "El texto dice explícitamente «Antes de salir», así que sí sale."
+          ],
+          "metodos": [
+            { "nombre": "Analizar la palabra clave", "pasos": ["«Todavía» = algo que aún no cambia, pero cambiará.", "La oscuridad que pronto termina es la del amanecer.", "Conclusión: es muy temprano."] },
+            { "nombre": "Coherencia con el resto", "pasos": ["Desayuno + preparación de mochila + «antes de salir» = rutina de mañana.", "Oscuridad + mañana = muy temprano.", "B es la única coherente con todo."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)", "url": "https://demre.cl" },
+        { "titulo": "OECD (2019). PISA 2018 Assessment and Analytical Framework — marco de lectura", "url": "https://doi.org/10.1787/b25efab8-en" }
+      ]
+    },
+    {
+      "id": "vocabulario-contextual",
+      "titulo": "Vocabulario en contexto",
+      "resumen": "Descubrir el significado de una palabra a partir del texto que la rodea.",
+      "objetivos": [
+        "Usar pistas de contexto para deducir significados.",
+        "Elegir el sinónimo que conserva el sentido en un fragmento.",
+        "Reconocer que una palabra puede tener varios significados (polisemia)."
+      ],
+      "secciones": [
+        {
+          "titulo": "Por qué importa el contexto",
+          "texto": [
+            "Muchas palabras son **polisémicas**: tienen varios significados. «Banco» puede ser un asiento o una institución financiera. Por eso, en las preguntas de vocabulario no basta con saber «qué significa» la palabra: hay que saber **qué significa en ese fragmento**.",
+            "En la PAES, estas preguntas suelen plantearse así: «En el contexto del fragmento, ¿qué palabra puede reemplazar a X sin que cambie el sentido?»."
+          ]
+        },
+        {
+          "titulo": "Pistas de contexto",
+          "lista": [
+            "**Definición o explicación:** el texto aclara el significado («la lluvia fue copiosa: cayó más agua que en todo el año»).",
+            "**Sinónimo cercano:** aparece otra palabra con significado parecido.",
+            "**Contraste o antónimo:** conectores como «pero», «aunque», «en cambio» indican lo opuesto.",
+            "**Ejemplo:** el texto muestra casos que ilustran el significado.",
+            "**Forma de la palabra:** prefijos y sufijos dan pistas (in- = negación, -able = que se puede, re- = repetición)."
+          ],
+          "recuadro": "Técnica infalible: **reemplaza** la palabra por cada alternativa y relee la oración completa. La correcta conserva el sentido; las incorrectas lo cambian o lo vuelven absurdo."
+        }
+      ],
+      "conceptos": [
+        { "termino": "Polisemia", "definicion": "Propiedad de una palabra de tener varios significados según el contexto." },
+        { "termino": "Contexto", "definicion": "Texto y situación que rodean a una palabra y determinan su sentido." },
+        { "termino": "Sinónimo contextual", "definicion": "Palabra que puede reemplazar a otra en un fragmento específico sin cambiar su sentido." },
+        { "termino": "Antónimo", "definicion": "Palabra de significado opuesto." }
+      ],
+      "ideasClave": [
+        "En vocabulario contextual importa el significado **en ese fragmento**, no cualquier significado de la palabra.",
+        "Una palabra con varios significados es **polisémica**.",
+        "Para responder, **reemplaza** la palabra por cada alternativa y relee la oración.",
+        "Conectores como «pero» o «aunque» son pistas de **contraste**."
+      ],
+      "preguntas": [
+        {
+          "texto": "Tras meses de sequía, la lluvia llegó de forma copiosa: en solo dos días cayó más agua que en todo el año anterior. Los agricultores, que habían visto sus siembras marchitarse, recibieron el aguacero con alivio, aunque algunos temían que el exceso de agua también resultara perjudicial.",
+          "enunciado": "En el contexto del fragmento, ¿qué palabra puede reemplazar a «copiosa» sin cambiar el sentido?",
+          "alternativas": ["Escasa", "Abundante", "Fría", "Breve"],
+          "correcta": 1,
+          "explicacion": "Los dos puntos introducen una explicación: «en solo dos días cayó más agua que en todo el año anterior». Esa pista de contexto muestra que «copiosa» significa abundante, en gran cantidad.",
+          "descartes": [
+            "Es el antónimo: contradice la explicación de que cayó muchísima agua.",
+            null,
+            "El texto no dice nada de la temperatura de la lluvia.",
+            "Aunque la lluvia duró solo dos días, el énfasis está en la cantidad de agua, no en la duración. Además, «llegó de forma breve» no explica la comparación con el año anterior."
+          ],
+          "metodos": [
+            { "nombre": "Pista de definición", "pasos": ["Después de «copiosa» vienen dos puntos y una explicación.", "La explicación habla de muchísima agua.", "Copiosa = abundante."] },
+            { "nombre": "Reemplazo", "pasos": ["«La lluvia llegó de forma abundante: cayó más agua que…» → coherente.", "«…de forma escasa: cayó más agua que…» → contradictorio.", "Solo «abundante» mantiene el sentido."] }
+          ]
+        },
+        {
+          "texto": "Tras meses de sequía, la lluvia llegó de forma copiosa: en solo dos días cayó más agua que en todo el año anterior. Los agricultores, que habían visto sus siembras marchitarse, recibieron el aguacero con alivio, aunque algunos temían que el exceso de agua también resultara perjudicial.",
+          "enunciado": "En el contexto del fragmento, la palabra «perjudicial» puede reemplazarse por:",
+          "alternativas": ["Beneficioso", "Inevitable", "Dañino", "Pasajero"],
+          "correcta": 2,
+          "explicacion": "El conector «aunque» introduce un contraste con el «alivio»: los agricultores temían que el exceso de agua causara daño. «Perjudicial» significa que causa perjuicio, es decir, dañino.",
+          "descartes": [
+            "Es lo opuesto; además, no tendría sentido «temer» algo beneficioso.",
+            "«Inevitable» significa que no se puede evitar; cambia el sentido de la oración, que habla de daño.",
+            null,
+            "«Pasajero» se refiere a la duración, no al efecto negativo que se teme."
+          ],
+          "metodos": [
+            { "nombre": "Pista de contraste", "pasos": ["«Con alivio, aunque algunos temían…» → «aunque» contrapone algo negativo al alivio.", "Lo que se teme de un exceso de agua es que haga daño.", "Perjudicial = dañino."] },
+            { "nombre": "Familia de palabras", "pasos": ["Perjudicial viene de «perjuicio» (daño).", "El sufijo -al indica relación: «que causa perjuicio».", "Sinónimo: dañino."] }
+          ]
+        },
+        {
+          "texto": "La directora informó que el nuevo reglamento de convivencia entrará en vigor el próximo lunes. Hasta entonces, regirá el reglamento anterior, por lo que las sanciones se aplicarán según las normas vigentes.",
+          "enunciado": "En el contexto del fragmento, la palabra «regirá» significa:",
+          "alternativas": [
+            "gobernará un país.",
+            "corregirá los errores.",
+            "seguirá vigente y se aplicará.",
+            "será escrito nuevamente."
+          ],
+          "correcta": 2,
+          "explicacion": "«Regir» tiene varios significados. Aquí se refiere a una norma que está vigente y se aplica: hasta el lunes, el reglamento anterior seguirá aplicándose. La frase «según las normas vigentes» lo confirma.",
+          "descartes": [
+            "«Gobernar» es otra acepción de «regir», pero aquí el sujeto es un reglamento, no una persona que gobierna un territorio.",
+            "Confunde «regir» con «corregir» por su parecido sonoro.",
+            null,
+            "No se habla de redactar el reglamento de nuevo; se habla de qué norma se aplica mientras tanto."
+          ],
+          "metodos": [
+            { "nombre": "Pistas del entorno", "pasos": ["«Entrará en vigor» y «normas vigentes» hablan de normas que se aplican.", "«Regirá el reglamento anterior» = el anterior seguirá aplicándose.", "Significado: seguirá vigente."] },
+            { "nombre": "Reemplazo", "pasos": ["«Hasta entonces, seguirá vigente el reglamento anterior» → coherente.", "«Hasta entonces, gobernará un país el reglamento anterior» → absurdo.", "La alternativa C es la única que conserva el sentido."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "Real Academia Española — Diccionario de la lengua española", "url": "https://dle.rae.es" },
+        { "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)", "url": "https://demre.cl" }
+      ]
+    },
+    {
+      "id": "proposito-estructura",
+      "titulo": "Propósito del autor, tipos de texto y estructura",
+      "resumen": "Para qué se escribió un texto, cómo se organiza y qué papel cumplen los conectores.",
+      "objetivos": [
+        "Identificar el propósito comunicativo de un texto.",
+        "Reconocer estructuras expositivas y argumentativas.",
+        "Interpretar la función de los conectores."
+      ],
+      "secciones": [
+        {
+          "titulo": "Tipos de texto según su propósito",
+          "lista": [
+            "**Narrativo:** contar hechos reales o ficticios (cuentos, noticias, crónicas).",
+            "**Descriptivo:** mostrar cómo es algo o alguien.",
+            "**Expositivo o informativo:** explicar un tema de forma objetiva (artículos de divulgación, textos escolares).",
+            "**Argumentativo:** convencer al lector de una postura (columnas de opinión, ensayos, cartas al director).",
+            "**Instructivo:** indicar cómo hacer algo (recetas, manuales)."
+          ]
+        },
+        {
+          "titulo": "Estructuras frecuentes",
+          "texto": [
+            "Los textos **expositivos** suelen organizarse como: **problema-solución**, **causa-efecto**, **comparación-contraste**, **secuencia** (pasos o cronología) o **enumeración** (características).",
+            "Los textos **argumentativos** suelen tener: **tesis** (la postura del autor), **argumentos** (razones que la apoyan), a veces una **concesión** (reconocer algo del punto de vista contrario) seguida de una **refutación**, y una **conclusión**."
+          ]
+        },
+        {
+          "titulo": "Los conectores como pistas",
+          "lista": [
+            "**Adición:** además, también, asimismo.",
+            "**Contraste u oposición:** sin embargo, pero, no obstante, en cambio.",
+            "**Causa:** porque, ya que, dado que.",
+            "**Consecuencia o conclusión:** por lo tanto, por eso, en consecuencia, así.",
+            "**Orden o secuencia:** primero, luego, finalmente.",
+            "**Ejemplificación:** por ejemplo, es decir, como."
+          ],
+          "recuadro": "La estructura «Es cierto que…; sin embargo…» es típica de una **concesión seguida de refutación**: el autor reconoce un argumento contrario y luego lo responde."
+        }
+      ],
+      "conceptos": [
+        { "termino": "Propósito comunicativo", "definicion": "Intención con que se escribe un texto: narrar, describir, informar, convencer o instruir." },
+        { "termino": "Tesis", "definicion": "Postura u opinión principal que el autor defiende en un texto argumentativo." },
+        { "termino": "Concesión", "definicion": "Recurso argumentativo en que el autor reconoce parte de la razón al punto de vista contrario." },
+        { "termino": "Refutación", "definicion": "Respuesta que rebate un argumento contrario." },
+        { "termino": "Conector", "definicion": "Palabra o expresión que une ideas e indica la relación entre ellas (adición, contraste, causa, consecuencia)." }
+      ],
+      "ideasClave": [
+        "Un texto argumentativo busca **convencer** al lector de una postura.",
+        "«Sin embargo» es un conector de **contraste**.",
+        "«Por lo tanto» introduce una **consecuencia** o conclusión.",
+        "Reconocer un argumento contrario antes de responderlo se llama **concesión**."
+      ],
+      "preguntas": [
+        {
+          "texto": "Muchos colegios han prohibido el uso de celulares durante las clases, y con razón. Diversas investigaciones han mostrado que las notificaciones interrumpen la concentración, incluso cuando no se responden. Además, quienes alternan entre el teléfono y una tarea suelen tardar más y cometer más errores. Es cierto que el celular puede ser una herramienta útil para buscar información; sin embargo, ese beneficio puede aprovecharse en momentos definidos por el profesor. Por lo tanto, limitar su uso en clases no es un castigo, sino una forma de proteger el aprendizaje.",
+          "enunciado": "¿Cuál es el propósito principal del texto?",
+          "alternativas": [
+            "Informar sobre la historia de los teléfonos celulares.",
+            "Narrar la experiencia de un estudiante con su celular.",
+            "Convencer al lector de que limitar el uso del celular en clases favorece el aprendizaje.",
+            "Dar instrucciones para usar el celular como herramienta de estudio."
+          ],
+          "correcta": 2,
+          "explicacion": "El autor toma una postura desde la primera oración («y con razón»), la apoya con argumentos, responde a una objeción y cierra con una conclusión («Por lo tanto…»). Es un texto argumentativo: busca convencer.",
+          "descartes": [
+            "No se menciona la historia de los celulares; el texto no es informativo-histórico.",
+            "No hay un personaje ni una secuencia de hechos: no es un relato.",
+            null,
+            "No hay pasos ni indicaciones para el lector; solo se reconoce brevemente que el celular puede ser útil."
+          ],
+          "metodos": [
+            { "nombre": "Buscar la postura", "pasos": ["«Y con razón» muestra que el autor está de acuerdo con la prohibición.", "Tomar postura y defenderla = argumentar.", "Propósito: convencer."] },
+            { "nombre": "Identificar la estructura", "pasos": ["Tesis (oración 1) + argumentos («Diversas investigaciones…», «Además…»).", "Concesión y refutación («Es cierto que…; sin embargo…»).", "Conclusión («Por lo tanto…») → estructura argumentativa."] }
+          ]
+        },
+        {
+          "texto": "Muchos colegios han prohibido el uso de celulares durante las clases, y con razón. Diversas investigaciones han mostrado que las notificaciones interrumpen la concentración, incluso cuando no se responden. Además, quienes alternan entre el teléfono y una tarea suelen tardar más y cometer más errores. Es cierto que el celular puede ser una herramienta útil para buscar información; sin embargo, ese beneficio puede aprovecharse en momentos definidos por el profesor. Por lo tanto, limitar su uso en clases no es un castigo, sino una forma de proteger el aprendizaje.",
+          "enunciado": "En el texto, el conector «sin embargo» cumple la función de:",
+          "alternativas": [
+            "agregar un nuevo argumento a favor del celular.",
+            "contraponer a la ventaja reconocida una respuesta que mantiene la postura del autor.",
+            "indicar una consecuencia de lo dicho antes.",
+            "introducir un ejemplo."
+          ],
+          "correcta": 1,
+          "explicacion": "Antes de «sin embargo», el autor concede algo al punto de vista contrario (el celular puede ser útil). Después, lo responde: ese beneficio puede obtenerse en otros momentos. «Sin embargo» marca ese contraste entre la concesión y la refutación.",
+          "descartes": [
+            "Lo que sigue a «sin embargo» no favorece el uso libre del celular: limita la ventaja mencionada antes.",
+            null,
+            "La consecuencia se introduce más adelante con «Por lo tanto».",
+            "No se presenta ningún caso particular que ilustre una idea; «sin embargo» no es un conector de ejemplificación."
+          ],
+          "metodos": [
+            { "nombre": "Clasificar el conector", "pasos": ["«Sin embargo» es un conector de contraste u oposición.", "Busca qué ideas contrapone: «el celular es útil» vs. «ese beneficio puede aprovecharse en otros momentos».", "Función: contraponer → B."] },
+            { "nombre": "Sustitución", "pasos": ["Reemplaza por «pero»: el sentido se mantiene → es contraste.", "Reemplaza por «por lo tanto» o «por ejemplo»: el sentido cambia.", "Se confirma que su función es contraponer."] }
+          ]
+        },
+        {
+          "texto": "Muchos colegios han prohibido el uso de celulares durante las clases, y con razón. Diversas investigaciones han mostrado que las notificaciones interrumpen la concentración, incluso cuando no se responden. Además, quienes alternan entre el teléfono y una tarea suelen tardar más y cometer más errores. Es cierto que el celular puede ser una herramienta útil para buscar información; sin embargo, ese beneficio puede aprovecharse en momentos definidos por el profesor. Por lo tanto, limitar su uso en clases no es un castigo, sino una forma de proteger el aprendizaje.",
+          "enunciado": "¿Qué estructura organiza mejor el texto?",
+          "alternativas": [
+            "Tesis, argumentos, concesión con refutación y conclusión.",
+            "Problema y solución, sin que el autor tome postura.",
+            "Secuencia cronológica de hechos.",
+            "Comparación entre dos tipos de celulares."
+          ],
+          "correcta": 0,
+          "explicacion": "Oración 1: tesis. Oraciones 2 y 3: argumentos (concentración, errores). Oración 4: concesión («Es cierto que…») y refutación («sin embargo…»). Oración 5: conclusión («Por lo tanto…»).",
+          "descartes": [
+            null,
+            "El autor sí toma postura explícita («y con razón»), por lo que no es una exposición neutral.",
+            "No se relatan hechos ordenados en el tiempo.",
+            "No se comparan tipos de celulares; se discute su uso en clases."
+          ],
+          "metodos": [
+            { "nombre": "Etiquetar cada oración", "pasos": ["1: tesis. 2–3: argumentos.", "4: concesión + refutación.", "5: conclusión.", "Coincide con A."] },
+            { "nombre": "Seguir los conectores", "pasos": ["«Además» → otro argumento.", "«Es cierto que…; sin embargo» → concesión y refutación.", "«Por lo tanto» → conclusión. Estructura argumentativa completa."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)", "url": "https://demre.cl" },
+        { "titulo": "Currículum Nacional (MINEDUC) — Lengua y Literatura", "url": "https://www.curriculumnacional.cl" }
+      ]
+    }
+  ]
+}

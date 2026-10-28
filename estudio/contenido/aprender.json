@@ -1,0 +1,940 @@
+{
+  "lecciones": [
+    {
+      "id": "como-se-forma-un-recuerdo",
+      "titulo": "Cómo se forma un recuerdo",
+      "resumen": "Neuronas, sinapsis y plasticidad: lo que ocurre en el cerebro cuando aprendes algo y por qué a veces se olvida.",
+      "objetivos": [
+        "Describir las etapas de la memoria: codificación, consolidación y recuperación.",
+        "Explicar qué es la plasticidad sináptica.",
+        "Reconocer el papel del hipocampo en la formación de recuerdos."
+      ],
+      "secciones": [
+        {
+          "titulo": "Aprender es cambiar conexiones",
+          "texto": [
+            "El cerebro tiene unos 86 mil millones de **neuronas**, que se comunican en puntos de contacto llamados **sinapsis**. Aprender no consiste en «guardar archivos», sino en **modificar la fuerza de esas conexiones**: algunas se fortalecen, otras se debilitan y se forman o eliminan otras nuevas. Esta capacidad se llama **plasticidad sináptica**.",
+            "En 1973, Bliss y Lømo describieron la **potenciación a largo plazo (LTP)**: cuando una vía neuronal del hipocampo se estimula de forma intensa y repetida, la conexión queda fortalecida por horas o días. La LTP es considerada uno de los principales mecanismos celulares del aprendizaje.",
+            "Los trabajos de Eric Kandel (Premio Nobel 2000) mostraron que la memoria de corto plazo implica cambios transitorios en sinapsis existentes, mientras que la de **largo plazo requiere síntesis de nuevas proteínas** y cambios estructurales, como el crecimiento de nuevas sinapsis."
+          ]
+        },
+        {
+          "titulo": "Tres etapas: codificar, consolidar, recuperar",
+          "lista": [
+            "**Codificación:** la información entra y se procesa. Depende mucho de la **atención**: lo que no atiendes, casi no se codifica.",
+            "**Consolidación:** el recuerdo, inicialmente frágil, se estabiliza durante horas, días e incluso más tiempo. El **hipocampo** es clave en este proceso, y buena parte ocurre durante el **sueño**.",
+            "**Recuperación:** traer el recuerdo a la mente. Cada vez que recuperas algo, el recuerdo se vuelve a activar y puede fortalecerse."
+          ]
+        },
+        {
+          "titulo": "El hipocampo y el caso H. M.",
+          "texto": [
+            "En 1953, al paciente Henry Molaison («H. M.») se le extirparon ambos hipocampos para tratar su epilepsia. Después de la cirugía no pudo formar nuevos recuerdos de hechos y experiencias, aunque conservaba muchos recuerdos antiguos y podía aprender habilidades motoras. Su caso, estudiado por Brenda Milner, mostró que el hipocampo es esencial para **formar** nuevos recuerdos declarativos, y que existen distintos sistemas de memoria."
+          ],
+          "recuadro": "Implicación práctica: un recuerdo nuevo es frágil. Volver a él (recuperarlo) en los días siguientes y dormir bien ayudan a que se consolide."
+        }
+      ],
+      "conceptos": [
+        { "termino": "Sinapsis", "definicion": "Punto de comunicación entre dos neuronas." },
+        { "termino": "Plasticidad sináptica", "definicion": "Capacidad de las sinapsis de fortalecerse o debilitarse con la experiencia; base celular del aprendizaje." },
+        { "termino": "Potenciación a largo plazo (LTP)", "definicion": "Fortalecimiento duradero de una sinapsis tras su estimulación repetida; mecanismo celular asociado al aprendizaje." },
+        { "termino": "Consolidación", "definicion": "Proceso por el cual un recuerdo recién formado se estabiliza con el tiempo." },
+        { "termino": "Hipocampo", "definicion": "Estructura cerebral esencial para formar nuevos recuerdos de hechos y experiencias." }
+      ],
+      "ideasClave": [
+        "Aprender es modificar la **fuerza de las conexiones** entre neuronas.",
+        "La memoria de largo plazo requiere la síntesis de nuevas **proteínas**.",
+        "El caso H. M. mostró que el **hipocampo** es esencial para formar nuevos recuerdos.",
+        "Sin **atención**, la información casi no se codifica."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Según la neurociencia actual, ¿qué ocurre en el cerebro cuando aprendemos algo nuevo?",
+          "alternativas": [
+            "Se crean neuronas nuevas para cada dato aprendido.",
+            "Se modifica la fuerza de las conexiones sinápticas entre neuronas.",
+            "La información se guarda en una sola neurona específica.",
+            "El cerebro aumenta de tamaño de manera proporcional a lo aprendido."
+          ],
+          "correcta": 1,
+          "explicacion": "El aprendizaje se basa en la plasticidad sináptica: las conexiones entre neuronas se fortalecen, debilitan o reorganizan. Los recuerdos se distribuyen en redes de muchas neuronas.",
+          "descartes": [
+            "Aunque existe la formación de nuevas neuronas en algunas zonas, no ocurre «una por dato»; el aprendizaje se basa sobre todo en cambios en las conexiones.",
+            null,
+            "Los recuerdos están distribuidos en redes de neuronas, no almacenados en una sola célula.",
+            "Pueden ocurrir cambios estructurales locales, pero el cerebro no crece en proporción a lo que se aprende."
+          ],
+          "metodos": [
+            { "nombre": "Recordar el principio", "pasos": ["Aprender = plasticidad sináptica.", "Plasticidad = cambio en la fuerza de las conexiones.", "Respuesta: B."] },
+            { "nombre": "Descartar exageraciones", "pasos": ["A, C y D proponen mecanismos simples y literales («una neurona por dato», «crece el cerebro»).", "La evidencia apunta a redes distribuidas y conexiones que cambian.", "Queda B."] }
+          ]
+        },
+        {
+          "enunciado": "¿Qué mostró principalmente el caso del paciente H. M.?",
+          "alternativas": [
+            "Que el hipocampo es esencial para formar nuevos recuerdos de hechos y experiencias.",
+            "Que todos los recuerdos se almacenan en el hipocampo para siempre.",
+            "Que sin hipocampo no se puede aprender ninguna habilidad.",
+            "Que la memoria depende únicamente de la corteza visual."
+          ],
+          "correcta": 0,
+          "explicacion": "Tras perder ambos hipocampos, H. M. no podía formar nuevos recuerdos declarativos, pero conservaba muchos recuerdos antiguos y podía aprender habilidades motoras. Eso indicó que el hipocampo es clave para formar recuerdos nuevos y que hay distintos sistemas de memoria.",
+          "descartes": [
+            null,
+            "H. M. conservaba muchos recuerdos antiguos, así que estos no dependían solo del hipocampo.",
+            "H. M. sí podía mejorar en tareas motoras (como dibujar mirando un espejo), aunque no recordara haberlas practicado.",
+            "El caso se centró en el hipocampo, no en la corteza visual."
+          ],
+          "metodos": [
+            { "nombre": "Qué perdió y qué conservó", "pasos": ["Perdió: formar recuerdos nuevos de hechos.", "Conservó: recuerdos antiguos y aprendizaje motor.", "Conclusión: el hipocampo es clave para formar recuerdos nuevos (A)."] },
+            { "nombre": "Detectar absolutos", "pasos": ["B dice «todos… para siempre»; C dice «ninguna»; D dice «únicamente».", "Las tres contradicen lo que conservó H. M.", "Queda A."] }
+          ]
+        }
+      ],
+      "referencias": [
+        { "cita": "Bliss, T. V. P., y Lømo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. _Journal of Physiology, 232_(2), 331–356.", "url": "https://doi.org/10.1113/jphysiol.1973.sp010273" },
+        { "cita": "Kandel, E. R. (2001). The molecular biology of memory storage: A dialogue between genes and synapses. _Science, 294_(5544), 1030–1038.", "url": "https://doi.org/10.1126/science.1067020" },
+        { "cita": "Scoville, W. B., y Milner, B. (1957). Loss of recent memory after bilateral hippocampal lesions. _Journal of Neurology, Neurosurgery & Psychiatry, 20_(1), 11–21.", "url": "https://doi.org/10.1136/jnnp.20.1.11" }
+      ]
+    },
+    {
+      "id": "memoria-de-trabajo",
+      "titulo": "Memoria de trabajo y carga cognitiva",
+      "resumen": "Por qué no podemos procesar mucha información a la vez y cómo estudiar respetando ese límite.",
+      "objetivos": [
+        "Explicar qué es la memoria de trabajo y cuál es su capacidad aproximada.",
+        "Describir la teoría de la carga cognitiva.",
+        "Aplicar estrategias para no saturar la memoria de trabajo."
+      ],
+      "secciones": [
+        {
+          "titulo": "Un espacio de trabajo pequeño",
+          "texto": [
+            "La **memoria de trabajo** es el sistema que mantiene y manipula información **mientras pensamos**: retener un número de teléfono, seguir un razonamiento o resolver un problema. El modelo de Baddeley la describe con un **ejecutivo central** que controla la atención, un **bucle fonológico** (información verbal), una **agenda visoespacial** (imágenes y ubicaciones) y un **búfer episódico** que integra la información.",
+            "Su capacidad es **muy limitada**. La famosa cifra de «7 ± 2» elementos (Miller, 1956) fue revisada por Cowan (2001), quien propuso que en realidad podemos manejar unos **4 elementos o «chunks»** a la vez cuando no podemos repetirlos o agruparlos."
+          ]
+        },
+        {
+          "titulo": "Teoría de la carga cognitiva",
+          "texto": [
+            "John Sweller propuso que el aprendizaje se dificulta cuando la tarea **supera la capacidad** de la memoria de trabajo. Distingue entre la carga **intrínseca** (la complejidad propia del tema) y la carga **extrínseca** (la que agrega una mala presentación: instrucciones confusas, información repartida, distracciones).",
+            "La memoria de largo plazo, en cambio, es enorme. Cuando ya dominas algo, lo recuperas como **un solo bloque** («chunk»): un experto en ajedrez ve una jugada, no 20 piezas sueltas. Por eso, construir conocimiento de base libera espacio mental para pensar."
+          ]
+        },
+        {
+          "titulo": "Estrategias basadas en la evidencia",
+          "lista": [
+            "**Estudia ejemplos resueltos** al comenzar un tema: para principiantes, analizar soluciones paso a paso suele ser más eficaz que resolver problemas sin guía (efecto del ejemplo resuelto). A medida que avanzas, pasa a resolver por tu cuenta.",
+            "**Divide** el contenido complejo en partes y domina cada una antes de combinarlas.",
+            "**Combina palabras e imágenes** relacionadas (un diagrama con su explicación): se aprovechan los canales verbal y visual.",
+            "**Elimina distracciones**: el celular, notificaciones y ruido consumen parte de esa capacidad limitada.",
+            "**Escribe** los pasos intermedios en vez de retenerlos en la cabeza."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Memoria de trabajo", "definicion": "Sistema de capacidad limitada que mantiene y manipula información mientras realizamos una tarea." },
+        { "termino": "Chunk", "definicion": "Unidad de información agrupada que la mente maneja como un solo elemento." },
+        { "termino": "Carga cognitiva intrínseca", "definicion": "Exigencia mental que proviene de la complejidad propia del contenido." },
+        { "termino": "Carga cognitiva extrínseca", "definicion": "Exigencia mental innecesaria que proviene de cómo se presenta la información." },
+        { "termino": "Efecto del ejemplo resuelto", "definicion": "Hallazgo de que los principiantes aprenden más estudiando soluciones paso a paso que resolviendo problemas sin guía." }
+      ],
+      "ideasClave": [
+        "La memoria de trabajo puede manejar alrededor de **4** elementos a la vez.",
+        "Para un principiante, estudiar **ejemplos resueltos** es más eficaz que resolver problemas sin guía.",
+        "Lo que ya dominas se recupera como un solo **chunk** y libera espacio mental.",
+        "Las distracciones aumentan la carga cognitiva **extrínseca**."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Una estudiante empieza a aprender un tema nuevo de física. Según la teoría de la carga cognitiva, ¿qué estrategia es más recomendable al comienzo?",
+          "alternativas": [
+            "Resolver de inmediato los problemas más difíciles sin ayuda.",
+            "Estudiar ejemplos resueltos paso a paso y luego practicar con problemas similares.",
+            "Leer el tema mientras escucha un podcast para aprovechar el tiempo.",
+            "Memorizar todas las fórmulas sin entender cuándo se usan."
+          ],
+          "correcta": 1,
+          "explicacion": "Para principiantes, los ejemplos resueltos reducen la carga innecesaria de buscar a ciegas una solución y permiten concentrarse en entender los pasos. Luego conviene pasar a la práctica independiente.",
+          "descartes": [
+            "Sin conocimientos previos, buscar una solución a ciegas satura la memoria de trabajo y deja poco espacio para aprender.",
+            null,
+            "Atender a dos fuentes verbales a la vez compite por la misma capacidad limitada y empeora la comprensión.",
+            "Memorizar sin comprender no permite aplicar las fórmulas a problemas nuevos."
+          ],
+          "metodos": [
+            { "nombre": "Aplicar el principio", "pasos": ["La memoria de trabajo es limitada.", "Al comienzo, todo es nuevo: conviene reducir la carga.", "Los ejemplos resueltos reducen la carga → B."] },
+            { "nombre": "Buscar lo que satura", "pasos": ["A: búsqueda sin guía (carga alta).", "C: doble tarea verbal (carga alta).", "D: no construye comprensión.", "B es la única que gestiona la carga."] }
+          ]
+        },
+        {
+          "enunciado": "¿Cuál es la capacidad aproximada de la memoria de trabajo, según la revisión de Cowan (2001)?",
+          "alternativas": ["Unos 4 elementos", "Unos 50 elementos", "Ilimitada", "Exactamente 7 elementos"],
+          "correcta": 0,
+          "explicacion": "Cowan revisó numerosos estudios y concluyó que, cuando no se puede repetir ni agrupar la información, la capacidad de la memoria de trabajo ronda los 3 a 5 elementos (unos 4 «chunks»).",
+          "descartes": [
+            null,
+            "Es una cifra muy superior a la observada experimentalmente.",
+            "La que tiene una capacidad prácticamente ilimitada es la memoria de largo plazo, no la de trabajo.",
+            "El «7 ± 2» de Miller (1956) es una cifra clásica, pero no exacta, y fue revisada a la baja por Cowan."
+          ],
+          "metodos": [
+            { "nombre": "Recordar el dato", "pasos": ["Miller (1956): 7 ± 2.", "Cowan (2001): unos 4 chunks.", "La pregunta pide Cowan: 4."] },
+            { "nombre": "Descartar por concepto", "pasos": ["«Ilimitada» corresponde a la memoria de largo plazo.", "«Exactamente» es demasiado preciso para una capacidad que varía.", "50 no tiene respaldo. Queda 4."] }
+          ]
+        }
+      ],
+      "referencias": [
+        { "cita": "Baddeley, A. (2000). The episodic buffer: A new component of working memory? _Trends in Cognitive Sciences, 4_(11), 417–423.", "url": "https://doi.org/10.1016/S1364-6613(00)01538-2" },
+        { "cita": "Cowan, N. (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. _Behavioral and Brain Sciences, 24_(1), 87–114.", "url": "https://doi.org/10.1017/S0140525X01003922" },
+        { "cita": "Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. _Cognitive Science, 12_(2), 257–285.", "url": "https://doi.org/10.1207/s15516709cog1202_4" },
+        { "cita": "Sweller, J., y Cooper, G. A. (1985). The use of worked examples as a substitute for problem solving in learning algebra. _Cognition and Instruction, 2_(1), 59–89.", "url": "https://doi.org/10.1207/s1532690xci0201_3" },
+        { "cita": "Kirschner, P. A., Sweller, J., y Clark, R. E. (2006). Why minimal guidance during instruction does not work. _Educational Psychologist, 41_(2), 75–86.", "url": "https://doi.org/10.1207/s15326985ep4102_1" },
+        { "cita": "Mayer, R. E., y Moreno, R. (2003). Nine ways to reduce cognitive load in multimedia learning. _Educational Psychologist, 38_(1), 43–52.", "url": "https://doi.org/10.1207/S15326985EP3801_6" }
+      ]
+    },
+    {
+      "id": "practica-de-recuperacion",
+      "titulo": "Práctica de recuperación: ponerte a prueba para aprender",
+      "resumen": "La técnica con más respaldo científico: intentar recordar, en lugar de releer.",
+      "objetivos": [
+        "Explicar el efecto de la práctica de recuperación (efecto testing).",
+        "Diferenciar recuperar de releer.",
+        "Usar la retroalimentación y los errores para aprender."
+      ],
+      "secciones": [
+        {
+          "titulo": "Recordar fortalece la memoria",
+          "texto": [
+            "Solemos pensar que las pruebas solo **miden** lo que sabemos. Pero el acto de **recuperar** información de la memoria también la **fortalece**. Esto se conoce como **práctica de recuperación** o **efecto testing**.",
+            "En un experimento clásico, Roediger y Karpicke (2006) compararon estudiantes que releían un texto con otros que, tras leerlo, intentaban escribir lo que recordaban. A los 5 minutos, releer funcionaba algo mejor; pero **una semana después**, quienes habían practicado la recuperación recordaban bastante más.",
+            "Karpicke y Blunt (2011) mostraron que practicar la recuperación produjo mejor aprendizaje que elaborar mapas conceptuales con el texto a la vista, incluso en preguntas de inferencia."
+          ]
+        },
+        {
+          "titulo": "Un efecto sólido y replicado",
+          "texto": [
+            "No se trata de un estudio aislado. Varios **metaanálisis** (que combinan cientos de experimentos) confirman el efecto: Rowland (2014), Adesope y colaboradores (2017) y Yang y colaboradores (2021), este último centrado en aulas reales. Una revisión de estudios en colegios (Agarwal y colaboradores, 2021) encontró beneficios en distintas edades, asignaturas y tipos de preguntas.",
+            "La revisión de Dunlosky y colaboradores (2013), que evaluó diez técnicas de estudio, calificó la práctica de recuperación como de **alta utilidad**."
+          ]
+        },
+        {
+          "titulo": "Errores y retroalimentación",
+          "texto": [
+            "Equivocarse durante la práctica **no es un problema si luego recibes la respuesta correcta** y entiendes por qué. La retroalimentación corrige errores y potencia el beneficio de las pruebas, incluso en preguntas de alternativas (Butler y Roediger, 2008). Los errores cometidos con alta confianza y luego corregidos suelen recordarse especialmente bien (Metcalfe, 2017)."
+          ],
+          "lista": [
+            "Usa **flashcards**: intenta responder **antes** de dar vuelta la tarjeta.",
+            "Después de leer, cierra el material y **escribe o explica** lo que recuerdas.",
+            "Haz **tests** y lee siempre la explicación de cada pregunta.",
+            "Repasa tu **banco de errores** hasta resolver cada pregunta sin ayuda."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Práctica de recuperación", "definicion": "Estrategia de aprendizaje que consiste en traer información a la memoria (por ejemplo, con preguntas o flashcards) en vez de releerla." },
+        { "termino": "Efecto testing", "definicion": "Hallazgo de que ponerse a prueba mejora la retención a largo plazo más que volver a estudiar el mismo tiempo." },
+        { "termino": "Retroalimentación", "definicion": "Información sobre si una respuesta fue correcta y por qué; potencia el beneficio de la práctica." },
+        { "termino": "Metaanálisis", "definicion": "Estudio que combina estadísticamente los resultados de muchas investigaciones sobre un mismo tema." }
+      ],
+      "ideasClave": [
+        "Recordar información la **fortalece**, no solo la mide.",
+        "Releer parece eficaz a los pocos minutos, pero la recuperación gana a largo plazo (**una semana** después en Roediger y Karpicke, 2006).",
+        "Equivocarse durante la práctica ayuda si después recibes **retroalimentación**.",
+        "Dunlosky y colaboradores (2013) calificaron la práctica de recuperación como de **alta utilidad**."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "En el estudio de Roediger y Karpicke (2006), ¿qué grupo recordó más información una semana después?",
+          "alternativas": [
+            "El que releyó el texto varias veces.",
+            "El que intentó recordar y escribir lo leído.",
+            "El que subrayó las ideas importantes.",
+            "No hubo diferencias entre los grupos."
+          ],
+          "correcta": 1,
+          "explicacion": "Aunque releer dio un resultado algo mejor a los 5 minutos, una semana después el grupo que practicó la recuperación recordaba considerablemente más. El beneficio de recuperar aparece sobre todo a largo plazo.",
+          "descartes": [
+            "Releer tuvo ventaja solo en la prueba inmediata; a largo plazo quedó por debajo.",
+            null,
+            "El subrayado no fue una de las condiciones de ese experimento; además, la evidencia lo considera de baja utilidad.",
+            "Sí hubo diferencias, y en sentido opuesto según el momento de la prueba."
+          ],
+          "metodos": [
+            { "nombre": "Recordar el hallazgo", "pasos": ["Prueba inmediata: releer ≥ recuperar.", "Prueba a la semana: recuperar > releer.", "La pregunta es sobre una semana: B."] },
+            { "nombre": "Principio general", "pasos": ["El efecto testing beneficia la retención a largo plazo.", "Busca la alternativa que implica recuperar información.", "Solo B lo hace."] }
+          ]
+        },
+        {
+          "enunciado": "Al hacer un test de práctica te equivocas en varias preguntas. Según la evidencia, ¿qué conviene hacer?",
+          "alternativas": [
+            "Evitar los tests hasta estar seguro de saberlo todo, para no cometer errores.",
+            "Revisar la respuesta correcta y su explicación, y volver a intentarlo más adelante.",
+            "Releer todo el capítulo desde el principio varias veces.",
+            "Memorizar la letra de la alternativa correcta."
+          ],
+          "correcta": 1,
+          "explicacion": "Los errores seguidos de retroalimentación son una oportunidad de aprendizaje. Entender por qué la respuesta es correcta y volver a recuperarla más tarde combina retroalimentación, recuperación y espaciado.",
+          "descartes": [
+            "Postergar la práctica desaprovecha el efecto testing; equivocarse con retroalimentación no perjudica el aprendizaje.",
+            null,
+            "Releer es poco eficaz en comparación con recuperar y no se enfoca en los errores específicos.",
+            "La letra cambia y no enseña el razonamiento; en un test distinto no servirá."
+          ],
+          "metodos": [
+            { "nombre": "Combinar principios", "pasos": ["Retroalimentación: entender el error.", "Recuperación: volver a intentarlo.", "Espaciado: hacerlo más adelante. B combina los tres."] },
+            { "nombre": "Descartar estrategias pasivas", "pasos": ["A evita practicar.", "C es pasiva (releer).", "D es memorización superficial.", "Queda B."] }
+          ]
+        }
+      ],
+      "referencias": [
+        { "cita": "Roediger, H. L., y Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. _Psychological Science, 17_(3), 249–255.", "url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x" },
+        { "cita": "Karpicke, J. D., y Blunt, J. R. (2011). Retrieval practice produces more learning than elaborative studying with concept mapping. _Science, 331_(6018), 772–775.", "url": "https://doi.org/10.1126/science.1199327" },
+        { "cita": "Rowland, C. A. (2014). The effect of testing versus restudy on retention: A meta-analytic review of the testing effect. _Psychological Bulletin, 140_(6), 1432–1463.", "url": "https://doi.org/10.1037/a0037559" },
+        { "cita": "Adesope, O. O., Trevisan, D. A., y Sundararajan, N. (2017). Rethinking the use of tests: A meta-analysis of practice testing. _Review of Educational Research, 87_(3), 659–701.", "url": "https://doi.org/10.3102/0034654316689306" },
+        { "cita": "Yang, C., Luo, L., Vadillo, M. A., Yu, R., y Shanks, D. R. (2021). Testing (quizzing) boosts classroom learning: A systematic and meta-analytic review. _Psychological Bulletin, 147_(4), 399–435.", "url": "https://doi.org/10.1037/bul0000309" },
+        { "cita": "Agarwal, P. K., Nunes, L. D., y Blunt, J. R. (2021). Retrieval practice consistently benefits student learning: A systematic review of applied research in schools and classrooms. _Educational Psychology Review, 33_, 1409–1453.", "url": "https://doi.org/10.1007/s10648-021-09595-9" },
+        { "cita": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., y Willingham, D. T. (2013). Improving students' learning with effective learning techniques. _Psychological Science in the Public Interest, 14_(1), 4–58.", "url": "https://doi.org/10.1177/1529100612453266" },
+        { "cita": "Butler, A. C., y Roediger, H. L. (2008). Feedback enhances the positive effects and reduces the negative effects of multiple-choice testing. _Memory & Cognition, 36_(3), 604–616.", "url": "https://doi.org/10.3758/MC.36.3.604" },
+        { "cita": "Metcalfe, J. (2017). Learning from errors. _Annual Review of Psychology, 68_, 465–489.", "url": "https://doi.org/10.1146/annurev-psych-010416-044022" }
+      ]
+    },
+    {
+      "id": "practica-espaciada",
+      "titulo": "Práctica espaciada y la curva del olvido",
+      "resumen": "Por qué estudiar en varias sesiones separadas supera a estudiar todo de una vez.",
+      "objetivos": [
+        "Describir la curva del olvido.",
+        "Explicar el efecto de espaciado.",
+        "Planificar repasos espaciados."
+      ],
+      "secciones": [
+        {
+          "titulo": "La curva del olvido",
+          "texto": [
+            "Hermann Ebbinghaus (1885) se aprendió listas de sílabas sin sentido y midió cuánto olvidaba con el tiempo. Descubrió que el olvido es **muy rápido al principio** y luego se hace más lento: una **curva del olvido**. Murre y Dros (2015) replicaron su experimento más de un siglo después y obtuvieron una curva muy similar.",
+            "La buena noticia: **cada repaso** hace que la curva siguiente descienda más lentamente."
+          ]
+        },
+        {
+          "titulo": "El efecto de espaciado",
+          "texto": [
+            "Distribuir el estudio en **varias sesiones separadas** produce un recuerdo más duradero que concentrar el mismo tiempo en una sola sesión («estudiar a última hora»). Es uno de los hallazgos más robustos de la psicología: un metaanálisis de Cepeda y colaboradores (2006) reunió cientos de comparaciones que lo confirman.",
+            "¿Cuánto separar los repasos? Cepeda y colaboradores (2008) encontraron que el intervalo ideal depende de **cuánto tiempo quieres recordar**: para una prueba en una semana, conviene repasar al día siguiente; para recordar durante meses, conviene espaciar más (semanas). Como regla aproximada, el intervalo óptimo es una fracción (entre 10 y 20 %) del tiempo que necesitas recordar, y esa fracción disminuye para plazos más largos."
+          ],
+          "recuadro": "Estudiar todo la noche anterior puede servir para la prueba del día siguiente, pero se olvida rápido. Si el objetivo es aprender (por ejemplo, para la PAES), el espaciado es mucho más eficiente."
+        },
+        {
+          "titulo": "Cómo aplicarlo en esta plataforma",
+          "lista": [
+            "Las **flashcards** usan el sistema Leitner: si sabías la respuesta, la tarjeta vuelve después de 1, 3, 7, 16 y 35 días; si no, vuelve al día siguiente.",
+            "Revisa la sección **Repaso** cada día: solo te muestra lo que toca repasar.",
+            "Repite los **tests** de una lección días después de haberla estudiado, no inmediatamente.",
+            "Combina espaciado con **recuperación**: repasar es intentar recordar, no releer."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Curva del olvido", "definicion": "Representación de cómo se pierde la información con el tiempo: rápido al principio y más lento después." },
+        { "termino": "Efecto de espaciado", "definicion": "Hallazgo de que distribuir el estudio en sesiones separadas produce mejor retención que concentrarlo en una sola." },
+        { "termino": "Sistema Leitner", "definicion": "Método de flashcards en que las tarjetas bien respondidas se repasan con intervalos cada vez más largos." }
+      ],
+      "ideasClave": [
+        "El olvido es más rápido **al principio** y luego se desacelera.",
+        "Distribuir el estudio en varias sesiones supera a **concentrarlo** en una sola.",
+        "El intervalo ideal entre repasos depende de **cuánto tiempo** quieres recordar.",
+        "Murre y Dros (2015) **replicaron** la curva del olvido de Ebbinghaus."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Dos estudiantes dedican 4 horas a un mismo tema. Ana estudia 4 horas el día antes de la prueba; Bruno estudia 1 hora en cuatro días distintos. Según la evidencia, ¿qué es más probable?",
+          "alternativas": [
+            "Ambos recordarán lo mismo a largo plazo, porque estudiaron el mismo tiempo.",
+            "Ana recordará más a largo plazo, porque estudió más cerca de la prueba.",
+            "Bruno recordará más a largo plazo, gracias al efecto de espaciado.",
+            "Ninguno recordará nada después de una semana."
+          ],
+          "correcta": 2,
+          "explicacion": "Con el mismo tiempo total, distribuir el estudio en sesiones separadas produce una retención más duradera. Es el efecto de espaciado, confirmado en cientos de experimentos.",
+          "descartes": [
+            "El tiempo total no es lo único que importa: cómo se distribuye cambia mucho el resultado.",
+            "Estudiar a última hora puede servir para una prueba inmediata, pero se olvida más rápido.",
+            null,
+            "Es una exageración: ambos recordarán algo; la diferencia está en cuánto."
+          ],
+          "metodos": [
+            { "nombre": "Aplicar el efecto", "pasos": ["Igual tiempo total.", "Bruno distribuyó; Ana concentró.", "A largo plazo gana la práctica distribuida: C."] },
+            { "nombre": "Pensar en la curva del olvido", "pasos": ["Cada sesión de Bruno funciona como repaso que frena el olvido.", "Ana no tiene repasos posteriores: su curva cae rápido.", "Bruno retiene más."] }
+          ]
+        },
+        {
+          "enunciado": "Según Cepeda y colaboradores (2008), ¿de qué depende principalmente el intervalo ideal entre repasos?",
+          "alternativas": [
+            "De la hora del día en que se estudia.",
+            "Del tiempo durante el cual se necesita recordar la información.",
+            "De la cantidad de colores usados al subrayar.",
+            "Debe ser siempre de exactamente un día."
+          ],
+          "correcta": 1,
+          "explicacion": "El estudio mostró que el intervalo óptimo crece a medida que aumenta el tiempo de retención deseado: para recordar algo por meses, conviene espaciar más los repasos que para una prueba en una semana.",
+          "descartes": [
+            "La hora del día no fue la variable estudiada.",
+            null,
+            "El subrayado no tiene relación con el intervalo entre repasos.",
+            "No hay un intervalo fijo para todo: depende del objetivo de retención."
+          ],
+          "metodos": [
+            { "nombre": "Recordar el hallazgo", "pasos": ["Variables del estudio: intervalo entre sesiones y tiempo hasta la prueba.", "Resultado: el intervalo óptimo depende del tiempo hasta la prueba.", "Respuesta: B."] },
+            { "nombre": "Descartar", "pasos": ["C no se relaciona con el espaciado.", "D usa un absoluto («siempre… exactamente»).", "A no fue estudiada. Queda B."] }
+          ]
+        }
+      ],
+      "referencias": [
+        { "cita": "Ebbinghaus, H. (1885). _Über das Gedächtnis: Untersuchungen zur experimentellen Psychologie_. Leipzig: Duncker & Humblot." },
+        { "cita": "Murre, J. M. J., y Dros, J. (2015). Replication and analysis of Ebbinghaus' forgetting curve. _PLOS ONE, 10_(7), e0120644.", "url": "https://doi.org/10.1371/journal.pone.0120644" },
+        { "cita": "Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., y Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. _Psychological Bulletin, 132_(3), 354–380.", "url": "https://doi.org/10.1037/0033-2909.132.3.354" },
+        { "cita": "Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T., y Pashler, H. (2008). Spacing effects in learning: A temporal ridgeline of optimal retention. _Psychological Science, 19_(11), 1095–1102.", "url": "https://doi.org/10.1111/j.1467-9280.2008.02209.x" },
+        { "cita": "Carpenter, S. K., Pan, S. C., y Butler, A. C. (2022). The science of effective learning with spacing and retrieval practice. _Nature Reviews Psychology, 1_, 496–511.", "url": "https://doi.org/10.1038/s44159-022-00089-1" }
+      ]
+    },
+    {
+      "id": "practica-intercalada",
+      "titulo": "Práctica intercalada",
+      "resumen": "Mezclar tipos de problemas en vez de practicar uno solo a la vez: cuándo funciona y cuándo no.",
+      "objetivos": [
+        "Diferenciar práctica en bloque e intercalada.",
+        "Explicar por qué intercalar ayuda a elegir la estrategia correcta.",
+        "Reconocer los límites de esta técnica."
+      ],
+      "secciones": [
+        {
+          "titulo": "Bloques vs. mezcla",
+          "texto": [
+            "En la **práctica en bloque** se resuelven muchos ejercicios del mismo tipo seguidos (AAAA BBBB CCCC). En la **práctica intercalada** se mezclan (ABCA CBAB…).",
+            "En bloque, ya sabes qué método usar antes de leer el problema. En la PAES, en cambio, las preguntas vienen mezcladas y **lo difícil es reconocer qué tipo de problema es**. La práctica intercalada entrena justamente esa habilidad de **discriminar** entre tipos de problemas."
+          ]
+        },
+        {
+          "titulo": "Qué dice la evidencia",
+          "texto": [
+            "Rohrer y Taylor (2007) hicieron que estudiantes aprendieran a calcular volúmenes de distintos cuerpos geométricos. Durante la práctica, el grupo en bloque obtuvo mejores resultados; pero en la prueba posterior, el grupo intercalado **superó ampliamente** al de bloque.",
+            "Kornell y Bjork (2008) encontraron algo similar al aprender a reconocer el estilo de distintos pintores. Además, la mayoría de los participantes **creía** haber aprendido mejor en bloque, aunque los resultados mostraban lo contrario.",
+            "Un metaanálisis de Brunmair y Richter (2019) concluyó que el efecto es **moderado** en promedio y que depende del material: es más claro al aprender a distinguir **categorías visuales** (como estilos de pintura) y **problemas matemáticos**, pero **no ayuda** (e incluso puede perjudicar) al aprender listas de palabras."
+          ],
+          "recuadro": "Consejo práctico: primero aprende cada tipo de problema por separado; cuando ya lo entiendes, mezcla. Los **ensayos mixtos** de esta plataforma hacen exactamente eso."
+        }
+      ],
+      "conceptos": [
+        { "termino": "Práctica en bloque", "definicion": "Practicar muchos ejercicios del mismo tipo de forma consecutiva." },
+        { "termino": "Práctica intercalada", "definicion": "Practicar mezclando distintos tipos de ejercicios o categorías." },
+        { "termino": "Discriminación", "definicion": "Habilidad de reconocer a qué tipo pertenece un problema y qué estrategia requiere." }
+      ],
+      "ideasClave": [
+        "La práctica intercalada entrena la habilidad de **reconocer** qué tipo de problema es.",
+        "Durante la práctica, el bloque parece mejor; en la prueba posterior, gana el **intercalado** (Rohrer y Taylor, 2007).",
+        "El beneficio del intercalado es mayor en **matemáticas** y categorías visuales que en listas de palabras.",
+        "Muchas personas **creen** aprender mejor en bloque aunque no sea así."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "¿Por qué la práctica intercalada suele mejorar el rendimiento en pruebas con problemas de distinto tipo?",
+          "alternativas": [
+            "Porque permite resolver más ejercicios en menos tiempo.",
+            "Porque entrena la habilidad de reconocer qué tipo de problema es y qué estrategia usar.",
+            "Porque hace que la práctica se sienta más fácil.",
+            "Porque elimina la necesidad de entender cada tipo de problema."
+          ],
+          "correcta": 1,
+          "explicacion": "Al mezclar problemas, cada vez hay que decidir qué tipo es y qué método aplicar. Esa decisión, que en la práctica en bloque se omite, es justamente lo que se necesita en una prueba con preguntas mezcladas.",
+          "descartes": [
+            "No necesariamente se resuelve más rápido; de hecho, suele ser más lento durante la práctica.",
+            null,
+            "Ocurre lo contrario: suele sentirse más difícil, aunque produce mejor aprendizaje.",
+            "Primero hay que entender cada tipo de problema; el intercalado no reemplaza esa comprensión."
+          ],
+          "metodos": [
+            { "nombre": "Comparar con la prueba real", "pasos": ["En la prueba los problemas vienen mezclados.", "La práctica intercalada imita esa condición.", "Entrena a elegir la estrategia: B."] },
+            { "nombre": "Recordar que es una «dificultad deseable»", "pasos": ["El intercalado se siente más difícil (descarta C).", "Es más lento (descarta A).", "Requiere comprensión previa (descarta D)."] }
+          ]
+        },
+        {
+          "enunciado": "Según el metaanálisis de Brunmair y Richter (2019), ¿en qué caso la práctica intercalada resulta menos útil?",
+          "alternativas": [
+            "Al aprender a distinguir estilos de pintores.",
+            "Al resolver distintos tipos de problemas matemáticos.",
+            "Al memorizar listas de palabras.",
+            "Al clasificar categorías visuales similares."
+          ],
+          "correcta": 2,
+          "explicacion": "El metaanálisis encontró beneficios claros para categorías visuales y problemas matemáticos, pero no para el aprendizaje de palabras, donde el efecto fue nulo o incluso negativo.",
+          "descartes": [
+            "Los estilos de pintura son una categoría visual, donde el intercalado sí es útil (Kornell y Bjork, 2008).",
+            "En matemáticas el intercalado mostró beneficios (Rohrer y Taylor, 2007).",
+            null,
+            "Las categorías visuales similares son justamente el caso más favorable para intercalar."
+          ],
+          "metodos": [
+            { "nombre": "Buscar la necesidad de discriminar", "pasos": ["El intercalado ayuda cuando hay que distinguir categorías parecidas.", "Memorizar palabras sueltas no requiere elegir entre categorías.", "Ahí aporta poco: C."] },
+            { "nombre": "Recordar los ejemplos clásicos", "pasos": ["Pintores (Kornell y Bjork) → funciona.", "Matemáticas (Rohrer y Taylor) → funciona.", "Queda la opción de palabras."] }
+          ]
+        }
+      ],
+      "referencias": [
+        { "cita": "Rohrer, D., y Taylor, K. (2007). The shuffling of mathematics problems improves learning. _Instructional Science, 35_, 481–498.", "url": "https://doi.org/10.1007/s11251-007-9015-8" },
+        { "cita": "Kornell, N., y Bjork, R. A. (2008). Learning concepts and categories: Is spacing the «enemy of induction»? _Psychological Science, 19_(6), 585–592.", "url": "https://doi.org/10.1111/j.1467-9280.2008.02127.x" },
+        { "cita": "Brunmair, M., y Richter, T. (2019). Similarity matters: A meta-analysis of interleaved learning and its moderators. _Psychological Bulletin, 145_(11), 1029–1052.", "url": "https://doi.org/10.1037/bul0000209" }
+      ]
+    },
+    {
+      "id": "elaboracion",
+      "titulo": "Elaboración, autoexplicación y aprendizaje generativo",
+      "resumen": "Conectar lo nuevo con lo que ya sabes y explicarlo con tus palabras; y qué técnicas populares funcionan poco.",
+      "objetivos": [
+        "Usar preguntas de elaboración y autoexplicación.",
+        "Reconocer técnicas generativas de aprendizaje.",
+        "Identificar técnicas de baja utilidad según la evidencia."
+      ],
+      "secciones": [
+        {
+          "titulo": "Preguntarse «¿por qué?»",
+          "texto": [
+            "La **interrogación elaborativa** consiste en preguntarse **por qué** algo es cierto y responderlo («¿Por qué las células vegetales no estallan en agua destilada? Porque su pared celular resiste la presión»). Al hacerlo, se conecta la información nueva con conocimientos previos.",
+            "La **autoexplicación** es explicarse a uno mismo cada paso de un procedimiento o de un texto: qué significa y cómo se relaciona con lo anterior. Chi y colaboradores (1994) observaron que los estudiantes a quienes se pidió autoexplicar mientras leían un texto de biología lo comprendieron mejor."
+          ]
+        },
+        {
+          "titulo": "Aprendizaje generativo",
+          "texto": [
+            "Fiorella y Mayer (2016) revisaron estrategias en que el estudiante **genera** algo a partir del material, en vez de solo recibirlo. Entre las que mostraron beneficios están: resumir con palabras propias, hacer mapas conceptuales, dibujar, imaginar el contenido, ponerse a prueba, autoexplicar y **enseñar a otra persona**."
+          ],
+          "lista": [
+            "Después de cada sección, explica en voz alta lo que entendiste como si se lo enseñaras a alguien.",
+            "Pregúntate «¿por qué?» y «¿cómo se relaciona con lo que ya sé?».",
+            "Haz un esquema o dibujo **sin mirar** el material, y luego compáralo."
+          ]
+        },
+        {
+          "titulo": "Técnicas populares, pero poco eficaces",
+          "texto": [
+            "La revisión de Dunlosky y colaboradores (2013) evaluó diez técnicas. Calificó como de **alta utilidad** la práctica de recuperación y la práctica distribuida; como de **utilidad moderada** la interrogación elaborativa, la autoexplicación y la práctica intercalada; y como de **baja utilidad** el **resumen**, el **subrayado**, la **relectura**, la palabra clave mnemotécnica y las imágenes mentales para textos.",
+            "Esto no significa que subrayar o releer «no sirvan para nada», sino que, **con el mismo tiempo**, otras estrategias producen mucho más aprendizaje. Además, la calidad de un resumen depende de lo bien que se haya entrenado esa habilidad."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Interrogación elaborativa", "definicion": "Técnica de preguntarse por qué un hecho es cierto y responderlo conectándolo con conocimientos previos." },
+        { "termino": "Autoexplicación", "definicion": "Explicarse a uno mismo el significado de cada paso de un texto o procedimiento." },
+        { "termino": "Aprendizaje generativo", "definicion": "Aprendizaje en que el estudiante produce algo (explicación, resumen, esquema) a partir del material." }
+      ],
+      "ideasClave": [
+        "Preguntarse **por qué** algo es cierto ayuda a conectar lo nuevo con lo que ya sabes.",
+        "Enseñar a otra persona es una estrategia de aprendizaje **generativo**.",
+        "Según Dunlosky y colaboradores (2013), el subrayado y la relectura son de **baja** utilidad.",
+        "La autoexplicación tiene utilidad **moderada** según la misma revisión."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Según la revisión de Dunlosky y colaboradores (2013), ¿cuál de estas técnicas tiene baja utilidad comparada con las demás?",
+          "alternativas": ["Práctica de recuperación", "Práctica distribuida", "Subrayado", "Autoexplicación"],
+          "correcta": 2,
+          "explicacion": "El subrayado se calificó como de baja utilidad: es pasivo y, con el mismo tiempo, produce mucho menos aprendizaje que recuperar o distribuir la práctica.",
+          "descartes": [
+            "La práctica de recuperación fue calificada como de alta utilidad.",
+            "La práctica distribuida (espaciada) también fue calificada como de alta utilidad.",
+            null,
+            "La autoexplicación fue calificada como de utilidad moderada."
+          ],
+          "metodos": [
+            { "nombre": "Activa vs pasiva", "pasos": ["Recuperar, espaciar y autoexplicar exigen procesar activamente.", "Subrayar es mayormente pasivo.", "La pasiva es la de baja utilidad."] },
+            { "nombre": "Recordar la clasificación", "pasos": ["Alta: recuperación y distribuida.", "Moderada: elaboración, autoexplicación, intercalado.", "Baja: resumen, subrayado, relectura, palabra clave, imágenes."] }
+          ]
+        },
+        {
+          "enunciado": "Mientras estudia la osmosis, un estudiante se pregunta: «¿Por qué un glóbulo rojo estalla en agua destilada, pero una célula vegetal no?», y lo responde con lo que sabe. ¿Qué técnica está usando?",
+          "alternativas": ["Relectura", "Interrogación elaborativa", "Práctica en bloque", "Palabra clave mnemotécnica"],
+          "correcta": 1,
+          "explicacion": "Se está preguntando «por qué» y respondiendo con conocimientos previos (la pared celular de las plantas), lo que conecta y profundiza la información: eso es interrogación elaborativa.",
+          "descartes": [
+            "Releer es volver a leer el texto, no formular y responder preguntas.",
+            null,
+            "La práctica en bloque se refiere a cómo se ordenan los ejercicios, no a hacerse preguntas.",
+            "La palabra clave asocia un término con una palabra o imagen parecida para memorizarlo; aquí no hay asociación de ese tipo."
+          ],
+          "metodos": [
+            { "nombre": "Identificar la acción", "pasos": ["Acción: preguntarse «¿por qué?» y responder.", "Esa es la definición de interrogación elaborativa."] },
+            { "nombre": "Descartar", "pasos": ["Relectura: no hay pregunta.", "Bloque: es sobre el orden de ejercicios.", "Palabra clave: es una técnica de asociación. Queda B."] }
+          ]
+        }
+      ],
+      "referencias": [
+        { "cita": "Chi, M. T. H., de Leeuw, N., Chiu, M.-H., y LaVancher, C. (1994). Eliciting self-explanations improves understanding. _Cognitive Science, 18_(3), 439–477.", "url": "https://doi.org/10.1207/s15516709cog1803_3" },
+        { "cita": "Fiorella, L., y Mayer, R. E. (2016). Eight ways to promote generative learning. _Educational Psychology Review, 28_, 717–741.", "url": "https://doi.org/10.1007/s10648-015-9348-9" },
+        { "cita": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., y Willingham, D. T. (2013). Improving students' learning with effective learning techniques. _Psychological Science in the Public Interest, 14_(1), 4–58.", "url": "https://doi.org/10.1177/1529100612453266" }
+      ]
+    },
+    {
+      "id": "metacognicion",
+      "titulo": "Dificultades deseables e ilusiones de competencia",
+      "resumen": "Por qué lo que se siente fácil no siempre es lo que más enseña, y cómo evaluar mejor lo que sabes.",
+      "objetivos": [
+        "Explicar qué son las dificultades deseables.",
+        "Reconocer las ilusiones de competencia.",
+        "Usar estrategias para juzgar con precisión lo que sabes."
+      ],
+      "secciones": [
+        {
+          "titulo": "Sentir que aprendes no es lo mismo que aprender",
+          "texto": [
+            "Releer un texto produce **fluidez**: todo se ve familiar y sentimos que lo sabemos. Pero reconocer algo no es lo mismo que poder **recordarlo** o **usarlo** sin ayuda. Esta sensación engañosa se llama **ilusión de competencia**.",
+            "Por eso, muchos estudiantes prefieren estrategias que se sienten cómodas. En una encuesta, Karpicke, Butler y Roediger (2009) encontraron que la mayoría de los estudiantes universitarios usaba la relectura como estrategia principal, y pocos usaban la autoevaluación."
+          ]
+        },
+        {
+          "titulo": "Dificultades deseables",
+          "texto": [
+            "Robert y Elizabeth Bjork acuñaron el término **dificultades deseables**: condiciones que hacen la práctica **más difícil y lenta en el momento**, pero que producen un aprendizaje **más duradero y flexible**. Las principales son recuperar en vez de releer, espaciar en vez de concentrar e intercalar en vez de practicar en bloque.",
+            "Ojo: no toda dificultad es deseable. Si algo es tan difícil que no puedes responder ni entender la respuesta, primero necesitas construir la base (por ejemplo, con ejemplos resueltos)."
+          ]
+        },
+        {
+          "titulo": "Juzgar mejor lo que sabes",
+          "lista": [
+            "**Ponte a prueba** antes de decidir que algo «ya lo sabes».",
+            "En las flashcards, sé honesto: marca «Lo sabía» solo si lo recordaste **antes** de girar la tarjeta.",
+            "Explica el tema sin mirar: los vacíos aparecen enseguida.",
+            "Espera un tiempo antes de evaluarte: juzgar justo después de estudiar sobrestima lo que recordarás."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Metacognición", "definicion": "Conocimiento y control sobre el propio pensamiento y aprendizaje; por ejemplo, saber qué sabes y qué no." },
+        { "termino": "Ilusión de competencia", "definicion": "Creer que se domina un contenido por sentirlo familiar, sin poder recordarlo o usarlo realmente." },
+        { "termino": "Dificultad deseable", "definicion": "Condición que hace la práctica más exigente en el momento, pero mejora el aprendizaje a largo plazo." }
+      ],
+      "ideasClave": [
+        "Que algo se sienta **familiar** no significa que puedas recordarlo sin ayuda.",
+        "Recuperar, espaciar e intercalar son **dificultades deseables**.",
+        "Una dificultad es deseable solo si **puedes superarla** con esfuerzo.",
+        "Para saber si sabes algo, lo mejor es **ponerte a prueba**."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Después de releer tres veces un capítulo, una estudiante siente que «ya se lo sabe», pero en el test no logra responder varias preguntas. ¿Qué fenómeno explica mejor esta situación?",
+          "alternativas": [
+            "Efecto de espaciado",
+            "Ilusión de competencia",
+            "Práctica intercalada",
+            "Potenciación a largo plazo"
+          ],
+          "correcta": 1,
+          "explicacion": "Releer genera familiaridad con el texto, lo que se confunde con dominio. Al tener que recuperar la información sin el texto, aparecen los vacíos: es una ilusión de competencia.",
+          "descartes": [
+            "El efecto de espaciado se refiere a los beneficios de distribuir el estudio; no explica la falsa sensación de dominio.",
+            null,
+            "La práctica intercalada es una forma de ordenar ejercicios; ella no la usó.",
+            "La LTP es un mecanismo celular de las sinapsis, no una explicación de este error de juicio."
+          ],
+          "metodos": [
+            { "nombre": "Identificar la discrepancia", "pasos": ["Sensación: «lo sé».", "Realidad: no puede responder.", "Sentir que sabes sin saber = ilusión de competencia."] },
+            { "nombre": "Descartar por categoría", "pasos": ["Espaciado e intercalado son técnicas de estudio.", "LTP es un mecanismo biológico.", "Solo B describe un error de juicio sobre lo aprendido."] }
+          ]
+        },
+        {
+          "enunciado": "¿Cuál de las siguientes situaciones es un ejemplo de dificultad deseable?",
+          "alternativas": [
+            "Estudiar con música fuerte que impide concentrarse.",
+            "Intentar recordar la respuesta antes de girar una flashcard.",
+            "Leer un texto en un idioma que no conoces.",
+            "Copiar textualmente los apuntes de un compañero."
+          ],
+          "correcta": 1,
+          "explicacion": "Intentar recordar exige esfuerzo en el momento, pero fortalece la memoria a largo plazo: es práctica de recuperación, una de las dificultades deseables clásicas.",
+          "descartes": [
+            "Una distracción que impide concentrarse dificulta el aprendizaje sin beneficio: no es una dificultad deseable.",
+            null,
+            "Si no puedes comprender el material, la dificultad no se puede superar y no produce aprendizaje.",
+            "Copiar textualmente no exige mucho esfuerzo cognitivo; es una actividad pasiva."
+          ],
+          "metodos": [
+            { "nombre": "Dos condiciones", "pasos": ["Una dificultad deseable (1) exige esfuerzo y (2) mejora el aprendizaje a largo plazo.", "Recuperar cumple ambas.", "Las otras no cumplen la segunda."] },
+            { "nombre": "Buscar las técnicas conocidas", "pasos": ["Las dificultades deseables clásicas son recuperar, espaciar e intercalar.", "Solo B corresponde a una de ellas."] }
+          ]
+        }
+      ],
+      "referencias": [
+        { "cita": "Bjork, E. L., y Bjork, R. A. (2011). Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning. En M. A. Gernsbacher y otros (Eds.), _Psychology and the real world_ (pp. 56–64). Worth Publishers." },
+        { "cita": "Bjork, R. A., Dunlosky, J., y Kornell, N. (2013). Self-regulated learning: Beliefs, techniques, and illusions. _Annual Review of Psychology, 64_, 417–444.", "url": "https://doi.org/10.1146/annurev-psych-113011-143823" },
+        { "cita": "Karpicke, J. D., Butler, A. C., y Roediger, H. L. (2009). Metacognitive strategies in student learning: Do students practise retrieval when they study on their own? _Memory, 17_(4), 471–479.", "url": "https://doi.org/10.1080/09658210802647009" },
+        { "cita": "Kornell, N., y Bjork, R. A. (2008). Learning concepts and categories: Is spacing the «enemy of induction»? _Psychological Science, 19_(6), 585–592.", "url": "https://doi.org/10.1111/j.1467-9280.2008.02127.x" }
+      ]
+    },
+    {
+      "id": "sueno-ejercicio-estres",
+      "titulo": "Sueño, ejercicio y estrés",
+      "resumen": "Cómo el cuerpo influye en el aprendizaje: dormir consolida, moverse ayuda y el estrés crónico perjudica.",
+      "objetivos": [
+        "Explicar el papel del sueño en la consolidación de la memoria.",
+        "Describir los efectos del ejercicio físico sobre la cognición.",
+        "Diferenciar los efectos del estrés agudo y crónico."
+      ],
+      "secciones": [
+        {
+          "titulo": "Dormir es parte del estudio",
+          "texto": [
+            "Durante el sueño, especialmente en el **sueño profundo (de ondas lentas)**, el cerebro «reactiva» los patrones de actividad del día y los recuerdos se transfieren y estabilizan: es la **consolidación**. Las revisiones de Diekelmann y Born (2010) y Rasch y Born (2013) resumen amplia evidencia de que dormir después de aprender mejora la retención.",
+            "La falta de sueño también afecta la **codificación**: cuesta más formar recuerdos nuevos y mantener la atención. En un estudio de Van Dongen y colaboradores (2003), dormir 6 horas por noche durante dos semanas produjo déficits de atención comparables a pasar una o dos noches sin dormir, y los participantes **no se daban cuenta** de lo afectados que estaban.",
+            "Las recomendaciones de la Academia Estadounidense de Medicina del Sueño son de **8 a 10 horas** para adolescentes (13–18 años) y **7 horas o más** para adultos."
+          ],
+          "recuadro": "Implicación: trasnochar estudiando antes de una prueba sacrifica justamente el proceso que fija lo aprendido."
+        },
+        {
+          "titulo": "El ejercicio ayuda al cerebro",
+          "texto": [
+            "La revisión de Hillman, Erickson y Kramer (2008) concluyó que la **actividad física aeróbica** se asocia con mejor función cognitiva, especialmente en funciones ejecutivas (planificación, control de la atención), y con cambios favorables en la estructura y función cerebral. Una caminata o actividad física regular es una buena inversión para el estudio."
+          ]
+        },
+        {
+          "titulo": "Estrés: agudo vs. crónico",
+          "texto": [
+            "Un nivel **moderado y breve** de activación puede ayudar a concentrarse. En cambio, el **estrés crónico** mantiene elevadas hormonas como el cortisol y se asocia con alteraciones en el **hipocampo** y la **corteza prefrontal**, regiones clave para la memoria y la planificación (Lupien y colaboradores, 2009).",
+            "Estrategias útiles: planificar con anticipación (el espaciado reduce el estudio de última hora), dormir bien, hacer ejercicio, tomar pausas y practicar con tests en condiciones parecidas a la prueba real, lo que reduce la incertidumbre."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Sueño de ondas lentas", "definicion": "Fase de sueño profundo especialmente asociada a la consolidación de recuerdos declarativos." },
+        { "termino": "Consolidación durante el sueño", "definicion": "Estabilización de los recuerdos que ocurre mientras dormimos, mediante la reactivación de patrones de actividad cerebral." },
+        { "termino": "Estrés crónico", "definicion": "Estrés sostenido en el tiempo, asociado con efectos negativos sobre el hipocampo y la corteza prefrontal." },
+        { "termino": "Funciones ejecutivas", "definicion": "Procesos mentales que permiten planificar, controlar la atención y regular la conducta." }
+      ],
+      "ideasClave": [
+        "Durante el sueño profundo, los recuerdos se **consolidan**.",
+        "Dormir poco de forma sostenida afecta la atención, y la persona **no siempre lo nota**.",
+        "La actividad física **aeróbica** se asocia con mejores funciones ejecutivas.",
+        "El estrés **crónico** se asocia con alteraciones en el hipocampo y la corteza prefrontal."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "¿Por qué no es recomendable trasnochar estudiando antes de una prueba?",
+          "alternativas": [
+            "Porque el cerebro no puede aprender nada de noche.",
+            "Porque se reduce el sueño, que es clave para consolidar lo aprendido y para mantener la atención.",
+            "Porque estudiar de noche borra lo aprendido durante el día.",
+            "Porque el sueño no influye en la memoria, pero sí en el ánimo."
+          ],
+          "correcta": 1,
+          "explicacion": "El sueño cumple un papel activo en la consolidación de los recuerdos y en la capacidad de atención al día siguiente. Sacrificarlo perjudica tanto lo estudiado como el rendimiento en la prueba.",
+          "descartes": [
+            "Es una exageración: se puede aprender a cualquier hora; el problema es la pérdida de sueño.",
+            null,
+            "Estudiar de noche no borra recuerdos; lo perjudicial es dormir poco.",
+            "Contradice la evidencia: el sueño sí influye en la memoria (consolidación)."
+          ],
+          "metodos": [
+            { "nombre": "Aplicar el concepto", "pasos": ["Sueño → consolidación y atención.", "Trasnochar → menos sueño.", "Menos consolidación y peor atención → B."] },
+            { "nombre": "Descartar afirmaciones falsas", "pasos": ["A y C son exageraciones sin respaldo.", "D contradice la evidencia sobre sueño y memoria.", "Queda B."] }
+          ]
+        },
+        {
+          "enunciado": "En el estudio de Van Dongen y colaboradores (2003), ¿qué ocurrió con las personas que durmieron 6 horas por noche durante dos semanas?",
+          "alternativas": [
+            "Se adaptaron por completo y rindieron igual que quienes dormían 8 horas.",
+            "Mostraron déficits de atención comparables a no dormir una o dos noches, sin notar del todo cuán afectadas estaban.",
+            "Mejoraron su memoria por tener más horas despiertas para estudiar.",
+            "No se pudo medir ningún efecto."
+          ],
+          "correcta": 1,
+          "explicacion": "La restricción crónica de sueño produjo un deterioro acumulativo del rendimiento. Lo llamativo fue que las personas subestimaban cuánto les afectaba.",
+          "descartes": [
+            "No hubo adaptación completa: el rendimiento empeoró a lo largo de los días.",
+            null,
+            "Más horas despiertas no compensan la pérdida de sueño; el rendimiento empeoró.",
+            "Sí se midieron efectos claros sobre la atención."
+          ],
+          "metodos": [
+            { "nombre": "Recordar el hallazgo", "pasos": ["Restricción crónica = déficit acumulativo.", "Comparable a privación total de 1–2 noches.", "Las personas no lo percibían del todo: B."] },
+            { "nombre": "Usar el principio", "pasos": ["El sueño es necesario para la atención y la memoria.", "Reducirlo no puede mejorar el rendimiento (descarta A y C).", "Queda B."] }
+          ]
+        }
+      ],
+      "referencias": [
+        { "cita": "Diekelmann, S., y Born, J. (2010). The memory function of sleep. _Nature Reviews Neuroscience, 11_(2), 114–126.", "url": "https://doi.org/10.1038/nrn2762" },
+        { "cita": "Rasch, B., y Born, J. (2013). About sleep's role in memory. _Physiological Reviews, 93_(2), 681–766.", "url": "https://doi.org/10.1152/physrev.00032.2012" },
+        { "cita": "Walker, M. P., y Stickgold, R. (2004). Sleep-dependent learning and memory consolidation. _Neuron, 44_(1), 121–133.", "url": "https://doi.org/10.1016/j.neuron.2004.08.031" },
+        { "cita": "Van Dongen, H. P. A., Maislin, G., Mullington, J. M., y Dinges, D. F. (2003). The cumulative cost of additional wakefulness. _Sleep, 26_(2), 117–126.", "url": "https://doi.org/10.1093/sleep/26.2.117" },
+        { "cita": "Paruthi, S., y otros (2016). Recommended amount of sleep for pediatric populations: A consensus statement of the American Academy of Sleep Medicine. _Journal of Clinical Sleep Medicine, 12_(6), 785–786.", "url": "https://doi.org/10.5664/jcsm.5866" },
+        { "cita": "Watson, N. F., y otros (2015). Recommended amount of sleep for a healthy adult. _Sleep, 38_(6), 843–844.", "url": "https://doi.org/10.5665/sleep.4716" },
+        { "cita": "Hillman, C. H., Erickson, K. I., y Kramer, A. F. (2008). Be smart, exercise your heart: Exercise effects on brain and cognition. _Nature Reviews Neuroscience, 9_(1), 58–65.", "url": "https://doi.org/10.1038/nrn2298" },
+        { "cita": "Lupien, S. J., McEwen, B. S., Gunnar, M. R., y Heim, C. (2009). Effects of stress throughout the lifespan on the brain, behaviour and cognition. _Nature Reviews Neuroscience, 10_(6), 434–445.", "url": "https://doi.org/10.1038/nrn2639" }
+      ]
+    },
+    {
+      "id": "atencion-y-mitos",
+      "titulo": "Atención, multitarea y neuromitos",
+      "resumen": "Qué pasa cuando intentamos hacer varias cosas a la vez, y creencias populares sobre el cerebro que la evidencia no respalda.",
+      "objetivos": [
+        "Explicar el costo de alternar entre tareas.",
+        "Identificar neuromitos frecuentes.",
+        "Evaluar con matices las afirmaciones sobre la mentalidad de crecimiento."
+      ],
+      "secciones": [
+        {
+          "titulo": "La multitarea tiene un costo",
+          "texto": [
+            "Cuando creemos hacer dos tareas a la vez, en realidad solemos **alternar** rápidamente entre ellas, y cada cambio tiene un **costo** en tiempo y errores.",
+            "Madore y colaboradores (2020) registraron la actividad cerebral y el diámetro de la pupila mientras las personas memorizaban imágenes. Los **lapsos de atención** justo antes de ver una imagen predecían que luego se olvidaría. Además, quienes reportaban más **multitarea con medios digitales** mostraban más lapsos de atención y peor memoria.",
+            "Hay que interpretar estos estudios con cuidado: la relación entre multitarea digital y rendimiento cognitivo es **correlacional** y algunos hallazgos previos (como Ophir y colaboradores, 2009) no siempre se han replicado con la misma fuerza. Aun así, la recomendación práctica es clara: **estudia con el teléfono lejos y las notificaciones apagadas**."
+          ]
+        },
+        {
+          "titulo": "Neuromitos frecuentes",
+          "lista": [
+            "**«Cada persona aprende mejor según su estilo (visual, auditivo, kinestésico)».** La revisión de Pashler y colaboradores (2008) no encontró evidencia adecuada de que adaptar la enseñanza al «estilo» preferido mejore el aprendizaje. Lo que sí ayuda es adaptar el formato al **contenido** (un mapa se aprende mejor viéndolo).",
+            "**«Usamos solo el 10 % del cerebro».** Falso: las técnicas de neuroimagen muestran actividad en todo el cerebro, aunque no todas las regiones se activen al mismo tiempo.",
+            "**«Hay personas de cerebro izquierdo y de cerebro derecho».** Los hemisferios tienen algunas especializaciones, pero trabajan juntos; no hay evidencia de que las personas se dividan en «lógicas» y «creativas» según un hemisferio dominante.",
+            "Un estudio de Dekker y colaboradores (2012) encontró que muchos docentes creían estos mitos, incluso quienes tenían más interés en la neurociencia."
+          ]
+        },
+        {
+          "titulo": "Mentalidad de crecimiento: con matices",
+          "texto": [
+            "La idea de que las habilidades pueden desarrollarse con esfuerzo y buenas estrategias (mentalidad de crecimiento) es razonable y coherente con la plasticidad cerebral. Sin embargo, el metaanálisis de Sisk y colaboradores (2018) encontró que la relación entre mentalidad y rendimiento académico es **débil**, y que las intervenciones para cambiarla tienen **efectos pequeños** en promedio, con posibles beneficios mayores en estudiantes en situación de desventaja.",
+            "Conclusión práctica: creer que puedes mejorar ayuda a perseverar, pero lo que más mueve el rendimiento es **cómo** estudias: recuperación, espaciado, intercalado, sueño y práctica con retroalimentación."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Costo de alternancia", "definicion": "Pérdida de tiempo y precisión que ocurre al cambiar de una tarea a otra." },
+        { "termino": "Neuromito", "definicion": "Creencia errónea sobre el cerebro, generalmente basada en una mala interpretación de la investigación." },
+        { "termino": "Estilos de aprendizaje", "definicion": "Idea de que cada persona aprende mejor con un canal sensorial preferido; no tiene respaldo empírico adecuado." },
+        { "termino": "Correlación", "definicion": "Relación estadística entre dos variables que no demuestra por sí sola que una cause la otra." }
+      ],
+      "ideasClave": [
+        "Hacer dos tareas «a la vez» suele significar **alternar** entre ellas, con un costo.",
+        "No hay evidencia adecuada de que enseñar según el «**estilo de aprendizaje**» mejore los resultados.",
+        "La idea de que usamos solo el 10 % del cerebro es un **neuromito**.",
+        "Las intervenciones de mentalidad de crecimiento tienen efectos **pequeños** en promedio (Sisk y colaboradores, 2018)."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Un estudiante afirma: «Soy visual, así que solo aprendo con imágenes». Según la evidencia, ¿qué es lo más correcto?",
+          "alternativas": [
+            "Tiene razón: adaptar el estudio a su estilo mejorará su aprendizaje.",
+            "No hay evidencia adecuada de que adaptar el estudio a un «estilo» preferido mejore el aprendizaje; conviene elegir el formato según el contenido.",
+            "Debería estudiar solo escuchando, para compensar su estilo.",
+            "Los estilos de aprendizaje están demostrados por la neurociencia."
+          ],
+          "correcta": 1,
+          "explicacion": "La revisión de Pashler y colaboradores (2008) no encontró evidencia adecuada de la hipótesis de «ajuste» entre estilo y enseñanza. Es más útil combinar palabras e imágenes y elegir el formato que mejor representa el contenido.",
+          "descartes": [
+            "Esta es la hipótesis que la revisión no logró respaldar.",
+            null,
+            "Restringirse a un solo canal tampoco tiene respaldo; lo útil es elegir según el contenido.",
+            "Al contrario: los estilos de aprendizaje son considerados un neuromito."
+          ],
+          "metodos": [
+            { "nombre": "Recordar la evidencia", "pasos": ["Pashler y colaboradores (2008): sin evidencia adecuada de la hipótesis de estilos.", "Conclusión: elegir formato según el contenido.", "Respuesta: B."] },
+            { "nombre": "Detectar el mito", "pasos": ["A y D afirman que los estilos funcionan → mito.", "C restringe a un solo canal sin justificación.", "Queda B."] }
+          ]
+        },
+        {
+          "enunciado": "Según Madore y colaboradores (2020), ¿qué predecía que una imagen fuera olvidada después?",
+          "alternativas": [
+            "Haberla visto en blanco y negro.",
+            "Un lapso de atención justo antes de verla.",
+            "Haber dormido más de 8 horas la noche anterior.",
+            "El color de los ojos del participante."
+          ],
+          "correcta": 1,
+          "explicacion": "Los investigadores midieron indicadores de atención (actividad cerebral y diámetro de la pupila) antes de cada imagen. Cuando había un lapso de atención justo antes de verla, era más probable que se olvidara.",
+          "descartes": [
+            "El color de las imágenes no fue el factor que predijo el olvido.",
+            null,
+            "Dormir bien no predice olvido; si acaso, favorece la memoria.",
+            "No tiene relación con la memoria; es un distractor absurdo."
+          ],
+          "metodos": [
+            { "nombre": "Relacionar con la codificación", "pasos": ["Sin atención, la información casi no se codifica.", "Un lapso de atención antes de ver la imagen afecta la codificación.", "Por eso se olvida: B."] },
+            { "nombre": "Descartar factores sin sentido", "pasos": ["C contradice lo que se sabe del sueño.", "A y D no se relacionan con el estudio.", "Queda B."] }
+          ]
+        }
+      ],
+      "referencias": [
+        { "cita": "Madore, K. P., Khazenzon, A. M., Backes, C. W., y otros (2020). Memory failure predicted by attention lapsing and media multitasking. _Nature, 587_, 87–91.", "url": "https://doi.org/10.1038/s41586-020-2870-z" },
+        { "cita": "Ophir, E., Nass, C., y Wagner, A. D. (2009). Cognitive control in media multitaskers. _Proceedings of the National Academy of Sciences, 106_(37), 15583–15587.", "url": "https://doi.org/10.1073/pnas.0903620106" },
+        { "cita": "Pashler, H., McDaniel, M., Rohrer, D., y Bjork, R. (2008). Learning styles: Concepts and evidence. _Psychological Science in the Public Interest, 9_(3), 105–119.", "url": "https://doi.org/10.1111/j.1539-6053.2009.01038.x" },
+        { "cita": "Dekker, S., Lee, N. C., Howard-Jones, P., y Jolles, J. (2012). Neuromyths in education: Prevalence and predictors of misconceptions among teachers. _Frontiers in Psychology, 3_, 429.", "url": "https://doi.org/10.3389/fpsyg.2012.00429" },
+        { "cita": "Sisk, V. F., Burgoyne, A. P., Sun, J., Butler, J. L., y Macnamara, B. N. (2018). To what extent and under which circumstances are growth mind-sets important to academic achievement? Two meta-analyses. _Psychological Science, 29_(4), 549–571.", "url": "https://doi.org/10.1177/0956797617739704" }
+      ]
+    },
+    {
+      "id": "plan-de-estudio",
+      "titulo": "Tu plan de estudio basado en evidencia",
+      "resumen": "Cómo combinar todo lo anterior en una rutina concreta usando esta plataforma.",
+      "objetivos": [
+        "Organizar una sesión de estudio efectiva.",
+        "Planificar la semana combinando contenido nuevo y repaso.",
+        "Usar las herramientas de la plataforma con propósito."
+      ],
+      "secciones": [
+        {
+          "titulo": "Una sesión de estudio (45–60 minutos)",
+          "lista": [
+            "**1. Repaso primero (10–15 min):** abre «Repaso de flashcards» y responde las tarjetas del día. Recuperar lo anterior antes de ver algo nuevo aprovecha el espaciado.",
+            "**2. Contenido nuevo (20–25 min):** lee una lección con el teléfono lejos. Al terminar cada sección, cierra los ojos y explica lo principal con tus palabras.",
+            "**3. Ponte a prueba (10–15 min):** haz las flashcards de la lección nueva y, si te sientes preparado, el test. Lee todas las explicaciones, también las de las preguntas que acertaste.",
+            "**4. Cierre (5 min):** anota qué te costó. Esas dudas son las primeras para el próximo repaso."
+          ]
+        },
+        {
+          "titulo": "La semana",
+          "lista": [
+            "**Repaso diario** de flashcards, aunque sean 10 minutos.",
+            "**Contenido nuevo** varios días a la semana, alternando asignaturas.",
+            "**Un ensayo mixto** por asignatura cada semana: intercala lo visto y revela qué tipo de pregunta te cuesta.",
+            "**Banco de errores** una o dos veces por semana, hasta que cada pregunta quede dominada.",
+            "**Repite el test** de una lección unos días después de haberla estudiado, no el mismo día.",
+            "Duerme lo suficiente y haz actividad física: también son parte del plan."
+          ],
+          "recuadro": "La regla de oro: menos releer y subrayar; más **recordar**, **espaciar**, **mezclar** y **corregir errores**."
+        }
+      ],
+      "conceptos": [
+        { "termino": "Sesión efectiva", "definicion": "Sesión que combina repaso espaciado, contenido nuevo con autoexplicación y práctica de recuperación con retroalimentación." }
+      ],
+      "ideasClave": [
+        "Empieza cada sesión con el **repaso** de lo anterior.",
+        "Haz un **ensayo mixto** por asignatura cada semana para intercalar.",
+        "Lee la explicación de cada pregunta, incluso de las que **acertaste**.",
+        "Repite el test de una lección **días después**, no el mismo día."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "¿Cuál de estas rutinas aprovecha mejor la evidencia sobre aprendizaje?",
+          "alternativas": [
+            "Leer todas las lecciones de una asignatura en un solo día y subrayar lo importante.",
+            "Repasar flashcards a diario, estudiar lecciones nuevas en distintos días, hacer ensayos mixtos y revisar el banco de errores.",
+            "Releer cada lección hasta sentir que se domina y luego pasar a la siguiente sin volver atrás.",
+            "Hacer un único test el día antes de la prueba."
+          ],
+          "correcta": 1,
+          "explicacion": "Combina las técnicas de mayor respaldo: recuperación (flashcards, tests), espaciado (repaso diario y sesiones distribuidas), intercalado (ensayos mixtos) y aprendizaje a partir de errores con retroalimentación.",
+          "descartes": [
+            "Concentra todo en un día (sin espaciado) y usa subrayado, una técnica de baja utilidad.",
+            null,
+            "La relectura genera ilusión de competencia y no volver atrás impide el repaso espaciado.",
+            "Un solo test a última hora no aprovecha el espaciado ni da tiempo para corregir errores."
+          ],
+          "metodos": [
+            { "nombre": "Checklist de técnicas", "pasos": ["¿Recupera? ¿Espacia? ¿Intercala? ¿Corrige errores?", "Solo B marca las cuatro casillas."] },
+            { "nombre": "Descartar técnicas débiles", "pasos": ["A: masivo + subrayado.", "C: relectura sin repaso.", "D: último minuto.", "Queda B."] }
+          ]
+        }
+      ],
+      "referencias": [
+        { "cita": "Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., y Willingham, D. T. (2013). Improving students' learning with effective learning techniques. _Psychological Science in the Public Interest, 14_(1), 4–58.", "url": "https://doi.org/10.1177/1529100612453266" },
+        { "cita": "Carpenter, S. K., Pan, S. C., y Butler, A. C. (2022). The science of effective learning with spacing and retrieval practice. _Nature Reviews Psychology, 1_, 496–511.", "url": "https://doi.org/10.1038/s44159-022-00089-1" }
+      ]
+    }
+  ]
+}

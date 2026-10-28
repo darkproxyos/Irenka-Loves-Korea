@@ -13,3 +13,4 @@ jobs:
         with:
           node-version: 20
       - run: node scripts/validar-contenido.mjs
+      - run: node scripts/validar-estudio.mjs

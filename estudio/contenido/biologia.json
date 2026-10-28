@@ -1,0 +1,487 @@
+{
+  "lecciones": [
+    {
+      "id": "seres-vivos",
+      "titulo": "¿Qué es un ser vivo? Características y niveles de organización",
+      "resumen": "Las propiedades que comparten todos los seres vivos y cómo se organiza la vida desde los átomos hasta la biósfera.",
+      "objetivos": [
+        "Reconocer las características comunes a todos los seres vivos.",
+        "Ordenar los niveles de organización de la materia viva.",
+        "Explicar por qué los virus son un caso especial."
+      ],
+      "secciones": [
+        {
+          "titulo": "Características de los seres vivos",
+          "texto": [
+            "No existe una sola propiedad que defina la vida; los biólogos reconocen un **conjunto de características** que comparten todos los seres vivos:"
+          ],
+          "lista": [
+            "**Organización celular:** están formados por una o más células.",
+            "**Metabolismo:** obtienen y transforman materia y energía mediante reacciones químicas.",
+            "**Homeostasis:** mantienen estables sus condiciones internas (temperatura, agua, pH) aunque cambie el entorno.",
+            "**Crecimiento y desarrollo** siguiendo instrucciones de su material genético.",
+            "**Reproducción:** originan nuevos individuos.",
+            "**Respuesta a estímulos** del ambiente (una planta que crece hacia la luz, una pupila que se contrae).",
+            "**Herencia y evolución:** transmiten su información genética (ADN) y, a lo largo de generaciones, las poblaciones se adaptan a su ambiente."
+          ]
+        },
+        {
+          "titulo": "Niveles de organización",
+          "texto": [
+            "La vida se organiza en niveles: cada uno está formado por elementos del nivel anterior y presenta **propiedades nuevas** que no tienen sus partes por separado (propiedades emergentes)."
+          ],
+          "lista": [
+            "Átomo → molécula → organelo → **célula** (el nivel más simple con vida) → tejido → órgano → sistema de órganos → organismo.",
+            "Luego, nivel ecológico: población (individuos de una misma especie) → comunidad (varias especies) → ecosistema (comunidad + ambiente físico) → biósfera."
+          ],
+          "ejemplo": {
+            "enunciado": "Ordena de menor a mayor: corazón, célula muscular cardíaca, sistema circulatorio, tejido muscular cardíaco.",
+            "pasos": [
+              "La célula es la unidad más pequeña.",
+              "Varias células iguales forman un tejido.",
+              "Distintos tejidos forman un órgano (el corazón).",
+              "Varios órganos forman un sistema: célula → tejido → **corazón** → sistema circulatorio."
+            ]
+          }
+        },
+        {
+          "titulo": "El caso de los virus",
+          "texto": [
+            "Los **virus** tienen material genético (ADN o ARN) envuelto en una cubierta de proteínas, pero **no son células** y **no tienen metabolismo propio**: solo pueden multiplicarse dentro de una célula hospedera, usando su maquinaria. Por eso suelen ubicarse en el límite entre lo vivo y lo no vivo, un tema que aún se discute."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Homeostasis", "definicion": "Capacidad de un organismo de mantener estables sus condiciones internas frente a cambios del ambiente." },
+        { "termino": "Metabolismo", "definicion": "Conjunto de reacciones químicas con que un ser vivo obtiene, transforma y usa materia y energía." },
+        { "termino": "Tejido", "definicion": "Conjunto de células similares que cumplen una misma función." },
+        { "termino": "Población", "definicion": "Conjunto de individuos de la misma especie que viven en un mismo lugar y tiempo." },
+        { "termino": "Ecosistema", "definicion": "Comunidad de seres vivos junto con el ambiente físico con el que interactúan." }
+      ],
+      "ideasClave": [
+        "La **célula** es el nivel de organización más simple que presenta vida.",
+        "Mantener la temperatura corporal estable al transpirar es un ejemplo de **homeostasis**.",
+        "Los virus no son células porque no tienen **metabolismo propio** y necesitan una célula hospedera para multiplicarse.",
+        "Cada nivel de organización tiene **propiedades emergentes** que no tienen sus partes por separado."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "¿Cuál de las siguientes secuencias de niveles de organización está ordenada de menor a mayor complejidad?",
+          "alternativas": [
+            "Tejido – célula – órgano – sistema de órganos",
+            "Célula – tejido – órgano – sistema de órganos",
+            "Célula – órgano – tejido – organismo",
+            "Población – organismo – comunidad – ecosistema"
+          ],
+          "correcta": 1,
+          "explicacion": "Las células forman tejidos, los tejidos forman órganos y los órganos se agrupan en sistemas. Cada nivel está compuesto por el anterior.",
+          "descartes": [
+            "El tejido está formado por células, así que no puede ir antes que la célula.",
+            null,
+            "Los órganos están formados por tejidos; el tejido debe ir antes del órgano.",
+            "El organismo es menos complejo que la población (una población está formada por muchos organismos), por lo que el orden está invertido al inicio."
+          ],
+          "metodos": [
+            { "nombre": "Preguntar «¿de qué está hecho?»", "pasos": ["Un sistema está hecho de órganos.", "Un órgano está hecho de tejidos.", "Un tejido está hecho de células.", "Ordena de lo que forma a lo formado."] },
+            { "nombre": "Descartar por pares", "pasos": ["Revisa cada par consecutivo de cada opción.", "En A, «tejido – célula» está al revés; en C, «órgano – tejido»; en D, «población – organismo».", "Solo B no tiene pares invertidos."] }
+          ]
+        },
+        {
+          "enunciado": "Al hacer ejercicio, una persona transpira y, gracias a ello, su temperatura corporal se mantiene cerca de 37 °C. Esta situación ejemplifica principalmente:",
+          "alternativas": ["Reproducción", "Crecimiento", "Homeostasis", "Evolución"],
+          "correcta": 2,
+          "explicacion": "La transpiración enfría el cuerpo cuando el sudor se evapora, lo que ayuda a mantener estable la temperatura interna a pesar del calor producido por el ejercicio. Mantener estable el medio interno es la homeostasis.",
+          "descartes": [
+            "La reproducción es la formación de nuevos individuos; no tiene relación con regular la temperatura.",
+            "El crecimiento es el aumento de tamaño o número de células; transpirar no hace crecer al organismo.",
+            null,
+            "La evolución ocurre en poblaciones a lo largo de muchas generaciones, no en una persona durante una sesión de ejercicio."
+          ],
+          "metodos": [
+            { "nombre": "Identificar la idea clave", "pasos": ["La frase clave es «se mantiene cerca de 37 °C».", "Mantener constante una condición interna es la definición de homeostasis."] },
+            { "nombre": "Escala de tiempo", "pasos": ["El fenómeno ocurre en minutos y en un solo individuo.", "Reproducción y crecimiento no son respuestas inmediatas; evolución ocurre en generaciones.", "Queda la homeostasis, que es una regulación inmediata."] }
+          ]
+        },
+        {
+          "enunciado": "¿Por qué los virus generalmente no se consideran células?",
+          "alternativas": [
+            "Porque no tienen material genético.",
+            "Porque son más grandes que las bacterias.",
+            "Porque no tienen metabolismo propio y solo se multiplican dentro de una célula hospedera.",
+            "Porque solo infectan a los animales."
+          ],
+          "correcta": 2,
+          "explicacion": "Los virus carecen de la maquinaria para producir energía y fabricar sus propias proteínas; para multiplicarse deben entrar a una célula y usar sus ribosomas y su metabolismo.",
+          "descartes": [
+            "Falso: todos los virus tienen material genético, ya sea ADN o ARN.",
+            "Falso: en general son mucho más pequeños que las bacterias; la mayoría solo se ve con microscopio electrónico.",
+            null,
+            "Falso: hay virus que infectan plantas, hongos y bacterias (los bacteriófagos), además de animales."
+          ],
+          "metodos": [
+            { "nombre": "Comparar con las características de la vida", "pasos": ["Una célula tiene metabolismo y se reproduce por sí misma.", "El virus no cumple esas dos características fuera de un hospedero.", "Por eso no se le considera célula."] },
+            { "nombre": "Verificar cada afirmación", "pasos": ["A: los virus sí tienen ADN o ARN → falsa.", "B: son más pequeños → falsa.", "D: infectan muchos tipos de organismos → falsa.", "Solo C es verdadera."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — Biology 2e (cap. 1: The Study of Life; cap. 21: Viruses)", "url": "https://openstax.org/details/books/biology-2e" },
+        { "titulo": "Khan Academy en español — Biología", "url": "https://es.khanacademy.org/science/biology" }
+      ]
+    },
+    {
+      "id": "celula",
+      "titulo": "La célula: procariotas, eucariotas y organelos",
+      "resumen": "La teoría celular, las diferencias entre tipos de células y la función de cada organelo.",
+      "objetivos": [
+        "Enunciar los postulados de la teoría celular.",
+        "Diferenciar células procariotas y eucariotas, y animales y vegetales.",
+        "Relacionar cada organelo con su función."
+      ],
+      "secciones": [
+        {
+          "titulo": "La teoría celular",
+          "texto": [
+            "Gracias al microscopio, en el siglo XIX Schleiden, Schwann y Virchow, entre otros, establecieron la **teoría celular**:"
+          ],
+          "lista": [
+            "Todos los seres vivos están formados por una o más células.",
+            "La célula es la unidad estructural y funcional de los seres vivos.",
+            "Toda célula proviene de otra célula preexistente."
+          ]
+        },
+        {
+          "titulo": "Procariotas y eucariotas",
+          "texto": [
+            "Todas las células tienen **membrana plasmática**, **citoplasma**, **ribosomas** y **ADN**. La gran diferencia está en cómo se organiza el interior:",
+            "Las **procariotas** (bacterias y arqueas) no tienen núcleo: su ADN está en una región del citoplasma llamada nucleoide. Tampoco tienen organelos rodeados de membrana. Son pequeñas (en general, de 1 a 10 µm).",
+            "Las **eucariotas** (animales, plantas, hongos y protistas) tienen **núcleo** rodeado por una envoltura nuclear y numerosos **organelos membranosos**. Suelen ser mucho más grandes (de 10 a 100 µm)."
+          ]
+        },
+        {
+          "titulo": "Organelos y sus funciones",
+          "lista": [
+            "**Núcleo:** guarda el ADN y controla la actividad celular.",
+            "**Ribosomas:** fabrican proteínas (síntesis proteica). Están en procariotas y eucariotas.",
+            "**Retículo endoplasmático rugoso:** tiene ribosomas adheridos; produce proteínas que se exportan o van a membranas.",
+            "**Retículo endoplasmático liso:** sintetiza lípidos y ayuda a desintoxicar sustancias.",
+            "**Aparato de Golgi:** modifica, clasifica y empaqueta proteínas y lípidos para enviarlos a su destino.",
+            "**Mitocondria:** realiza la respiración celular y produce la mayor parte del ATP (energía).",
+            "**Cloroplasto:** realiza la fotosíntesis (plantas y algas).",
+            "**Lisosomas:** contienen enzimas digestivas (característicos de células animales).",
+            "**Vacuola central:** grande en células vegetales; almacena agua y mantiene la turgencia.",
+            "**Pared celular:** capa rígida externa a la membrana; de celulosa en plantas, quitina en hongos y peptidoglicano en bacterias."
+          ],
+          "recuadro": "Célula vegetal vs. animal: la vegetal tiene pared celular, cloroplastos y una gran vacuola central; la animal no tiene pared ni cloroplastos y presenta centriolos y lisosomas."
+        }
+      ],
+      "conceptos": [
+        { "termino": "Célula procariota", "definicion": "Célula sin núcleo ni organelos membranosos; su ADN está en el nucleoide. Ejemplo: bacterias." },
+        { "termino": "Célula eucariota", "definicion": "Célula con núcleo rodeado por membrana y organelos membranosos. Ejemplo: células animales y vegetales." },
+        { "termino": "Ribosoma", "definicion": "Estructura que sintetiza proteínas; presente en todas las células." },
+        { "termino": "Mitocondria", "definicion": "Organelo donde ocurre la respiración celular, que produce la mayor parte del ATP." },
+        { "termino": "Aparato de Golgi", "definicion": "Organelo que modifica, empaqueta y distribuye proteínas y lípidos." },
+        { "termino": "Cloroplasto", "definicion": "Organelo de plantas y algas donde ocurre la fotosíntesis." }
+      ],
+      "ideasClave": [
+        "Toda célula proviene de **otra célula** preexistente.",
+        "Las células procariotas no tienen **núcleo**.",
+        "Los **ribosomas** están presentes tanto en células procariotas como eucariotas.",
+        "Una célula que secreta muchas proteínas tiene muy desarrollados el **retículo endoplasmático rugoso** y el aparato de Golgi."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "¿Qué estructura está presente tanto en las células procariotas como en las eucariotas?",
+          "alternativas": ["Núcleo", "Mitocondrias", "Ribosomas", "Retículo endoplasmático"],
+          "correcta": 2,
+          "explicacion": "Toda célula necesita fabricar proteínas, por lo que todas tienen ribosomas. Además, los ribosomas no son organelos membranosos, que es justamente lo que les falta a las procariotas.",
+          "descartes": [
+            "Las procariotas no tienen núcleo: su ADN está en el nucleoide.",
+            "Las mitocondrias son organelos membranosos, exclusivos de eucariotas.",
+            null,
+            "El retículo endoplasmático es un sistema de membranas presente solo en eucariotas."
+          ],
+          "metodos": [
+            { "nombre": "Pensar en lo esencial", "pasos": ["¿Qué necesita cualquier célula para vivir? Fabricar proteínas.", "Las proteínas se fabrican en los ribosomas.", "Por lo tanto, todas las células tienen ribosomas."] },
+            { "nombre": "Descartar organelos membranosos", "pasos": ["Las procariotas carecen de estructuras rodeadas de membrana.", "Núcleo, mitocondrias y retículo tienen membrana → se descartan.", "Queda ribosomas, que no tiene membrana."] }
+          ]
+        },
+        {
+          "enunciado": "Las células del páncreas secretan grandes cantidades de enzimas digestivas, que son proteínas. ¿Qué organelos se espera que estén especialmente desarrollados en ellas?",
+          "alternativas": [
+            "Cloroplastos y vacuola central",
+            "Retículo endoplasmático rugoso y aparato de Golgi",
+            "Retículo endoplasmático liso y lisosomas",
+            "Pared celular y centriolos"
+          ],
+          "correcta": 1,
+          "explicacion": "Las proteínas que se exportan se sintetizan en los ribosomas del retículo endoplasmático rugoso y luego pasan al aparato de Golgi, que las modifica y empaqueta en vesículas para secretarlas.",
+          "descartes": [
+            "Cloroplastos y vacuola central son propios de células vegetales y no participan en la secreción de proteínas.",
+            null,
+            "El retículo liso fabrica lípidos (no proteínas) y los lisosomas digieren material dentro de la célula; no secretan enzimas al exterior.",
+            "Las células animales no tienen pared celular, y los centriolos participan en la división celular, no en la secreción."
+          ],
+          "metodos": [
+            { "nombre": "Seguir la ruta de una proteína", "pasos": ["Se sintetiza en ribosomas del RER.", "Viaja en vesículas al aparato de Golgi.", "Golgi la empaqueta y la secreta por exocitosis.", "Organelos clave: RER y Golgi."] },
+            { "nombre": "Relación estructura-función", "pasos": ["Función principal de la célula: secretar proteínas.", "Busca la opción con organelos dedicados a proteínas.", "Solo B incluye organelos de síntesis y empaque de proteínas."] }
+          ]
+        },
+        {
+          "enunciado": "Al microscopio se observa una célula con pared celular, cloroplastos y una gran vacuola central. ¿De qué tipo de célula se trata?",
+          "alternativas": ["Una bacteria", "Una célula animal", "Una célula de hongo", "Una célula vegetal"],
+          "correcta": 3,
+          "explicacion": "La combinación de pared celular, cloroplastos y vacuola central grande es característica de las células vegetales, que son eucariotas fotosintéticas.",
+          "descartes": [
+            "Las bacterias tienen pared celular, pero son procariotas: no tienen cloroplastos ni vacuola central.",
+            "Las células animales no tienen pared celular ni cloroplastos.",
+            "Los hongos tienen pared (de quitina), pero no tienen cloroplastos porque no realizan fotosíntesis.",
+            null
+          ],
+          "metodos": [
+            { "nombre": "Buscar la estructura más exclusiva", "pasos": ["Los cloroplastos solo están en plantas y algas.", "Entre las opciones, solo la célula vegetal los tiene."] },
+            { "nombre": "Tabla de presencia", "pasos": ["Pared: bacteria, hongo y vegetal (no animal).", "Cloroplastos: solo vegetal.", "Vacuola central: vegetal.", "La única que cumple las tres es la vegetal."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — Biology 2e (cap. 4: Cell Structure)", "url": "https://openstax.org/details/books/biology-2e" },
+        { "titulo": "Khan Academy en español — Biología", "url": "https://es.khanacademy.org/science/biology" }
+      ]
+    },
+    {
+      "id": "biomoleculas",
+      "titulo": "El agua y las biomoléculas",
+      "resumen": "Las moléculas que forman a los seres vivos: agua, carbohidratos, lípidos, proteínas y ácidos nucleicos.",
+      "objetivos": [
+        "Explicar por qué el agua es esencial para la vida.",
+        "Identificar las cuatro biomoléculas orgánicas, sus monómeros y funciones.",
+        "Reconocer ejemplos de cada biomolécula en la vida diaria."
+      ],
+      "secciones": [
+        {
+          "titulo": "Bioelementos y agua",
+          "texto": [
+            "Los seres vivos están formados principalmente por **carbono (C), hidrógeno (H), oxígeno (O), nitrógeno (N), fósforo (P) y azufre (S)**. El carbono es especial porque forma cuatro enlaces y largas cadenas, la base de las moléculas orgánicas.",
+            "El **agua** es la molécula más abundante en los seres vivos. Es **polar** (el oxígeno atrae más los electrones que los hidrógenos) y sus moléculas se unen por **puentes de hidrógeno**. Por eso disuelve muchas sustancias (solvente universal) y tiene un **alto calor específico**: cambia de temperatura lentamente, lo que ayuda a regular la temperatura de los organismos."
+          ]
+        },
+        {
+          "titulo": "Las cuatro biomoléculas orgánicas",
+          "texto": [
+            "Muchas biomoléculas son **polímeros**: cadenas largas formadas por unidades repetidas llamadas **monómeros**."
+          ],
+          "lista": [
+            "**Carbohidratos** (monómero: monosacáridos como la **glucosa**). Función principal: energía y estructura. Disacáridos: sacarosa (azúcar de mesa), lactosa (leche). Polisacáridos: **almidón** (reserva en plantas), **glucógeno** (reserva en animales, en hígado y músculo) y **celulosa** (estructura de la pared vegetal).",
+            "**Lípidos** (no forman verdaderos polímeros; son insolubles en agua). Triglicéridos: reserva de energía a largo plazo. **Fosfolípidos**: forman las membranas. Esteroides: colesterol y hormonas sexuales.",
+            "**Proteínas** (monómero: **aminoácidos**, 20 tipos, unidos por enlaces peptídicos). Funciones: enzimas (aceleran reacciones), estructura (colágeno, queratina), transporte (hemoglobina), defensa (anticuerpos), hormonas (insulina).",
+            "**Ácidos nucleicos** (monómero: **nucleótidos**: azúcar + fosfato + base nitrogenada). El **ADN** (desoxirribosa; bases A, T, C, G; doble hebra) guarda la información genética. El **ARN** (ribosa; bases A, U, C, G; una hebra) participa en la síntesis de proteínas."
+          ]
+        },
+        {
+          "titulo": "La forma de una proteína importa",
+          "texto": [
+            "Cada proteína se pliega en una forma tridimensional específica, y de ella depende su función. El calor, los ácidos o el alcohol pueden **desnaturalizarla**: se pierde esa forma y, con ella, la función. Por eso la clara de huevo pasa de transparente a blanca al cocinarse: sus proteínas se desnaturalizan."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Monómero", "definicion": "Unidad pequeña que se une con otras iguales o similares para formar un polímero." },
+        { "termino": "Glucógeno", "definicion": "Polisacárido de reserva de energía en animales; se almacena en el hígado y los músculos." },
+        { "termino": "Almidón", "definicion": "Polisacárido de reserva de energía en plantas (papa, arroz, trigo)." },
+        { "termino": "Fosfolípido", "definicion": "Lípido con una cabeza hidrofílica y colas hidrofóbicas; forma la bicapa de las membranas." },
+        { "termino": "Enzima", "definicion": "Proteína que acelera una reacción química específica sin consumirse." },
+        { "termino": "Desnaturalización", "definicion": "Pérdida de la forma tridimensional de una proteína (por calor, pH, etc.), lo que hace que pierda su función." }
+      ],
+      "ideasClave": [
+        "El monómero de las proteínas es el **aminoácido**.",
+        "El monómero de los ácidos nucleicos es el **nucleótido**.",
+        "Los animales almacenan glucosa como **glucógeno**; las plantas, como almidón.",
+        "El ARN tiene **uracilo** en lugar de timina.",
+        "El agua tiene alto calor específico gracias a los **puentes de hidrógeno**."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "¿Cuál es el principal polisacárido de reserva de energía en los animales?",
+          "alternativas": ["Almidón", "Celulosa", "Glucógeno", "Sacarosa"],
+          "correcta": 2,
+          "explicacion": "Los animales almacenan glucosa en forma de glucógeno, principalmente en el hígado y en los músculos, y lo degradan cuando necesitan energía.",
+          "descartes": [
+            "El almidón es el polisacárido de reserva de las plantas, no de los animales.",
+            "La celulosa es un polisacárido estructural de la pared celular vegetal, no de reserva.",
+            null,
+            "La sacarosa es un disacárido (glucosa + fructosa), no un polisacárido."
+          ],
+          "metodos": [
+            { "nombre": "Recordar la asociación", "pasos": ["Reserva vegetal: almidón.", "Reserva animal: glucógeno."] },
+            { "nombre": "Clasificar las opciones", "pasos": ["Sacarosa: disacárido → descartada.", "Celulosa: estructural → descartada.", "Almidón: reserva, pero vegetal → descartado.", "Queda glucógeno."] }
+          ]
+        },
+        {
+          "enunciado": "¿Cuál es el monómero que forma las proteínas?",
+          "alternativas": ["Nucleótido", "Aminoácido", "Glucosa", "Ácido graso"],
+          "correcta": 1,
+          "explicacion": "Las proteínas son cadenas de aminoácidos unidos por enlaces peptídicos. Existen 20 aminoácidos distintos, y su orden determina la forma y función de cada proteína.",
+          "descartes": [
+            "Los nucleótidos forman los ácidos nucleicos (ADN y ARN).",
+            null,
+            "La glucosa es un monosacárido, monómero de carbohidratos como el almidón y el glucógeno.",
+            "Los ácidos grasos forman parte de lípidos como los triglicéridos y fosfolípidos."
+          ],
+          "metodos": [
+            { "nombre": "Pares biomolécula–monómero", "pasos": ["Carbohidratos → monosacáridos.", "Proteínas → aminoácidos.", "Ácidos nucleicos → nucleótidos."] },
+            { "nombre": "Pista del nombre", "pasos": ["Los enlaces de las proteínas se llaman peptídicos y unen grupos «amino» y «ácido».", "El monómero que contiene ambos grupos es el aminoácido."] }
+          ]
+        },
+        {
+          "enunciado": "Al freír un huevo, la clara pasa de transparente a blanca y no vuelve a su estado original al enfriarse. ¿Qué explica mejor este cambio?",
+          "alternativas": [
+            "Los lípidos de la clara se transforman en carbohidratos.",
+            "El agua de la clara se convierte en proteína.",
+            "Las proteínas de la clara se desnaturalizan por el calor y pierden su forma.",
+            "Se forma almidón a partir de la glucosa de la clara."
+          ],
+          "correcta": 2,
+          "explicacion": "La clara está formada principalmente por agua y proteínas (como la ovoalbúmina). El calor rompe las interacciones que mantienen su forma tridimensional: las proteínas se desnaturalizan, se enredan entre sí y la clara se vuelve blanca y sólida.",
+          "descartes": [
+            "Calentar no convierte lípidos en carbohidratos; además, la clara casi no tiene lípidos (se concentran en la yema).",
+            "El agua no se transforma en proteína; son moléculas completamente distintas.",
+            null,
+            "El almidón es un polisacárido vegetal; la clara de huevo no contiene almidón ni lo forma al cocinarse."
+          ],
+          "metodos": [
+            { "nombre": "Identificar la biomolécula", "pasos": ["La clara es agua + proteínas.", "El calor afecta la forma de las proteínas.", "Cambio irreversible de forma = desnaturalización."] },
+            { "nombre": "Descartar transformaciones imposibles", "pasos": ["Freír no cambia un tipo de biomolécula en otro.", "A, B y D proponen transformaciones químicas que no ocurren.", "Queda C."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — Biology 2e (cap. 2: The Chemical Foundation of Life; cap. 3: Biological Macromolecules)", "url": "https://openstax.org/details/books/biology-2e" },
+        { "titulo": "Khan Academy en español — Biología", "url": "https://es.khanacademy.org/science/biology" }
+      ]
+    },
+    {
+      "id": "transporte-membrana",
+      "titulo": "Membrana plasmática y transporte",
+      "resumen": "Cómo está construida la membrana y cómo pasan las sustancias: difusión, osmosis y transporte activo.",
+      "objetivos": [
+        "Describir el modelo de mosaico fluido.",
+        "Diferenciar transporte pasivo y activo.",
+        "Predecir qué le pasa a una célula en soluciones hipotónicas, isotónicas e hipertónicas."
+      ],
+      "secciones": [
+        {
+          "titulo": "Estructura: el mosaico fluido",
+          "texto": [
+            "Según el **modelo de mosaico fluido** (Singer y Nicolson, 1972), la membrana es una **bicapa de fosfolípidos**: sus cabezas hidrofílicas miran hacia el agua (afuera y adentro) y sus colas hidrofóbicas quedan al centro. En ella flotan **proteínas** (canales, transportadores, receptores), **colesterol** (regula la fluidez en células animales) y carbohidratos unidos a lípidos o proteínas (glucocálix).",
+            "La membrana tiene **permeabilidad selectiva**: deja pasar algunas sustancias con facilidad y regula el paso de otras."
+          ]
+        },
+        {
+          "titulo": "Transporte pasivo (sin gasto de energía)",
+          "texto": [
+            "Las sustancias se mueven **a favor de su gradiente de concentración**, es decir, desde donde hay más hacia donde hay menos."
+          ],
+          "lista": [
+            "**Difusión simple:** moléculas pequeñas y apolares (O₂, CO₂) atraviesan directamente la bicapa.",
+            "**Difusión facilitada:** iones y moléculas polares (glucosa) pasan a través de proteínas de canal o transportadoras.",
+            "**Osmosis:** difusión de **agua** a través de una membrana semipermeable, desde la solución con **menos soluto** hacia la que tiene **más soluto**. Gran parte del agua pasa por canales llamados acuaporinas."
+          ]
+        },
+        {
+          "titulo": "Osmosis en acción",
+          "lista": [
+            "**Solución hipotónica** (menos soluto afuera): entra agua. Un glóbulo rojo se hincha y puede romperse (hemólisis). Una célula vegetal queda turgente; su pared evita que estalle.",
+            "**Solución isotónica** (igual concentración): no hay movimiento neto de agua.",
+            "**Solución hipertónica** (más soluto afuera): sale agua. El glóbulo rojo se arruga (crenación); en la célula vegetal la membrana se separa de la pared (plasmólisis)."
+          ],
+          "recuadro": "Regla práctica: el agua «va hacia donde hay más soluto»."
+        },
+        {
+          "titulo": "Transporte activo y en masa",
+          "texto": [
+            "El **transporte activo** mueve sustancias **en contra de su gradiente** y por eso **gasta energía (ATP)**. El ejemplo clásico es la **bomba sodio-potasio**: por cada ATP saca 3 Na⁺ y entra 2 K⁺, manteniendo diferencias de concentración esenciales para neuronas y músculos.",
+            "Las partículas grandes se transportan en vesículas: **endocitosis** (entrada; la fagocitosis es la ingestión de partículas sólidas) y **exocitosis** (salida, como en la secreción de hormonas)."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Gradiente de concentración", "definicion": "Diferencia de concentración de una sustancia entre dos zonas." },
+        { "termino": "Difusión simple", "definicion": "Paso de moléculas pequeñas y apolares a través de la bicapa, a favor del gradiente y sin gasto de energía." },
+        { "termino": "Osmosis", "definicion": "Paso de agua a través de una membrana semipermeable desde la solución con menos soluto a la que tiene más soluto." },
+        { "termino": "Solución hipertónica", "definicion": "Solución con mayor concentración de soluto que el interior de la célula; la célula pierde agua." },
+        { "termino": "Transporte activo", "definicion": "Movimiento de sustancias en contra de su gradiente de concentración, con gasto de ATP." }
+      ],
+      "ideasClave": [
+        "En la osmosis, el agua se mueve hacia la solución con **más soluto**.",
+        "El transporte activo va **en contra** del gradiente y gasta ATP.",
+        "El oxígeno entra a la célula por **difusión simple**.",
+        "Un glóbulo rojo en agua destilada se hincha y puede **romperse**."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Si se colocan glóbulos rojos en agua destilada, ¿qué les ocurrirá?",
+          "alternativas": [
+            "Perderán agua y se arrugarán.",
+            "No cambiarán, porque la membrana es impermeable al agua.",
+            "Entrará agua por osmosis, se hincharán y podrían romperse.",
+            "Entrarán sales desde el agua destilada hacia la célula."
+          ],
+          "correcta": 2,
+          "explicacion": "El agua destilada no tiene solutos: es hipotónica respecto del interior del glóbulo rojo. El agua entra por osmosis hacia donde hay más soluto (el interior), la célula se hincha y, como no tiene pared celular, puede estallar (hemólisis).",
+          "descartes": [
+            "Eso ocurre en una solución hipertónica (con más soluto afuera), no en agua destilada.",
+            "Falso: el agua atraviesa la membrana, en gran parte por acuaporinas.",
+            null,
+            "El agua destilada no contiene sales, así que no hay sales que puedan entrar."
+          ],
+          "metodos": [
+            { "nombre": "Comparar concentraciones", "pasos": ["Afuera: 0 soluto. Adentro: hay solutos.", "El agua va hacia donde hay más soluto: hacia adentro.", "La célula se hincha."] },
+            { "nombre": "Clasificar la solución", "pasos": ["El agua destilada es hipotónica respecto de la célula.", "En medio hipotónico, las células animales ganan agua y pueden romperse."] }
+          ]
+        },
+        {
+          "enunciado": "¿Qué característica corresponde al transporte activo?",
+          "alternativas": [
+            "Ocurre siempre a favor del gradiente de concentración.",
+            "Solo transporta moléculas de agua.",
+            "Requiere energía (ATP) y puede mover sustancias en contra de su gradiente.",
+            "No necesita proteínas de membrana."
+          ],
+          "correcta": 2,
+          "explicacion": "Mover una sustancia desde donde hay menos hacia donde hay más requiere trabajo. Las proteínas transportadoras (como la bomba Na⁺/K⁺) usan la energía del ATP para hacerlo.",
+          "descartes": [
+            "Moverse a favor del gradiente es lo propio del transporte pasivo.",
+            "El transporte de agua es la osmosis, que es pasiva. El transporte activo mueve iones y otras moléculas.",
+            null,
+            "El transporte activo depende de proteínas transportadoras específicas, como las bombas."
+          ],
+          "metodos": [
+            { "nombre": "Analogía", "pasos": ["Pasivo es como bajar una cuesta: no cuesta energía.", "Activo es subirla: necesita energía.", "«Contra el gradiente» = cuesta arriba = ATP."] },
+            { "nombre": "Separar características", "pasos": ["A favor del gradiente, agua, sin proteínas → rasgos de transporte pasivo.", "Solo C describe energía y contra gradiente."] }
+          ]
+        },
+        {
+          "enunciado": "¿Mediante qué mecanismo entra el oxígeno (O₂) a las células?",
+          "alternativas": ["Transporte activo", "Difusión simple", "Endocitosis", "Exocitosis"],
+          "correcta": 1,
+          "explicacion": "El O₂ es una molécula pequeña y apolar, por lo que atraviesa directamente la bicapa lipídica. Además, hay más oxígeno afuera (sangre) que adentro (la célula lo consume), así que se mueve a favor de su gradiente sin gastar energía.",
+          "descartes": [
+            "No se necesita ATP: el oxígeno se mueve a favor de su gradiente.",
+            null,
+            "La endocitosis transporta partículas grandes en vesículas, no moléculas pequeñas como el O₂.",
+            "La exocitosis es para expulsar sustancias de la célula, no para que entren."
+          ],
+          "metodos": [
+            { "nombre": "Tamaño y polaridad", "pasos": ["O₂: pequeño y apolar.", "Las moléculas pequeñas y apolares cruzan la bicapa directamente.", "Eso es difusión simple."] },
+            { "nombre": "Dirección del gradiente", "pasos": ["La célula consume O₂ en la respiración, así que adentro hay menos.", "El O₂ entra a favor del gradiente: transporte pasivo.", "Entre las opciones, el único pasivo es la difusión simple."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — Biology 2e (cap. 5: Structure and Function of Plasma Membranes)", "url": "https://openstax.org/details/books/biology-2e" },
+        { "titulo": "Khan Academy en español — Biología", "url": "https://es.khanacademy.org/science/biology" }
+      ]
+    }
+  ]
+}

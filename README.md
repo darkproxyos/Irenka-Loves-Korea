@@ -52,3 +52,9 @@ GitHub también lo revisa automáticamente en cada cambio (pestaña **Actions**)
 ## Publicación
 
 Pensado para publicarse en [Vercel](https://vercel.com) como sitio estático: no necesita comando de build.
+
+## Otro proyecto en este repositorio: Estudio
+
+En la carpeta [`estudio/`](estudio) hay una plataforma de estudio independiente (ciencias,
+matemáticas y comprensión lectora, con flashcards, tests tipo PAES y banco de errores).
+Se publica en `/estudio/`. Más detalles en [estudio/README.md](estudio/README.md).

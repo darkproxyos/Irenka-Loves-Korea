@@ -1,0 +1,467 @@
+{
+  "lecciones": [
+    {
+      "id": "magnitudes",
+      "titulo": "Magnitudes, unidades y notación científica",
+      "resumen": "El lenguaje de la física: qué se mide, en qué unidades y cómo escribir números muy grandes o muy pequeños.",
+      "objetivos": [
+        "Distinguir magnitudes fundamentales y derivadas, escalares y vectoriales.",
+        "Convertir unidades con factores de conversión.",
+        "Escribir y operar números en notación científica."
+      ],
+      "secciones": [
+        {
+          "titulo": "Magnitudes y el Sistema Internacional",
+          "texto": [
+            "Una **magnitud física** es una propiedad que se puede medir (longitud, masa, tiempo, temperatura). Toda medida tiene un **número** y una **unidad**: decir «mide 5» no informa nada; «mide 5 m», sí.",
+            "El **Sistema Internacional (SI)** define 7 **magnitudes fundamentales**: longitud (metro, m), masa (kilogramo, kg), tiempo (segundo, s), corriente eléctrica (ampere, A), temperatura (kelvin, K), cantidad de sustancia (mol) e intensidad luminosa (candela, cd).",
+            "Las **magnitudes derivadas** se obtienen combinando las fundamentales: rapidez (m/s), aceleración (m/s²), fuerza (newton: 1 N = 1 kg·m/s²)."
+          ]
+        },
+        {
+          "titulo": "Escalares y vectores",
+          "texto": [
+            "Una magnitud **escalar** queda definida con un número y su unidad: masa, tiempo, temperatura, energía.",
+            "Una magnitud **vectorial** necesita además **dirección y sentido**: desplazamiento, velocidad, aceleración, fuerza. «20 km/h» es una rapidez; «20 km/h hacia el norte» es una velocidad."
+          ]
+        },
+        {
+          "titulo": "Conversión de unidades",
+          "texto": [
+            "Se multiplica por **factores de conversión**, fracciones que valen 1 porque numerador y denominador son equivalentes (por ejemplo, 1 km / 1000 m)."
+          ],
+          "ejemplo": {
+            "enunciado": "Convierte 72 km/h a m/s.",
+            "pasos": [
+              "72 km/h · (1000 m / 1 km) · (1 h / 3600 s).",
+              "= 72 · 1000 / 3600 m/s = 72 / 3,6 m/s.",
+              "= **20 m/s**. Atajo: de km/h a m/s se divide por 3,6; de m/s a km/h se multiplica por 3,6."
+            ]
+          }
+        },
+        {
+          "titulo": "Notación científica y prefijos",
+          "texto": [
+            "Un número en **notación científica** se escribe como `a × 10ⁿ`, con **1 ≤ a < 10** y n entero. Ejemplos: 300.000.000 = 3 × 10⁸; 0,0042 = 4,2 × 10⁻³.",
+            "Si la coma se mueve hacia la **izquierda**, el exponente es **positivo**; si se mueve hacia la **derecha**, es **negativo**.",
+            "Para multiplicar se multiplican las mantisas y se **suman** los exponentes: (2 × 10³)·(4 × 10⁵) = 8 × 10⁸."
+          ],
+          "lista": [
+            "giga (G) = 10⁹ · mega (M) = 10⁶ · kilo (k) = 10³",
+            "centi (c) = 10⁻² · mili (m) = 10⁻³ · micro (µ) = 10⁻⁶ · nano (n) = 10⁻⁹"
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Magnitud fundamental", "definicion": "Magnitud que no se define a partir de otras; el SI tiene 7 (longitud, masa, tiempo, corriente, temperatura, cantidad de sustancia e intensidad luminosa)." },
+        { "termino": "Magnitud vectorial", "definicion": "Magnitud que requiere módulo, dirección y sentido, como la fuerza o la velocidad." },
+        { "termino": "Magnitud escalar", "definicion": "Magnitud que queda definida solo con un número y una unidad, como la masa o el tiempo." },
+        { "termino": "Factor de conversión", "definicion": "Fracción entre dos cantidades equivalentes en distintas unidades (vale 1) que permite cambiar de unidad." },
+        { "termino": "Notación científica", "definicion": "Forma de escribir un número como a × 10ⁿ, con 1 ≤ a < 10 y n entero." }
+      ],
+      "ideasClave": [
+        "Para pasar de km/h a m/s se divide por **3,6**.",
+        "La fuerza es una magnitud **vectorial**; la masa es escalar.",
+        "En notación científica, la mantisa debe cumplir 1 ≤ a < **10**.",
+        "En el SI, la unidad de masa es el **kilogramo**."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Un auto viaja a 90 km/h. ¿A cuántos m/s equivale esa rapidez?",
+          "alternativas": ["1,5 m/s", "25 m/s", "324 m/s", "90.000 m/s"],
+          "correcta": 1,
+          "explicacion": "90 km/h = 90 · 1000 m / 3600 s = 90.000/3.600 m/s = 25 m/s. Equivale a dividir por 3,6.",
+          "descartes": [
+            "Resulta de dividir 90 por 60, como si una hora tuviera 60 segundos (tiene 3.600).",
+            null,
+            "Resulta de multiplicar por 3,6 en vez de dividir; esa es la conversión de m/s a km/h.",
+            "Convierte los kilómetros a metros pero olvida convertir las horas a segundos."
+          ],
+          "metodos": [
+            { "nombre": "Factores de conversión", "pasos": ["90 km/h · (1000 m/1 km) · (1 h/3600 s).", "= 90.000 m / 3.600 s.", "= 25 m/s."] },
+            { "nombre": "Atajo del 3,6", "pasos": ["km/h → m/s: dividir por 3,6.", "90 ÷ 3,6 = 25.", "Chequeo: 25 · 3,6 = 90 ✓."] }
+          ]
+        },
+        {
+          "enunciado": "¿Cuál de las siguientes magnitudes es vectorial?",
+          "alternativas": ["Masa", "Temperatura", "Tiempo", "Fuerza"],
+          "correcta": 3,
+          "explicacion": "Una fuerza no queda definida solo con su valor: importa hacia dónde se aplica. Empujar una caja con 50 N hacia la derecha no produce el mismo efecto que hacerlo hacia la izquierda.",
+          "descartes": [
+            "La masa se describe solo con su valor (por ejemplo, 3 kg): es escalar.",
+            "La temperatura no tiene dirección (25 °C): es escalar.",
+            "El tiempo transcurrido no tiene dirección espacial: es escalar.",
+            null
+          ],
+          "metodos": [
+            { "nombre": "Prueba de la dirección", "pasos": ["Pregunta: ¿tiene sentido decir «hacia el norte»?", "«3 kg hacia el norte», «25 °C hacia arriba» no tienen sentido.", "«50 N hacia la derecha» sí: la fuerza es vectorial."] },
+            { "nombre": "Lista conocida", "pasos": ["Vectoriales: desplazamiento, velocidad, aceleración, fuerza.", "Escalares: masa, tiempo, temperatura, energía.", "Solo la fuerza está en la primera lista."] }
+          ]
+        },
+        {
+          "enunciado": "¿Cuál es la expresión en notación científica de 0,00045 m?",
+          "alternativas": ["4,5 × 10⁴ m", "4,5 × 10⁻⁴ m", "45 × 10⁻⁵ m", "4,5 × 10⁻³ m"],
+          "correcta": 1,
+          "explicacion": "Para obtener 4,5 hay que mover la coma 4 lugares hacia la derecha (0,00045 → 4,5). Al moverla a la derecha, el exponente es negativo: 4,5 × 10⁻⁴ m.",
+          "descartes": [
+            "El exponente positivo representaría un número grande (45.000), no uno menor que 1.",
+            null,
+            "Vale lo mismo, pero no está en notación científica: la mantisa (45) debe estar entre 1 y 10.",
+            "Mueve la coma solo 3 lugares: 4,5 × 10⁻³ = 0,0045, que es 10 veces mayor."
+          ],
+          "metodos": [
+            { "nombre": "Contar lugares", "pasos": ["0,00045 → 4,5: la coma se mueve 4 lugares a la derecha.", "Derecha → exponente negativo: 10⁻⁴.", "Resultado: 4,5 × 10⁻⁴."] },
+            { "nombre": "Verificar desarrollando", "pasos": ["10⁻⁴ = 0,0001.", "4,5 · 0,0001 = 0,00045 ✓.", "Con 10⁻³ daría 0,0045 ✗."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — College Physics 2e (cap. 1: Introduction: The Nature of Science and Physics)", "url": "https://openstax.org/details/books/college-physics-2e" },
+        { "titulo": "BIPM — El Sistema Internacional de Unidades (SI Brochure)", "url": "https://www.bipm.org/en/publications/si-brochure" },
+        { "titulo": "Khan Academy en español — Física", "url": "https://es.khanacademy.org/science/physics" }
+      ]
+    },
+    {
+      "id": "mru",
+      "titulo": "Movimiento rectilíneo uniforme (MRU)",
+      "resumen": "Posición, desplazamiento, rapidez y velocidad; el movimiento con velocidad constante y sus gráficos.",
+      "objetivos": [
+        "Diferenciar distancia y desplazamiento, rapidez y velocidad.",
+        "Usar la ecuación de itinerario del MRU.",
+        "Interpretar gráficos posición-tiempo y velocidad-tiempo."
+      ],
+      "secciones": [
+        {
+          "titulo": "Conceptos para describir el movimiento",
+          "lista": [
+            "**Sistema de referencia:** punto y ejes desde los que se mide. El movimiento siempre es relativo a un observador.",
+            "**Posición (x):** ubicación respecto del origen.",
+            "**Desplazamiento (Δx = x_final − x_inicial):** cambio de posición; es un vector. **Distancia recorrida:** largo total del camino; es un escalar.",
+            "**Rapidez media** = distancia / tiempo. **Velocidad media** = desplazamiento / tiempo."
+          ],
+          "ejemplo": {
+            "enunciado": "Una persona camina 30 m al este y luego 10 m al oeste, en 20 s. Calcula distancia, desplazamiento, rapidez media y velocidad media.",
+            "pasos": [
+              "Distancia: 30 + 10 = 40 m.",
+              "Desplazamiento: 30 − 10 = 20 m al este.",
+              "Rapidez media: 40 m / 20 s = 2 m/s.",
+              "Velocidad media: 20 m / 20 s = **1 m/s al este**."
+            ]
+          }
+        },
+        {
+          "titulo": "El MRU",
+          "texto": [
+            "En el **movimiento rectilíneo uniforme** el cuerpo avanza en línea recta con **velocidad constante**: recorre distancias iguales en tiempos iguales y su aceleración es cero.",
+            "Su **ecuación de itinerario** es `x = x₀ + v·t`, donde x₀ es la posición inicial. Si parte del origen, `d = v·t`."
+          ]
+        },
+        {
+          "titulo": "Gráficos del MRU",
+          "lista": [
+            "**Posición vs tiempo (x-t):** una recta. Su **pendiente es la velocidad**: más inclinada, más rápido. Pendiente negativa: se mueve en sentido negativo.",
+            "**Velocidad vs tiempo (v-t):** una recta horizontal. El **área bajo la recta es el desplazamiento** (v · t)."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Desplazamiento", "definicion": "Cambio de posición (x_final − x_inicial); es una magnitud vectorial." },
+        { "termino": "Distancia recorrida", "definicion": "Longitud total del camino recorrido; es escalar y nunca negativa." },
+        { "termino": "Velocidad media", "definicion": "Desplazamiento dividido por el tiempo empleado." },
+        { "termino": "MRU", "definicion": "Movimiento en línea recta con velocidad constante (aceleración cero)." },
+        { "termino": "Pendiente del gráfico x-t", "definicion": "Representa la velocidad del cuerpo." }
+      ],
+      "ideasClave": [
+        "En el MRU la velocidad es **constante** y la aceleración es cero.",
+        "En un gráfico posición-tiempo, la **pendiente** es la velocidad.",
+        "En un gráfico velocidad-tiempo, el **área** bajo la curva es el desplazamiento.",
+        "La ecuación de itinerario del MRU es x = x₀ + **v·t**."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Un auto se mueve en línea recta con rapidez constante de 20 m/s durante 15 s. ¿Qué distancia recorre?",
+          "alternativas": ["35 m", "1,33 m", "300 m", "0,75 m"],
+          "correcta": 2,
+          "explicacion": "En el MRU, d = v · t = 20 m/s · 15 s = 300 m.",
+          "descartes": [
+            "Suma la rapidez y el tiempo (20 + 15); magnitudes distintas no se suman.",
+            "Divide la rapidez por el tiempo (20/15); eso no tiene unidades de distancia.",
+            null,
+            "Divide el tiempo por la rapidez (15/20); eso da unidades de s²/m, no de metros."
+          ],
+          "metodos": [
+            { "nombre": "Fórmula", "pasos": ["d = v · t.", "d = 20 · 15 = 300 m."] },
+            { "nombre": "Área del gráfico v-t", "pasos": ["El gráfico v-t es un rectángulo de alto 20 m/s y ancho 15 s.", "Área = 20 · 15 = 300 m.", "Ese área es la distancia recorrida."] }
+          ]
+        },
+        {
+          "enunciado": "La posición de un cuerpo está dada por x(t) = 5 + 3t, con x en metros y t en segundos. ¿Cuál es su posición en t = 4 s?",
+          "alternativas": ["12 m", "8 m", "17 m", "32 m"],
+          "correcta": 2,
+          "explicacion": "Reemplazando: x(4) = 5 + 3 · 4 = 5 + 12 = 17 m. El cuerpo parte en x₀ = 5 m y avanza 3 m por cada segundo.",
+          "descartes": [
+            "Es solo lo que avanzó (3 · 4); falta sumar la posición inicial de 5 m.",
+            "Suma 5 + 3 sin multiplicar por el tiempo.",
+            null,
+            "Calcula (5 + 3) · 4: multiplica también la posición inicial por el tiempo, lo que no corresponde."
+          ],
+          "metodos": [
+            { "nombre": "Reemplazar en la ecuación", "pasos": ["x(4) = 5 + 3 · 4.", "= 5 + 12 = 17 m."] },
+            { "nombre": "Tabla de valores", "pasos": ["t = 0 → 5 m; t = 1 → 8 m; t = 2 → 11 m.", "t = 3 → 14 m; t = 4 → 17 m.", "Avanza 3 m cada segundo."] }
+          ]
+        },
+        {
+          "enunciado": "Dos ciclistas, A y B, parten del mismo punto y se mueven con MRU. En un gráfico posición vs tiempo, la recta de A tiene mayor pendiente que la de B. ¿Qué se puede afirmar?",
+          "alternativas": [
+            "B se mueve con mayor rapidez que A.",
+            "Ambos tienen la misma velocidad porque parten del mismo punto.",
+            "A está acelerando y B no.",
+            "A se mueve con mayor rapidez que B."
+          ],
+          "correcta": 3,
+          "explicacion": "En un gráfico x-t, la pendiente es la velocidad. Mayor pendiente significa que A recorre más metros en cada segundo, es decir, es más rápido.",
+          "descartes": [
+            "Es al revés: la menor pendiente de B indica menor rapidez.",
+            "Partir del mismo punto no implica moverse a la misma velocidad; eso lo indica la pendiente, que es distinta.",
+            "Ambas son rectas (pendiente constante), así que los dos tienen velocidad constante: ninguno acelera.",
+            null
+          ],
+          "metodos": [
+            { "nombre": "Interpretar la pendiente", "pasos": ["Pendiente de x-t = Δx/Δt = velocidad.", "Pendiente de A > pendiente de B.", "v_A > v_B."] },
+            { "nombre": "Leer un instante", "pasos": ["Imagina un mismo tiempo t en ambas rectas.", "La recta más inclinada (A) alcanza una posición mayor.", "En el mismo tiempo, A recorrió más: es más rápido."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — College Physics 2e (cap. 2: Kinematics)", "url": "https://openstax.org/details/books/college-physics-2e" },
+        { "titulo": "Khan Academy en español — Física", "url": "https://es.khanacademy.org/science/physics" }
+      ]
+    },
+    {
+      "id": "mrua",
+      "titulo": "Movimiento con aceleración constante (MRUA) y caída libre",
+      "resumen": "Qué es la aceleración, las ecuaciones del movimiento uniformemente acelerado y cómo caen los cuerpos.",
+      "objetivos": [
+        "Calcular aceleraciones a partir de cambios de velocidad.",
+        "Usar las ecuaciones del MRUA.",
+        "Aplicar el MRUA a la caída libre."
+      ],
+      "secciones": [
+        {
+          "titulo": "La aceleración",
+          "texto": [
+            "La **aceleración** mide qué tan rápido cambia la velocidad: `a = Δv / Δt = (v − v₀) / t`. Su unidad SI es **m/s²**. Una aceleración de 3 m/s² significa que la velocidad aumenta 3 m/s cada segundo.",
+            "Si la aceleración tiene el mismo sentido que la velocidad, el cuerpo se acelera; si tiene sentido contrario, frena."
+          ]
+        },
+        {
+          "titulo": "Ecuaciones del MRUA",
+          "texto": [
+            "En el **movimiento rectilíneo uniformemente acelerado** la aceleración es constante. Sus ecuaciones son:"
+          ],
+          "lista": [
+            "`v = v₀ + a·t`",
+            "`x = x₀ + v₀·t + ½·a·t²`",
+            "`v² = v₀² + 2·a·Δx` (útil cuando no se conoce el tiempo)"
+          ],
+          "recuadro": "En el gráfico v-t del MRUA, la recta tiene **pendiente igual a la aceleración** y el **área bajo la recta es el desplazamiento**. Además, con aceleración constante, la velocidad media es el promedio (v₀ + v)/2."
+        },
+        {
+          "titulo": "Caída libre",
+          "texto": [
+            "Sin roce del aire, todos los cuerpos cerca de la superficie terrestre caen con la misma aceleración: **g ≈ 9,8 m/s²** (en muchos ejercicios se usa 10 m/s² para simplificar), sin importar su masa.",
+            "Si un objeto se deja caer desde el reposo: `v = g·t` y la distancia caída es `h = ½·g·t²`."
+          ],
+          "ejemplo": {
+            "enunciado": "Se deja caer una piedra desde el reposo (usa g = 10 m/s²). ¿Cuánto ha caído al cabo de 2 s?",
+            "pasos": [
+              "h = ½ · g · t².",
+              "h = ½ · 10 · 2² = 5 · 4.",
+              "h = **20 m**."
+            ]
+          }
+        }
+      ],
+      "conceptos": [
+        { "termino": "Aceleración", "definicion": "Cambio de velocidad por unidad de tiempo: a = Δv/Δt. Unidad: m/s²." },
+        { "termino": "MRUA", "definicion": "Movimiento rectilíneo con aceleración constante." },
+        { "termino": "Caída libre", "definicion": "Movimiento de un cuerpo que cae solo bajo la acción de la gravedad, sin roce del aire." },
+        { "termino": "Aceleración de gravedad (g)", "definicion": "Aceleración de caída libre cerca de la superficie terrestre, aproximadamente 9,8 m/s²." }
+      ],
+      "ideasClave": [
+        "La aceleración se calcula como **Δv/Δt**.",
+        "Sin roce del aire, todos los cuerpos caen con la **misma** aceleración, sin importar su masa.",
+        "En un gráfico v-t, la pendiente es la **aceleración**.",
+        "Partiendo del reposo con aceleración constante, la distancia es **½·a·t²**."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Un auto parte del reposo y alcanza una rapidez de 24 m/s en 6 s, con aceleración constante. ¿Cuál es su aceleración?",
+          "alternativas": ["4 m/s²", "144 m/s²", "0,25 m/s²", "18 m/s²"],
+          "correcta": 0,
+          "explicacion": "a = (v − v₀)/t = (24 − 0)/6 = 4 m/s². Su velocidad aumenta 4 m/s cada segundo.",
+          "descartes": [
+            null,
+            "Multiplica velocidad por tiempo (24 · 6); eso no da una aceleración.",
+            "Divide el tiempo por la velocidad (6/24), es decir, invierte la fórmula.",
+            "Resta el tiempo a la velocidad (24 − 6); no se pueden restar magnitudes distintas."
+          ],
+          "metodos": [
+            { "nombre": "Definición", "pasos": ["a = Δv/Δt.", "Δv = 24 − 0 = 24 m/s; Δt = 6 s.", "a = 4 m/s²."] },
+            { "nombre": "Pendiente del gráfico v-t", "pasos": ["Puntos (0 s, 0 m/s) y (6 s, 24 m/s).", "Pendiente = (24 − 0)/(6 − 0) = 4.", "La pendiente es la aceleración: 4 m/s²."] }
+          ]
+        },
+        {
+          "enunciado": "El mismo auto (parte del reposo y llega a 24 m/s en 6 s con aceleración constante), ¿qué distancia recorre en esos 6 s?",
+          "alternativas": ["24 m", "72 m", "144 m", "36 m"],
+          "correcta": 1,
+          "explicacion": "Con a = 4 m/s² y v₀ = 0: d = ½ · a · t² = ½ · 4 · 36 = 72 m.",
+          "descartes": [
+            "Es la rapidez final, no una distancia.",
+            null,
+            "Supone que el auto viajó todo el tiempo a 24 m/s (24 · 6). Como partió del reposo, su rapidez media fue menor: 12 m/s.",
+            "Es t² (36); falta multiplicar por ½·a."
+          ],
+          "metodos": [
+            { "nombre": "Ecuación de posición", "pasos": ["d = v₀·t + ½·a·t².", "d = 0 + ½ · 4 · 6² = 2 · 36.", "d = 72 m."] },
+            { "nombre": "Velocidad media", "pasos": ["Con a constante: v_media = (0 + 24)/2 = 12 m/s.", "d = v_media · t = 12 · 6.", "d = 72 m (es el área del triángulo en el gráfico v-t: ½ · 6 · 24)."] }
+          ]
+        },
+        {
+          "enunciado": "Se deja caer una piedra desde el reposo. Despreciando el roce con el aire y usando g = 10 m/s², ¿cuál es su rapidez después de 3 s?",
+          "alternativas": ["3,3 m/s", "30 m/s", "45 m/s", "90 m/s"],
+          "correcta": 1,
+          "explicacion": "En caída libre desde el reposo, v = g · t = 10 · 3 = 30 m/s.",
+          "descartes": [
+            "Divide g por t (10/3); la velocidad aumenta con el tiempo, no disminuye.",
+            null,
+            "45 es la distancia caída en metros (½ · 10 · 3² = 45 m), no la rapidez.",
+            "Calcula g · t² (10 · 9); esa expresión no corresponde a la velocidad."
+          ],
+          "metodos": [
+            { "nombre": "Ecuación de velocidad", "pasos": ["v = v₀ + g·t con v₀ = 0.", "v = 10 · 3 = 30 m/s."] },
+            { "nombre": "Pasando por la altura", "pasos": ["Altura caída: h = ½ · 10 · 9 = 45 m.", "v² = 2·g·h = 2 · 10 · 45 = 900.", "v = √900 = 30 m/s."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — College Physics 2e (cap. 2: Kinematics)", "url": "https://openstax.org/details/books/college-physics-2e" },
+        { "titulo": "Khan Academy en español — Física", "url": "https://es.khanacademy.org/science/physics" }
+      ]
+    },
+    {
+      "id": "newton",
+      "titulo": "Fuerzas y leyes de Newton",
+      "resumen": "Qué es una fuerza, por qué cambia el movimiento y la diferencia entre masa y peso.",
+      "objetivos": [
+        "Enunciar y aplicar las tres leyes de Newton.",
+        "Calcular fuerza neta, masa o aceleración con F = m·a.",
+        "Diferenciar masa y peso."
+      ],
+      "secciones": [
+        {
+          "titulo": "Fuerza y fuerza neta",
+          "texto": [
+            "Una **fuerza** es una interacción entre dos cuerpos que puede cambiar su estado de movimiento o deformarlos. Es vectorial y se mide en **newton (N)**.",
+            "Cuando actúan varias fuerzas, lo que importa es la **fuerza neta** (la suma vectorial). Si dos personas empujan una caja con 30 N hacia la derecha y 10 N hacia la izquierda, la fuerza neta es 20 N hacia la derecha."
+          ]
+        },
+        {
+          "titulo": "Las tres leyes de Newton",
+          "lista": [
+            "**1ª ley (inercia):** si la fuerza neta sobre un cuerpo es cero, este se mantiene en reposo o en MRU. Por eso, al frenar un bus, los pasajeros siguen hacia adelante.",
+            "**2ª ley:** la fuerza neta produce una aceleración proporcional a ella e inversamente proporcional a la masa: `F_neta = m · a`. A mayor masa, más cuesta cambiar el movimiento.",
+            "**3ª ley (acción y reacción):** si A ejerce una fuerza sobre B, B ejerce sobre A una fuerza de **igual magnitud y sentido opuesto**. Estas fuerzas actúan sobre **cuerpos distintos**, por eso no se anulan entre sí."
+          ]
+        },
+        {
+          "titulo": "Masa y peso",
+          "texto": [
+            "La **masa** (kg) mide la cantidad de materia y la inercia de un cuerpo; **no cambia** de un lugar a otro.",
+            "El **peso** (N) es la fuerza con que un planeta atrae al cuerpo: `P = m · g`. **Cambia** según la gravedad del lugar. Una persona de 60 kg pesa unos 600 N en la Tierra (g ≈ 10 m/s²) y unos 96 N en la Luna (g ≈ 1,6 m/s²), pero su masa sigue siendo 60 kg."
+          ],
+          "ejemplo": {
+            "enunciado": "Sobre un carro de 4 kg actúan 20 N hacia la derecha y 8 N hacia la izquierda. ¿Cuál es su aceleración?",
+            "pasos": [
+              "Fuerza neta: 20 − 8 = 12 N hacia la derecha.",
+              "a = F_neta / m = 12 / 4.",
+              "a = **3 m/s²** hacia la derecha."
+            ]
+          }
+        }
+      ],
+      "conceptos": [
+        { "termino": "Fuerza neta", "definicion": "Suma vectorial de todas las fuerzas que actúan sobre un cuerpo." },
+        { "termino": "Inercia", "definicion": "Tendencia de un cuerpo a mantener su estado de reposo o de movimiento rectilíneo uniforme." },
+        { "termino": "Segunda ley de Newton", "definicion": "La fuerza neta sobre un cuerpo es igual a su masa por su aceleración: F = m·a." },
+        { "termino": "Tercera ley de Newton", "definicion": "A toda acción corresponde una reacción de igual magnitud y sentido opuesto, aplicada sobre el otro cuerpo." },
+        { "termino": "Peso", "definicion": "Fuerza con que un planeta atrae a un cuerpo: P = m·g. Se mide en newton." }
+      ],
+      "ideasClave": [
+        "Si la fuerza neta es cero, el cuerpo sigue en reposo o en **MRU**.",
+        "La masa **no cambia** al viajar a la Luna; el peso sí.",
+        "Las fuerzas de acción y reacción actúan sobre cuerpos **distintos**.",
+        "Con la misma fuerza, un cuerpo de mayor masa adquiere **menor** aceleración."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Sobre un cuerpo de 6 kg actúa una fuerza neta de 30 N. ¿Cuál es su aceleración?",
+          "alternativas": ["0,2 m/s²", "5 m/s²", "36 m/s²", "180 m/s²"],
+          "correcta": 1,
+          "explicacion": "Por la segunda ley, a = F/m = 30 N / 6 kg = 5 m/s².",
+          "descartes": [
+            "Divide masa por fuerza (6/30); la fórmula es a = F/m.",
+            null,
+            "Suma fuerza y masa (30 + 6), que son magnitudes distintas.",
+            "Multiplica fuerza por masa (30 · 6); eso no corresponde a ninguna ley."
+          ],
+          "metodos": [
+            { "nombre": "Despejar de F = m·a", "pasos": ["a = F/m.", "a = 30/6 = 5 m/s²."] },
+            { "nombre": "Probar alternativas", "pasos": ["Calcula m · a para cada opción.", "6 · 5 = 30 N ✓.", "6 · 0,2 = 1,2; 6 · 36 = 216; 6 · 180 = 1080 ✗."] }
+          ]
+        },
+        {
+          "enunciado": "Una astronauta tiene una masa de 60 kg en la Tierra. Si viaja a la Luna, donde g ≈ 1,6 m/s², ¿cuál será su masa allí?",
+          "alternativas": ["60 kg", "96 kg", "10 kg", "0 kg, porque en la Luna no hay gravedad"],
+          "correcta": 0,
+          "explicacion": "La masa es la cantidad de materia del cuerpo y no depende del lugar. Lo que cambia es el peso: en la Luna sería 60 · 1,6 = 96 N, menor que en la Tierra.",
+          "descartes": [
+            null,
+            "96 es su peso en la Luna expresado en newton (60 · 1,6 = 96 N), no su masa en kilogramos.",
+            "Supone que la masa disminuye en proporción a la gravedad; eso le ocurre al peso, no a la masa.",
+            "En la Luna sí hay gravedad (por eso los objetos caen allí), aunque es menor que en la Tierra; y la masa nunca se vuelve cero."
+          ],
+          "metodos": [
+            { "nombre": "Distinguir conceptos", "pasos": ["Masa: cantidad de materia, en kg, constante.", "Peso: fuerza, en N, depende de g.", "La pregunta pide masa: 60 kg."] },
+            { "nombre": "Mirar las unidades", "pasos": ["El peso se mide en N, la masa en kg.", "P_Luna = 60 · 1,6 = 96 N.", "La opción «96 kg» mezcla unidades; la masa sigue siendo 60 kg."] }
+          ]
+        },
+        {
+          "enunciado": "Al patear una pelota, ¿cómo es la fuerza que la pelota ejerce sobre el pie, comparada con la que el pie ejerce sobre la pelota?",
+          "alternativas": [
+            "Menor, porque la pelota tiene menos masa.",
+            "Mayor, porque la pelota sale disparada.",
+            "Nula, porque la pelota no puede ejercer fuerza por sí misma.",
+            "De igual magnitud y sentido opuesto."
+          ],
+          "correcta": 3,
+          "explicacion": "Por la tercera ley de Newton, las fuerzas de acción y reacción tienen siempre igual magnitud y sentido opuesto. La pelota sale disparada porque tiene poca masa (su aceleración es grande), no porque reciba una fuerza mayor.",
+          "descartes": [
+            "La masa no cambia la magnitud del par acción-reacción; solo influye en la aceleración que adquiere cada cuerpo (a = F/m).",
+            "Que la pelota salga disparada se debe a su pequeña masa, no a que la fuerza sea mayor.",
+            "Cualquier cuerpo que interactúa ejerce fuerza; por eso sientes el golpe en el pie.",
+            null
+          ],
+          "metodos": [
+            { "nombre": "Tercera ley", "pasos": ["Acción: pie sobre pelota.", "Reacción: pelota sobre pie.", "Siempre de igual magnitud y sentido opuesto."] },
+            { "nombre": "Usar la segunda ley para el efecto", "pasos": ["Misma fuerza F sobre cuerpos de distinta masa.", "a = F/m: la pelota (poca masa) acelera mucho; el pie (unido al cuerpo) muy poco.", "El efecto distinto no significa fuerzas distintas."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — College Physics 2e (cap. 4: Dynamics: Force and Newton's Laws of Motion)", "url": "https://openstax.org/details/books/college-physics-2e" },
+        { "titulo": "Khan Academy en español — Física", "url": "https://es.khanacademy.org/science/physics" }
+      ]
+    }
+  ]
+}

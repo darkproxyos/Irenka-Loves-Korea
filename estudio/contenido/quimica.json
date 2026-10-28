@@ -1,0 +1,470 @@
+{
+  "lecciones": [
+    {
+      "id": "materia",
+      "titulo": "La materia: propiedades, estados y mezclas",
+      "resumen": "Qué es la materia, cómo se clasifica, cómo cambia de estado y cómo se separan las mezclas.",
+      "objetivos": [
+        "Diferenciar propiedades extensivas e intensivas.",
+        "Distinguir cambios físicos y químicos.",
+        "Clasificar la materia y elegir métodos de separación de mezclas."
+      ],
+      "secciones": [
+        {
+          "titulo": "Materia y propiedades",
+          "texto": [
+            "**Materia** es todo lo que tiene masa y ocupa un lugar en el espacio (volumen).",
+            "Las **propiedades extensivas** dependen de la cantidad de materia: masa, volumen, peso. Las **propiedades intensivas** no dependen de la cantidad y sirven para identificar sustancias: densidad, punto de fusión, punto de ebullición, color.",
+            "La **densidad** relaciona masa y volumen: `d = m / V`. Un trozo pequeño y uno grande de aluminio tienen la misma densidad (2,7 g/cm³), aunque tengan distinta masa."
+          ]
+        },
+        {
+          "titulo": "Estados de la materia y cambios de estado",
+          "texto": [
+            "Según el **modelo de partículas**: en los **sólidos** las partículas están muy juntas y solo vibran (forma y volumen fijos); en los **líquidos** están juntas pero se deslizan (volumen fijo, forma variable); en los **gases** están muy separadas y se mueven libremente (forma y volumen variables)."
+          ],
+          "lista": [
+            "Fusión: sólido → líquido. Solidificación: líquido → sólido.",
+            "Vaporización: líquido → gas (por evaporación en la superficie o ebullición en todo el líquido). Condensación: gas → líquido.",
+            "Sublimación: sólido → gas (como el hielo seco). Sublimación inversa o deposición: gas → sólido (como la escarcha)."
+          ]
+        },
+        {
+          "titulo": "Cambios físicos y químicos",
+          "texto": [
+            "En un **cambio físico** la sustancia sigue siendo la misma: cambia su forma o estado (derretir hielo, romper un vidrio, disolver azúcar).",
+            "En un **cambio químico** se forman **sustancias nuevas** con propiedades distintas (combustión, oxidación del hierro, cocinar un huevo). Pistas: cambio de color inesperado, desprendimiento de gas, liberación de luz o calor, formación de un sólido."
+          ]
+        },
+        {
+          "titulo": "Clasificación de la materia y separación de mezclas",
+          "lista": [
+            "**Sustancia pura:** composición fija. Puede ser **elemento** (un solo tipo de átomo: O₂, Fe) o **compuesto** (dos o más elementos combinados químicamente en proporción fija: H₂O, NaCl).",
+            "**Mezcla homogénea** o disolución: se ve una sola fase (agua con sal, aire).",
+            "**Mezcla heterogénea:** se distinguen sus componentes (agua con arena, ensalada)."
+          ],
+          "recuadro": "Métodos de separación: **filtración** (sólido no disuelto de un líquido), **decantación** (líquidos que no se mezclan o sólido que se deposita), **evaporación** (recuperar un sólido disuelto), **destilación** (separar líquidos o recuperar el solvente, según su punto de ebullición), **imantación** (separar un metal magnético) y **cromatografía** (separar pigmentos)."
+        }
+      ],
+      "conceptos": [
+        { "termino": "Propiedad intensiva", "definicion": "Propiedad que no depende de la cantidad de materia, como la densidad o el punto de ebullición." },
+        { "termino": "Propiedad extensiva", "definicion": "Propiedad que depende de la cantidad de materia, como la masa o el volumen." },
+        { "termino": "Cambio químico", "definicion": "Transformación en la que se forman sustancias nuevas con propiedades diferentes." },
+        { "termino": "Compuesto", "definicion": "Sustancia pura formada por dos o más elementos unidos químicamente en proporción fija." },
+        { "termino": "Mezcla homogénea", "definicion": "Mezcla en la que no se distinguen sus componentes; también se llama disolución." },
+        { "termino": "Destilación", "definicion": "Método que separa componentes de una mezcla líquida aprovechando sus distintos puntos de ebullición." }
+      ],
+      "ideasClave": [
+        "La densidad es una propiedad **intensiva**: no cambia si se parte el objeto.",
+        "La oxidación del hierro es un cambio **químico** porque se forma una sustancia nueva.",
+        "El paso directo de sólido a gas se llama **sublimación**.",
+        "Para recuperar tanto la sal como el agua de una disolución se usa la **destilación**."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "¿Cuál de los siguientes procesos corresponde a un cambio químico?",
+          "alternativas": ["Fusión del hielo", "Disolución de azúcar en agua", "Oxidación de un clavo de hierro", "Ruptura de un vaso de vidrio"],
+          "correcta": 2,
+          "explicacion": "Al oxidarse, el hierro reacciona con oxígeno y agua y forma óxido de hierro (herrumbre), una sustancia nueva de color y propiedades distintas.",
+          "descartes": [
+            "El hielo derretido sigue siendo agua: solo cambia de estado (cambio físico).",
+            "El azúcar disuelta sigue siendo azúcar (se recupera evaporando el agua): es un cambio físico.",
+            null,
+            "Los trozos siguen siendo vidrio: cambia la forma, no la sustancia."
+          ],
+          "metodos": [
+            { "nombre": "¿Hay una sustancia nueva?", "pasos": ["Pregunta para cada caso si al final hay algo distinto a lo inicial.", "Solo en la oxidación aparece una sustancia nueva (óxido)."] },
+            { "nombre": "¿Es reversible fácilmente?", "pasos": ["El hielo se vuelve a congelar; el azúcar se recupera evaporando.", "El óxido no vuelve a ser hierro con un proceso físico simple.", "Esa es una señal típica de cambio químico."] }
+          ]
+        },
+        {
+          "enunciado": "Un bloque de aluminio se corta en dos partes iguales. ¿Qué propiedad tiene el mismo valor en cada parte que en el bloque original?",
+          "alternativas": ["La masa", "El volumen", "La densidad", "El peso"],
+          "correcta": 2,
+          "explicacion": "La densidad es una propiedad intensiva: depende del material, no de la cantidad. Al cortar el bloque, la masa y el volumen se reducen a la mitad, así que su cociente (m/V) no cambia.",
+          "descartes": [
+            "La masa es extensiva: cada mitad tiene la mitad de la masa.",
+            "El volumen es extensivo: cada mitad ocupa la mitad del volumen.",
+            null,
+            "El peso depende de la masa (P = m·g), así que también se reduce a la mitad."
+          ],
+          "metodos": [
+            { "nombre": "Intensiva vs extensiva", "pasos": ["Masa, volumen y peso dependen de la cantidad → extensivas.", "La densidad no depende de la cantidad → intensiva."] },
+            { "nombre": "Cálculo con la fórmula", "pasos": ["Original: d = m/V.", "Mitad: d' = (m/2)/(V/2) = m/V.", "d' = d: la densidad se mantiene."] }
+          ]
+        },
+        {
+          "enunciado": "Se quiere separar una mezcla de agua con sal disuelta y recuperar ambos componentes. ¿Qué método es el más adecuado?",
+          "alternativas": ["Filtración", "Decantación", "Imantación", "Destilación"],
+          "correcta": 3,
+          "explicacion": "Al calentar, el agua se evapora (la sal no), el vapor se enfría en el condensador y se recoge como agua líquida, mientras la sal queda en el recipiente. Así se recuperan ambos.",
+          "descartes": [
+            "La sal disuelta atraviesa el papel filtro junto con el agua: la filtración solo separa sólidos no disueltos.",
+            "La decantación necesita que un componente se deposite o que haya dos líquidos que no se mezclan; en una disolución no ocurre.",
+            "La sal no es magnética, así que un imán no la separa.",
+            null
+          ],
+          "metodos": [
+            { "nombre": "Tipo de mezcla", "pasos": ["Agua con sal es una mezcla homogénea (disolución).", "Las disoluciones no se separan con filtración, decantación ni imantación.", "Se separan aprovechando puntos de ebullición distintos."] },
+            { "nombre": "Pensar en el objetivo", "pasos": ["Recuperar la sal: bastaría evaporar.", "Recuperar también el agua: hay que condensar el vapor.", "Evaporar + condensar = destilación."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — Chemistry 2e (cap. 1: Essential Ideas)", "url": "https://openstax.org/details/books/chemistry-2e" },
+        { "titulo": "Khan Academy en español — Química", "url": "https://es.khanacademy.org/science/chemistry" }
+      ]
+    },
+    {
+      "id": "atomo",
+      "titulo": "El átomo: partículas, número atómico e isótopos",
+      "resumen": "De qué está hecho un átomo, cómo se identifican los elementos y qué son los iones y los isótopos.",
+      "objetivos": [
+        "Describir las partículas subatómicas y su ubicación.",
+        "Calcular protones, neutrones y electrones a partir de Z y A.",
+        "Diferenciar iones e isótopos."
+      ],
+      "secciones": [
+        {
+          "titulo": "Breve historia del modelo atómico",
+          "lista": [
+            "**Dalton (1808):** la materia está formada por átomos indivisibles; los átomos de un mismo elemento son iguales.",
+            "**Thomson (1897):** descubre el electrón; propone un átomo con carga positiva y electrones incrustados.",
+            "**Rutherford (1911):** al bombardear una lámina de oro descubre que el átomo tiene un **núcleo** pequeño, denso y positivo; la mayor parte del átomo es espacio vacío.",
+            "**Bohr (1913):** los electrones giran en niveles de energía definidos.",
+            "**Modelo mecánico-cuántico (desde 1926):** los electrones no siguen órbitas exactas; se describe la probabilidad de encontrarlos en regiones llamadas **orbitales**."
+          ]
+        },
+        {
+          "titulo": "Partículas subatómicas",
+          "lista": [
+            "**Protón (p⁺):** carga positiva, en el núcleo.",
+            "**Neutrón (n⁰):** sin carga, en el núcleo; masa similar a la del protón.",
+            "**Electrón (e⁻):** carga negativa, alrededor del núcleo; su masa es unas 1.836 veces menor que la del protón."
+          ]
+        },
+        {
+          "titulo": "Número atómico y número másico",
+          "texto": [
+            "El **número atómico (Z)** es la cantidad de protones. **Identifica al elemento**: todo átomo con 6 protones es carbono.",
+            "El **número másico (A)** es la suma de protones y neutrones: `A = Z + n`, por lo tanto `n = A − Z`.",
+            "En un átomo **neutro**, el número de electrones es igual al de protones."
+          ],
+          "ejemplo": {
+            "enunciado": "El sodio tiene Z = 11 y A = 23. ¿Cuántas partículas de cada tipo tiene un átomo neutro?",
+            "pasos": [
+              "Protones = Z = 11.",
+              "Neutrones = A − Z = 23 − 11 = 12.",
+              "Electrones (neutro) = protones = **11**."
+            ]
+          }
+        },
+        {
+          "titulo": "Iones e isótopos",
+          "texto": [
+            "Un **ion** es un átomo que ganó o perdió electrones (los protones no cambian). Si **pierde** electrones queda positivo: **catión** (Na⁺ tiene 10 e⁻). Si **gana** electrones queda negativo: **anión** (Cl⁻ tiene 18 e⁻).",
+            "Los **isótopos** son átomos del **mismo elemento** (igual Z) con **distinto número de neutrones** (distinto A). Ejemplo: carbono-12, carbono-13 y carbono-14 tienen 6 protones, pero 6, 7 y 8 neutrones, respectivamente."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Número atómico (Z)", "definicion": "Número de protones del núcleo; identifica al elemento." },
+        { "termino": "Número másico (A)", "definicion": "Suma de protones y neutrones de un átomo." },
+        { "termino": "Catión", "definicion": "Ion con carga positiva, formado cuando un átomo pierde electrones." },
+        { "termino": "Anión", "definicion": "Ion con carga negativa, formado cuando un átomo gana electrones." },
+        { "termino": "Isótopos", "definicion": "Átomos de un mismo elemento (igual Z) con distinto número de neutrones (distinto A)." }
+      ],
+      "ideasClave": [
+        "El número de **protones** identifica al elemento.",
+        "Neutrones = A − **Z**.",
+        "Un catión se forma cuando el átomo **pierde** electrones.",
+        "Los isótopos de un elemento difieren en su número de **neutrones**.",
+        "Rutherford descubrió que el átomo tiene un **núcleo** pequeño y positivo."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Un átomo neutro tiene Z = 17 y A = 35. ¿Cuántos protones, neutrones y electrones tiene, respectivamente?",
+          "alternativas": ["17, 35 y 17", "17, 18 y 17", "18, 17 y 18", "35, 17 y 35"],
+          "correcta": 1,
+          "explicacion": "Protones = Z = 17. Neutrones = A − Z = 35 − 17 = 18. Como es neutro, electrones = protones = 17.",
+          "descartes": [
+            "Usa A (35) como número de neutrones; A es la suma de protones y neutrones.",
+            null,
+            "Intercambia protones y neutrones: el número de protones es Z, no A − Z.",
+            "Usa A como número de protones; los protones corresponden a Z."
+          ],
+          "metodos": [
+            { "nombre": "Fórmulas directas", "pasos": ["p = Z = 17.", "n = A − Z = 18.", "e = p = 17 (átomo neutro)."] },
+            { "nombre": "Verificación por suma", "pasos": ["En la opción correcta, p + n debe dar A.", "B: 17 + 18 = 35 ✓ y p = Z = 17 ✓.", "A: 17 + 35 = 52 ✗; C: p ≠ Z ✗; D: p ≠ Z ✗."] }
+          ]
+        },
+        {
+          "enunciado": "El magnesio tiene Z = 12. ¿Cuántos electrones tiene el ion Mg²⁺?",
+          "alternativas": ["10", "12", "14", "24"],
+          "correcta": 0,
+          "explicacion": "El átomo neutro tiene 12 electrones. La carga 2+ indica que perdió 2 electrones (los protones no cambian): 12 − 2 = 10 electrones.",
+          "descartes": [
+            null,
+            "Es el número de electrones del átomo neutro; el ion perdió 2.",
+            "Resulta de sumar 2 electrones. Una carga positiva significa que se perdieron electrones, no que se ganaron.",
+            "24 es aproximadamente el número másico del magnesio, no su número de electrones."
+          ],
+          "metodos": [
+            { "nombre": "Desde el átomo neutro", "pasos": ["Mg neutro: 12 e⁻.", "Carga 2+: perdió 2 e⁻.", "12 − 2 = 10."] },
+            { "nombre": "Balance de cargas", "pasos": ["Carga del ion = protones − electrones.", "+2 = 12 − e.", "e = 10."] }
+          ]
+        },
+        {
+          "enunciado": "El carbono-12 y el carbono-14 son isótopos. ¿En qué se diferencian sus átomos?",
+          "alternativas": ["En el número de protones", "En el número de neutrones", "En el número de electrones del átomo neutro", "En el elemento al que pertenecen"],
+          "correcta": 1,
+          "explicacion": "Ambos tienen 6 protones (por eso son carbono). Sus números másicos son 12 y 14, así que tienen 12 − 6 = 6 y 14 − 6 = 8 neutrones.",
+          "descartes": [
+            "Si cambiara el número de protones, sería otro elemento. Ambos tienen 6.",
+            null,
+            "En los átomos neutros, los electrones igualan a los protones: ambos tienen 6.",
+            "Ambos son carbono; los isótopos son, por definición, del mismo elemento."
+          ],
+          "metodos": [
+            { "nombre": "Definición de isótopo", "pasos": ["Isótopos: igual Z, distinto A.", "Como A = Z + n y Z es igual, lo que cambia es n."] },
+            { "nombre": "Calcular", "pasos": ["C-12: n = 12 − 6 = 6.", "C-14: n = 14 − 6 = 8.", "Solo difieren en neutrones."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — Chemistry 2e (cap. 2: Atoms, Molecules, and Ions)", "url": "https://openstax.org/details/books/chemistry-2e" },
+        { "titulo": "Khan Academy en español — Química", "url": "https://es.khanacademy.org/science/chemistry" }
+      ]
+    },
+    {
+      "id": "configuracion-tabla",
+      "titulo": "Configuración electrónica y tabla periódica",
+      "resumen": "Cómo se ordenan los electrones en un átomo y cómo eso explica la organización de la tabla periódica.",
+      "objetivos": [
+        "Escribir configuraciones electrónicas con el principio de Aufbau.",
+        "Ubicar un elemento en la tabla (período y grupo) a partir de su configuración.",
+        "Predecir tendencias de radio atómico, electronegatividad y energía de ionización."
+      ],
+      "secciones": [
+        {
+          "titulo": "Niveles, subniveles y orden de llenado",
+          "texto": [
+            "Los electrones se ubican en **niveles de energía** (n = 1, 2, 3…), que se dividen en **subniveles** s, p, d y f. Cada subnivel admite un máximo de electrones: **s = 2, p = 6, d = 10, f = 14**.",
+            "Según el **principio de Aufbau**, los electrones ocupan primero los subniveles de menor energía. El orden (regla de las diagonales) es:"
+          ],
+          "recuadro": "1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → 4d → 5p → 6s → 4f → 5d → 6p → 7s → 5f → 6d → 7p",
+          "ejemplo": {
+            "enunciado": "Escribe la configuración electrónica del cloro (Z = 17).",
+            "pasos": [
+              "Hay que ubicar 17 electrones siguiendo el orden.",
+              "1s² (2) → 2s² (4) → 2p⁶ (10) → 3s² (12) → 3p⁵ (17).",
+              "Configuración: **1s² 2s² 2p⁶ 3s² 3p⁵**.",
+              "Nivel más externo: n = 3, con 2 + 5 = **7 electrones de valencia**."
+            ]
+          }
+        },
+        {
+          "titulo": "La tabla periódica",
+          "texto": [
+            "Los elementos se ordenan por **número atómico creciente**. Las filas son **períodos** y las columnas, **grupos**.",
+            "El **período** indica el nivel de energía más externo ocupado. Los elementos de un mismo **grupo** tienen el mismo número de electrones de valencia y, por eso, **propiedades químicas parecidas**. Para los elementos de los bloques s y p: grupos 1 y 2 tienen 1 y 2 electrones de valencia; los grupos 13 a 18 tienen de 3 a 8 (el helio es la excepción, con 2).",
+            "Los **metales** están a la izquierda y al centro; los **no metales**, a la derecha; los **metaloides**, en la frontera entre ambos; los **gases nobles** (grupo 18) tienen su capa externa completa y son muy poco reactivos."
+          ]
+        },
+        {
+          "titulo": "Propiedades periódicas",
+          "lista": [
+            "**Radio atómico:** aumenta hacia **abajo** en un grupo (más niveles) y hacia la **izquierda** en un período (menos protones atrayendo a los electrones).",
+            "**Electronegatividad** (capacidad de atraer electrones en un enlace): aumenta hacia **arriba** y hacia la **derecha**. El flúor es el elemento más electronegativo.",
+            "**Energía de ionización** (energía para quitar un electrón): aumenta hacia **arriba** y hacia la **derecha**."
+          ],
+          "recuadro": "Para recordarlo: electronegatividad y energía de ionización crecen hacia el flúor (arriba a la derecha); el radio crece en sentido contrario (abajo a la izquierda)."
+        }
+      ],
+      "conceptos": [
+        { "termino": "Configuración electrónica", "definicion": "Distribución de los electrones de un átomo en niveles y subniveles de energía." },
+        { "termino": "Principio de Aufbau", "definicion": "Los electrones ocupan primero los subniveles de menor energía disponibles." },
+        { "termino": "Electrones de valencia", "definicion": "Electrones del nivel de energía más externo; determinan el comportamiento químico." },
+        { "termino": "Período", "definicion": "Fila de la tabla periódica; indica el nivel de energía más externo ocupado." },
+        { "termino": "Grupo", "definicion": "Columna de la tabla periódica; sus elementos tienen el mismo número de electrones de valencia." },
+        { "termino": "Electronegatividad", "definicion": "Tendencia de un átomo a atraer los electrones de un enlace; aumenta hacia arriba y a la derecha en la tabla." }
+      ],
+      "ideasClave": [
+        "El subnivel p admite como máximo **6** electrones.",
+        "El elemento más electronegativo es el **flúor**.",
+        "Los elementos de un mismo grupo tienen igual número de **electrones de valencia**.",
+        "El radio atómico aumenta hacia **abajo** en un grupo."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "¿Cuál es la configuración electrónica del sodio (Z = 11)?",
+          "alternativas": ["1s² 2s² 2p⁷", "1s² 2s² 2p⁶ 3s¹", "1s² 2s² 2p⁶ 3p¹", "1s² 2s⁸ 3s¹"],
+          "correcta": 1,
+          "explicacion": "Se llenan en orden: 1s² (2), 2s² (4), 2p⁶ (10) y el electrón número 11 va al siguiente subnivel, el 3s: 1s² 2s² 2p⁶ 3s¹.",
+          "descartes": [
+            "El subnivel p admite como máximo 6 electrones; 2p⁷ es imposible.",
+            null,
+            "Después de 2p se llena 3s, que tiene menor energía que 3p.",
+            "El subnivel s admite como máximo 2 electrones; 2s⁸ es imposible."
+          ],
+          "metodos": [
+            { "nombre": "Llenado ordenado", "pasos": ["1s² → 2 e⁻.", "2s² → 4 e⁻.", "2p⁶ → 10 e⁻.", "3s¹ → 11 e⁻."] },
+            { "nombre": "Usar el gas noble anterior", "pasos": ["El neón (Z = 10) es 1s² 2s² 2p⁶.", "El sodio tiene un electrón más, que inicia el período 3.", "[Ne] 3s¹ = 1s² 2s² 2p⁶ 3s¹."] }
+          ]
+        },
+        {
+          "enunciado": "Un elemento tiene la configuración 1s² 2s² 2p⁶ 3s² 3p⁵. ¿En qué período y grupo de la tabla periódica se ubica?",
+          "alternativas": ["Período 3, grupo 17", "Período 5, grupo 3", "Período 3, grupo 5", "Período 2, grupo 17"],
+          "correcta": 0,
+          "explicacion": "El nivel más externo es n = 3 → período 3. En ese nivel hay 3s² 3p⁵ = 7 electrones de valencia; en el bloque p eso corresponde al grupo 17 (halógenos). Es el cloro.",
+          "descartes": [
+            null,
+            "Confunde el exponente 5 con el período y el nivel 3 con el grupo; están invertidos.",
+            "Cuenta solo los electrones del subnivel p (5) e ignora los 2 del 3s. Los electrones de valencia son todos los del último nivel: 7.",
+            "El último nivel ocupado es el 3, no el 2."
+          ],
+          "metodos": [
+            { "nombre": "Leer la configuración", "pasos": ["Mayor n: 3 → período 3.", "Electrones en n = 3: 2 + 5 = 7.", "Bloque p con 7 de valencia → grupo 17."] },
+            { "nombre": "Contar Z y ubicar", "pasos": ["Suma de electrones: 2 + 2 + 6 + 2 + 5 = 17 → Z = 17, el cloro.", "El cloro está en el período 3, grupo 17."] }
+          ]
+        },
+        {
+          "enunciado": "¿Cuál de los siguientes elementos es el más electronegativo?",
+          "alternativas": ["Cesio (Cs)", "Oxígeno (O)", "Cloro (Cl)", "Flúor (F)"],
+          "correcta": 3,
+          "explicacion": "La electronegatividad aumenta hacia arriba y hacia la derecha de la tabla (sin considerar los gases nobles). El flúor está en esa esquina y es el elemento más electronegativo de todos (3,98 en la escala de Pauling).",
+          "descartes": [
+            "El cesio está abajo a la izquierda: es uno de los elementos menos electronegativos.",
+            "El oxígeno es muy electronegativo, pero está a la izquierda del flúor en el mismo período, así que es algo menor.",
+            "El cloro está debajo del flúor en el grupo 17; al bajar en un grupo la electronegatividad disminuye.",
+            null
+          ],
+          "metodos": [
+            { "nombre": "Tendencia periódica", "pasos": ["Electronegatividad: crece hacia arriba y a la derecha.", "El extremo superior derecho (sin gases nobles) es el flúor."] },
+            { "nombre": "Comparar de a pares", "pasos": ["F vs Cl: mismo grupo, F está más arriba → F mayor.", "F vs O: mismo período, F más a la derecha → F mayor.", "Cs está en el extremo opuesto → el menor."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — Chemistry 2e (cap. 6: Electronic Structure and Periodic Properties)", "url": "https://openstax.org/details/books/chemistry-2e" },
+        { "titulo": "IUPAC — Tabla periódica de los elementos", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
+        { "titulo": "Khan Academy en español — Química", "url": "https://es.khanacademy.org/science/chemistry" }
+      ]
+    },
+    {
+      "id": "enlace",
+      "titulo": "Enlace químico: iónico, covalente y metálico",
+      "resumen": "Por qué los átomos se unen, cómo lo hacen y qué propiedades da cada tipo de enlace.",
+      "objetivos": [
+        "Aplicar la regla del octeto y representar átomos con estructuras de Lewis.",
+        "Diferenciar enlace iónico, covalente y metálico.",
+        "Relacionar el tipo de enlace con las propiedades de las sustancias."
+      ],
+      "secciones": [
+        {
+          "titulo": "¿Por qué se unen los átomos?",
+          "texto": [
+            "Los átomos se unen porque así alcanzan una situación de **menor energía** y mayor estabilidad. Una guía útil es la **regla del octeto**: los átomos tienden a ganar, perder o compartir electrones hasta tener **8 electrones de valencia**, como los gases nobles. El hidrógeno es una excepción: se estabiliza con 2 (dueto).",
+            "Las **estructuras de Lewis** representan los electrones de valencia con puntos alrededor del símbolo del elemento."
+          ]
+        },
+        {
+          "titulo": "Enlace iónico",
+          "texto": [
+            "Se produce por **transferencia de electrones**, normalmente entre un **metal** (que pierde electrones y forma un catión) y un **no metal** (que los gana y forma un anión). Los iones de carga opuesta se atraen.",
+            "Ejemplo: el Na cede su único electrón de valencia al Cl; se forman Na⁺ y Cl⁻, y ambos quedan con 8 electrones en su último nivel.",
+            "Como regla aproximada, se considera iónico cuando la **diferencia de electronegatividad** es grande (mayor que 1,7). En realidad, entre el enlace iónico y el covalente hay una transición gradual."
+          ],
+          "recuadro": "Propiedades de los compuestos iónicos: sólidos cristalinos a temperatura ambiente, puntos de fusión altos, muchos se disuelven en agua y **conducen la electricidad fundidos o disueltos** (los iones quedan libres), pero no en estado sólido."
+        },
+        {
+          "titulo": "Enlace covalente",
+          "texto": [
+            "Se produce cuando dos átomos, generalmente **no metales**, **comparten pares de electrones**.",
+            "Puede ser **simple** (un par, como en H₂), **doble** (dos pares, como en O₂) o **triple** (tres pares, como en N₂).",
+            "Es **apolar** si los átomos atraen por igual los electrones (misma electronegatividad, como en Cl₂) y **polar** si uno los atrae más (como en el H₂O, donde el oxígeno queda parcialmente negativo)."
+          ]
+        },
+        {
+          "titulo": "Enlace metálico",
+          "texto": [
+            "Se da entre átomos de **metales**: sus electrones de valencia forman un «**mar de electrones**» que se mueve libremente entre cationes ordenados. Esto explica que los metales sean buenos **conductores** de la electricidad y el calor, y que sean **maleables** y **dúctiles**."
+          ]
+        }
+      ],
+      "conceptos": [
+        { "termino": "Regla del octeto", "definicion": "Tendencia de los átomos a ganar, perder o compartir electrones para tener 8 electrones de valencia." },
+        { "termino": "Enlace iónico", "definicion": "Unión por atracción entre iones de carga opuesta, formados por transferencia de electrones (metal + no metal)." },
+        { "termino": "Enlace covalente", "definicion": "Unión en que dos átomos comparten uno o más pares de electrones (generalmente no metales)." },
+        { "termino": "Enlace covalente polar", "definicion": "Enlace covalente entre átomos de distinta electronegatividad: los electrones se comparten de forma desigual." },
+        { "termino": "Enlace metálico", "definicion": "Unión entre átomos metálicos con electrones de valencia que se mueven libremente («mar de electrones»)." }
+      ],
+      "ideasClave": [
+        "El enlace iónico se forma por **transferencia** de electrones.",
+        "El enlace covalente se forma cuando los átomos **comparten** electrones.",
+        "La molécula de N₂ tiene un enlace **triple**.",
+        "Los compuestos iónicos conducen la electricidad cuando están **disueltos o fundidos**.",
+        "El «mar de electrones» explica que los metales sean buenos **conductores**."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "¿Cuál de los siguientes compuestos presenta enlace iónico?",
+          "alternativas": ["H₂O", "CO₂", "KCl", "CH₄"],
+          "correcta": 2,
+          "explicacion": "El potasio (K) es un metal del grupo 1 que cede fácilmente su electrón de valencia, y el cloro (Cl) es un no metal muy electronegativo que lo acepta. Se forman K⁺ y Cl⁻, unidos por atracción electrostática.",
+          "descartes": [
+            "H₂O está formado solo por no metales (H y O): comparten electrones en enlaces covalentes polares.",
+            "CO₂ está formado por no metales (C y O): sus enlaces son covalentes dobles.",
+            null,
+            "CH₄ está formado por no metales (C e H): sus enlaces son covalentes."
+          ],
+          "metodos": [
+            { "nombre": "Metal + no metal", "pasos": ["Busca la opción con un metal unido a un no metal.", "K es metal (grupo 1); Cl es no metal.", "Las demás opciones solo tienen no metales."] },
+            { "nombre": "Diferencia de electronegatividad", "pasos": ["K ≈ 0,8 y Cl ≈ 3,2 → diferencia ≈ 2,4 (> 1,7): iónico.", "O–H ≈ 1,2; C–O ≈ 0,9; C–H ≈ 0,4: covalentes."] }
+          ]
+        },
+        {
+          "enunciado": "¿Qué tipo de enlace une a los dos átomos en la molécula de nitrógeno (N₂)?",
+          "alternativas": ["Covalente simple", "Covalente doble", "Covalente triple", "Iónico"],
+          "correcta": 2,
+          "explicacion": "Cada nitrógeno tiene 5 electrones de valencia y necesita 3 más para completar el octeto. Al compartir 3 pares de electrones, ambos llegan a 8: es un enlace covalente triple (y apolar, porque los átomos son iguales).",
+          "descartes": [
+            "Con un solo par compartido, cada N quedaría con 6 electrones, sin completar el octeto.",
+            "Con dos pares compartidos, cada N quedaría con 7 electrones; aún le faltaría uno.",
+            null,
+            "Los dos átomos son iguales (misma electronegatividad), así que ninguno puede arrancarle electrones al otro: no hay enlace iónico."
+          ],
+          "metodos": [
+            { "nombre": "Contar electrones faltantes", "pasos": ["N tiene 5 e⁻ de valencia.", "Le faltan 8 − 5 = 3.", "Cada par compartido aporta 1 al octeto de cada átomo → 3 pares → enlace triple."] },
+            { "nombre": "Estructura de Lewis", "pasos": ["Dibuja cada N con 5 puntos.", "Comparte pares hasta que ambos tengan 8 electrones a su alrededor.", "Resultado: N≡N con un par solitario en cada átomo."] }
+          ]
+        },
+        {
+          "enunciado": "¿Cuál de las siguientes propiedades es característica de los compuestos iónicos?",
+          "alternativas": [
+            "Conducen la electricidad en estado sólido.",
+            "Tienen puntos de fusión muy bajos.",
+            "Se forman generalmente entre dos no metales.",
+            "Conducen la electricidad cuando están disueltos en agua o fundidos."
+          ],
+          "correcta": 3,
+          "explicacion": "Para conducir electricidad se necesitan cargas que puedan moverse. En el sólido, los iones están fijos en la red cristalina; al disolverse o fundirse, los iones quedan libres y conducen la corriente.",
+          "descartes": [
+            "En estado sólido los iones están fijos en la red cristalina y no pueden desplazarse, así que no conducen.",
+            "Las fuertes atracciones entre iones hacen que sus puntos de fusión sean altos (la sal de mesa funde a unos 801 °C).",
+            "Entre dos no metales se forman enlaces covalentes; el iónico suele darse entre un metal y un no metal.",
+            null
+          ],
+          "metodos": [
+            { "nombre": "Cargas móviles", "pasos": ["Conducir requiere cargas que se muevan.", "Sólido: iones fijos → no conduce.", "Disuelto o fundido: iones libres → conduce."] },
+            { "nombre": "Ejemplo conocido", "pasos": ["Piensa en la sal de mesa (NaCl).", "Sal seca: no conduce; agua con sal: sí conduce; funde a alta temperatura.", "Solo la opción D coincide."] }
+          ]
+        }
+      ],
+      "fuentes": [
+        { "titulo": "OpenStax — Chemistry 2e (cap. 7: Chemical Bonding and Molecular Geometry)", "url": "https://openstax.org/details/books/chemistry-2e" },
+        { "titulo": "Khan Academy en español — Química", "url": "https://es.khanacademy.org/science/chemistry" }
+      ]
+    }
+  ]
+}

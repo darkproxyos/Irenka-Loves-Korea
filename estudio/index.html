@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Estudio · Ciencias, Matemáticas y Lectura</title>
+  <meta name="description" content="Plataforma personal de estudio: biología, química, física, matemáticas y comprensión lectora desde lo más básico, con flashcards, tests tipo PAES y banco de errores." />
+  <meta name="theme-color" content="#FCFAF9" />
+  <link rel="icon" href="/estudio/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/estudio/css/estudio.css" />
+</head>
+<body>
+  <div class="marco">
+    <aside class="lateral" id="lateral">
+      <a class="marca" href="#/">
+        <span class="marca-punto" aria-hidden="true"></span>
+        <span>Estudio</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Secciones">
+        <a href="#/" data-ruta="inicio">Inicio</a>
+        <p class="nav-grupo">Asignaturas</p>
+        <div id="nav-materias"></div>
+        <p class="nav-grupo">Practicar</p>
+        <a href="#/repaso" data-ruta="repaso">Repaso de flashcards <span class="contador" id="c-repaso"></span></a>
+        <a href="#/errores" data-ruta="errores">Banco de errores <span class="contador" id="c-errores"></span></a>
+        <p class="nav-grupo">Más</p>
+        <a href="#/pdf" data-ruta="pdf">Lecciones desde PDF</a>
+        <a href="#/aprender" data-ruta="aprender">Aprender a aprender</a>
+        <a href="#/fuentes" data-ruta="fuentes">Fuentes</a>
+      </nav>
+    </aside>
+
+    <header class="barra-movil">
+      <a class="marca" href="#/"><span class="marca-punto" aria-hidden="true"></span><span>Estudio</span></a>
+      <button class="boton-menu" id="boton-menu" aria-label="Abrir menú" aria-expanded="false" aria-controls="lateral">Menú</button>
+    </header>
+
+    <main id="app" class="principal" tabindex="-1">
+      <p class="cargando">Cargando…</p>
+    </main>
+  </div>
+
+  <script src="/estudio/js/estudio.js"></script>
+</body>
+</html>
