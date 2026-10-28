@@ -52,11 +52,26 @@
         }
       ],
       "conceptos": [
-        { "termino": "Homeostasis", "definicion": "Capacidad de un organismo de mantener estables sus condiciones internas frente a cambios del ambiente." },
-        { "termino": "Metabolismo", "definicion": "Conjunto de reacciones químicas con que un ser vivo obtiene, transforma y usa materia y energía." },
-        { "termino": "Tejido", "definicion": "Conjunto de células similares que cumplen una misma función." },
-        { "termino": "Población", "definicion": "Conjunto de individuos de la misma especie que viven en un mismo lugar y tiempo." },
-        { "termino": "Ecosistema", "definicion": "Comunidad de seres vivos junto con el ambiente físico con el que interactúan." }
+        {
+          "termino": "Homeostasis",
+          "definicion": "Capacidad de un organismo de mantener estables sus condiciones internas frente a cambios del ambiente."
+        },
+        {
+          "termino": "Metabolismo",
+          "definicion": "Conjunto de reacciones químicas con que un ser vivo obtiene, transforma y usa materia y energía."
+        },
+        {
+          "termino": "Tejido",
+          "definicion": "Conjunto de células similares que cumplen una misma función."
+        },
+        {
+          "termino": "Población",
+          "definicion": "Conjunto de individuos de la misma especie que viven en un mismo lugar y tiempo."
+        },
+        {
+          "termino": "Ecosistema",
+          "definicion": "Comunidad de seres vivos junto con el ambiente físico con el que interactúan."
+        }
       ],
       "ideasClave": [
         "La **célula** es el nivel de organización más simple que presenta vida.",
@@ -82,13 +97,33 @@
             "El organismo es menos complejo que la población (una población está formada por muchos organismos), por lo que el orden está invertido al inicio."
           ],
           "metodos": [
-            { "nombre": "Preguntar «¿de qué está hecho?»", "pasos": ["Un sistema está hecho de órganos.", "Un órgano está hecho de tejidos.", "Un tejido está hecho de células.", "Ordena de lo que forma a lo formado."] },
-            { "nombre": "Descartar por pares", "pasos": ["Revisa cada par consecutivo de cada opción.", "En A, «tejido – célula» está al revés; en C, «órgano – tejido»; en D, «población – organismo».", "Solo B no tiene pares invertidos."] }
+            {
+              "nombre": "Preguntar «¿de qué está hecho?»",
+              "pasos": [
+                "Un sistema está hecho de órganos.",
+                "Un órgano está hecho de tejidos.",
+                "Un tejido está hecho de células.",
+                "Ordena de lo que forma a lo formado."
+              ]
+            },
+            {
+              "nombre": "Descartar por pares",
+              "pasos": [
+                "Revisa cada par consecutivo de cada opción.",
+                "En A, «tejido – célula» está al revés; en C, «órgano – tejido»; en D, «población – organismo».",
+                "Solo B no tiene pares invertidos."
+              ]
+            }
           ]
         },
         {
           "enunciado": "Al hacer ejercicio, una persona transpira y, gracias a ello, su temperatura corporal se mantiene cerca de 37 °C. Esta situación ejemplifica principalmente:",
-          "alternativas": ["Reproducción", "Crecimiento", "Homeostasis", "Evolución"],
+          "alternativas": [
+            "Reproducción",
+            "Crecimiento",
+            "Homeostasis",
+            "Evolución"
+          ],
           "correcta": 2,
           "explicacion": "La transpiración enfría el cuerpo cuando el sudor se evapora, lo que ayuda a mantener estable la temperatura interna a pesar del calor producido por el ejercicio. Mantener estable el medio interno es la homeostasis.",
           "descartes": [
@@ -98,8 +133,21 @@
             "La evolución ocurre en poblaciones a lo largo de muchas generaciones, no en una persona durante una sesión de ejercicio."
           ],
           "metodos": [
-            { "nombre": "Identificar la idea clave", "pasos": ["La frase clave es «se mantiene cerca de 37 °C».", "Mantener constante una condición interna es la definición de homeostasis."] },
-            { "nombre": "Escala de tiempo", "pasos": ["El fenómeno ocurre en minutos y en un solo individuo.", "Reproducción y crecimiento no son respuestas inmediatas; evolución ocurre en generaciones.", "Queda la homeostasis, que es una regulación inmediata."] }
+            {
+              "nombre": "Identificar la idea clave",
+              "pasos": [
+                "La frase clave es «se mantiene cerca de 37 °C».",
+                "Mantener constante una condición interna es la definición de homeostasis."
+              ]
+            },
+            {
+              "nombre": "Escala de tiempo",
+              "pasos": [
+                "El fenómeno ocurre en minutos y en un solo individuo.",
+                "Reproducción y crecimiento no son respuestas inmediatas; evolución ocurre en generaciones.",
+                "Queda la homeostasis, que es una regulación inmediata."
+              ]
+            }
           ]
         },
         {
@@ -119,14 +167,35 @@
             "Falso: hay virus que infectan plantas, hongos y bacterias (los bacteriófagos), además de animales."
           ],
           "metodos": [
-            { "nombre": "Comparar con las características de la vida", "pasos": ["Una célula tiene metabolismo y se reproduce por sí misma.", "El virus no cumple esas dos características fuera de un hospedero.", "Por eso no se le considera célula."] },
-            { "nombre": "Verificar cada afirmación", "pasos": ["A: los virus sí tienen ADN o ARN → falsa.", "B: son más pequeños → falsa.", "D: infectan muchos tipos de organismos → falsa.", "Solo C es verdadera."] }
+            {
+              "nombre": "Comparar con las características de la vida",
+              "pasos": [
+                "Una célula tiene metabolismo y se reproduce por sí misma.",
+                "El virus no cumple esas dos características fuera de un hospedero.",
+                "Por eso no se le considera célula."
+              ]
+            },
+            {
+              "nombre": "Verificar cada afirmación",
+              "pasos": [
+                "A: los virus sí tienen ADN o ARN → falsa.",
+                "B: son más pequeños → falsa.",
+                "D: infectan muchos tipos de organismos → falsa.",
+                "Solo C es verdadera."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Biology 2e (cap. 1: The Study of Life; cap. 21: Viruses)", "url": "https://openstax.org/details/books/biology-2e" },
-        { "titulo": "Khan Academy en español — Biología", "url": "https://es.khanacademy.org/science/biology" }
+        {
+          "titulo": "OpenStax — Biology 2e (cap. 1: The Study of Life; cap. 21: Viruses)",
+          "url": "https://openstax.org/details/books/biology-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Biología",
+          "url": "https://es.khanacademy.org/science/biology"
+        }
       ]
     },
     {
@@ -176,12 +245,30 @@
         }
       ],
       "conceptos": [
-        { "termino": "Célula procariota", "definicion": "Célula sin núcleo ni organelos membranosos; su ADN está en el nucleoide. Ejemplo: bacterias." },
-        { "termino": "Célula eucariota", "definicion": "Célula con núcleo rodeado por membrana y organelos membranosos. Ejemplo: células animales y vegetales." },
-        { "termino": "Ribosoma", "definicion": "Estructura que sintetiza proteínas; presente en todas las células." },
-        { "termino": "Mitocondria", "definicion": "Organelo donde ocurre la respiración celular, que produce la mayor parte del ATP." },
-        { "termino": "Aparato de Golgi", "definicion": "Organelo que modifica, empaqueta y distribuye proteínas y lípidos." },
-        { "termino": "Cloroplasto", "definicion": "Organelo de plantas y algas donde ocurre la fotosíntesis." }
+        {
+          "termino": "Célula procariota",
+          "definicion": "Célula sin núcleo ni organelos membranosos; su ADN está en el nucleoide. Ejemplo: bacterias."
+        },
+        {
+          "termino": "Célula eucariota",
+          "definicion": "Célula con núcleo rodeado por membrana y organelos membranosos. Ejemplo: células animales y vegetales."
+        },
+        {
+          "termino": "Ribosoma",
+          "definicion": "Estructura que sintetiza proteínas; presente en todas las células."
+        },
+        {
+          "termino": "Mitocondria",
+          "definicion": "Organelo donde ocurre la respiración celular, que produce la mayor parte del ATP."
+        },
+        {
+          "termino": "Aparato de Golgi",
+          "definicion": "Organelo que modifica, empaqueta y distribuye proteínas y lípidos."
+        },
+        {
+          "termino": "Cloroplasto",
+          "definicion": "Organelo de plantas y algas donde ocurre la fotosíntesis."
+        }
       ],
       "ideasClave": [
         "Toda célula proviene de **otra célula** preexistente.",
@@ -192,7 +279,12 @@
       "preguntas": [
         {
           "enunciado": "¿Qué estructura está presente tanto en las células procariotas como en las eucariotas?",
-          "alternativas": ["Núcleo", "Mitocondrias", "Ribosomas", "Retículo endoplasmático"],
+          "alternativas": [
+            "Núcleo",
+            "Mitocondrias",
+            "Ribosomas",
+            "Retículo endoplasmático"
+          ],
           "correcta": 2,
           "explicacion": "Toda célula necesita fabricar proteínas, por lo que todas tienen ribosomas. Además, los ribosomas no son organelos membranosos, que es justamente lo que les falta a las procariotas.",
           "descartes": [
@@ -202,8 +294,22 @@
             "El retículo endoplasmático es un sistema de membranas presente solo en eucariotas."
           ],
           "metodos": [
-            { "nombre": "Pensar en lo esencial", "pasos": ["¿Qué necesita cualquier célula para vivir? Fabricar proteínas.", "Las proteínas se fabrican en los ribosomas.", "Por lo tanto, todas las células tienen ribosomas."] },
-            { "nombre": "Descartar organelos membranosos", "pasos": ["Las procariotas carecen de estructuras rodeadas de membrana.", "Núcleo, mitocondrias y retículo tienen membrana → se descartan.", "Queda ribosomas, que no tiene membrana."] }
+            {
+              "nombre": "Pensar en lo esencial",
+              "pasos": [
+                "¿Qué necesita cualquier célula para vivir? Fabricar proteínas.",
+                "Las proteínas se fabrican en los ribosomas.",
+                "Por lo tanto, todas las células tienen ribosomas."
+              ]
+            },
+            {
+              "nombre": "Descartar organelos membranosos",
+              "pasos": [
+                "Las procariotas carecen de estructuras rodeadas de membrana.",
+                "Núcleo, mitocondrias y retículo tienen membrana → se descartan.",
+                "Queda ribosomas, que no tiene membrana."
+              ]
+            }
           ]
         },
         {
@@ -223,13 +329,33 @@
             "Las células animales no tienen pared celular, y los centriolos participan en la división celular, no en la secreción."
           ],
           "metodos": [
-            { "nombre": "Seguir la ruta de una proteína", "pasos": ["Se sintetiza en ribosomas del RER.", "Viaja en vesículas al aparato de Golgi.", "Golgi la empaqueta y la secreta por exocitosis.", "Organelos clave: RER y Golgi."] },
-            { "nombre": "Relación estructura-función", "pasos": ["Función principal de la célula: secretar proteínas.", "Busca la opción con organelos dedicados a proteínas.", "Solo B incluye organelos de síntesis y empaque de proteínas."] }
+            {
+              "nombre": "Seguir la ruta de una proteína",
+              "pasos": [
+                "Se sintetiza en ribosomas del RER.",
+                "Viaja en vesículas al aparato de Golgi.",
+                "Golgi la empaqueta y la secreta por exocitosis.",
+                "Organelos clave: RER y Golgi."
+              ]
+            },
+            {
+              "nombre": "Relación estructura-función",
+              "pasos": [
+                "Función principal de la célula: secretar proteínas.",
+                "Busca la opción con organelos dedicados a proteínas.",
+                "Solo B incluye organelos de síntesis y empaque de proteínas."
+              ]
+            }
           ]
         },
         {
           "enunciado": "Al microscopio se observa una célula con pared celular, cloroplastos y una gran vacuola central. ¿De qué tipo de célula se trata?",
-          "alternativas": ["Una bacteria", "Una célula animal", "Una célula de hongo", "Una célula vegetal"],
+          "alternativas": [
+            "Una bacteria",
+            "Una célula animal",
+            "Una célula de hongo",
+            "Una célula vegetal"
+          ],
           "correcta": 3,
           "explicacion": "La combinación de pared celular, cloroplastos y vacuola central grande es característica de las células vegetales, que son eucariotas fotosintéticas.",
           "descartes": [
@@ -239,14 +365,34 @@
             null
           ],
           "metodos": [
-            { "nombre": "Buscar la estructura más exclusiva", "pasos": ["Los cloroplastos solo están en plantas y algas.", "Entre las opciones, solo la célula vegetal los tiene."] },
-            { "nombre": "Tabla de presencia", "pasos": ["Pared: bacteria, hongo y vegetal (no animal).", "Cloroplastos: solo vegetal.", "Vacuola central: vegetal.", "La única que cumple las tres es la vegetal."] }
+            {
+              "nombre": "Buscar la estructura más exclusiva",
+              "pasos": [
+                "Los cloroplastos solo están en plantas y algas.",
+                "Entre las opciones, solo la célula vegetal los tiene."
+              ]
+            },
+            {
+              "nombre": "Tabla de presencia",
+              "pasos": [
+                "Pared: bacteria, hongo y vegetal (no animal).",
+                "Cloroplastos: solo vegetal.",
+                "Vacuola central: vegetal.",
+                "La única que cumple las tres es la vegetal."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Biology 2e (cap. 4: Cell Structure)", "url": "https://openstax.org/details/books/biology-2e" },
-        { "titulo": "Khan Academy en español — Biología", "url": "https://es.khanacademy.org/science/biology" }
+        {
+          "titulo": "OpenStax — Biology 2e (cap. 4: Cell Structure)",
+          "url": "https://openstax.org/details/books/biology-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Biología",
+          "url": "https://es.khanacademy.org/science/biology"
+        }
       ]
     },
     {
@@ -286,12 +432,30 @@
         }
       ],
       "conceptos": [
-        { "termino": "Monómero", "definicion": "Unidad pequeña que se une con otras iguales o similares para formar un polímero." },
-        { "termino": "Glucógeno", "definicion": "Polisacárido de reserva de energía en animales; se almacena en el hígado y los músculos." },
-        { "termino": "Almidón", "definicion": "Polisacárido de reserva de energía en plantas (papa, arroz, trigo)." },
-        { "termino": "Fosfolípido", "definicion": "Lípido con una cabeza hidrofílica y colas hidrofóbicas; forma la bicapa de las membranas." },
-        { "termino": "Enzima", "definicion": "Proteína que acelera una reacción química específica sin consumirse." },
-        { "termino": "Desnaturalización", "definicion": "Pérdida de la forma tridimensional de una proteína (por calor, pH, etc.), lo que hace que pierda su función." }
+        {
+          "termino": "Monómero",
+          "definicion": "Unidad pequeña que se une con otras iguales o similares para formar un polímero."
+        },
+        {
+          "termino": "Glucógeno",
+          "definicion": "Polisacárido de reserva de energía en animales; se almacena en el hígado y los músculos."
+        },
+        {
+          "termino": "Almidón",
+          "definicion": "Polisacárido de reserva de energía en plantas (papa, arroz, trigo)."
+        },
+        {
+          "termino": "Fosfolípido",
+          "definicion": "Lípido con una cabeza hidrofílica y colas hidrofóbicas; forma la bicapa de las membranas."
+        },
+        {
+          "termino": "Enzima",
+          "definicion": "Proteína que acelera una reacción química específica sin consumirse."
+        },
+        {
+          "termino": "Desnaturalización",
+          "definicion": "Pérdida de la forma tridimensional de una proteína (por calor, pH, etc.), lo que hace que pierda su función."
+        }
       ],
       "ideasClave": [
         "El monómero de las proteínas es el **aminoácido**.",
@@ -303,7 +467,12 @@
       "preguntas": [
         {
           "enunciado": "¿Cuál es el principal polisacárido de reserva de energía en los animales?",
-          "alternativas": ["Almidón", "Celulosa", "Glucógeno", "Sacarosa"],
+          "alternativas": [
+            "Almidón",
+            "Celulosa",
+            "Glucógeno",
+            "Sacarosa"
+          ],
           "correcta": 2,
           "explicacion": "Los animales almacenan glucosa en forma de glucógeno, principalmente en el hígado y en los músculos, y lo degradan cuando necesitan energía.",
           "descartes": [
@@ -313,13 +482,32 @@
             "La sacarosa es un disacárido (glucosa + fructosa), no un polisacárido."
           ],
           "metodos": [
-            { "nombre": "Recordar la asociación", "pasos": ["Reserva vegetal: almidón.", "Reserva animal: glucógeno."] },
-            { "nombre": "Clasificar las opciones", "pasos": ["Sacarosa: disacárido → descartada.", "Celulosa: estructural → descartada.", "Almidón: reserva, pero vegetal → descartado.", "Queda glucógeno."] }
+            {
+              "nombre": "Recordar la asociación",
+              "pasos": [
+                "Reserva vegetal: almidón.",
+                "Reserva animal: glucógeno."
+              ]
+            },
+            {
+              "nombre": "Clasificar las opciones",
+              "pasos": [
+                "Sacarosa: disacárido → descartada.",
+                "Celulosa: estructural → descartada.",
+                "Almidón: reserva, pero vegetal → descartado.",
+                "Queda glucógeno."
+              ]
+            }
           ]
         },
         {
           "enunciado": "¿Cuál es el monómero que forma las proteínas?",
-          "alternativas": ["Nucleótido", "Aminoácido", "Glucosa", "Ácido graso"],
+          "alternativas": [
+            "Nucleótido",
+            "Aminoácido",
+            "Glucosa",
+            "Ácido graso"
+          ],
           "correcta": 1,
           "explicacion": "Las proteínas son cadenas de aminoácidos unidos por enlaces peptídicos. Existen 20 aminoácidos distintos, y su orden determina la forma y función de cada proteína.",
           "descartes": [
@@ -329,8 +517,21 @@
             "Los ácidos grasos forman parte de lípidos como los triglicéridos y fosfolípidos."
           ],
           "metodos": [
-            { "nombre": "Pares biomolécula–monómero", "pasos": ["Carbohidratos → monosacáridos.", "Proteínas → aminoácidos.", "Ácidos nucleicos → nucleótidos."] },
-            { "nombre": "Pista del nombre", "pasos": ["Los enlaces de las proteínas se llaman peptídicos y unen grupos «amino» y «ácido».", "El monómero que contiene ambos grupos es el aminoácido."] }
+            {
+              "nombre": "Pares biomolécula–monómero",
+              "pasos": [
+                "Carbohidratos → monosacáridos.",
+                "Proteínas → aminoácidos.",
+                "Ácidos nucleicos → nucleótidos."
+              ]
+            },
+            {
+              "nombre": "Pista del nombre",
+              "pasos": [
+                "Los enlaces de las proteínas se llaman peptídicos y unen grupos «amino» y «ácido».",
+                "El monómero que contiene ambos grupos es el aminoácido."
+              ]
+            }
           ]
         },
         {
@@ -350,14 +551,34 @@
             "El almidón es un polisacárido vegetal; la clara de huevo no contiene almidón ni lo forma al cocinarse."
           ],
           "metodos": [
-            { "nombre": "Identificar la biomolécula", "pasos": ["La clara es agua + proteínas.", "El calor afecta la forma de las proteínas.", "Cambio irreversible de forma = desnaturalización."] },
-            { "nombre": "Descartar transformaciones imposibles", "pasos": ["Freír no cambia un tipo de biomolécula en otro.", "A, B y D proponen transformaciones químicas que no ocurren.", "Queda C."] }
+            {
+              "nombre": "Identificar la biomolécula",
+              "pasos": [
+                "La clara es agua + proteínas.",
+                "El calor afecta la forma de las proteínas.",
+                "Cambio irreversible de forma = desnaturalización."
+              ]
+            },
+            {
+              "nombre": "Descartar transformaciones imposibles",
+              "pasos": [
+                "Freír no cambia un tipo de biomolécula en otro.",
+                "A, B y D proponen transformaciones químicas que no ocurren.",
+                "Queda C."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Biology 2e (cap. 2: The Chemical Foundation of Life; cap. 3: Biological Macromolecules)", "url": "https://openstax.org/details/books/biology-2e" },
-        { "titulo": "Khan Academy en español — Biología", "url": "https://es.khanacademy.org/science/biology" }
+        {
+          "titulo": "OpenStax — Biology 2e (cap. 2: The Chemical Foundation of Life; cap. 3: Biological Macromolecules)",
+          "url": "https://openstax.org/details/books/biology-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Biología",
+          "url": "https://es.khanacademy.org/science/biology"
+        }
       ]
     },
     {
@@ -406,11 +627,26 @@
         }
       ],
       "conceptos": [
-        { "termino": "Gradiente de concentración", "definicion": "Diferencia de concentración de una sustancia entre dos zonas." },
-        { "termino": "Difusión simple", "definicion": "Paso de moléculas pequeñas y apolares a través de la bicapa, a favor del gradiente y sin gasto de energía." },
-        { "termino": "Osmosis", "definicion": "Paso de agua a través de una membrana semipermeable desde la solución con menos soluto a la que tiene más soluto." },
-        { "termino": "Solución hipertónica", "definicion": "Solución con mayor concentración de soluto que el interior de la célula; la célula pierde agua." },
-        { "termino": "Transporte activo", "definicion": "Movimiento de sustancias en contra de su gradiente de concentración, con gasto de ATP." }
+        {
+          "termino": "Gradiente de concentración",
+          "definicion": "Diferencia de concentración de una sustancia entre dos zonas."
+        },
+        {
+          "termino": "Difusión simple",
+          "definicion": "Paso de moléculas pequeñas y apolares a través de la bicapa, a favor del gradiente y sin gasto de energía."
+        },
+        {
+          "termino": "Osmosis",
+          "definicion": "Paso de agua a través de una membrana semipermeable desde la solución con menos soluto a la que tiene más soluto."
+        },
+        {
+          "termino": "Solución hipertónica",
+          "definicion": "Solución con mayor concentración de soluto que el interior de la célula; la célula pierde agua."
+        },
+        {
+          "termino": "Transporte activo",
+          "definicion": "Movimiento de sustancias en contra de su gradiente de concentración, con gasto de ATP."
+        }
       ],
       "ideasClave": [
         "En la osmosis, el agua se mueve hacia la solución con **más soluto**.",
@@ -436,8 +672,21 @@
             "El agua destilada no contiene sales, así que no hay sales que puedan entrar."
           ],
           "metodos": [
-            { "nombre": "Comparar concentraciones", "pasos": ["Afuera: 0 soluto. Adentro: hay solutos.", "El agua va hacia donde hay más soluto: hacia adentro.", "La célula se hincha."] },
-            { "nombre": "Clasificar la solución", "pasos": ["El agua destilada es hipotónica respecto de la célula.", "En medio hipotónico, las células animales ganan agua y pueden romperse."] }
+            {
+              "nombre": "Comparar concentraciones",
+              "pasos": [
+                "Afuera: 0 soluto. Adentro: hay solutos.",
+                "El agua va hacia donde hay más soluto: hacia adentro.",
+                "La célula se hincha."
+              ]
+            },
+            {
+              "nombre": "Clasificar la solución",
+              "pasos": [
+                "El agua destilada es hipotónica respecto de la célula.",
+                "En medio hipotónico, las células animales ganan agua y pueden romperse."
+              ]
+            }
           ]
         },
         {
@@ -457,13 +706,31 @@
             "El transporte activo depende de proteínas transportadoras específicas, como las bombas."
           ],
           "metodos": [
-            { "nombre": "Analogía", "pasos": ["Pasivo es como bajar una cuesta: no cuesta energía.", "Activo es subirla: necesita energía.", "«Contra el gradiente» = cuesta arriba = ATP."] },
-            { "nombre": "Separar características", "pasos": ["A favor del gradiente, agua, sin proteínas → rasgos de transporte pasivo.", "Solo C describe energía y contra gradiente."] }
+            {
+              "nombre": "Analogía",
+              "pasos": [
+                "Pasivo es como bajar una cuesta: no cuesta energía.",
+                "Activo es subirla: necesita energía.",
+                "«Contra el gradiente» = cuesta arriba = ATP."
+              ]
+            },
+            {
+              "nombre": "Separar características",
+              "pasos": [
+                "A favor del gradiente, agua, sin proteínas → rasgos de transporte pasivo.",
+                "Solo C describe energía y contra gradiente."
+              ]
+            }
           ]
         },
         {
           "enunciado": "¿Mediante qué mecanismo entra el oxígeno (O₂) a las células?",
-          "alternativas": ["Transporte activo", "Difusión simple", "Endocitosis", "Exocitosis"],
+          "alternativas": [
+            "Transporte activo",
+            "Difusión simple",
+            "Endocitosis",
+            "Exocitosis"
+          ],
           "correcta": 1,
           "explicacion": "El O₂ es una molécula pequeña y apolar, por lo que atraviesa directamente la bicapa lipídica. Además, hay más oxígeno afuera (sangre) que adentro (la célula lo consume), así que se mueve a favor de su gradiente sin gastar energía.",
           "descartes": [
@@ -473,14 +740,418 @@
             "La exocitosis es para expulsar sustancias de la célula, no para que entren."
           ],
           "metodos": [
-            { "nombre": "Tamaño y polaridad", "pasos": ["O₂: pequeño y apolar.", "Las moléculas pequeñas y apolares cruzan la bicapa directamente.", "Eso es difusión simple."] },
-            { "nombre": "Dirección del gradiente", "pasos": ["La célula consume O₂ en la respiración, así que adentro hay menos.", "El O₂ entra a favor del gradiente: transporte pasivo.", "Entre las opciones, el único pasivo es la difusión simple."] }
+            {
+              "nombre": "Tamaño y polaridad",
+              "pasos": [
+                "O₂: pequeño y apolar.",
+                "Las moléculas pequeñas y apolares cruzan la bicapa directamente.",
+                "Eso es difusión simple."
+              ]
+            },
+            {
+              "nombre": "Dirección del gradiente",
+              "pasos": [
+                "La célula consume O₂ en la respiración, así que adentro hay menos.",
+                "El O₂ entra a favor del gradiente: transporte pasivo.",
+                "Entre las opciones, el único pasivo es la difusión simple."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Biology 2e (cap. 5: Structure and Function of Plasma Membranes)", "url": "https://openstax.org/details/books/biology-2e" },
-        { "titulo": "Khan Academy en español — Biología", "url": "https://es.khanacademy.org/science/biology" }
+        {
+          "titulo": "OpenStax — Biology 2e (cap. 5: Structure and Function of Plasma Membranes)",
+          "url": "https://openstax.org/details/books/biology-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Biología",
+          "url": "https://es.khanacademy.org/science/biology"
+        }
+      ]
+    },
+    {
+      "id": "adn-genes",
+      "titulo": "ADN, genes y síntesis de proteínas",
+      "resumen": "Cómo es la molécula de ADN, cómo se copia y cómo su información se convierte en proteínas.",
+      "objetivos": [
+        "Describir la estructura del ADN y la complementariedad de bases.",
+        "Explicar la replicación semiconservativa.",
+        "Describir la transcripción y la traducción (dogma central)."
+      ],
+      "secciones": [
+        {
+          "titulo": "La doble hélice",
+          "texto": [
+            "En 1953, James Watson y Francis Crick propusieron el modelo de la **doble hélice**, apoyándose de manera crucial en las imágenes de difracción de rayos X obtenidas por Rosalind Franklin y Raymond Gosling.",
+            "El ADN está formado por dos hebras de **nucleótidos** enrolladas una alrededor de la otra. Cada nucleótido tiene un azúcar (desoxirribosa), un grupo fosfato y una base nitrogenada: **adenina (A), timina (T), citosina (C) o guanina (G)**. Las dos hebras corren en sentidos opuestos (son **antiparalelas**).",
+            "Las bases se unen por puentes de hidrógeno siguiendo la **complementariedad**: **A con T** (2 puentes) y **C con G** (3 puentes). Por eso, en cualquier ADN de doble hebra, la cantidad de A es igual a la de T, y la de C igual a la de G (reglas de Chargaff)."
+          ]
+        },
+        {
+          "titulo": "Genes y cromosomas",
+          "texto": [
+            "Un **gen** es un segmento de ADN que contiene la información para fabricar un producto funcional, generalmente una proteína (o una molécula de ARN funcional).",
+            "En las células eucariotas, el ADN se enrolla alrededor de proteínas llamadas histonas y forma la **cromatina**, que se condensa en **cromosomas** al dividirse la célula. Las células del cuerpo humano (somáticas) tienen **46 cromosomas**: 23 pares, de los cuales 22 son autosomas y 1 es el par sexual (XX o XY)."
+          ]
+        },
+        {
+          "titulo": "Replicación: copiar el ADN",
+          "texto": [
+            "Antes de dividirse, la célula copia su ADN. Las dos hebras se separan y cada una sirve de **molde** para fabricar una nueva hebra complementaria, con la enzima **ADN polimerasa**. Cada molécula resultante tiene una hebra antigua y una nueva: la replicación es **semiconservativa**, como demostraron Meselson y Stahl en 1958."
+          ]
+        },
+        {
+          "titulo": "Del ADN a las proteínas",
+          "lista": [
+            "**Transcripción** (en el núcleo, en eucariotas): un segmento de ADN se usa como molde para fabricar **ARN mensajero (ARNm)**. En el ARN, en lugar de timina hay **uracilo (U)**: frente a una A del ADN se coloca una U.",
+            "**Traducción** (en los **ribosomas**, en el citoplasma): el ARNm se lee de a tres nucleótidos (**codones**). Cada codón indica un aminoácido; el ARN de transferencia (ARNt) trae el aminoácido correspondiente y se forma la proteína.",
+            "El **código genético** tiene 64 codones para 20 aminoácidos (varios codones codifican el mismo aminoácido). AUG marca el inicio, y UAA, UAG y UGA son codones de término. Es prácticamente **universal**: lo comparten casi todos los seres vivos."
+          ],
+          "recuadro": "Dogma central de la biología molecular: ADN → (transcripción) → ARN → (traducción) → proteína."
+        }
+      ],
+      "conceptos": [
+        {
+          "termino": "Complementariedad de bases",
+          "definicion": "Regla de apareamiento del ADN: adenina con timina y citosina con guanina."
+        },
+        {
+          "termino": "Gen",
+          "definicion": "Segmento de ADN con la información para fabricar un producto funcional, generalmente una proteína."
+        },
+        {
+          "termino": "Replicación semiconservativa",
+          "definicion": "Copia del ADN en que cada molécula nueva conserva una hebra original y una recién sintetizada."
+        },
+        {
+          "termino": "Transcripción",
+          "definicion": "Síntesis de ARN a partir de un molde de ADN; en eucariotas ocurre en el núcleo."
+        },
+        {
+          "termino": "Traducción",
+          "definicion": "Síntesis de una proteína a partir de la información del ARNm; ocurre en los ribosomas."
+        },
+        {
+          "termino": "Codón",
+          "definicion": "Secuencia de tres nucleótidos del ARNm que codifica un aminoácido o una señal de término."
+        }
+      ],
+      "ideasClave": [
+        "En el ADN, la adenina se aparea con la **timina** y la citosina con la guanina.",
+        "En el ARN, la timina se reemplaza por **uracilo**.",
+        "La traducción ocurre en los **ribosomas**.",
+        "La replicación del ADN es **semiconservativa**.",
+        "Cada codón está formado por **tres** nucleótidos."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Si una hebra de ADN tiene la secuencia ATGCCA, ¿cuál es la secuencia de su hebra complementaria?",
+          "alternativas": [
+            "UACGGU",
+            "TACGGT",
+            "ATGCCA",
+            "ACCGTA"
+          ],
+          "correcta": 1,
+          "explicacion": "Se aplica la complementariedad: A→T, T→A, G→C, C→G, C→G, A→T. Resultado: TACGGT.",
+          "descartes": [
+            "Contiene uracilo (U), que es propio del ARN. Es la secuencia de un ARN transcrito, no de una hebra de ADN.",
+            null,
+            "Es la misma secuencia original, no su complementaria.",
+            "Es la secuencia original escrita al revés, no la complementaria."
+          ],
+          "metodos": [
+            {
+              "nombre": "Base por base",
+              "pasos": [
+                "A → T, T → A, G → C.",
+                "C → G, C → G, A → T.",
+                "TACGGT."
+              ]
+            },
+            {
+              "nombre": "Descartar por letras",
+              "pasos": [
+                "Una hebra de ADN no puede tener U → descarta A.",
+                "La complementaria debe empezar con T (porque la original empieza con A) → descarta C y D.",
+                "Queda B."
+              ]
+            }
+          ]
+        },
+        {
+          "enunciado": "En una molécula de ADN de doble hebra, el 30 % de las bases son adenina. ¿Qué porcentaje corresponde a citosina?",
+          "alternativas": [
+            "30 %",
+            "70 %",
+            "20 %",
+            "40 %"
+          ],
+          "correcta": 2,
+          "explicacion": "Como A se aparea con T, T también es 30 %: A + T = 60 %. El 40 % restante se reparte en partes iguales entre C y G, así que C = 20 %.",
+          "descartes": [
+            "Supone que todas las bases están en igual proporción a la adenina; eso no se deduce de las reglas de apareamiento.",
+            "Es el 100 % menos solo la adenina; falta restar la timina, que también es 30 %.",
+            null,
+            "Es el porcentaje de C + G juntas; falta repartirlo entre las dos bases."
+          ],
+          "metodos": [
+            {
+              "nombre": "Apareamiento completo",
+              "pasos": [
+                "A = T = 30 % → A + T = 60 %.",
+                "C + G = 40 %.",
+                "C = G = 20 %."
+              ]
+            },
+            {
+              "nombre": "Atajo de Chargaff",
+              "pasos": [
+                "En ADN de doble hebra, A + C = 50 % (purina + pirimidina de cada par).",
+                "C = 50 % − 30 %.",
+                "C = 20 %."
+              ]
+            }
+          ]
+        },
+        {
+          "enunciado": "En una célula eucariota, ¿cómo se llama el proceso en que se sintetiza ARN mensajero a partir de ADN, y dónde ocurre?",
+          "alternativas": [
+            "Traducción, en los ribosomas.",
+            "Replicación, en el núcleo.",
+            "Transcripción, en el núcleo.",
+            "Traducción, en el núcleo."
+          ],
+          "correcta": 2,
+          "explicacion": "Fabricar ARN usando ADN como molde es la transcripción. En las células eucariotas, el ADN está en el núcleo, así que allí se transcribe; luego el ARNm sale al citoplasma.",
+          "descartes": [
+            "La traducción produce proteínas a partir del ARNm; no produce ARN.",
+            "La replicación produce ADN a partir de ADN (copia el material genético), no ARN.",
+            null,
+            "La traducción no ocurre en el núcleo sino en los ribosomas, y además no produce ARN."
+          ],
+          "metodos": [
+            {
+              "nombre": "Qué molécula entra y cuál sale",
+              "pasos": [
+                "ADN → ADN: replicación.",
+                "ADN → ARN: transcripción.",
+                "ARN → proteína: traducción.",
+                "Se pide ADN → ARN: transcripción."
+              ]
+            },
+            {
+              "nombre": "Ubicar el ADN",
+              "pasos": [
+                "En eucariotas, el ADN está en el núcleo.",
+                "Todo proceso que usa ADN como molde ocurre allí.",
+                "Entre las opciones con núcleo, la que produce ARN es la transcripción."
+              ]
+            }
+          ]
+        }
+      ],
+      "fuentes": [
+        {
+          "titulo": "OpenStax — Biology 2e (cap. 14: DNA Structure and Function; cap. 15: Genes and Proteins)",
+          "url": "https://openstax.org/details/books/biology-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Biología",
+          "url": "https://es.khanacademy.org/science/biology"
+        }
+      ]
+    },
+    {
+      "id": "mitosis-meiosis",
+      "titulo": "Ciclo celular, mitosis y meiosis",
+      "resumen": "Cómo se dividen las células para crecer y reparar tejidos, y cómo se forman los gametos.",
+      "objetivos": [
+        "Describir las etapas del ciclo celular.",
+        "Comparar mitosis y meiosis en número de células, cromosomas y función.",
+        "Explicar cómo la meiosis genera variabilidad genética."
+      ],
+      "secciones": [
+        {
+          "titulo": "El ciclo celular",
+          "texto": [
+            "El **ciclo celular** es la secuencia de etapas por las que pasa una célula desde que se forma hasta que se divide. Tiene dos grandes fases:"
+          ],
+          "lista": [
+            "**Interfase** (la más larga): **G1** (la célula crece y funciona), **S** (se **replica el ADN**: cada cromosoma pasa a tener dos cromátidas hermanas) y **G2** (se prepara para dividirse).",
+            "**Fase M**: la **mitosis** (división del núcleo) y la **citocinesis** (división del citoplasma)."
+          ],
+          "recuadro": "El ciclo está regulado por puntos de control. Cuando esa regulación falla y las células se dividen sin control, puede originarse un **cáncer**."
+        },
+        {
+          "titulo": "Mitosis: copias idénticas",
+          "texto": [
+            "En la **mitosis** una célula da origen a **dos células hijas genéticamente idénticas** entre sí y a la célula madre, con el **mismo número de cromosomas** (una célula humana 2n = 46 produce dos células con 46).",
+            "Etapas: **profase** (los cromosomas se condensan), **metafase** (se alinean en el centro), **anafase** (las cromátidas hermanas se separan hacia los polos) y **telofase** (se forman dos núcleos). Luego, la citocinesis separa las células.",
+            "Funciones: **crecimiento**, **reparación** de tejidos y **reproducción asexual** en organismos unicelulares."
+          ]
+        },
+        {
+          "titulo": "Meiosis: células sexuales con la mitad de cromosomas",
+          "texto": [
+            "La **meiosis** ocurre en las células que originan los **gametos** (óvulos y espermatozoides). Tiene **dos divisiones** consecutivas y produce **cuatro células haploides (n)**, con la mitad de los cromosomas: en humanos, de 2n = 46 a n = 23.",
+            "En la **meiosis I** se separan los **cromosomas homólogos**; en la **meiosis II**, las cromátidas hermanas.",
+            "Al unirse dos gametos en la **fecundación** (n + n), se recupera el número diploide (2n) en el cigoto."
+          ],
+          "lista": [
+            "**Entrecruzamiento** (_crossing-over_), en la profase I: los cromosomas homólogos intercambian segmentos.",
+            "**Permutación o segregación independiente** de los cromosomas homólogos en la metafase I: cada par se orienta al azar.",
+            "Ambos procesos hacen que cada gameto sea **genéticamente único**, lo que genera **variabilidad genética**."
+          ]
+        }
+      ],
+      "conceptos": [
+        {
+          "termino": "Interfase",
+          "definicion": "Etapa del ciclo celular en que la célula crece y replica su ADN (fase S) antes de dividirse."
+        },
+        {
+          "termino": "Mitosis",
+          "definicion": "División del núcleo que produce dos células hijas genéticamente idénticas, con el mismo número de cromosomas."
+        },
+        {
+          "termino": "Meiosis",
+          "definicion": "Dos divisiones sucesivas que producen cuatro células haploides genéticamente distintas; origina los gametos."
+        },
+        {
+          "termino": "Haploide (n)",
+          "definicion": "Célula con un solo juego de cromosomas, como los gametos."
+        },
+        {
+          "termino": "Diploide (2n)",
+          "definicion": "Célula con dos juegos de cromosomas, uno de cada progenitor, como las células somáticas."
+        },
+        {
+          "termino": "Entrecruzamiento",
+          "definicion": "Intercambio de segmentos entre cromosomas homólogos durante la profase I de la meiosis."
+        }
+      ],
+      "ideasClave": [
+        "El ADN se replica durante la fase **S** de la interfase.",
+        "La mitosis produce **dos** células hijas idénticas.",
+        "La meiosis produce **cuatro** células haploides.",
+        "El entrecruzamiento ocurre en la **profase I** de la meiosis.",
+        "La fecundación restituye el número **diploide** de cromosomas."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "Una célula humana con 46 cromosomas se divide por mitosis. ¿Cuántos cromosomas tiene cada una de las células hijas?",
+          "alternativas": [
+            "23",
+            "46",
+            "92",
+            "184"
+          ],
+          "correcta": 1,
+          "explicacion": "La mitosis conserva el número de cromosomas: el ADN se duplica en la fase S y luego se reparte por igual entre las dos células hijas, que quedan con 46 cromosomas cada una.",
+          "descartes": [
+            "23 es el número de cromosomas de los gametos, producidos por meiosis, no por mitosis.",
+            null,
+            "Confunde el contenido duplicado antes de dividirse (92 cromátidas) con lo que recibe cada célula hija.",
+            "No corresponde a ninguna etapa: resulta de duplicar dos veces sin repartir."
+          ],
+          "metodos": [
+            {
+              "nombre": "Recordar la regla",
+              "pasos": [
+                "Mitosis: 2n → 2n.",
+                "46 → 46 en cada célula hija."
+              ]
+            },
+            {
+              "nombre": "Seguir el ADN",
+              "pasos": [
+                "Fase S: 46 cromosomas con 2 cromátidas cada uno (92 cromátidas).",
+                "Anafase: se separan las cromátidas hermanas.",
+                "Cada célula hija recibe 46."
+              ]
+            }
+          ]
+        },
+        {
+          "enunciado": "¿Cuál de los siguientes procesos genera variabilidad genética durante la meiosis?",
+          "alternativas": [
+            "La replicación del ADN en la fase S.",
+            "La citocinesis.",
+            "El entrecruzamiento entre cromosomas homólogos en la profase I.",
+            "La condensación de la cromatina."
+          ],
+          "correcta": 2,
+          "explicacion": "En el entrecruzamiento, los cromosomas homólogos (uno de origen materno y otro paterno) intercambian segmentos, lo que crea combinaciones nuevas de genes en cada gameto.",
+          "descartes": [
+            "La replicación produce copias idénticas del ADN; su función es conservar la información, no generar combinaciones nuevas.",
+            "La citocinesis solo divide el citoplasma; no cambia la información genética.",
+            null,
+            "Condensar la cromatina facilita la división, pero no modifica la combinación de genes."
+          ],
+          "metodos": [
+            {
+              "nombre": "Buscar intercambio o azar",
+              "pasos": [
+                "La variabilidad surge de combinar información de forma nueva.",
+                "El entrecruzamiento intercambia segmentos entre homólogos.",
+                "Respuesta: C."
+              ]
+            },
+            {
+              "nombre": "Descartar procesos de conservación",
+              "pasos": [
+                "Replicación: copia fiel.",
+                "Citocinesis y condensación: no tocan la información.",
+                "Solo C modifica las combinaciones de genes."
+              ]
+            }
+          ]
+        },
+        {
+          "enunciado": "Un organismo tiene 2n = 8 cromosomas. ¿Cuántos cromosomas tendrán sus gametos?",
+          "alternativas": [
+            "2",
+            "4",
+            "8",
+            "16"
+          ],
+          "correcta": 1,
+          "explicacion": "Los gametos se forman por meiosis y son haploides (n): tienen la mitad de los cromosomas. Si 2n = 8, entonces n = 4.",
+          "descartes": [
+            "Divide por 4, quizás porque la meiosis produce 4 células. Pero cada una de esas células tiene n cromosomas, no n/2.",
+            null,
+            "Es el número diploide, propio de las células somáticas, no de los gametos.",
+            "Duplica el número en vez de reducirlo a la mitad."
+          ],
+          "metodos": [
+            {
+              "nombre": "Despejar n",
+              "pasos": [
+                "2n = 8.",
+                "n = 8 ÷ 2 = 4."
+              ]
+            },
+            {
+              "nombre": "Comprobar con la fecundación",
+              "pasos": [
+                "Dos gametos se unen: n + n debe dar 2n = 8.",
+                "Solo n = 4 cumple 4 + 4 = 8."
+              ]
+            }
+          ]
+        }
+      ],
+      "fuentes": [
+        {
+          "titulo": "OpenStax — Biology 2e (cap. 10: Cell Reproduction; cap. 11: Meiosis and Sexual Reproduction)",
+          "url": "https://openstax.org/details/books/biology-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Biología",
+          "url": "https://es.khanacademy.org/science/biology"
+        }
       ]
     }
   ]

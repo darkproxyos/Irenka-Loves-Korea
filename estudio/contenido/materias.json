@@ -5,13 +5,50 @@
       "nombre": "Matemáticas",
       "descripcion": "De los números enteros al álgebra: las bases que usa todo lo demás.",
       "capitulos": [
-        { "titulo": "Números", "descripcion": "Operar con seguridad con enteros, fracciones y decimales.", "lecciones": ["enteros", "fracciones-decimales"] },
-        { "titulo": "Proporcionalidad", "descripcion": "Razones, proporciones y porcentajes de la vida diaria.", "lecciones": ["razones-porcentajes"] },
-        { "titulo": "Álgebra inicial", "descripcion": "Usar letras para representar cantidades y resolver ecuaciones.", "lecciones": ["ecuaciones-primer-grado"] },
-        { "titulo": "Potencias y raíces", "lecciones": [], "temas": "propiedades de potencias, raíces, notación científica." },
-        { "titulo": "Funciones", "lecciones": [], "temas": "función lineal y afín, cuadrática, gráficos." },
-        { "titulo": "Geometría", "lecciones": [], "temas": "ángulos, triángulos, Pitágoras, áreas y volúmenes." },
-        { "titulo": "Probabilidad y estadística", "lecciones": [], "temas": "tablas, gráficos, media, mediana, moda, probabilidad clásica." }
+        {
+          "titulo": "Números",
+          "descripcion": "Operar con seguridad con enteros, fracciones y decimales.",
+          "lecciones": [
+            "enteros",
+            "fracciones-decimales"
+          ]
+        },
+        {
+          "titulo": "Proporcionalidad",
+          "descripcion": "Razones, proporciones y porcentajes de la vida diaria.",
+          "lecciones": [
+            "razones-porcentajes"
+          ]
+        },
+        {
+          "titulo": "Álgebra inicial",
+          "descripcion": "Usar letras para representar cantidades y resolver ecuaciones.",
+          "lecciones": [
+            "ecuaciones-primer-grado"
+          ]
+        },
+        {
+          "titulo": "Potencias y raíces",
+          "lecciones": [
+            "potencias-raices"
+          ],
+          "descripcion": "Propiedades de potencias y raíces, y cómo simplificarlas."
+        },
+        {
+          "titulo": "Funciones",
+          "lecciones": [],
+          "temas": "función lineal y afín, cuadrática, gráficos."
+        },
+        {
+          "titulo": "Geometría",
+          "lecciones": [],
+          "temas": "ángulos, triángulos, Pitágoras, áreas y volúmenes."
+        },
+        {
+          "titulo": "Probabilidad y estadística",
+          "lecciones": [],
+          "temas": "tablas, gráficos, media, mediana, moda, probabilidad clásica."
+        }
       ]
     },
     {
@@ -19,12 +56,51 @@
       "nombre": "Biología",
       "descripcion": "La vida desde su unidad básica, la célula, hasta los organismos.",
       "capitulos": [
-        { "titulo": "Los seres vivos y la célula", "descripcion": "Qué es estar vivo y cómo está construida una célula.", "lecciones": ["seres-vivos", "celula"] },
-        { "titulo": "Química de la vida", "descripcion": "El agua y las moléculas que forman a los seres vivos.", "lecciones": ["biomoleculas"] },
-        { "titulo": "Membrana y transporte", "descripcion": "Cómo entran y salen sustancias de la célula.", "lecciones": ["transporte-membrana"] },
-        { "titulo": "Genética", "lecciones": [], "temas": "ADN, mitosis y meiosis, herencia mendeliana." },
-        { "titulo": "Fisiología humana", "lecciones": [], "temas": "nutrición, sistemas del cuerpo, hormonas." },
-        { "titulo": "Ecología y evolución", "lecciones": [], "temas": "flujo de energía, ciclos, selección natural." }
+        {
+          "titulo": "Los seres vivos y la célula",
+          "descripcion": "Qué es estar vivo y cómo está construida una célula.",
+          "lecciones": [
+            "seres-vivos",
+            "celula"
+          ]
+        },
+        {
+          "titulo": "Química de la vida",
+          "descripcion": "El agua y las moléculas que forman a los seres vivos.",
+          "lecciones": [
+            "biomoleculas"
+          ]
+        },
+        {
+          "titulo": "Membrana y transporte",
+          "descripcion": "Cómo entran y salen sustancias de la célula.",
+          "lecciones": [
+            "transporte-membrana"
+          ]
+        },
+        {
+          "titulo": "Genética",
+          "descripcion": "El ADN, cómo se expresa y cómo se dividen las células.",
+          "lecciones": [
+            "adn-genes",
+            "mitosis-meiosis"
+          ]
+        },
+        {
+          "titulo": "Herencia",
+          "lecciones": [],
+          "temas": "leyes de Mendel, cruces monohíbridos y dihíbridos, herencia ligada al sexo."
+        },
+        {
+          "titulo": "Fisiología humana",
+          "lecciones": [],
+          "temas": "nutrición, sistemas del cuerpo, hormonas."
+        },
+        {
+          "titulo": "Ecología y evolución",
+          "lecciones": [],
+          "temas": "flujo de energía, ciclos, selección natural."
+        }
       ]
     },
     {
@@ -32,12 +108,45 @@
       "nombre": "Química",
       "descripcion": "De qué está hecha la materia y cómo se transforma.",
       "capitulos": [
-        { "titulo": "La materia", "descripcion": "Propiedades, estados y formas de clasificarla.", "lecciones": ["materia"] },
-        { "titulo": "El átomo", "descripcion": "Partículas subatómicas, isótopos y organización de los electrones.", "lecciones": ["atomo", "configuracion-tabla"] },
-        { "titulo": "Enlace químico", "descripcion": "Por qué y cómo se unen los átomos.", "lecciones": ["enlace"] },
-        { "titulo": "Estequiometría", "lecciones": [], "temas": "el mol, masa molar, balance de ecuaciones." },
-        { "titulo": "Disoluciones", "lecciones": [], "temas": "concentración, solubilidad, propiedades coligativas." },
-        { "titulo": "Química orgánica", "lecciones": [], "temas": "el carbono, grupos funcionales, nomenclatura." }
+        {
+          "titulo": "La materia",
+          "descripcion": "Propiedades, estados y formas de clasificarla.",
+          "lecciones": [
+            "materia"
+          ]
+        },
+        {
+          "titulo": "El átomo",
+          "descripcion": "Partículas subatómicas, isótopos y organización de los electrones.",
+          "lecciones": [
+            "atomo",
+            "configuracion-tabla"
+          ]
+        },
+        {
+          "titulo": "Enlace químico",
+          "descripcion": "Por qué y cómo se unen los átomos.",
+          "lecciones": [
+            "enlace"
+          ]
+        },
+        {
+          "titulo": "Estequiometría",
+          "lecciones": [
+            "mol-estequiometria"
+          ],
+          "descripcion": "Contar partículas con el mol y balancear ecuaciones."
+        },
+        {
+          "titulo": "Disoluciones",
+          "lecciones": [],
+          "temas": "concentración, solubilidad, propiedades coligativas."
+        },
+        {
+          "titulo": "Química orgánica",
+          "lecciones": [],
+          "temas": "el carbono, grupos funcionales, nomenclatura."
+        }
       ]
     },
     {
@@ -45,12 +154,45 @@
       "nombre": "Física",
       "descripcion": "Medir, describir el movimiento y entender sus causas.",
       "capitulos": [
-        { "titulo": "Herramientas de la física", "descripcion": "Magnitudes, unidades y notación científica.", "lecciones": ["magnitudes"] },
-        { "titulo": "Movimiento", "descripcion": "Describir cómo se mueven los cuerpos.", "lecciones": ["mru", "mrua"] },
-        { "titulo": "Fuerzas", "descripcion": "Por qué cambia el movimiento.", "lecciones": ["newton"] },
-        { "titulo": "Energía", "lecciones": [], "temas": "trabajo, energía cinética y potencial, conservación." },
-        { "titulo": "Ondas", "lecciones": [], "temas": "sonido, luz, fenómenos ondulatorios." },
-        { "titulo": "Electricidad y calor", "lecciones": [], "temas": "circuitos, ley de Ohm, temperatura y calor." }
+        {
+          "titulo": "Herramientas de la física",
+          "descripcion": "Magnitudes, unidades y notación científica.",
+          "lecciones": [
+            "magnitudes"
+          ]
+        },
+        {
+          "titulo": "Movimiento",
+          "descripcion": "Describir cómo se mueven los cuerpos.",
+          "lecciones": [
+            "mru",
+            "mrua"
+          ]
+        },
+        {
+          "titulo": "Fuerzas",
+          "descripcion": "Por qué cambia el movimiento.",
+          "lecciones": [
+            "newton"
+          ]
+        },
+        {
+          "titulo": "Energía",
+          "lecciones": [
+            "trabajo-energia"
+          ],
+          "descripcion": "Trabajo, energía cinética y potencial, y su conservación."
+        },
+        {
+          "titulo": "Ondas",
+          "lecciones": [],
+          "temas": "sonido, luz, fenómenos ondulatorios."
+        },
+        {
+          "titulo": "Electricidad y calor",
+          "lecciones": [],
+          "temas": "circuitos, ley de Ohm, temperatura y calor."
+        }
       ]
     },
     {
@@ -58,11 +200,40 @@
       "nombre": "Comprensión lectora",
       "descripcion": "Localizar, interpretar y evaluar información en todo tipo de textos.",
       "capitulos": [
-        { "titulo": "Localizar", "descripcion": "Encontrar lo importante de un texto.", "lecciones": ["idea-principal"] },
-        { "titulo": "Interpretar", "descripcion": "Leer entre líneas y entender palabras por su contexto.", "lecciones": ["inferencias", "vocabulario-contextual"] },
-        { "titulo": "Evaluar", "descripcion": "Propósito, tipos de texto y estructura.", "lecciones": ["proposito-estructura"] },
-        { "titulo": "Textos argumentativos", "lecciones": [], "temas": "tesis, argumentos, contraargumentos, falacias." },
-        { "titulo": "Textos discontinuos", "lecciones": [], "temas": "tablas, gráficos, infografías." }
+        {
+          "titulo": "Localizar",
+          "descripcion": "Encontrar lo importante de un texto.",
+          "lecciones": [
+            "idea-principal"
+          ]
+        },
+        {
+          "titulo": "Interpretar",
+          "descripcion": "Leer entre líneas y entender palabras por su contexto.",
+          "lecciones": [
+            "inferencias",
+            "vocabulario-contextual"
+          ]
+        },
+        {
+          "titulo": "Evaluar",
+          "descripcion": "Propósito, tipos de texto y estructura.",
+          "lecciones": [
+            "proposito-estructura"
+          ]
+        },
+        {
+          "titulo": "Textos argumentativos",
+          "lecciones": [
+            "argumentacion"
+          ],
+          "descripcion": "Tesis, argumentos, contraargumentos y falacias."
+        },
+        {
+          "titulo": "Textos discontinuos",
+          "lecciones": [],
+          "temas": "tablas, gráficos, infografías."
+        }
       ]
     }
   ]

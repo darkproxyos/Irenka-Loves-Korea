@@ -47,12 +47,30 @@
         }
       ],
       "conceptos": [
-        { "termino": "Propiedad intensiva", "definicion": "Propiedad que no depende de la cantidad de materia, como la densidad o el punto de ebullición." },
-        { "termino": "Propiedad extensiva", "definicion": "Propiedad que depende de la cantidad de materia, como la masa o el volumen." },
-        { "termino": "Cambio químico", "definicion": "Transformación en la que se forman sustancias nuevas con propiedades diferentes." },
-        { "termino": "Compuesto", "definicion": "Sustancia pura formada por dos o más elementos unidos químicamente en proporción fija." },
-        { "termino": "Mezcla homogénea", "definicion": "Mezcla en la que no se distinguen sus componentes; también se llama disolución." },
-        { "termino": "Destilación", "definicion": "Método que separa componentes de una mezcla líquida aprovechando sus distintos puntos de ebullición." }
+        {
+          "termino": "Propiedad intensiva",
+          "definicion": "Propiedad que no depende de la cantidad de materia, como la densidad o el punto de ebullición."
+        },
+        {
+          "termino": "Propiedad extensiva",
+          "definicion": "Propiedad que depende de la cantidad de materia, como la masa o el volumen."
+        },
+        {
+          "termino": "Cambio químico",
+          "definicion": "Transformación en la que se forman sustancias nuevas con propiedades diferentes."
+        },
+        {
+          "termino": "Compuesto",
+          "definicion": "Sustancia pura formada por dos o más elementos unidos químicamente en proporción fija."
+        },
+        {
+          "termino": "Mezcla homogénea",
+          "definicion": "Mezcla en la que no se distinguen sus componentes; también se llama disolución."
+        },
+        {
+          "termino": "Destilación",
+          "definicion": "Método que separa componentes de una mezcla líquida aprovechando sus distintos puntos de ebullición."
+        }
       ],
       "ideasClave": [
         "La densidad es una propiedad **intensiva**: no cambia si se parte el objeto.",
@@ -63,7 +81,12 @@
       "preguntas": [
         {
           "enunciado": "¿Cuál de los siguientes procesos corresponde a un cambio químico?",
-          "alternativas": ["Fusión del hielo", "Disolución de azúcar en agua", "Oxidación de un clavo de hierro", "Ruptura de un vaso de vidrio"],
+          "alternativas": [
+            "Fusión del hielo",
+            "Disolución de azúcar en agua",
+            "Oxidación de un clavo de hierro",
+            "Ruptura de un vaso de vidrio"
+          ],
           "correcta": 2,
           "explicacion": "Al oxidarse, el hierro reacciona con oxígeno y agua y forma óxido de hierro (herrumbre), una sustancia nueva de color y propiedades distintas.",
           "descartes": [
@@ -73,13 +96,31 @@
             "Los trozos siguen siendo vidrio: cambia la forma, no la sustancia."
           ],
           "metodos": [
-            { "nombre": "¿Hay una sustancia nueva?", "pasos": ["Pregunta para cada caso si al final hay algo distinto a lo inicial.", "Solo en la oxidación aparece una sustancia nueva (óxido)."] },
-            { "nombre": "¿Es reversible fácilmente?", "pasos": ["El hielo se vuelve a congelar; el azúcar se recupera evaporando.", "El óxido no vuelve a ser hierro con un proceso físico simple.", "Esa es una señal típica de cambio químico."] }
+            {
+              "nombre": "¿Hay una sustancia nueva?",
+              "pasos": [
+                "Pregunta para cada caso si al final hay algo distinto a lo inicial.",
+                "Solo en la oxidación aparece una sustancia nueva (óxido)."
+              ]
+            },
+            {
+              "nombre": "¿Es reversible fácilmente?",
+              "pasos": [
+                "El hielo se vuelve a congelar; el azúcar se recupera evaporando.",
+                "El óxido no vuelve a ser hierro con un proceso físico simple.",
+                "Esa es una señal típica de cambio químico."
+              ]
+            }
           ]
         },
         {
           "enunciado": "Un bloque de aluminio se corta en dos partes iguales. ¿Qué propiedad tiene el mismo valor en cada parte que en el bloque original?",
-          "alternativas": ["La masa", "El volumen", "La densidad", "El peso"],
+          "alternativas": [
+            "La masa",
+            "El volumen",
+            "La densidad",
+            "El peso"
+          ],
           "correcta": 2,
           "explicacion": "La densidad es una propiedad intensiva: depende del material, no de la cantidad. Al cortar el bloque, la masa y el volumen se reducen a la mitad, así que su cociente (m/V) no cambia.",
           "descartes": [
@@ -89,13 +130,31 @@
             "El peso depende de la masa (P = m·g), así que también se reduce a la mitad."
           ],
           "metodos": [
-            { "nombre": "Intensiva vs extensiva", "pasos": ["Masa, volumen y peso dependen de la cantidad → extensivas.", "La densidad no depende de la cantidad → intensiva."] },
-            { "nombre": "Cálculo con la fórmula", "pasos": ["Original: d = m/V.", "Mitad: d' = (m/2)/(V/2) = m/V.", "d' = d: la densidad se mantiene."] }
+            {
+              "nombre": "Intensiva vs extensiva",
+              "pasos": [
+                "Masa, volumen y peso dependen de la cantidad → extensivas.",
+                "La densidad no depende de la cantidad → intensiva."
+              ]
+            },
+            {
+              "nombre": "Cálculo con la fórmula",
+              "pasos": [
+                "Original: d = m/V.",
+                "Mitad: d' = (m/2)/(V/2) = m/V.",
+                "d' = d: la densidad se mantiene."
+              ]
+            }
           ]
         },
         {
           "enunciado": "Se quiere separar una mezcla de agua con sal disuelta y recuperar ambos componentes. ¿Qué método es el más adecuado?",
-          "alternativas": ["Filtración", "Decantación", "Imantación", "Destilación"],
+          "alternativas": [
+            "Filtración",
+            "Decantación",
+            "Imantación",
+            "Destilación"
+          ],
           "correcta": 3,
           "explicacion": "Al calentar, el agua se evapora (la sal no), el vapor se enfría en el condensador y se recoge como agua líquida, mientras la sal queda en el recipiente. Así se recuperan ambos.",
           "descartes": [
@@ -105,14 +164,34 @@
             null
           ],
           "metodos": [
-            { "nombre": "Tipo de mezcla", "pasos": ["Agua con sal es una mezcla homogénea (disolución).", "Las disoluciones no se separan con filtración, decantación ni imantación.", "Se separan aprovechando puntos de ebullición distintos."] },
-            { "nombre": "Pensar en el objetivo", "pasos": ["Recuperar la sal: bastaría evaporar.", "Recuperar también el agua: hay que condensar el vapor.", "Evaporar + condensar = destilación."] }
+            {
+              "nombre": "Tipo de mezcla",
+              "pasos": [
+                "Agua con sal es una mezcla homogénea (disolución).",
+                "Las disoluciones no se separan con filtración, decantación ni imantación.",
+                "Se separan aprovechando puntos de ebullición distintos."
+              ]
+            },
+            {
+              "nombre": "Pensar en el objetivo",
+              "pasos": [
+                "Recuperar la sal: bastaría evaporar.",
+                "Recuperar también el agua: hay que condensar el vapor.",
+                "Evaporar + condensar = destilación."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Chemistry 2e (cap. 1: Essential Ideas)", "url": "https://openstax.org/details/books/chemistry-2e" },
-        { "titulo": "Khan Academy en español — Química", "url": "https://es.khanacademy.org/science/chemistry" }
+        {
+          "titulo": "OpenStax — Chemistry 2e (cap. 1: Essential Ideas)",
+          "url": "https://openstax.org/details/books/chemistry-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Química",
+          "url": "https://es.khanacademy.org/science/chemistry"
+        }
       ]
     },
     {
@@ -168,11 +247,26 @@
         }
       ],
       "conceptos": [
-        { "termino": "Número atómico (Z)", "definicion": "Número de protones del núcleo; identifica al elemento." },
-        { "termino": "Número másico (A)", "definicion": "Suma de protones y neutrones de un átomo." },
-        { "termino": "Catión", "definicion": "Ion con carga positiva, formado cuando un átomo pierde electrones." },
-        { "termino": "Anión", "definicion": "Ion con carga negativa, formado cuando un átomo gana electrones." },
-        { "termino": "Isótopos", "definicion": "Átomos de un mismo elemento (igual Z) con distinto número de neutrones (distinto A)." }
+        {
+          "termino": "Número atómico (Z)",
+          "definicion": "Número de protones del núcleo; identifica al elemento."
+        },
+        {
+          "termino": "Número másico (A)",
+          "definicion": "Suma de protones y neutrones de un átomo."
+        },
+        {
+          "termino": "Catión",
+          "definicion": "Ion con carga positiva, formado cuando un átomo pierde electrones."
+        },
+        {
+          "termino": "Anión",
+          "definicion": "Ion con carga negativa, formado cuando un átomo gana electrones."
+        },
+        {
+          "termino": "Isótopos",
+          "definicion": "Átomos de un mismo elemento (igual Z) con distinto número de neutrones (distinto A)."
+        }
       ],
       "ideasClave": [
         "El número de **protones** identifica al elemento.",
@@ -184,7 +278,12 @@
       "preguntas": [
         {
           "enunciado": "Un átomo neutro tiene Z = 17 y A = 35. ¿Cuántos protones, neutrones y electrones tiene, respectivamente?",
-          "alternativas": ["17, 35 y 17", "17, 18 y 17", "18, 17 y 18", "35, 17 y 35"],
+          "alternativas": [
+            "17, 35 y 17",
+            "17, 18 y 17",
+            "18, 17 y 18",
+            "35, 17 y 35"
+          ],
           "correcta": 1,
           "explicacion": "Protones = Z = 17. Neutrones = A − Z = 35 − 17 = 18. Como es neutro, electrones = protones = 17.",
           "descartes": [
@@ -194,13 +293,32 @@
             "Usa A como número de protones; los protones corresponden a Z."
           ],
           "metodos": [
-            { "nombre": "Fórmulas directas", "pasos": ["p = Z = 17.", "n = A − Z = 18.", "e = p = 17 (átomo neutro)."] },
-            { "nombre": "Verificación por suma", "pasos": ["En la opción correcta, p + n debe dar A.", "B: 17 + 18 = 35 ✓ y p = Z = 17 ✓.", "A: 17 + 35 = 52 ✗; C: p ≠ Z ✗; D: p ≠ Z ✗."] }
+            {
+              "nombre": "Fórmulas directas",
+              "pasos": [
+                "p = Z = 17.",
+                "n = A − Z = 18.",
+                "e = p = 17 (átomo neutro)."
+              ]
+            },
+            {
+              "nombre": "Verificación por suma",
+              "pasos": [
+                "En la opción correcta, p + n debe dar A.",
+                "B: 17 + 18 = 35 ✓ y p = Z = 17 ✓.",
+                "A: 17 + 35 = 52 ✗; C: p ≠ Z ✗; D: p ≠ Z ✗."
+              ]
+            }
           ]
         },
         {
           "enunciado": "El magnesio tiene Z = 12. ¿Cuántos electrones tiene el ion Mg²⁺?",
-          "alternativas": ["10", "12", "14", "24"],
+          "alternativas": [
+            "10",
+            "12",
+            "14",
+            "24"
+          ],
           "correcta": 0,
           "explicacion": "El átomo neutro tiene 12 electrones. La carga 2+ indica que perdió 2 electrones (los protones no cambian): 12 − 2 = 10 electrones.",
           "descartes": [
@@ -210,13 +328,32 @@
             "24 es aproximadamente el número másico del magnesio, no su número de electrones."
           ],
           "metodos": [
-            { "nombre": "Desde el átomo neutro", "pasos": ["Mg neutro: 12 e⁻.", "Carga 2+: perdió 2 e⁻.", "12 − 2 = 10."] },
-            { "nombre": "Balance de cargas", "pasos": ["Carga del ion = protones − electrones.", "+2 = 12 − e.", "e = 10."] }
+            {
+              "nombre": "Desde el átomo neutro",
+              "pasos": [
+                "Mg neutro: 12 e⁻.",
+                "Carga 2+: perdió 2 e⁻.",
+                "12 − 2 = 10."
+              ]
+            },
+            {
+              "nombre": "Balance de cargas",
+              "pasos": [
+                "Carga del ion = protones − electrones.",
+                "+2 = 12 − e.",
+                "e = 10."
+              ]
+            }
           ]
         },
         {
           "enunciado": "El carbono-12 y el carbono-14 son isótopos. ¿En qué se diferencian sus átomos?",
-          "alternativas": ["En el número de protones", "En el número de neutrones", "En el número de electrones del átomo neutro", "En el elemento al que pertenecen"],
+          "alternativas": [
+            "En el número de protones",
+            "En el número de neutrones",
+            "En el número de electrones del átomo neutro",
+            "En el elemento al que pertenecen"
+          ],
           "correcta": 1,
           "explicacion": "Ambos tienen 6 protones (por eso son carbono). Sus números másicos son 12 y 14, así que tienen 12 − 6 = 6 y 14 − 6 = 8 neutrones.",
           "descartes": [
@@ -226,14 +363,33 @@
             "Ambos son carbono; los isótopos son, por definición, del mismo elemento."
           ],
           "metodos": [
-            { "nombre": "Definición de isótopo", "pasos": ["Isótopos: igual Z, distinto A.", "Como A = Z + n y Z es igual, lo que cambia es n."] },
-            { "nombre": "Calcular", "pasos": ["C-12: n = 12 − 6 = 6.", "C-14: n = 14 − 6 = 8.", "Solo difieren en neutrones."] }
+            {
+              "nombre": "Definición de isótopo",
+              "pasos": [
+                "Isótopos: igual Z, distinto A.",
+                "Como A = Z + n y Z es igual, lo que cambia es n."
+              ]
+            },
+            {
+              "nombre": "Calcular",
+              "pasos": [
+                "C-12: n = 12 − 6 = 6.",
+                "C-14: n = 14 − 6 = 8.",
+                "Solo difieren en neutrones."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Chemistry 2e (cap. 2: Atoms, Molecules, and Ions)", "url": "https://openstax.org/details/books/chemistry-2e" },
-        { "titulo": "Khan Academy en español — Química", "url": "https://es.khanacademy.org/science/chemistry" }
+        {
+          "titulo": "OpenStax — Chemistry 2e (cap. 2: Atoms, Molecules, and Ions)",
+          "url": "https://openstax.org/details/books/chemistry-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Química",
+          "url": "https://es.khanacademy.org/science/chemistry"
+        }
       ]
     },
     {
@@ -282,12 +438,30 @@
         }
       ],
       "conceptos": [
-        { "termino": "Configuración electrónica", "definicion": "Distribución de los electrones de un átomo en niveles y subniveles de energía." },
-        { "termino": "Principio de Aufbau", "definicion": "Los electrones ocupan primero los subniveles de menor energía disponibles." },
-        { "termino": "Electrones de valencia", "definicion": "Electrones del nivel de energía más externo; determinan el comportamiento químico." },
-        { "termino": "Período", "definicion": "Fila de la tabla periódica; indica el nivel de energía más externo ocupado." },
-        { "termino": "Grupo", "definicion": "Columna de la tabla periódica; sus elementos tienen el mismo número de electrones de valencia." },
-        { "termino": "Electronegatividad", "definicion": "Tendencia de un átomo a atraer los electrones de un enlace; aumenta hacia arriba y a la derecha en la tabla." }
+        {
+          "termino": "Configuración electrónica",
+          "definicion": "Distribución de los electrones de un átomo en niveles y subniveles de energía."
+        },
+        {
+          "termino": "Principio de Aufbau",
+          "definicion": "Los electrones ocupan primero los subniveles de menor energía disponibles."
+        },
+        {
+          "termino": "Electrones de valencia",
+          "definicion": "Electrones del nivel de energía más externo; determinan el comportamiento químico."
+        },
+        {
+          "termino": "Período",
+          "definicion": "Fila de la tabla periódica; indica el nivel de energía más externo ocupado."
+        },
+        {
+          "termino": "Grupo",
+          "definicion": "Columna de la tabla periódica; sus elementos tienen el mismo número de electrones de valencia."
+        },
+        {
+          "termino": "Electronegatividad",
+          "definicion": "Tendencia de un átomo a atraer los electrones de un enlace; aumenta hacia arriba y a la derecha en la tabla."
+        }
       ],
       "ideasClave": [
         "El subnivel p admite como máximo **6** electrones.",
@@ -298,7 +472,12 @@
       "preguntas": [
         {
           "enunciado": "¿Cuál es la configuración electrónica del sodio (Z = 11)?",
-          "alternativas": ["1s² 2s² 2p⁷", "1s² 2s² 2p⁶ 3s¹", "1s² 2s² 2p⁶ 3p¹", "1s² 2s⁸ 3s¹"],
+          "alternativas": [
+            "1s² 2s² 2p⁷",
+            "1s² 2s² 2p⁶ 3s¹",
+            "1s² 2s² 2p⁶ 3p¹",
+            "1s² 2s⁸ 3s¹"
+          ],
           "correcta": 1,
           "explicacion": "Se llenan en orden: 1s² (2), 2s² (4), 2p⁶ (10) y el electrón número 11 va al siguiente subnivel, el 3s: 1s² 2s² 2p⁶ 3s¹.",
           "descartes": [
@@ -308,13 +487,33 @@
             "El subnivel s admite como máximo 2 electrones; 2s⁸ es imposible."
           ],
           "metodos": [
-            { "nombre": "Llenado ordenado", "pasos": ["1s² → 2 e⁻.", "2s² → 4 e⁻.", "2p⁶ → 10 e⁻.", "3s¹ → 11 e⁻."] },
-            { "nombre": "Usar el gas noble anterior", "pasos": ["El neón (Z = 10) es 1s² 2s² 2p⁶.", "El sodio tiene un electrón más, que inicia el período 3.", "[Ne] 3s¹ = 1s² 2s² 2p⁶ 3s¹."] }
+            {
+              "nombre": "Llenado ordenado",
+              "pasos": [
+                "1s² → 2 e⁻.",
+                "2s² → 4 e⁻.",
+                "2p⁶ → 10 e⁻.",
+                "3s¹ → 11 e⁻."
+              ]
+            },
+            {
+              "nombre": "Usar el gas noble anterior",
+              "pasos": [
+                "El neón (Z = 10) es 1s² 2s² 2p⁶.",
+                "El sodio tiene un electrón más, que inicia el período 3.",
+                "[Ne] 3s¹ = 1s² 2s² 2p⁶ 3s¹."
+              ]
+            }
           ]
         },
         {
           "enunciado": "Un elemento tiene la configuración 1s² 2s² 2p⁶ 3s² 3p⁵. ¿En qué período y grupo de la tabla periódica se ubica?",
-          "alternativas": ["Período 3, grupo 17", "Período 5, grupo 3", "Período 3, grupo 5", "Período 2, grupo 17"],
+          "alternativas": [
+            "Período 3, grupo 17",
+            "Período 5, grupo 3",
+            "Período 3, grupo 5",
+            "Período 2, grupo 17"
+          ],
           "correcta": 0,
           "explicacion": "El nivel más externo es n = 3 → período 3. En ese nivel hay 3s² 3p⁵ = 7 electrones de valencia; en el bloque p eso corresponde al grupo 17 (halógenos). Es el cloro.",
           "descartes": [
@@ -324,13 +523,31 @@
             "El último nivel ocupado es el 3, no el 2."
           ],
           "metodos": [
-            { "nombre": "Leer la configuración", "pasos": ["Mayor n: 3 → período 3.", "Electrones en n = 3: 2 + 5 = 7.", "Bloque p con 7 de valencia → grupo 17."] },
-            { "nombre": "Contar Z y ubicar", "pasos": ["Suma de electrones: 2 + 2 + 6 + 2 + 5 = 17 → Z = 17, el cloro.", "El cloro está en el período 3, grupo 17."] }
+            {
+              "nombre": "Leer la configuración",
+              "pasos": [
+                "Mayor n: 3 → período 3.",
+                "Electrones en n = 3: 2 + 5 = 7.",
+                "Bloque p con 7 de valencia → grupo 17."
+              ]
+            },
+            {
+              "nombre": "Contar Z y ubicar",
+              "pasos": [
+                "Suma de electrones: 2 + 2 + 6 + 2 + 5 = 17 → Z = 17, el cloro.",
+                "El cloro está en el período 3, grupo 17."
+              ]
+            }
           ]
         },
         {
           "enunciado": "¿Cuál de los siguientes elementos es el más electronegativo?",
-          "alternativas": ["Cesio (Cs)", "Oxígeno (O)", "Cloro (Cl)", "Flúor (F)"],
+          "alternativas": [
+            "Cesio (Cs)",
+            "Oxígeno (O)",
+            "Cloro (Cl)",
+            "Flúor (F)"
+          ],
           "correcta": 3,
           "explicacion": "La electronegatividad aumenta hacia arriba y hacia la derecha de la tabla (sin considerar los gases nobles). El flúor está en esa esquina y es el elemento más electronegativo de todos (3,98 en la escala de Pauling).",
           "descartes": [
@@ -340,15 +557,37 @@
             null
           ],
           "metodos": [
-            { "nombre": "Tendencia periódica", "pasos": ["Electronegatividad: crece hacia arriba y a la derecha.", "El extremo superior derecho (sin gases nobles) es el flúor."] },
-            { "nombre": "Comparar de a pares", "pasos": ["F vs Cl: mismo grupo, F está más arriba → F mayor.", "F vs O: mismo período, F más a la derecha → F mayor.", "Cs está en el extremo opuesto → el menor."] }
+            {
+              "nombre": "Tendencia periódica",
+              "pasos": [
+                "Electronegatividad: crece hacia arriba y a la derecha.",
+                "El extremo superior derecho (sin gases nobles) es el flúor."
+              ]
+            },
+            {
+              "nombre": "Comparar de a pares",
+              "pasos": [
+                "F vs Cl: mismo grupo, F está más arriba → F mayor.",
+                "F vs O: mismo período, F más a la derecha → F mayor.",
+                "Cs está en el extremo opuesto → el menor."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Chemistry 2e (cap. 6: Electronic Structure and Periodic Properties)", "url": "https://openstax.org/details/books/chemistry-2e" },
-        { "titulo": "IUPAC — Tabla periódica de los elementos", "url": "https://iupac.org/what-we-do/periodic-table-of-elements/" },
-        { "titulo": "Khan Academy en español — Química", "url": "https://es.khanacademy.org/science/chemistry" }
+        {
+          "titulo": "OpenStax — Chemistry 2e (cap. 6: Electronic Structure and Periodic Properties)",
+          "url": "https://openstax.org/details/books/chemistry-2e"
+        },
+        {
+          "titulo": "IUPAC — Tabla periódica de los elementos",
+          "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+        },
+        {
+          "titulo": "Khan Academy en español — Química",
+          "url": "https://es.khanacademy.org/science/chemistry"
+        }
       ]
     },
     {
@@ -393,11 +632,26 @@
         }
       ],
       "conceptos": [
-        { "termino": "Regla del octeto", "definicion": "Tendencia de los átomos a ganar, perder o compartir electrones para tener 8 electrones de valencia." },
-        { "termino": "Enlace iónico", "definicion": "Unión por atracción entre iones de carga opuesta, formados por transferencia de electrones (metal + no metal)." },
-        { "termino": "Enlace covalente", "definicion": "Unión en que dos átomos comparten uno o más pares de electrones (generalmente no metales)." },
-        { "termino": "Enlace covalente polar", "definicion": "Enlace covalente entre átomos de distinta electronegatividad: los electrones se comparten de forma desigual." },
-        { "termino": "Enlace metálico", "definicion": "Unión entre átomos metálicos con electrones de valencia que se mueven libremente («mar de electrones»)." }
+        {
+          "termino": "Regla del octeto",
+          "definicion": "Tendencia de los átomos a ganar, perder o compartir electrones para tener 8 electrones de valencia."
+        },
+        {
+          "termino": "Enlace iónico",
+          "definicion": "Unión por atracción entre iones de carga opuesta, formados por transferencia de electrones (metal + no metal)."
+        },
+        {
+          "termino": "Enlace covalente",
+          "definicion": "Unión en que dos átomos comparten uno o más pares de electrones (generalmente no metales)."
+        },
+        {
+          "termino": "Enlace covalente polar",
+          "definicion": "Enlace covalente entre átomos de distinta electronegatividad: los electrones se comparten de forma desigual."
+        },
+        {
+          "termino": "Enlace metálico",
+          "definicion": "Unión entre átomos metálicos con electrones de valencia que se mueven libremente («mar de electrones»)."
+        }
       ],
       "ideasClave": [
         "El enlace iónico se forma por **transferencia** de electrones.",
@@ -409,7 +663,12 @@
       "preguntas": [
         {
           "enunciado": "¿Cuál de los siguientes compuestos presenta enlace iónico?",
-          "alternativas": ["H₂O", "CO₂", "KCl", "CH₄"],
+          "alternativas": [
+            "H₂O",
+            "CO₂",
+            "KCl",
+            "CH₄"
+          ],
           "correcta": 2,
           "explicacion": "El potasio (K) es un metal del grupo 1 que cede fácilmente su electrón de valencia, y el cloro (Cl) es un no metal muy electronegativo que lo acepta. Se forman K⁺ y Cl⁻, unidos por atracción electrostática.",
           "descartes": [
@@ -419,13 +678,31 @@
             "CH₄ está formado por no metales (C e H): sus enlaces son covalentes."
           ],
           "metodos": [
-            { "nombre": "Metal + no metal", "pasos": ["Busca la opción con un metal unido a un no metal.", "K es metal (grupo 1); Cl es no metal.", "Las demás opciones solo tienen no metales."] },
-            { "nombre": "Diferencia de electronegatividad", "pasos": ["K ≈ 0,8 y Cl ≈ 3,2 → diferencia ≈ 2,4 (> 1,7): iónico.", "O–H ≈ 1,2; C–O ≈ 0,9; C–H ≈ 0,4: covalentes."] }
+            {
+              "nombre": "Metal + no metal",
+              "pasos": [
+                "Busca la opción con un metal unido a un no metal.",
+                "K es metal (grupo 1); Cl es no metal.",
+                "Las demás opciones solo tienen no metales."
+              ]
+            },
+            {
+              "nombre": "Diferencia de electronegatividad",
+              "pasos": [
+                "K ≈ 0,8 y Cl ≈ 3,2 → diferencia ≈ 2,4 (> 1,7): iónico.",
+                "O–H ≈ 1,2; C–O ≈ 0,9; C–H ≈ 0,4: covalentes."
+              ]
+            }
           ]
         },
         {
           "enunciado": "¿Qué tipo de enlace une a los dos átomos en la molécula de nitrógeno (N₂)?",
-          "alternativas": ["Covalente simple", "Covalente doble", "Covalente triple", "Iónico"],
+          "alternativas": [
+            "Covalente simple",
+            "Covalente doble",
+            "Covalente triple",
+            "Iónico"
+          ],
           "correcta": 2,
           "explicacion": "Cada nitrógeno tiene 5 electrones de valencia y necesita 3 más para completar el octeto. Al compartir 3 pares de electrones, ambos llegan a 8: es un enlace covalente triple (y apolar, porque los átomos son iguales).",
           "descartes": [
@@ -435,8 +712,22 @@
             "Los dos átomos son iguales (misma electronegatividad), así que ninguno puede arrancarle electrones al otro: no hay enlace iónico."
           ],
           "metodos": [
-            { "nombre": "Contar electrones faltantes", "pasos": ["N tiene 5 e⁻ de valencia.", "Le faltan 8 − 5 = 3.", "Cada par compartido aporta 1 al octeto de cada átomo → 3 pares → enlace triple."] },
-            { "nombre": "Estructura de Lewis", "pasos": ["Dibuja cada N con 5 puntos.", "Comparte pares hasta que ambos tengan 8 electrones a su alrededor.", "Resultado: N≡N con un par solitario en cada átomo."] }
+            {
+              "nombre": "Contar electrones faltantes",
+              "pasos": [
+                "N tiene 5 e⁻ de valencia.",
+                "Le faltan 8 − 5 = 3.",
+                "Cada par compartido aporta 1 al octeto de cada átomo → 3 pares → enlace triple."
+              ]
+            },
+            {
+              "nombre": "Estructura de Lewis",
+              "pasos": [
+                "Dibuja cada N con 5 puntos.",
+                "Comparte pares hasta que ambos tengan 8 electrones a su alrededor.",
+                "Resultado: N≡N con un par solitario en cada átomo."
+              ]
+            }
           ]
         },
         {
@@ -456,14 +747,236 @@
             null
           ],
           "metodos": [
-            { "nombre": "Cargas móviles", "pasos": ["Conducir requiere cargas que se muevan.", "Sólido: iones fijos → no conduce.", "Disuelto o fundido: iones libres → conduce."] },
-            { "nombre": "Ejemplo conocido", "pasos": ["Piensa en la sal de mesa (NaCl).", "Sal seca: no conduce; agua con sal: sí conduce; funde a alta temperatura.", "Solo la opción D coincide."] }
+            {
+              "nombre": "Cargas móviles",
+              "pasos": [
+                "Conducir requiere cargas que se muevan.",
+                "Sólido: iones fijos → no conduce.",
+                "Disuelto o fundido: iones libres → conduce."
+              ]
+            },
+            {
+              "nombre": "Ejemplo conocido",
+              "pasos": [
+                "Piensa en la sal de mesa (NaCl).",
+                "Sal seca: no conduce; agua con sal: sí conduce; funde a alta temperatura.",
+                "Solo la opción D coincide."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Chemistry 2e (cap. 7: Chemical Bonding and Molecular Geometry)", "url": "https://openstax.org/details/books/chemistry-2e" },
-        { "titulo": "Khan Academy en español — Química", "url": "https://es.khanacademy.org/science/chemistry" }
+        {
+          "titulo": "OpenStax — Chemistry 2e (cap. 7: Chemical Bonding and Molecular Geometry)",
+          "url": "https://openstax.org/details/books/chemistry-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Química",
+          "url": "https://es.khanacademy.org/science/chemistry"
+        }
+      ]
+    },
+    {
+      "id": "mol-estequiometria",
+      "titulo": "El mol, la masa molar y el balance de ecuaciones",
+      "resumen": "Cómo contar partículas pesándolas y cómo usar ecuaciones químicas balanceadas.",
+      "objetivos": [
+        "Explicar qué es un mol y el número de Avogadro.",
+        "Calcular masas molares y convertir entre masa, moles y número de partículas.",
+        "Balancear ecuaciones químicas e interpretar sus coeficientes."
+      ],
+      "secciones": [
+        {
+          "titulo": "El mol: una docena muy grande",
+          "texto": [
+            "Los átomos y moléculas son tan pequeños que se cuentan en grupos enormes. El **mol** es la unidad SI de cantidad de sustancia: **1 mol contiene exactamente 6,02214076 × 10²³ entidades** (átomos, moléculas, iones…). Este valor es el **número de Avogadro (N_A)**, que suele redondearse a 6,02 × 10²³.",
+            "Así como «una docena» siempre son 12 cosas, «un mol» siempre son 6,02 × 10²³ partículas, sean de lo que sean."
+          ]
+        },
+        {
+          "titulo": "Masa molar",
+          "texto": [
+            "La **masa molar (M)** es la masa de un mol de una sustancia, en g/mol. Numéricamente coincide con la masa atómica o molecular que aparece en la tabla periódica (en u).",
+            "Para una molécula, se suman las masas de todos sus átomos. Agua (H₂O): 2 · 1 + 16 = **18 g/mol**. Dióxido de carbono (CO₂): 12 + 2 · 16 = **44 g/mol**."
+          ],
+          "lista": [
+            "Moles a partir de la masa: `n = m / M`.",
+            "Número de partículas: `N = n · N_A`."
+          ],
+          "ejemplo": {
+            "enunciado": "¿Cuántos moles y cuántas moléculas hay en 36 g de agua?",
+            "pasos": [
+              "M(H₂O) = 18 g/mol.",
+              "n = 36 g ÷ 18 g/mol = 2 mol.",
+              "N = 2 · 6,02 × 10²³ = **1,204 × 10²⁴ moléculas**."
+            ]
+          }
+        },
+        {
+          "titulo": "Ecuaciones químicas balanceadas",
+          "texto": [
+            "Según la **ley de conservación de la masa** (Lavoisier), en una reacción química los átomos no se crean ni se destruyen: solo se reorganizan. Por eso, una ecuación química debe tener **la misma cantidad de átomos de cada elemento** a ambos lados.",
+            "Para balancear se ajustan los **coeficientes** (los números delante de cada fórmula), **nunca los subíndices**: cambiar H₂O por H₂O₂ cambiaría la sustancia.",
+            "Los coeficientes indican la **proporción en moles**. En 2 H₂ + O₂ → 2 H₂O: 2 mol de hidrógeno reaccionan con 1 mol de oxígeno y producen 2 mol de agua."
+          ],
+          "ejemplo": {
+            "enunciado": "Balancea: CH₄ + O₂ → CO₂ + H₂O.",
+            "pasos": [
+              "Carbono: 1 a cada lado. ✓",
+              "Hidrógeno: 4 a la izquierda → coloca 2 delante del H₂O (2 · 2 = 4).",
+              "Oxígeno: a la derecha hay 2 (en CO₂) + 2 (en 2 H₂O) = 4 → coloca 2 delante del O₂.",
+              "Resultado: **CH₄ + 2 O₂ → CO₂ + 2 H₂O**."
+            ]
+          }
+        }
+      ],
+      "conceptos": [
+        {
+          "termino": "Mol",
+          "definicion": "Unidad de cantidad de sustancia: contiene exactamente 6,02214076 × 10²³ entidades."
+        },
+        {
+          "termino": "Número de Avogadro",
+          "definicion": "Número de entidades en un mol: aproximadamente 6,02 × 10²³."
+        },
+        {
+          "termino": "Masa molar",
+          "definicion": "Masa de un mol de sustancia, en g/mol; se calcula sumando las masas atómicas de la fórmula."
+        },
+        {
+          "termino": "Ley de conservación de la masa",
+          "definicion": "En una reacción química, la masa total de los reactantes es igual a la de los productos."
+        },
+        {
+          "termino": "Coeficiente estequiométrico",
+          "definicion": "Número que antecede a una fórmula en una ecuación balanceada e indica la proporción en moles."
+        }
+      ],
+      "ideasClave": [
+        "Un mol contiene aproximadamente **6,02 × 10²³** partículas.",
+        "Los moles se calculan como masa dividida por **masa molar**.",
+        "Para balancear una ecuación se cambian los **coeficientes**, nunca los subíndices.",
+        "La masa molar del agua es **18** g/mol."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "¿Cuántos moles hay en 90 g de agua (H₂O), si su masa molar es 18 g/mol?",
+          "alternativas": [
+            "0,2 mol",
+            "5 mol",
+            "72 mol",
+            "1.620 mol"
+          ],
+          "correcta": 1,
+          "explicacion": "n = m / M = 90 g ÷ 18 g/mol = 5 mol.",
+          "descartes": [
+            "Divide la masa molar por la masa (18 ÷ 90): la fórmula está invertida.",
+            null,
+            "Resta 90 − 18; no tiene sentido restar magnitudes con distintas unidades.",
+            "Multiplica 90 · 18; las unidades darían g²/mol, no moles."
+          ],
+          "metodos": [
+            {
+              "nombre": "Fórmula",
+              "pasos": [
+                "n = m / M.",
+                "n = 90 / 18 = 5 mol."
+              ]
+            },
+            {
+              "nombre": "Razonamiento proporcional",
+              "pasos": [
+                "1 mol pesa 18 g.",
+                "¿Cuántas veces cabe 18 g en 90 g? 5 veces.",
+                "Hay 5 mol."
+              ]
+            }
+          ]
+        },
+        {
+          "enunciado": "¿Cuál es la masa molar del dióxido de carbono (CO₂)? Masas atómicas: C = 12 u; O = 16 u.",
+          "alternativas": [
+            "28 g/mol",
+            "44 g/mol",
+            "56 g/mol",
+            "192 g/mol"
+          ],
+          "correcta": 1,
+          "explicacion": "El CO₂ tiene 1 átomo de carbono y 2 de oxígeno: 12 + 2 · 16 = 12 + 32 = 44 g/mol.",
+          "descartes": [
+            "Suma un solo oxígeno (12 + 16); el subíndice 2 indica dos átomos de oxígeno.",
+            null,
+            "Multiplica por 2 toda la suma (12 + 16) · 2; el subíndice afecta solo al oxígeno.",
+            "Multiplica las masas (12 · 16) en vez de sumarlas."
+          ],
+          "metodos": [
+            {
+              "nombre": "Contar átomos",
+              "pasos": [
+                "C: 1 · 12 = 12.",
+                "O: 2 · 16 = 32.",
+                "Total: 44 g/mol."
+              ]
+            },
+            {
+              "nombre": "Tabla por elemento",
+              "pasos": [
+                "Haz una fila por elemento: cantidad × masa atómica.",
+                "C: 1 × 12; O: 2 × 16.",
+                "Suma de la columna: 44."
+              ]
+            }
+          ]
+        },
+        {
+          "enunciado": "¿Qué coeficientes balancean correctamente la ecuación __ N₂ + __ H₂ → __ NH₃?",
+          "alternativas": [
+            "1 – 1 – 2",
+            "1 – 3 – 1",
+            "1 – 3 – 2",
+            "2 – 3 – 2"
+          ],
+          "correcta": 2,
+          "explicacion": "Con 1 N₂ hay 2 N, así que se necesitan 2 NH₃. Esas 2 moléculas tienen 6 H, que se obtienen de 3 H₂. Resultado: N₂ + 3 H₂ → 2 NH₃ (2 N y 6 H a cada lado).",
+          "descartes": [
+            "Los N cuadran (2 = 2), pero los H no: 2 a la izquierda y 6 a la derecha.",
+            "Los H no cuadran (6 vs 3) y los N tampoco (2 vs 1).",
+            null,
+            "Los N no cuadran: 4 a la izquierda y 2 a la derecha."
+          ],
+          "metodos": [
+            {
+              "nombre": "Balancear elemento por elemento",
+              "pasos": [
+                "N: 2 a la izquierda → 2 NH₃.",
+                "H: 2 · 3 = 6 a la derecha → 3 H₂.",
+                "1 – 3 – 2."
+              ]
+            },
+            {
+              "nombre": "Verificar cada alternativa",
+              "pasos": [
+                "Cuenta N y H a cada lado para cada opción.",
+                "Solo 1 – 3 – 2 da N: 2 = 2 y H: 6 = 6."
+              ]
+            }
+          ]
+        }
+      ],
+      "fuentes": [
+        {
+          "titulo": "OpenStax — Chemistry 2e (cap. 3: Composition of Substances and Solutions; cap. 4: Stoichiometry of Chemical Reactions)",
+          "url": "https://openstax.org/details/books/chemistry-2e"
+        },
+        {
+          "titulo": "BIPM — El Sistema Internacional de Unidades (definición del mol)",
+          "url": "https://www.bipm.org/en/publications/si-brochure"
+        },
+        {
+          "titulo": "Khan Academy en español — Química",
+          "url": "https://es.khanacademy.org/science/chemistry"
+        }
       ]
     }
   ]

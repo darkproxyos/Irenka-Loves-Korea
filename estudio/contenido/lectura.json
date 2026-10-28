@@ -36,10 +36,22 @@
         }
       ],
       "conceptos": [
-        { "termino": "Tema", "definicion": "Asunto del que trata un texto; se expresa en pocas palabras." },
-        { "termino": "Idea principal", "definicion": "Información más importante que el texto comunica sobre su tema; se expresa en una oración." },
-        { "termino": "Idea secundaria", "definicion": "Información que amplía, explica o ejemplifica la idea principal." },
-        { "termino": "Paráfrasis", "definicion": "Expresar con palabras propias el contenido de un texto sin cambiar su sentido." }
+        {
+          "termino": "Tema",
+          "definicion": "Asunto del que trata un texto; se expresa en pocas palabras."
+        },
+        {
+          "termino": "Idea principal",
+          "definicion": "Información más importante que el texto comunica sobre su tema; se expresa en una oración."
+        },
+        {
+          "termino": "Idea secundaria",
+          "definicion": "Información que amplía, explica o ejemplifica la idea principal."
+        },
+        {
+          "termino": "Paráfrasis",
+          "definicion": "Expresar con palabras propias el contenido de un texto sin cambiar su sentido."
+        }
       ],
       "ideasClave": [
         "El tema dice **de qué** trata el texto; la idea principal, **qué se dice** de él.",
@@ -66,8 +78,23 @@
             "Generaliza más allá del texto: no se habla de todos los insectos, solo de las abejas y otros polinizadores."
           ],
           "metodos": [
-            { "nombre": "Resumir cada párrafo", "pasos": ["Párrafo 1: las abejas son clave por la polinización.", "Párrafo 2: están disminuyendo y hay que protegerlas.", "Une ambos resúmenes: coincide con C."] },
-            { "nombre": "Descartar trampas", "pasos": ["A: detalle secundario.", "B: absolutiza («única»).", "D: generaliza a todos los insectos.", "Queda C."] }
+            {
+              "nombre": "Resumir cada párrafo",
+              "pasos": [
+                "Párrafo 1: las abejas son clave por la polinización.",
+                "Párrafo 2: están disminuyendo y hay que protegerlas.",
+                "Une ambos resúmenes: coincide con C."
+              ]
+            },
+            {
+              "nombre": "Descartar trampas",
+              "pasos": [
+                "A: detalle secundario.",
+                "B: absolutiza («única»).",
+                "D: generaliza a todos los insectos.",
+                "Queda C."
+              ]
+            }
           ]
         },
         {
@@ -88,8 +115,24 @@
             "No se nombran cultivos específicos; se habla de ellos de forma general y en el primer párrafo."
           ],
           "metodos": [
-            { "nombre": "Seguir los conectores", "pasos": ["«Sin embargo» → aparece un problema que contrasta con lo anterior.", "«Entre las causas…» → se explican causas.", "«Por lo tanto» → conclusión.", "Problema + causas + conclusión = B."] },
-            { "nombre": "Verificar cada función", "pasos": ["Busca en el párrafo 2 evidencia de cada alternativa.", "Miel (A) y lista de cultivos (D): no aparecen.", "Refutar (C): no hay contradicción.", "Solo B tiene respaldo textual."] }
+            {
+              "nombre": "Seguir los conectores",
+              "pasos": [
+                "«Sin embargo» → aparece un problema que contrasta con lo anterior.",
+                "«Entre las causas…» → se explican causas.",
+                "«Por lo tanto» → conclusión.",
+                "Problema + causas + conclusión = B."
+              ]
+            },
+            {
+              "nombre": "Verificar cada función",
+              "pasos": [
+                "Busca en el párrafo 2 evidencia de cada alternativa.",
+                "Miel (A) y lista de cultivos (D): no aparecen.",
+                "Refutar (C): no hay contradicción.",
+                "Solo B tiene respaldo textual."
+              ]
+            }
           ]
         },
         {
@@ -110,15 +153,37 @@
             "El texto no compara a las abejas con otros animales; es una afirmación que no aparece."
           ],
           "metodos": [
-            { "nombre": "Prueba de eliminación", "pasos": ["Si eliminas la oración de A, el texto sigue teniendo sentido: es un detalle explicativo.", "Si eliminas la de B, se pierde la conclusión: es central."] },
-            { "nombre": "Verificar en el texto", "pasos": ["C y D no están en el texto (agregan información).", "B es la conclusión (idea principal).", "Solo A está en el texto y cumple función de apoyo."] }
+            {
+              "nombre": "Prueba de eliminación",
+              "pasos": [
+                "Si eliminas la oración de A, el texto sigue teniendo sentido: es un detalle explicativo.",
+                "Si eliminas la de B, se pierde la conclusión: es central."
+              ]
+            },
+            {
+              "nombre": "Verificar en el texto",
+              "pasos": [
+                "C y D no están en el texto (agregan información).",
+                "B es la conclusión (idea principal).",
+                "Solo A está en el texto y cumple función de apoyo."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)", "url": "https://demre.cl" },
-        { "titulo": "OECD (2019). PISA 2018 Assessment and Analytical Framework — marco de lectura", "url": "https://doi.org/10.1787/b25efab8-en" },
-        { "titulo": "Currículum Nacional (MINEDUC) — Lengua y Literatura", "url": "https://www.curriculumnacional.cl" }
+        {
+          "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)",
+          "url": "https://demre.cl"
+        },
+        {
+          "titulo": "OECD (2019). PISA 2018 Assessment and Analytical Framework — marco de lectura",
+          "url": "https://doi.org/10.1787/b25efab8-en"
+        },
+        {
+          "titulo": "Currículum Nacional (MINEDUC) — Lengua y Literatura",
+          "url": "https://www.curriculumnacional.cl"
+        }
       ]
     },
     {
@@ -151,10 +216,22 @@
         }
       ],
       "conceptos": [
-        { "termino": "Inferencia", "definicion": "Conclusión que se obtiene combinando pistas del texto con conocimientos previos, sin que el texto la diga directamente." },
-        { "termino": "Información explícita", "definicion": "Información que el texto expresa de manera directa." },
-        { "termino": "Información implícita", "definicion": "Información que no está escrita, pero que se puede deducir de lo que dice el texto." },
-        { "termino": "Sobreinterpretación", "definicion": "Conclusión que va más allá de lo que el texto permite afirmar; no tiene respaldo suficiente." }
+        {
+          "termino": "Inferencia",
+          "definicion": "Conclusión que se obtiene combinando pistas del texto con conocimientos previos, sin que el texto la diga directamente."
+        },
+        {
+          "termino": "Información explícita",
+          "definicion": "Información que el texto expresa de manera directa."
+        },
+        {
+          "termino": "Información implícita",
+          "definicion": "Información que no está escrita, pero que se puede deducir de lo que dice el texto."
+        },
+        {
+          "termino": "Sobreinterpretación",
+          "definicion": "Conclusión que va más allá de lo que el texto permite afirmar; no tiene respaldo suficiente."
+        }
       ],
       "ideasClave": [
         "Una inferencia válida siempre se apoya en **evidencia** del texto.",
@@ -181,8 +258,24 @@
             "El carné por sí solo no indica un viaje; no se mencionan maletas, pasaporte ni destino. Es una sobreinterpretación."
           ],
           "metodos": [
-            { "nombre": "Reunir pistas", "pasos": ["Revisa 3 veces la mochila → inquietud.", "Calculadora y carné → evaluación.", "Apenas come → nervios.", "Fecha marcada → día importante. Todo apunta a B."] },
-            { "nombre": "Buscar evidencia para cada alternativa", "pasos": ["A: no hay síntomas.", "C: no hay conflicto.", "D: no hay elementos de viaje.", "B: tiene varias pistas a favor."] }
+            {
+              "nombre": "Reunir pistas",
+              "pasos": [
+                "Revisa 3 veces la mochila → inquietud.",
+                "Calculadora y carné → evaluación.",
+                "Apenas come → nervios.",
+                "Fecha marcada → día importante. Todo apunta a B."
+              ]
+            },
+            {
+              "nombre": "Buscar evidencia para cada alternativa",
+              "pasos": [
+                "A: no hay síntomas.",
+                "C: no hay conflicto.",
+                "D: no hay elementos de viaje.",
+                "B: tiene varias pistas a favor."
+              ]
+            }
           ]
         },
         {
@@ -203,8 +296,23 @@
             "El texto dice que los corazones los dibujó el hermano, no Camila, y solo menciona esa fecha."
           ],
           "metodos": [
-            { "nombre": "Significado del símbolo en contexto", "pasos": ["Los corazones simbolizan cariño.", "Están alrededor del día importante de Camila.", "Inferencia: apoyo afectivo del hermano."] },
-            { "nombre": "Contraste con el texto", "pasos": ["D contradice el texto (los hizo el hermano).", "B contradice la pista (sí recordaba la fecha).", "A no tiene pistas.", "Queda C."] }
+            {
+              "nombre": "Significado del símbolo en contexto",
+              "pasos": [
+                "Los corazones simbolizan cariño.",
+                "Están alrededor del día importante de Camila.",
+                "Inferencia: apoyo afectivo del hermano."
+              ]
+            },
+            {
+              "nombre": "Contraste con el texto",
+              "pasos": [
+                "D contradice el texto (los hizo el hermano).",
+                "B contradice la pista (sí recordaba la fecha).",
+                "A no tiene pistas.",
+                "Queda C."
+              ]
+            }
           ]
         },
         {
@@ -225,14 +333,34 @@
             "El texto dice explícitamente «Antes de salir», así que sí sale."
           ],
           "metodos": [
-            { "nombre": "Analizar la palabra clave", "pasos": ["«Todavía» = algo que aún no cambia, pero cambiará.", "La oscuridad que pronto termina es la del amanecer.", "Conclusión: es muy temprano."] },
-            { "nombre": "Coherencia con el resto", "pasos": ["Desayuno + preparación de mochila + «antes de salir» = rutina de mañana.", "Oscuridad + mañana = muy temprano.", "B es la única coherente con todo."] }
+            {
+              "nombre": "Analizar la palabra clave",
+              "pasos": [
+                "«Todavía» = algo que aún no cambia, pero cambiará.",
+                "La oscuridad que pronto termina es la del amanecer.",
+                "Conclusión: es muy temprano."
+              ]
+            },
+            {
+              "nombre": "Coherencia con el resto",
+              "pasos": [
+                "Desayuno + preparación de mochila + «antes de salir» = rutina de mañana.",
+                "Oscuridad + mañana = muy temprano.",
+                "B es la única coherente con todo."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)", "url": "https://demre.cl" },
-        { "titulo": "OECD (2019). PISA 2018 Assessment and Analytical Framework — marco de lectura", "url": "https://doi.org/10.1787/b25efab8-en" }
+        {
+          "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)",
+          "url": "https://demre.cl"
+        },
+        {
+          "titulo": "OECD (2019). PISA 2018 Assessment and Analytical Framework — marco de lectura",
+          "url": "https://doi.org/10.1787/b25efab8-en"
+        }
       ]
     },
     {
@@ -265,10 +393,22 @@
         }
       ],
       "conceptos": [
-        { "termino": "Polisemia", "definicion": "Propiedad de una palabra de tener varios significados según el contexto." },
-        { "termino": "Contexto", "definicion": "Texto y situación que rodean a una palabra y determinan su sentido." },
-        { "termino": "Sinónimo contextual", "definicion": "Palabra que puede reemplazar a otra en un fragmento específico sin cambiar su sentido." },
-        { "termino": "Antónimo", "definicion": "Palabra de significado opuesto." }
+        {
+          "termino": "Polisemia",
+          "definicion": "Propiedad de una palabra de tener varios significados según el contexto."
+        },
+        {
+          "termino": "Contexto",
+          "definicion": "Texto y situación que rodean a una palabra y determinan su sentido."
+        },
+        {
+          "termino": "Sinónimo contextual",
+          "definicion": "Palabra que puede reemplazar a otra en un fragmento específico sin cambiar su sentido."
+        },
+        {
+          "termino": "Antónimo",
+          "definicion": "Palabra de significado opuesto."
+        }
       ],
       "ideasClave": [
         "En vocabulario contextual importa el significado **en ese fragmento**, no cualquier significado de la palabra.",
@@ -280,7 +420,12 @@
         {
           "texto": "Tras meses de sequía, la lluvia llegó de forma copiosa: en solo dos días cayó más agua que en todo el año anterior. Los agricultores, que habían visto sus siembras marchitarse, recibieron el aguacero con alivio, aunque algunos temían que el exceso de agua también resultara perjudicial.",
           "enunciado": "En el contexto del fragmento, ¿qué palabra puede reemplazar a «copiosa» sin cambiar el sentido?",
-          "alternativas": ["Escasa", "Abundante", "Fría", "Breve"],
+          "alternativas": [
+            "Escasa",
+            "Abundante",
+            "Fría",
+            "Breve"
+          ],
           "correcta": 1,
           "explicacion": "Los dos puntos introducen una explicación: «en solo dos días cayó más agua que en todo el año anterior». Esa pista de contexto muestra que «copiosa» significa abundante, en gran cantidad.",
           "descartes": [
@@ -290,14 +435,33 @@
             "Aunque la lluvia duró solo dos días, el énfasis está en la cantidad de agua, no en la duración. Además, «llegó de forma breve» no explica la comparación con el año anterior."
           ],
           "metodos": [
-            { "nombre": "Pista de definición", "pasos": ["Después de «copiosa» vienen dos puntos y una explicación.", "La explicación habla de muchísima agua.", "Copiosa = abundante."] },
-            { "nombre": "Reemplazo", "pasos": ["«La lluvia llegó de forma abundante: cayó más agua que…» → coherente.", "«…de forma escasa: cayó más agua que…» → contradictorio.", "Solo «abundante» mantiene el sentido."] }
+            {
+              "nombre": "Pista de definición",
+              "pasos": [
+                "Después de «copiosa» vienen dos puntos y una explicación.",
+                "La explicación habla de muchísima agua.",
+                "Copiosa = abundante."
+              ]
+            },
+            {
+              "nombre": "Reemplazo",
+              "pasos": [
+                "«La lluvia llegó de forma abundante: cayó más agua que…» → coherente.",
+                "«…de forma escasa: cayó más agua que…» → contradictorio.",
+                "Solo «abundante» mantiene el sentido."
+              ]
+            }
           ]
         },
         {
           "texto": "Tras meses de sequía, la lluvia llegó de forma copiosa: en solo dos días cayó más agua que en todo el año anterior. Los agricultores, que habían visto sus siembras marchitarse, recibieron el aguacero con alivio, aunque algunos temían que el exceso de agua también resultara perjudicial.",
           "enunciado": "En el contexto del fragmento, la palabra «perjudicial» puede reemplazarse por:",
-          "alternativas": ["Beneficioso", "Inevitable", "Dañino", "Pasajero"],
+          "alternativas": [
+            "Beneficioso",
+            "Inevitable",
+            "Dañino",
+            "Pasajero"
+          ],
           "correcta": 2,
           "explicacion": "El conector «aunque» introduce un contraste con el «alivio»: los agricultores temían que el exceso de agua causara daño. «Perjudicial» significa que causa perjuicio, es decir, dañino.",
           "descartes": [
@@ -307,8 +471,22 @@
             "«Pasajero» se refiere a la duración, no al efecto negativo que se teme."
           ],
           "metodos": [
-            { "nombre": "Pista de contraste", "pasos": ["«Con alivio, aunque algunos temían…» → «aunque» contrapone algo negativo al alivio.", "Lo que se teme de un exceso de agua es que haga daño.", "Perjudicial = dañino."] },
-            { "nombre": "Familia de palabras", "pasos": ["Perjudicial viene de «perjuicio» (daño).", "El sufijo -al indica relación: «que causa perjuicio».", "Sinónimo: dañino."] }
+            {
+              "nombre": "Pista de contraste",
+              "pasos": [
+                "«Con alivio, aunque algunos temían…» → «aunque» contrapone algo negativo al alivio.",
+                "Lo que se teme de un exceso de agua es que haga daño.",
+                "Perjudicial = dañino."
+              ]
+            },
+            {
+              "nombre": "Familia de palabras",
+              "pasos": [
+                "Perjudicial viene de «perjuicio» (daño).",
+                "El sufijo -al indica relación: «que causa perjuicio».",
+                "Sinónimo: dañino."
+              ]
+            }
           ]
         },
         {
@@ -329,14 +507,34 @@
             "No se habla de redactar el reglamento de nuevo; se habla de qué norma se aplica mientras tanto."
           ],
           "metodos": [
-            { "nombre": "Pistas del entorno", "pasos": ["«Entrará en vigor» y «normas vigentes» hablan de normas que se aplican.", "«Regirá el reglamento anterior» = el anterior seguirá aplicándose.", "Significado: seguirá vigente."] },
-            { "nombre": "Reemplazo", "pasos": ["«Hasta entonces, seguirá vigente el reglamento anterior» → coherente.", "«Hasta entonces, gobernará un país el reglamento anterior» → absurdo.", "La alternativa C es la única que conserva el sentido."] }
+            {
+              "nombre": "Pistas del entorno",
+              "pasos": [
+                "«Entrará en vigor» y «normas vigentes» hablan de normas que se aplican.",
+                "«Regirá el reglamento anterior» = el anterior seguirá aplicándose.",
+                "Significado: seguirá vigente."
+              ]
+            },
+            {
+              "nombre": "Reemplazo",
+              "pasos": [
+                "«Hasta entonces, seguirá vigente el reglamento anterior» → coherente.",
+                "«Hasta entonces, gobernará un país el reglamento anterior» → absurdo.",
+                "La alternativa C es la única que conserva el sentido."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "Real Academia Española — Diccionario de la lengua española", "url": "https://dle.rae.es" },
-        { "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)", "url": "https://demre.cl" }
+        {
+          "titulo": "Real Academia Española — Diccionario de la lengua española",
+          "url": "https://dle.rae.es"
+        },
+        {
+          "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)",
+          "url": "https://demre.cl"
+        }
       ]
     },
     {
@@ -380,11 +578,26 @@
         }
       ],
       "conceptos": [
-        { "termino": "Propósito comunicativo", "definicion": "Intención con que se escribe un texto: narrar, describir, informar, convencer o instruir." },
-        { "termino": "Tesis", "definicion": "Postura u opinión principal que el autor defiende en un texto argumentativo." },
-        { "termino": "Concesión", "definicion": "Recurso argumentativo en que el autor reconoce parte de la razón al punto de vista contrario." },
-        { "termino": "Refutación", "definicion": "Respuesta que rebate un argumento contrario." },
-        { "termino": "Conector", "definicion": "Palabra o expresión que une ideas e indica la relación entre ellas (adición, contraste, causa, consecuencia)." }
+        {
+          "termino": "Propósito comunicativo",
+          "definicion": "Intención con que se escribe un texto: narrar, describir, informar, convencer o instruir."
+        },
+        {
+          "termino": "Tesis",
+          "definicion": "Postura u opinión principal que el autor defiende en un texto argumentativo."
+        },
+        {
+          "termino": "Concesión",
+          "definicion": "Recurso argumentativo en que el autor reconoce parte de la razón al punto de vista contrario."
+        },
+        {
+          "termino": "Refutación",
+          "definicion": "Respuesta que rebate un argumento contrario."
+        },
+        {
+          "termino": "Conector",
+          "definicion": "Palabra o expresión que une ideas e indica la relación entre ellas (adición, contraste, causa, consecuencia)."
+        }
       ],
       "ideasClave": [
         "Un texto argumentativo busca **convencer** al lector de una postura.",
@@ -411,8 +624,22 @@
             "No hay pasos ni indicaciones para el lector; solo se reconoce brevemente que el celular puede ser útil."
           ],
           "metodos": [
-            { "nombre": "Buscar la postura", "pasos": ["«Y con razón» muestra que el autor está de acuerdo con la prohibición.", "Tomar postura y defenderla = argumentar.", "Propósito: convencer."] },
-            { "nombre": "Identificar la estructura", "pasos": ["Tesis (oración 1) + argumentos («Diversas investigaciones…», «Además…»).", "Concesión y refutación («Es cierto que…; sin embargo…»).", "Conclusión («Por lo tanto…») → estructura argumentativa."] }
+            {
+              "nombre": "Buscar la postura",
+              "pasos": [
+                "«Y con razón» muestra que el autor está de acuerdo con la prohibición.",
+                "Tomar postura y defenderla = argumentar.",
+                "Propósito: convencer."
+              ]
+            },
+            {
+              "nombre": "Identificar la estructura",
+              "pasos": [
+                "Tesis (oración 1) + argumentos («Diversas investigaciones…», «Además…»).",
+                "Concesión y refutación («Es cierto que…; sin embargo…»).",
+                "Conclusión («Por lo tanto…») → estructura argumentativa."
+              ]
+            }
           ]
         },
         {
@@ -433,8 +660,22 @@
             "No se presenta ningún caso particular que ilustre una idea; «sin embargo» no es un conector de ejemplificación."
           ],
           "metodos": [
-            { "nombre": "Clasificar el conector", "pasos": ["«Sin embargo» es un conector de contraste u oposición.", "Busca qué ideas contrapone: «el celular es útil» vs. «ese beneficio puede aprovecharse en otros momentos».", "Función: contraponer → B."] },
-            { "nombre": "Sustitución", "pasos": ["Reemplaza por «pero»: el sentido se mantiene → es contraste.", "Reemplaza por «por lo tanto» o «por ejemplo»: el sentido cambia.", "Se confirma que su función es contraponer."] }
+            {
+              "nombre": "Clasificar el conector",
+              "pasos": [
+                "«Sin embargo» es un conector de contraste u oposición.",
+                "Busca qué ideas contrapone: «el celular es útil» vs. «ese beneficio puede aprovecharse en otros momentos».",
+                "Función: contraponer → B."
+              ]
+            },
+            {
+              "nombre": "Sustitución",
+              "pasos": [
+                "Reemplaza por «pero»: el sentido se mantiene → es contraste.",
+                "Reemplaza por «por lo tanto» o «por ejemplo»: el sentido cambia.",
+                "Se confirma que su función es contraponer."
+              ]
+            }
           ]
         },
         {
@@ -455,14 +696,234 @@
             "No se comparan tipos de celulares; se discute su uso en clases."
           ],
           "metodos": [
-            { "nombre": "Etiquetar cada oración", "pasos": ["1: tesis. 2–3: argumentos.", "4: concesión + refutación.", "5: conclusión.", "Coincide con A."] },
-            { "nombre": "Seguir los conectores", "pasos": ["«Además» → otro argumento.", "«Es cierto que…; sin embargo» → concesión y refutación.", "«Por lo tanto» → conclusión. Estructura argumentativa completa."] }
+            {
+              "nombre": "Etiquetar cada oración",
+              "pasos": [
+                "1: tesis. 2–3: argumentos.",
+                "4: concesión + refutación.",
+                "5: conclusión.",
+                "Coincide con A."
+              ]
+            },
+            {
+              "nombre": "Seguir los conectores",
+              "pasos": [
+                "«Además» → otro argumento.",
+                "«Es cierto que…; sin embargo» → concesión y refutación.",
+                "«Por lo tanto» → conclusión. Estructura argumentativa completa."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)", "url": "https://demre.cl" },
-        { "titulo": "Currículum Nacional (MINEDUC) — Lengua y Literatura", "url": "https://www.curriculumnacional.cl" }
+        {
+          "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)",
+          "url": "https://demre.cl"
+        },
+        {
+          "titulo": "Currículum Nacional (MINEDUC) — Lengua y Literatura",
+          "url": "https://www.curriculumnacional.cl"
+        }
+      ]
+    },
+    {
+      "id": "argumentacion",
+      "titulo": "Textos argumentativos: tesis, argumentos y falacias",
+      "resumen": "Reconocer la postura de un autor, cómo la defiende y cuándo un argumento es engañoso.",
+      "objetivos": [
+        "Identificar la tesis de un texto argumentativo.",
+        "Reconocer tipos de argumentos, contraargumentos y refutaciones.",
+        "Detectar falacias frecuentes y distinguir hechos de opiniones."
+      ],
+      "secciones": [
+        {
+          "titulo": "Las piezas de una argumentación",
+          "lista": [
+            "**Tesis:** la postura que el autor defiende. Suele aparecer al inicio o al final, y a menudo contiene expresiones como «debería», «es necesario», «es un error».",
+            "**Argumentos:** las razones que apoyan la tesis.",
+            "**Contraargumento:** una objeción a la tesis, que el autor menciona para responderla.",
+            "**Refutación:** la respuesta del autor al contraargumento.",
+            "**Conclusión:** el cierre, que suele reafirmar la tesis («en definitiva», «por lo tanto»)."
+          ]
+        },
+        {
+          "titulo": "Tipos de argumentos",
+          "lista": [
+            "**De autoridad:** cita a un experto o institución reconocida en el tema.",
+            "**Datos o estadísticas:** cifras que respaldan la tesis.",
+            "**Ejemplos o casos:** situaciones concretas que ilustran lo que se afirma.",
+            "**Causa-consecuencia:** muestra los efectos que tendría (o tiene) algo.",
+            "**Analogía:** compara con una situación parecida."
+          ],
+          "recuadro": "Un **hecho** se puede comprobar («la ciclovía mide 3 km»). Una **opinión** expresa una valoración («la ciclovía es hermosa»). Los buenos argumentos apoyan las opiniones con hechos verificables."
+        },
+        {
+          "titulo": "Falacias: argumentos que parecen válidos, pero no lo son",
+          "lista": [
+            "**Ad hominem:** ataca a la persona en vez de responder a sus razones («No le hagan caso, él ni siquiera terminó la universidad»).",
+            "**Generalización apresurada:** saca una conclusión general a partir de pocos casos («Dos amigos se enfermaron en ese restaurante: toda su comida es mala»).",
+            "**Falso dilema:** presenta solo dos opciones cuando existen más («O estás conmigo o estás contra mí»).",
+            "**Apelación a la mayoría (ad populum):** da algo por cierto porque mucha gente lo cree.",
+            "**Hombre de paja:** deforma la postura contraria para que sea más fácil atacarla."
+          ]
+        }
+      ],
+      "conceptos": [
+        {
+          "termino": "Tesis",
+          "definicion": "Postura principal que el autor defiende en un texto argumentativo."
+        },
+        {
+          "termino": "Contraargumento",
+          "definicion": "Objeción a la tesis que el autor menciona para luego responderla."
+        },
+        {
+          "termino": "Argumento de autoridad",
+          "definicion": "Argumento que se apoya en la opinión de un experto o institución reconocida."
+        },
+        {
+          "termino": "Falacia ad hominem",
+          "definicion": "Argumento que ataca a la persona en lugar de responder a sus razones."
+        },
+        {
+          "termino": "Generalización apresurada",
+          "definicion": "Falacia que obtiene una conclusión general a partir de muy pocos casos."
+        },
+        {
+          "termino": "Falso dilema",
+          "definicion": "Falacia que presenta solo dos alternativas cuando existen otras posibles."
+        }
+      ],
+      "ideasClave": [
+        "La **tesis** es la postura que el autor defiende.",
+        "Atacar a la persona en vez de a sus argumentos es una falacia **ad hominem**.",
+        "Un **hecho** se puede comprobar; una opinión expresa una valoración.",
+        "Mencionar una objeción para luego responderla fortalece la argumentación: es una **refutación**."
+      ],
+      "preguntas": [
+        {
+          "texto": "Señor Director: El municipio debería construir más ciclovías protegidas en el centro de la ciudad. En las ciudades que lo han hecho, como Sevilla o Bogotá, el uso de la bicicleta aumentó de manera notable. Además, cada persona que deja el auto para pedalear significa menos congestión y menos contaminación para todos.\n\nAlgunos comerciantes afirman que perderán clientes si se eliminan estacionamientos; sin embargo, quienes llegan en bicicleta o a pie suelen visitar las tiendas con más frecuencia. Por otra parte, quienes se oponen a las ciclovías simplemente no saben andar en bicicleta. En definitiva, invertir en ciclovías es invertir en una ciudad más sana.",
+          "enunciado": "¿Cuál es la tesis del texto?",
+          "alternativas": [
+            "En Sevilla y Bogotá aumentó el uso de la bicicleta.",
+            "El municipio debería construir más ciclovías protegidas en el centro de la ciudad.",
+            "Los comerciantes perderán clientes si se eliminan estacionamientos.",
+            "Quienes se oponen a las ciclovías no saben andar en bicicleta."
+          ],
+          "correcta": 1,
+          "explicacion": "Es la postura que todo el texto defiende: aparece en la primera oración (con «debería») y se reafirma en la conclusión («invertir en ciclovías es invertir en una ciudad más sana»). Lo demás son razones a favor, una objeción o un ataque.",
+          "descartes": [
+            "Es un argumento basado en ejemplos que apoya la tesis, no la tesis misma.",
+            null,
+            "Es el contraargumento que el autor menciona para refutarlo; no es su postura.",
+            "Es un ataque a quienes piensan distinto (una falacia), no la postura central."
+          ],
+          "metodos": [
+            {
+              "nombre": "Buscar la postura",
+              "pasos": [
+                "Pregunta: ¿qué quiere el autor que pensemos o hagamos?",
+                "La oración con «debería» lo dice: construir más ciclovías.",
+                "La conclusión la reafirma."
+              ]
+            },
+            {
+              "nombre": "Prueba del «porque»",
+              "pasos": [
+                "La tesis se puede unir con «porque» a los argumentos.",
+                "«Deberían construir ciclovías PORQUE en Sevilla aumentó su uso» → tiene sentido.",
+                "Al revés no funciona: B es la tesis y A, su apoyo."
+              ]
+            }
+          ]
+        },
+        {
+          "texto": "Señor Director: El municipio debería construir más ciclovías protegidas en el centro de la ciudad. En las ciudades que lo han hecho, como Sevilla o Bogotá, el uso de la bicicleta aumentó de manera notable. Además, cada persona que deja el auto para pedalear significa menos congestión y menos contaminación para todos.\n\nAlgunos comerciantes afirman que perderán clientes si se eliminan estacionamientos; sin embargo, quienes llegan en bicicleta o a pie suelen visitar las tiendas con más frecuencia. Por otra parte, quienes se oponen a las ciclovías simplemente no saben andar en bicicleta. En definitiva, invertir en ciclovías es invertir en una ciudad más sana.",
+          "enunciado": "La oración «quienes se oponen a las ciclovías simplemente no saben andar en bicicleta» constituye:",
+          "alternativas": [
+            "un argumento de autoridad.",
+            "una falacia ad hominem.",
+            "un argumento basado en ejemplos.",
+            "una refutación válida del contraargumento."
+          ],
+          "correcta": 1,
+          "explicacion": "No responde a ninguna razón de quienes se oponen: descalifica a esas personas atribuyéndoles una característica. Atacar a quien sostiene una postura en vez de discutir sus argumentos es una falacia ad hominem.",
+          "descartes": [
+            "No se cita a ningún experto ni institución.",
+            null,
+            "No se presenta ningún caso concreto que ilustre algo; se hace una afirmación sobre un grupo de personas.",
+            "No responde al argumento de los comerciantes (eso lo hace la oración anterior); solo descalifica a los opositores."
+          ],
+          "metodos": [
+            {
+              "nombre": "¿Ataca ideas o personas?",
+              "pasos": [
+                "La oración no menciona ninguna razón de los opositores.",
+                "Se refiere a una supuesta característica de ellos.",
+                "Atacar a la persona = ad hominem."
+              ]
+            },
+            {
+              "nombre": "Descartar tipos de argumento",
+              "pasos": [
+                "Autoridad: necesita un experto → no hay.",
+                "Ejemplos: necesita casos concretos → no hay.",
+                "Refutación: necesita responder a una razón → no lo hace.",
+                "Queda la falacia."
+              ]
+            }
+          ]
+        },
+        {
+          "texto": "Señor Director: El municipio debería construir más ciclovías protegidas en el centro de la ciudad. En las ciudades que lo han hecho, como Sevilla o Bogotá, el uso de la bicicleta aumentó de manera notable. Además, cada persona que deja el auto para pedalear significa menos congestión y menos contaminación para todos.\n\nAlgunos comerciantes afirman que perderán clientes si se eliminan estacionamientos; sin embargo, quienes llegan en bicicleta o a pie suelen visitar las tiendas con más frecuencia. Por otra parte, quienes se oponen a las ciclovías simplemente no saben andar en bicicleta. En definitiva, invertir en ciclovías es invertir en una ciudad más sana.",
+          "enunciado": "¿Qué función cumple la oración que comienza con «Algunos comerciantes afirman…»?",
+          "alternativas": [
+            "Presentar una objeción a la tesis y luego refutarla.",
+            "Concluir el texto reafirmando la tesis.",
+            "Aportar un ejemplo de ciudades con ciclovías.",
+            "Cambiar la postura del autor."
+          ],
+          "correcta": 0,
+          "explicacion": "Primero expone lo que dicen quienes no están de acuerdo (perderán clientes) y, tras «sin embargo», el autor lo responde (quienes llegan en bicicleta o a pie visitan más las tiendas). Es un contraargumento seguido de su refutación.",
+          "descartes": [
+            null,
+            "La conclusión está en la última oración, introducida por «En definitiva».",
+            "Los ejemplos de ciudades (Sevilla y Bogotá) aparecen en el primer párrafo.",
+            "El autor mantiene su postura: menciona la objeción solo para responderla."
+          ],
+          "metodos": [
+            {
+              "nombre": "Seguir el conector",
+              "pasos": [
+                "«Algunos… afirman» → voz contraria.",
+                "«sin embargo» → respuesta del autor.",
+                "Objeción + respuesta = contraargumento y refutación."
+              ]
+            },
+            {
+              "nombre": "Ubicar las otras funciones",
+              "pasos": [
+                "Ejemplos: primer párrafo.",
+                "Conclusión: «En definitiva…».",
+                "La postura no cambia en todo el texto. Queda A."
+              ]
+            }
+          ]
+        }
+      ],
+      "fuentes": [
+        {
+          "titulo": "Weston, A. — Las claves de la argumentación (Ariel)"
+        },
+        {
+          "titulo": "DEMRE — Temario y ensayos oficiales de Competencia Lectora (PAES)",
+          "url": "https://demre.cl"
+        },
+        {
+          "titulo": "Currículum Nacional (MINEDUC) — Lengua y Literatura",
+          "url": "https://www.curriculumnacional.cl"
+        }
       ]
     }
   ]

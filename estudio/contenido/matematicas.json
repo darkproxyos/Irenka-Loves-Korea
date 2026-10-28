@@ -57,10 +57,22 @@
         }
       ],
       "conceptos": [
-        { "termino": "Número entero", "definicion": "Cualquier número del conjunto …, −2, −1, 0, 1, 2, …: los naturales, sus opuestos y el cero." },
-        { "termino": "Valor absoluto", "definicion": "Distancia de un número al cero en la recta numérica. Siempre es mayor o igual a cero: |−5| = 5." },
-        { "termino": "Opuesto de un número", "definicion": "Número con el mismo valor absoluto y signo contrario. El opuesto de −8 es 8." },
-        { "termino": "Prioridad de las operaciones", "definicion": "Orden para resolver: paréntesis, potencias, multiplicación y división (izquierda a derecha), suma y resta (izquierda a derecha)." }
+        {
+          "termino": "Número entero",
+          "definicion": "Cualquier número del conjunto …, −2, −1, 0, 1, 2, …: los naturales, sus opuestos y el cero."
+        },
+        {
+          "termino": "Valor absoluto",
+          "definicion": "Distancia de un número al cero en la recta numérica. Siempre es mayor o igual a cero: |−5| = 5."
+        },
+        {
+          "termino": "Opuesto de un número",
+          "definicion": "Número con el mismo valor absoluto y signo contrario. El opuesto de −8 es 8."
+        },
+        {
+          "termino": "Prioridad de las operaciones",
+          "definicion": "Orden para resolver: paréntesis, potencias, multiplicación y división (izquierda a derecha), suma y resta (izquierda a derecha)."
+        }
       ],
       "ideasClave": [
         "Restar un número equivale a **sumar su opuesto**: a − b = a + (−b).",
@@ -71,7 +83,12 @@
       "preguntas": [
         {
           "enunciado": "¿Cuál es el valor de −12 + 7 − (−5)?",
-          "alternativas": ["−10", "0", "10", "−24"],
+          "alternativas": [
+            "−10",
+            "0",
+            "10",
+            "−24"
+          ],
           "correcta": 1,
           "explicacion": "Primero −12 + 7 = −5 (distinto signo: se restan 12 − 7 = 5 y queda el signo del 12). Luego −5 − (−5) = −5 + 5 = 0, porque restar −5 es sumar 5.",
           "descartes": [
@@ -81,13 +98,32 @@
             "Resulta de sumar todos los valores absolutos (12 + 7 + 5) y poner signo negativo, sin respetar los signos de cada término."
           ],
           "metodos": [
-            { "nombre": "De izquierda a derecha", "pasos": ["−12 + 7 = −5.", "−5 − (−5) = −5 + 5.", "Resultado: 0."] },
-            { "nombre": "Agrupar positivos y negativos", "pasos": ["Reescribe sin dobles signos: −12 + 7 + 5.", "Positivos: 7 + 5 = 12. Negativos: −12.", "12 + (−12) = 0."] }
+            {
+              "nombre": "De izquierda a derecha",
+              "pasos": [
+                "−12 + 7 = −5.",
+                "−5 − (−5) = −5 + 5.",
+                "Resultado: 0."
+              ]
+            },
+            {
+              "nombre": "Agrupar positivos y negativos",
+              "pasos": [
+                "Reescribe sin dobles signos: −12 + 7 + 5.",
+                "Positivos: 7 + 5 = 12. Negativos: −12.",
+                "12 + (−12) = 0."
+              ]
+            }
           ]
         },
         {
           "enunciado": "¿Cuál es el resultado de 20 − 4·(3 − 5)² ÷ 8?",
-          "alternativas": ["8", "12", "18", "22"],
+          "alternativas": [
+            "8",
+            "12",
+            "18",
+            "22"
+          ],
           "correcta": 2,
           "explicacion": "Paréntesis: 3 − 5 = −2. Potencia: (−2)² = 4. Multiplicación y división de izquierda a derecha: 4·4 = 16 y 16 ÷ 8 = 2. Resta final: 20 − 2 = 18.",
           "descartes": [
@@ -97,13 +133,33 @@
             "Sale de creer que (−2)² = −4: entonces 4·(−4) ÷ 8 = −2 y 20 − (−2) = 22. Un número negativo al cuadrado siempre da positivo."
           ],
           "metodos": [
-            { "nombre": "Prioridad paso a paso", "pasos": ["(3 − 5) = −2.", "(−2)² = 4.", "4·4 ÷ 8 = 16 ÷ 8 = 2.", "20 − 2 = 18."] },
-            { "nombre": "Simplificar antes de multiplicar", "pasos": ["El término 4·(…)² ÷ 8 es lo mismo que (4/8)·(…)² = ½·(…)².", "½·(−2)² = ½·4 = 2.", "20 − 2 = 18."] }
+            {
+              "nombre": "Prioridad paso a paso",
+              "pasos": [
+                "(3 − 5) = −2.",
+                "(−2)² = 4.",
+                "4·4 ÷ 8 = 16 ÷ 8 = 2.",
+                "20 − 2 = 18."
+              ]
+            },
+            {
+              "nombre": "Simplificar antes de multiplicar",
+              "pasos": [
+                "El término 4·(…)² ÷ 8 es lo mismo que (4/8)·(…)² = ½·(…)².",
+                "½·(−2)² = ½·4 = 2.",
+                "20 − 2 = 18."
+              ]
+            }
           ]
         },
         {
           "enunciado": "A las 6:00 la temperatura era −4 °C. Al mediodía había subido 11 °C y en la noche bajó 9 °C respecto del mediodía. ¿Qué temperatura había en la noche?",
-          "alternativas": ["−2 °C", "2 °C", "−6 °C", "24 °C"],
+          "alternativas": [
+            "−2 °C",
+            "2 °C",
+            "−6 °C",
+            "24 °C"
+          ],
           "correcta": 0,
           "explicacion": "Subir es sumar y bajar es restar: −4 + 11 = 7 °C al mediodía. Luego 7 − 9 = −2 °C en la noche.",
           "descartes": [
@@ -113,15 +169,37 @@
             "Resulta de sumar las cantidades sin considerar signos: 4 + 11 + 9 = 24."
           ],
           "metodos": [
-            { "nombre": "Seguir la historia", "pasos": ["Inicio: −4 °C.", "Sube 11: −4 + 11 = 7 °C.", "Baja 9: 7 − 9 = −2 °C."] },
-            { "nombre": "Cambio neto", "pasos": ["El cambio total del día es +11 − 9 = +2 °C.", "Temperatura final: −4 + 2 = −2 °C."] }
+            {
+              "nombre": "Seguir la historia",
+              "pasos": [
+                "Inicio: −4 °C.",
+                "Sube 11: −4 + 11 = 7 °C.",
+                "Baja 9: 7 − 9 = −2 °C."
+              ]
+            },
+            {
+              "nombre": "Cambio neto",
+              "pasos": [
+                "El cambio total del día es +11 − 9 = +2 °C.",
+                "Temperatura final: −4 + 2 = −2 °C."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Prealgebra 2e (cap. 3: Integers)", "url": "https://openstax.org/details/books/prealgebra-2e" },
-        { "titulo": "Khan Academy en español — Matemáticas", "url": "https://es.khanacademy.org/math" },
-        { "titulo": "DEMRE — Temarios y ensayos oficiales PAES", "url": "https://demre.cl" }
+        {
+          "titulo": "OpenStax — Prealgebra 2e (cap. 3: Integers)",
+          "url": "https://openstax.org/details/books/prealgebra-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Matemáticas",
+          "url": "https://es.khanacademy.org/math"
+        },
+        {
+          "titulo": "DEMRE — Temarios y ensayos oficiales PAES",
+          "url": "https://demre.cl"
+        }
       ]
     },
     {
@@ -176,11 +254,26 @@
         }
       ],
       "conceptos": [
-        { "termino": "Fracción", "definicion": "Expresión a/b (b ≠ 0) que representa a partes de un entero dividido en b partes iguales; también es la división a ÷ b." },
-        { "termino": "Fracciones equivalentes", "definicion": "Fracciones que representan la misma cantidad, como 2/3 y 8/12." },
-        { "termino": "Mínimo común múltiplo (mcm)", "definicion": "El menor número que es múltiplo de dos o más números. Se usa como denominador común para sumar o restar fracciones." },
-        { "termino": "Inverso multiplicativo", "definicion": "Número que multiplicado por otro da 1. El inverso de a/b es b/a (si a ≠ 0)." },
-        { "termino": "Decimal periódico", "definicion": "Decimal con cifras que se repiten infinitamente, como 0,333… que equivale a 1/3." }
+        {
+          "termino": "Fracción",
+          "definicion": "Expresión a/b (b ≠ 0) que representa a partes de un entero dividido en b partes iguales; también es la división a ÷ b."
+        },
+        {
+          "termino": "Fracciones equivalentes",
+          "definicion": "Fracciones que representan la misma cantidad, como 2/3 y 8/12."
+        },
+        {
+          "termino": "Mínimo común múltiplo (mcm)",
+          "definicion": "El menor número que es múltiplo de dos o más números. Se usa como denominador común para sumar o restar fracciones."
+        },
+        {
+          "termino": "Inverso multiplicativo",
+          "definicion": "Número que multiplicado por otro da 1. El inverso de a/b es b/a (si a ≠ 0)."
+        },
+        {
+          "termino": "Decimal periódico",
+          "definicion": "Decimal con cifras que se repiten infinitamente, como 0,333… que equivale a 1/3."
+        }
       ],
       "ideasClave": [
         "Para sumar fracciones con distinto denominador hay que usar un **denominador común**.",
@@ -191,7 +284,12 @@
       "preguntas": [
         {
           "enunciado": "¿Cuál es el resultado de 2/3 + 3/4?",
-          "alternativas": ["5/7", "5/12", "17/12", "6/7"],
+          "alternativas": [
+            "5/7",
+            "5/12",
+            "17/12",
+            "6/7"
+          ],
           "correcta": 2,
           "explicacion": "El mcm de 3 y 4 es 12. 2/3 = 8/12 y 3/4 = 9/12. Entonces 8/12 + 9/12 = 17/12 (que también es 1 5/12).",
           "descartes": [
@@ -201,13 +299,32 @@
             "Resulta de multiplicar los numeradores (2·3 = 6) y sumar los denominadores (3 + 4 = 7); no corresponde a ninguna operación válida."
           ],
           "metodos": [
-            { "nombre": "Mínimo común múltiplo", "pasos": ["mcm(3, 4) = 12.", "2/3 = 8/12; 3/4 = 9/12.", "8/12 + 9/12 = 17/12."] },
-            { "nombre": "Productos cruzados", "pasos": ["Usa a/b + c/d = (a·d + b·c)/(b·d).", "(2·4 + 3·3)/(3·4) = (8 + 9)/12.", "= 17/12."] }
+            {
+              "nombre": "Mínimo común múltiplo",
+              "pasos": [
+                "mcm(3, 4) = 12.",
+                "2/3 = 8/12; 3/4 = 9/12.",
+                "8/12 + 9/12 = 17/12."
+              ]
+            },
+            {
+              "nombre": "Productos cruzados",
+              "pasos": [
+                "Usa a/b + c/d = (a·d + b·c)/(b·d).",
+                "(2·4 + 3·3)/(3·4) = (8 + 9)/12.",
+                "= 17/12."
+              ]
+            }
           ]
         },
         {
           "enunciado": "¿Cuál es el resultado de (3/5) ÷ (9/10)?",
-          "alternativas": ["27/50", "2/3", "3/2", "1/3"],
+          "alternativas": [
+            "27/50",
+            "2/3",
+            "3/2",
+            "1/3"
+          ],
           "correcta": 1,
           "explicacion": "Dividir es multiplicar por el inverso: 3/5 · 10/9 = 30/45. Simplificando por 15: 30/45 = 2/3.",
           "descartes": [
@@ -217,8 +334,22 @@
             "Resulta de dividir solo los numeradores (3 ÷ 9 = 1/3) e ignorar los denominadores."
           ],
           "metodos": [
-            { "nombre": "Multiplicar por el inverso", "pasos": ["3/5 ÷ 9/10 = 3/5 · 10/9.", "= 30/45.", "Simplifica por 15: 2/3."] },
-            { "nombre": "Simplificar en cruz antes", "pasos": ["En 3/5 · 10/9, simplifica 3 con 9 (queda 1 y 3) y 10 con 5 (queda 2 y 1).", "Queda 1/1 · 2/3.", "= 2/3."] }
+            {
+              "nombre": "Multiplicar por el inverso",
+              "pasos": [
+                "3/5 ÷ 9/10 = 3/5 · 10/9.",
+                "= 30/45.",
+                "Simplifica por 15: 2/3."
+              ]
+            },
+            {
+              "nombre": "Simplificar en cruz antes",
+              "pasos": [
+                "En 3/5 · 10/9, simplifica 3 con 9 (queda 1 y 3) y 10 con 5 (queda 2 y 1).",
+                "Queda 1/1 · 2/3.",
+                "= 2/3."
+              ]
+            }
           ]
         },
         {
@@ -238,14 +369,34 @@
             "Ubica las fracciones después de los decimales sin convertirlas, como si las fracciones fueran siempre mayores."
           ],
           "metodos": [
-            { "nombre": "Convertir todo a decimal", "pasos": ["3/5 = 0,6 y 5/8 = 0,625.", "Escribe todos con 3 decimales: 0,650; 0,625; 0,600; 0,580.", "Ordena: 0,58 < 3/5 < 5/8 < 0,65."] },
-            { "nombre": "Denominador común 40", "pasos": ["0,65 = 26/40; 5/8 = 25/40; 3/5 = 24/40; 0,58 = 23,2/40.", "Compara numeradores: 23,2 < 24 < 25 < 26.", "Mismo orden: 0,58 < 3/5 < 5/8 < 0,65."] }
+            {
+              "nombre": "Convertir todo a decimal",
+              "pasos": [
+                "3/5 = 0,6 y 5/8 = 0,625.",
+                "Escribe todos con 3 decimales: 0,650; 0,625; 0,600; 0,580.",
+                "Ordena: 0,58 < 3/5 < 5/8 < 0,65."
+              ]
+            },
+            {
+              "nombre": "Denominador común 40",
+              "pasos": [
+                "0,65 = 26/40; 5/8 = 25/40; 3/5 = 24/40; 0,58 = 23,2/40.",
+                "Compara numeradores: 23,2 < 24 < 25 < 26.",
+                "Mismo orden: 0,58 < 3/5 < 5/8 < 0,65."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Prealgebra 2e (cap. 4: Fractions; cap. 5: Decimals)", "url": "https://openstax.org/details/books/prealgebra-2e" },
-        { "titulo": "Khan Academy en español — Matemáticas", "url": "https://es.khanacademy.org/math" }
+        {
+          "titulo": "OpenStax — Prealgebra 2e (cap. 4: Fractions; cap. 5: Decimals)",
+          "url": "https://openstax.org/details/books/prealgebra-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Matemáticas",
+          "url": "https://es.khanacademy.org/math"
+        }
       ]
     },
     {
@@ -291,11 +442,26 @@
         }
       ],
       "conceptos": [
-        { "termino": "Razón", "definicion": "Comparación entre dos cantidades mediante su cociente, como 2:3." },
-        { "termino": "Proporción", "definicion": "Igualdad entre dos razones a/b = c/d, en la que se cumple a·d = b·c." },
-        { "termino": "Proporcionalidad directa", "definicion": "Relación en la que el cociente entre las magnitudes es constante: si una se multiplica por k, la otra también." },
-        { "termino": "Proporcionalidad inversa", "definicion": "Relación en la que el producto de las magnitudes es constante: si una se multiplica por k, la otra se divide por k." },
-        { "termino": "Porcentaje", "definicion": "Razón con denominador 100. El p% de N es N · p/100." }
+        {
+          "termino": "Razón",
+          "definicion": "Comparación entre dos cantidades mediante su cociente, como 2:3."
+        },
+        {
+          "termino": "Proporción",
+          "definicion": "Igualdad entre dos razones a/b = c/d, en la que se cumple a·d = b·c."
+        },
+        {
+          "termino": "Proporcionalidad directa",
+          "definicion": "Relación en la que el cociente entre las magnitudes es constante: si una se multiplica por k, la otra también."
+        },
+        {
+          "termino": "Proporcionalidad inversa",
+          "definicion": "Relación en la que el producto de las magnitudes es constante: si una se multiplica por k, la otra se divide por k."
+        },
+        {
+          "termino": "Porcentaje",
+          "definicion": "Razón con denominador 100. El p% de N es N · p/100."
+        }
       ],
       "ideasClave": [
         "En la proporcionalidad directa, el **cociente** entre las magnitudes es constante.",
@@ -306,7 +472,12 @@
       "preguntas": [
         {
           "enunciado": "Si 4 cuadernos iguales cuestan $3.600, ¿cuánto cuestan 7 de esos cuadernos?",
-          "alternativas": ["$2.057", "$4.500", "$6.300", "$25.200"],
+          "alternativas": [
+            "$2.057",
+            "$4.500",
+            "$6.300",
+            "$25.200"
+          ],
           "correcta": 2,
           "explicacion": "Es proporcionalidad directa (más cuadernos, más dinero). Cada cuaderno cuesta 3.600 ÷ 4 = 900, así que 7 cuestan 7 · 900 = $6.300.",
           "descartes": [
@@ -316,13 +487,31 @@
             "Resulta de multiplicar el precio de los 4 cuadernos por 7, como si 3.600 fuera el precio de uno."
           ],
           "metodos": [
-            { "nombre": "Reducción a la unidad", "pasos": ["Precio de 1 cuaderno: 3.600 ÷ 4 = 900.", "Precio de 7: 7 · 900 = 6.300."] },
-            { "nombre": "Regla de tres directa", "pasos": ["4/3.600 = 7/x.", "4x = 7 · 3.600 = 25.200.", "x = 25.200 ÷ 4 = 6.300."] }
+            {
+              "nombre": "Reducción a la unidad",
+              "pasos": [
+                "Precio de 1 cuaderno: 3.600 ÷ 4 = 900.",
+                "Precio de 7: 7 · 900 = 6.300."
+              ]
+            },
+            {
+              "nombre": "Regla de tres directa",
+              "pasos": [
+                "4/3.600 = 7/x.",
+                "4x = 7 · 3.600 = 25.200.",
+                "x = 25.200 ÷ 4 = 6.300."
+              ]
+            }
           ]
         },
         {
           "enunciado": "Seis trabajadores, con el mismo ritmo de trabajo, terminan una obra en 10 días. ¿En cuántos días la terminarían 15 trabajadores con ese mismo ritmo?",
-          "alternativas": ["4", "25", "19", "1"],
+          "alternativas": [
+            "4",
+            "25",
+            "19",
+            "1"
+          ],
           "correcta": 0,
           "explicacion": "Más trabajadores tardan menos días: es proporcionalidad inversa, así que el producto es constante. 6 · 10 = 60 «días-trabajador». Entonces 15 · x = 60 y x = 4 días.",
           "descartes": [
@@ -332,13 +521,32 @@
             "Resulta de restar la diferencia de trabajadores a los días (10 − 9); tampoco respeta la proporcionalidad."
           ],
           "metodos": [
-            { "nombre": "Producto constante", "pasos": ["Trabajo total: 6 · 10 = 60 días-trabajador.", "15 · x = 60.", "x = 4 días."] },
-            { "nombre": "Razonar con el factor", "pasos": ["De 6 a 15 trabajadores, el número se multiplica por 15/6 = 2,5.", "En proporción inversa, los días se dividen por 2,5.", "10 ÷ 2,5 = 4 días."] }
+            {
+              "nombre": "Producto constante",
+              "pasos": [
+                "Trabajo total: 6 · 10 = 60 días-trabajador.",
+                "15 · x = 60.",
+                "x = 4 días."
+              ]
+            },
+            {
+              "nombre": "Razonar con el factor",
+              "pasos": [
+                "De 6 a 15 trabajadores, el número se multiplica por 15/6 = 2,5.",
+                "En proporción inversa, los días se dividen por 2,5.",
+                "10 ÷ 2,5 = 4 días."
+              ]
+            }
           ]
         },
         {
           "enunciado": "Un producto cuesta $20.000. Su precio sube un 20% y, un mes después, el nuevo precio baja un 20%. ¿Cuál es el precio final?",
-          "alternativas": ["$20.000", "$19.200", "$16.000", "$24.000"],
+          "alternativas": [
+            "$20.000",
+            "$19.200",
+            "$16.000",
+            "$24.000"
+          ],
           "correcta": 1,
           "explicacion": "Tras el alza: 20.000 · 1,2 = 24.000. La baja se aplica sobre 24.000: 24.000 · 0,8 = 19.200. El 20% de 24.000 (4.800) es mayor que el 20% de 20.000 (4.000), por eso no se vuelve al precio original.",
           "descartes": [
@@ -348,15 +556,37 @@
             "Es el precio después del alza; falta aplicar el descuento."
           ],
           "metodos": [
-            { "nombre": "Paso a paso", "pasos": ["Alza: 20.000 · 1,2 = 24.000.", "Baja: 24.000 · 0,8 = 19.200."] },
-            { "nombre": "Factor combinado", "pasos": ["Los cambios sucesivos se multiplican: 1,2 · 0,8 = 0,96.", "El precio final es el 96% del original.", "20.000 · 0,96 = 19.200."] }
+            {
+              "nombre": "Paso a paso",
+              "pasos": [
+                "Alza: 20.000 · 1,2 = 24.000.",
+                "Baja: 24.000 · 0,8 = 19.200."
+              ]
+            },
+            {
+              "nombre": "Factor combinado",
+              "pasos": [
+                "Los cambios sucesivos se multiplican: 1,2 · 0,8 = 0,96.",
+                "El precio final es el 96% del original.",
+                "20.000 · 0,96 = 19.200."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Prealgebra 2e (cap. 6: Percents; cap. 5.6: Ratios and Rates)", "url": "https://openstax.org/details/books/prealgebra-2e" },
-        { "titulo": "Khan Academy en español — Matemáticas", "url": "https://es.khanacademy.org/math" },
-        { "titulo": "DEMRE — Temarios y ensayos oficiales PAES", "url": "https://demre.cl" }
+        {
+          "titulo": "OpenStax — Prealgebra 2e (cap. 6: Percents; cap. 5.6: Ratios and Rates)",
+          "url": "https://openstax.org/details/books/prealgebra-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Matemáticas",
+          "url": "https://es.khanacademy.org/math"
+        },
+        {
+          "titulo": "DEMRE — Temarios y ensayos oficiales PAES",
+          "url": "https://demre.cl"
+        }
       ]
     },
     {
@@ -408,10 +638,22 @@
         }
       ],
       "conceptos": [
-        { "termino": "Ecuación", "definicion": "Igualdad entre dos expresiones que contiene al menos una incógnita." },
-        { "termino": "Solución de una ecuación", "definicion": "Valor de la incógnita que hace verdadera la igualdad." },
-        { "termino": "Términos semejantes", "definicion": "Términos con la misma parte literal (mismas letras y exponentes), que se pueden sumar o restar." },
-        { "termino": "Propiedad distributiva", "definicion": "a(b + c) = ab + ac. Permite eliminar paréntesis multiplicando cada término." }
+        {
+          "termino": "Ecuación",
+          "definicion": "Igualdad entre dos expresiones que contiene al menos una incógnita."
+        },
+        {
+          "termino": "Solución de una ecuación",
+          "definicion": "Valor de la incógnita que hace verdadera la igualdad."
+        },
+        {
+          "termino": "Términos semejantes",
+          "definicion": "Términos con la misma parte literal (mismas letras y exponentes), que se pueden sumar o restar."
+        },
+        {
+          "termino": "Propiedad distributiva",
+          "definicion": "a(b + c) = ab + ac. Permite eliminar paréntesis multiplicando cada término."
+        }
       ],
       "ideasClave": [
         "Para mantener la igualdad, toda operación se aplica a **ambos lados** de la ecuación.",
@@ -422,7 +664,12 @@
       "preguntas": [
         {
           "enunciado": "¿Cuál es la solución de la ecuación 3(x − 2) + 4 = 2x + 7?",
-          "alternativas": ["x = 5", "x = −3", "x = 9", "x = −9"],
+          "alternativas": [
+            "x = 5",
+            "x = −3",
+            "x = 9",
+            "x = −9"
+          ],
           "correcta": 2,
           "explicacion": "Distributiva: 3x − 6 + 4 = 2x + 7 → 3x − 2 = 2x + 7. Restando 2x: x − 2 = 7. Sumando 2: x = 9. Comprobación: 3·7 + 4 = 25 y 2·9 + 7 = 25.",
           "descartes": [
@@ -432,13 +679,33 @@
             "Resulta de despejar con los signos invertidos: x = −7 − 2 = −9. Al pasar un término al otro lado se aplica la operación inversa: el −2 pasa sumando y el 7 conserva su signo."
           ],
           "metodos": [
-            { "nombre": "Despejar", "pasos": ["3x − 6 + 4 = 2x + 7.", "3x − 2 = 2x + 7.", "3x − 2x = 7 + 2.", "x = 9."] },
-            { "nombre": "Probar alternativas", "pasos": ["Reemplaza cada opción en ambos lados.", "x = 9: izquierda 3·(9 − 2) + 4 = 25; derecha 2·9 + 7 = 25.", "Solo x = 9 iguala ambos lados."] }
+            {
+              "nombre": "Despejar",
+              "pasos": [
+                "3x − 6 + 4 = 2x + 7.",
+                "3x − 2 = 2x + 7.",
+                "3x − 2x = 7 + 2.",
+                "x = 9."
+              ]
+            },
+            {
+              "nombre": "Probar alternativas",
+              "pasos": [
+                "Reemplaza cada opción en ambos lados.",
+                "x = 9: izquierda 3·(9 − 2) + 4 = 25; derecha 2·9 + 7 = 25.",
+                "Solo x = 9 iguala ambos lados."
+              ]
+            }
           ]
         },
         {
           "enunciado": "¿Qué valor de x satisface x/3 + x/4 = 14?",
-          "alternativas": ["2", "24", "42", "98"],
+          "alternativas": [
+            "2",
+            "24",
+            "42",
+            "98"
+          ],
           "correcta": 1,
           "explicacion": "Multiplicamos todo por 12 (mcm de 3 y 4): 4x + 3x = 168 → 7x = 168 → x = 24. Comprobación: 24/3 + 24/4 = 8 + 6 = 14.",
           "descartes": [
@@ -448,13 +715,32 @@
             "Resulta de sumar mal las fracciones (x/3 + x/4 = x/7) y luego despejar x = 98."
           ],
           "metodos": [
-            { "nombre": "Multiplicar por el mcm", "pasos": ["mcm(3, 4) = 12.", "12·(x/3) + 12·(x/4) = 12·14 → 4x + 3x = 168.", "7x = 168 → x = 24."] },
-            { "nombre": "Sumar las fracciones primero", "pasos": ["x/3 + x/4 = 4x/12 + 3x/12 = 7x/12.", "7x/12 = 14 → x = 14 · 12/7.", "x = 2 · 12 = 24."] }
+            {
+              "nombre": "Multiplicar por el mcm",
+              "pasos": [
+                "mcm(3, 4) = 12.",
+                "12·(x/3) + 12·(x/4) = 12·14 → 4x + 3x = 168.",
+                "7x = 168 → x = 24."
+              ]
+            },
+            {
+              "nombre": "Sumar las fracciones primero",
+              "pasos": [
+                "x/3 + x/4 = 4x/12 + 3x/12 = 7x/12.",
+                "7x/12 = 14 → x = 14 · 12/7.",
+                "x = 2 · 12 = 24."
+              ]
+            }
           ]
         },
         {
           "enunciado": "La suma de tres números enteros consecutivos es 96. ¿Cuál es el mayor de ellos?",
-          "alternativas": ["31", "32", "33", "34"],
+          "alternativas": [
+            "31",
+            "32",
+            "33",
+            "34"
+          ],
           "correcta": 2,
           "explicacion": "Sean x, x + 1 y x + 2. Entonces 3x + 3 = 96 → 3x = 93 → x = 31. Los números son 31, 32 y 33, y el mayor es 33.",
           "descartes": [
@@ -464,15 +750,241 @@
             "Resulta de calcular x = 31 y luego sumarle 3 en vez de 2. El tercer consecutivo es x + 2."
           ],
           "metodos": [
-            { "nombre": "Ecuación", "pasos": ["x + (x + 1) + (x + 2) = 96.", "3x + 3 = 96 → x = 31.", "Mayor: x + 2 = 33."] },
-            { "nombre": "Usar el promedio", "pasos": ["En tres consecutivos, el del medio es el promedio: 96 ÷ 3 = 32.", "Los números son 31, 32, 33.", "Mayor: 33."] }
+            {
+              "nombre": "Ecuación",
+              "pasos": [
+                "x + (x + 1) + (x + 2) = 96.",
+                "3x + 3 = 96 → x = 31.",
+                "Mayor: x + 2 = 33."
+              ]
+            },
+            {
+              "nombre": "Usar el promedio",
+              "pasos": [
+                "En tres consecutivos, el del medio es el promedio: 96 ÷ 3 = 32.",
+                "Los números son 31, 32, 33.",
+                "Mayor: 33."
+              ]
+            }
           ]
         }
       ],
       "fuentes": [
-        { "titulo": "OpenStax — Elementary Algebra 2e (cap. 2: Solving Linear Equations)", "url": "https://openstax.org/details/books/elementary-algebra-2e" },
-        { "titulo": "Khan Academy en español — Matemáticas", "url": "https://es.khanacademy.org/math" },
-        { "titulo": "DEMRE — Temarios y ensayos oficiales PAES", "url": "https://demre.cl" }
+        {
+          "titulo": "OpenStax — Elementary Algebra 2e (cap. 2: Solving Linear Equations)",
+          "url": "https://openstax.org/details/books/elementary-algebra-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Matemáticas",
+          "url": "https://es.khanacademy.org/math"
+        },
+        {
+          "titulo": "DEMRE — Temarios y ensayos oficiales PAES",
+          "url": "https://demre.cl"
+        }
+      ]
+    },
+    {
+      "id": "potencias-raices",
+      "titulo": "Potencias y raíces",
+      "resumen": "Qué significan las potencias y raíces, sus propiedades y los errores más comunes al operarlas.",
+      "objetivos": [
+        "Calcular potencias con exponente entero, incluidos el cero y los negativos.",
+        "Aplicar las propiedades de las potencias para simplificar expresiones.",
+        "Calcular y simplificar raíces, y relacionarlas con las potencias de exponente fraccionario."
+      ],
+      "secciones": [
+        {
+          "titulo": "¿Qué es una potencia?",
+          "texto": [
+            "Una **potencia** es una multiplicación repetida: aⁿ = a · a · … · a (n veces). El número a es la **base** y n, el **exponente**. Por ejemplo, 2⁵ = 2 · 2 · 2 · 2 · 2 = 32.",
+            "**Signos:** una base negativa elevada a un exponente **par** da resultado positivo, y a un exponente **impar**, negativo: (−2)⁴ = 16 y (−2)³ = −8. Recuerda que −2⁴ = −(2⁴) = −16, porque sin paréntesis el exponente afecta solo al 2."
+          ]
+        },
+        {
+          "titulo": "Propiedades de las potencias",
+          "lista": [
+            "**Multiplicación de igual base:** se suman los exponentes. aᵐ · aⁿ = aᵐ⁺ⁿ. Ej.: 3² · 3⁴ = 3⁶.",
+            "**División de igual base:** se restan los exponentes. aᵐ ÷ aⁿ = aᵐ⁻ⁿ. Ej.: 5⁷ ÷ 5³ = 5⁴.",
+            "**Potencia de una potencia:** se multiplican los exponentes. (aᵐ)ⁿ = aᵐ·ⁿ. Ej.: (2³)² = 2⁶.",
+            "**Potencia de un producto o cociente:** se reparte el exponente. (a·b)ⁿ = aⁿ·bⁿ y (a/b)ⁿ = aⁿ/bⁿ.",
+            "**Exponente cero:** a⁰ = 1 (si a ≠ 0).",
+            "**Exponente negativo:** a⁻ⁿ = 1/aⁿ. Ej.: 2⁻³ = 1/8, y (2/3)⁻² = (3/2)² = 9/4."
+          ],
+          "recuadro": "Error frecuente: las propiedades sirven para **multiplicar o dividir**, no para sumar. 2³ + 2² NO es 2⁵: es 8 + 4 = 12."
+        },
+        {
+          "titulo": "Raíces",
+          "texto": [
+            "La **raíz n-ésima** de a es el número que elevado a n da a: ⁿ√a = b significa que bⁿ = a. Por ejemplo, √49 = 7 porque 7² = 49, y ∛(−8) = −2 porque (−2)³ = −8.",
+            "Las raíces de índice par de números negativos **no son números reales**: √(−9) no existe en los reales.",
+            "Una raíz es una potencia de **exponente fraccionario**: ⁿ√(aᵐ) = a^(m/n). Así, √a = a^(1/2) y 8^(2/3) = (∛8)² = 2² = 4."
+          ],
+          "lista": [
+            "√(a · b) = √a · √b y √(a / b) = √a / √b (con a, b ≥ 0).",
+            "Pero **√(a + b) ≠ √a + √b**: √(9 + 16) = √25 = 5, mientras que √9 + √16 = 7.",
+            "Solo se pueden **sumar raíces semejantes** (mismo índice y misma cantidad subradical): 3√2 + 5√2 = 8√2."
+          ],
+          "ejemplo": {
+            "enunciado": "Simplifica √72.",
+            "pasos": [
+              "Busca el mayor cuadrado perfecto que divide a 72: 36.",
+              "√72 = √(36 · 2) = √36 · √2.",
+              "= **6√2**."
+            ]
+          }
+        }
+      ],
+      "conceptos": [
+        {
+          "termino": "Potencia",
+          "definicion": "Multiplicación repetida de un mismo número: aⁿ es a multiplicado por sí mismo n veces."
+        },
+        {
+          "termino": "Exponente negativo",
+          "definicion": "a⁻ⁿ equivale a 1/aⁿ: el inverso de la potencia con exponente positivo."
+        },
+        {
+          "termino": "Raíz n-ésima",
+          "definicion": "Número b tal que bⁿ = a; se escribe ⁿ√a."
+        },
+        {
+          "termino": "Exponente fraccionario",
+          "definicion": "a^(m/n) equivale a ⁿ√(aᵐ): el denominador es el índice de la raíz."
+        },
+        {
+          "termino": "Raíces semejantes",
+          "definicion": "Raíces con el mismo índice y la misma cantidad subradical; solo estas se pueden sumar o restar directamente."
+        }
+      ],
+      "ideasClave": [
+        "Al multiplicar potencias de igual base, los exponentes se **suman**.",
+        "Al dividir potencias de igual base, los exponentes se **restan**.",
+        "Todo número distinto de cero elevado a cero es igual a **1**.",
+        "La raíz de una suma **no es** la suma de las raíces.",
+        "Una base negativa con exponente par da resultado **positivo**."
+      ],
+      "preguntas": [
+        {
+          "enunciado": "¿Cuál es el valor de (2³ · 2⁻⁵) ÷ 2⁻⁴?",
+          "alternativas": [
+            "1/64",
+            "4",
+            "16",
+            "1/4"
+          ],
+          "correcta": 1,
+          "explicacion": "Todas tienen base 2: en el numerador se suman los exponentes, 3 + (−5) = −2. Luego se divide: 2⁻² ÷ 2⁻⁴ = 2^(−2 − (−4)) = 2² = 4.",
+          "descartes": [
+            "Resulta de restar mal: −2 − 4 = −6 → 2⁻⁶ = 1/64. Restar −4 equivale a sumar 4.",
+            null,
+            "Resulta de un error de signo con el −5 (3 + 5 − 4 = 4 → 2⁴ = 16).",
+            "Resulta de calcular solo el numerador (2⁻² = 1/4) y olvidar dividir por 2⁻⁴."
+          ],
+          "metodos": [
+            {
+              "nombre": "Propiedades de potencias",
+              "pasos": [
+                "Numerador: 2³ · 2⁻⁵ = 2⁻².",
+                "División: 2⁻² ÷ 2⁻⁴ = 2⁻²⁺⁴.",
+                "= 2² = 4."
+              ]
+            },
+            {
+              "nombre": "Pasar a fracciones",
+              "pasos": [
+                "2³ = 8, 2⁻⁵ = 1/32 y 2⁻⁴ = 1/16.",
+                "(8 · 1/32) ÷ (1/16) = (1/4) ÷ (1/16).",
+                "= 1/4 · 16 = 4."
+              ]
+            }
+          ]
+        },
+        {
+          "enunciado": "¿Cuál es el resultado de √50 + √18?",
+          "alternativas": [
+            "√68",
+            "8",
+            "8√2",
+            "15√2"
+          ],
+          "correcta": 2,
+          "explicacion": "Se simplifica cada raíz: √50 = √(25 · 2) = 5√2 y √18 = √(9 · 2) = 3√2. Ahora son semejantes y se suman: 5√2 + 3√2 = 8√2.",
+          "descartes": [
+            "Suma las cantidades subradicales (50 + 18). La raíz de una suma no es la suma de las raíces, ni al revés.",
+            "Suma los coeficientes (5 + 3) pero olvida el factor √2.",
+            null,
+            "Multiplica los coeficientes (5 · 3) en vez de sumarlos."
+          ],
+          "metodos": [
+            {
+              "nombre": "Simplificar y sumar semejantes",
+              "pasos": [
+                "√50 = 5√2; √18 = 3√2.",
+                "5√2 + 3√2 = (5 + 3)√2.",
+                "= 8√2."
+              ]
+            },
+            {
+              "nombre": "Verificar con aproximaciones",
+              "pasos": [
+                "√50 ≈ 7,07 y √18 ≈ 4,24; suma ≈ 11,31.",
+                "8√2 ≈ 8 · 1,414 ≈ 11,31 ✓.",
+                "√68 ≈ 8,25 y 15√2 ≈ 21,2 no coinciden."
+              ]
+            }
+          ]
+        },
+        {
+          "enunciado": "¿Cuál es el valor de (−3)⁴ − 3⁴ + (−2)³?",
+          "alternativas": [
+            "−8",
+            "8",
+            "−170",
+            "−6"
+          ],
+          "correcta": 0,
+          "explicacion": "(−3)⁴ = 81 (base negativa, exponente par). 3⁴ = 81. (−2)³ = −8 (exponente impar). Entonces 81 − 81 + (−8) = −8.",
+          "descartes": [
+            null,
+            "Resulta de creer que (−2)³ = 8. Con exponente impar, una base negativa da resultado negativo.",
+            "Resulta de creer que (−3)⁴ = −81: −81 − 81 − 8 = −170. Con exponente par, el resultado es positivo.",
+            "Resulta de calcular (−2)³ como (−2) · 3 = −6. El exponente indica cuántas veces se multiplica la base por sí misma."
+          ],
+          "metodos": [
+            {
+              "nombre": "Calcular cada término",
+              "pasos": [
+                "(−3)⁴ = 81.",
+                "3⁴ = 81.",
+                "(−2)³ = −8.",
+                "81 − 81 − 8 = −8."
+              ]
+            },
+            {
+              "nombre": "Observar la estructura",
+              "pasos": [
+                "Como el exponente 4 es par, (−3)⁴ = 3⁴, así que los dos primeros términos se anulan.",
+                "Queda solo (−2)³.",
+                "(−2)³ = −8."
+              ]
+            }
+          ]
+        }
+      ],
+      "fuentes": [
+        {
+          "titulo": "OpenStax — Elementary Algebra 2e (cap. 6: Polynomials — exponentes; cap. 9: Roots and Radicals)",
+          "url": "https://openstax.org/details/books/elementary-algebra-2e"
+        },
+        {
+          "titulo": "Khan Academy en español — Matemáticas",
+          "url": "https://es.khanacademy.org/math"
+        },
+        {
+          "titulo": "DEMRE — Temarios y ensayos oficiales PAES",
+          "url": "https://demre.cl"
+        }
       ]
     }
   ]
