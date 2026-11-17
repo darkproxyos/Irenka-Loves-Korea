@@ -58,3 +58,13 @@ Pensado para publicarse en [Vercel](https://vercel.com) como sitio estático: no
 En la carpeta [`estudio/`](estudio) hay una plataforma de estudio independiente (ciencias,
 matemáticas y comprensión lectora, con flashcards, tests tipo PAES y banco de errores).
 Se publica en `/estudio/`. Más detalles en [estudio/README.md](estudio/README.md).
+
+## Otro proyecto: Viaje a Corea
+
+En la carpeta [`viaje/`](viaje) hay una guía para preparar un viaje a Corea desde Chile
+(documentos, vuelos, dinero, transporte, alojamiento, comida, ciudades, itinerarios,
+cultura, seguridad, frases y checklist), con una calculadora de presupuesto.
+Se publica en `/viaje/`.
+
+Los precios aproximados y los tipos de cambio están en [`viaje/datos.json`](viaje/datos.json):
+al cambiar `krwPorUsd` o `clpPorUsd`, todas las conversiones de la página se actualizan solas.

@@ -1,0 +1,51 @@
+{
+  "actualizado": "noviembre de 2026",
+  "tiposDeCambio": {
+    "krwPorUsd": 1450,
+    "clpPorUsd": 980,
+    "nota": "Valores aproximados de noviembre de 2026. Revisa el valor del día antes de viajar."
+  },
+  "estilos": {
+    "mochilero": {
+      "nombre": "Mochilero",
+      "descripcion": "Hostal en dormitorio compartido, comida de tiendas de conveniencia y restaurantes sencillos, transporte público.",
+      "alojamientoPorPersona": true,
+      "alojamiento": 35000,
+      "comida": 30000,
+      "transporte": 8000,
+      "actividades": 10000,
+      "extras": 7000
+    },
+    "medio": {
+      "nombre": "Intermedio",
+      "descripcion": "Habitación doble en hotel de negocios o guesthouse privada, restaurantes locales y algún BBQ, entradas y cafés.",
+      "alojamientoPorPersona": false,
+      "alojamiento": 120000,
+      "comida": 55000,
+      "transporte": 12000,
+      "actividades": 25000,
+      "extras": 15000
+    },
+    "comodo": {
+      "nombre": "Cómodo",
+      "descripcion": "Hotel de 4–5 estrellas, restaurantes de mayor nivel, taxis frecuentes y más tours.",
+      "alojamientoPorPersona": false,
+      "alojamiento": 260000,
+      "comida": 100000,
+      "transporte": 25000,
+      "actividades": 50000,
+      "extras": 30000
+    }
+  },
+  "costosFijos": {
+    "vueloUsd": 2000,
+    "ketaKrw": 10000,
+    "seguroUsdPorDia": 6,
+    "esimUsd": 25,
+    "aeropuertoKrw": 20000,
+    "tarjetaTransporteKrw": 4000,
+    "ktxSeulBusanKrw": 54400,
+    "vueloJejuIdaVueltaKrw": 110000,
+    "jejuExtraPorDiaKrw": 40000
+  }
+}
