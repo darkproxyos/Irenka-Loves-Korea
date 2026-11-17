@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oportunidades en Corea · Estudio y trabajo</title>
+  <meta name="description" content="Oportunidades de estudio y trabajo en Corea del Sur para personas de Chile: becas, visas, idioma, Working Holiday e instituciones oficiales, según edad, nivel de estudios y presupuesto." />
+  <meta name="theme-color" content="#F8F5F2" />
+  <link rel="icon" href="/oportunidades/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/oportunidades/css/oportunidades.css" />
+</head>
+<body>
+  <header class="cabecera">
+    <div class="cabecera-fila">
+      <a class="marca" href="#inicio">Oportunidades en <span>Corea</span></a>
+      <a class="volver" href="/" aria-label="Ir a Irenka Loves Korea">Irenka Loves Korea ↗</a>
+    </div>
+    <nav class="indice" id="indice" aria-label="Secciones">
+      <a href="#buscador">Buscador</a>
+      <a href="#caminos">Caminos</a>
+      <a href="#becas">Becas</a>
+      <a href="#estudiar">Estudiar</a>
+      <a href="#idioma">Idioma</a>
+      <a href="#trabajar">Trabajar</a>
+      <a href="#edad">Según tu edad</a>
+      <a href="#presupuesto">Según tu presupuesto</a>
+      <a href="#costos">Costo de vida</a>
+      <a href="#calendario">Calendario</a>
+      <a href="#fuentes">Instituciones</a>
+      <a href="#cuidado">Precauciones</a>
+      <a href="#preguntas">Preguntas</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ================= PORTADA ================= -->
+    <section class="envoltura portada" id="inicio">
+      <div>
+        <span class="etiqueta">Guía para personas de Chile</span>
+        <h1>Estudiar y trabajar <em>en Corea del Sur</em></h1>
+        <p class="bajada">Becas, programas de idioma, intercambios, Working Holiday y visas de trabajo, explicados según tu edad, tu nivel de estudios y tu presupuesto, con enlaces a las fuentes oficiales.</p>
+        <div class="datos-rapidos">
+          <div><b>GKS</b><span>Becas completas del Gobierno</span></div>
+          <div><b>18 a 34 años</b><span>Working Holiday</span></div>
+          <div><b>7 cupos</b><span>GKS Chile 2026 (vía Embajada)</span></div>
+          <div><b>₩10.320 / h</b><span>Salario mínimo 2026</span></div>
+        </div>
+      </div>
+      <div class="arco-marco" aria-hidden="true">
+        <div class="arco">
+          <span class="ko" lang="ko">기회</span>
+          <span class="arco-pie">Oportunidad · Gihoe</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 1. BUSCADOR ================= -->
+    <section class="seccion" id="buscador">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">01</span>
+          <div>
+            <span class="etiqueta">Tu caso</span>
+            <h2>¿Qué opciones tengo?</h2>
+            <p>Completa tus datos y verás las oportunidades que se ajustan a tu perfil. Toca cada una para ver qué cubre, los requisitos, los plazos y la fuente oficial.</p>
+          </div>
+        </div>
+
+        <form class="buscador" id="form-buscador" onsubmit="return false">
+          <div class="campo"><label for="b-edad">Tu edad</label><input type="number" id="b-edad" min="12" max="80" value="22" /></div>
+          <div class="campo"><label for="b-nivel">Nivel de estudios</label><select id="b-nivel"></select></div>
+          <div class="campo"><label for="b-presupuesto">Presupuesto</label><select id="b-presupuesto"></select></div>
+        </form>
+
+        <div class="filtros-cat" id="filtros-cat">
+          <button class="filtro activo" data-cat="todas">Todas</button>
+          <button class="filtro" data-cat="estudio">Estudiar</button>
+          <button class="filtro" data-cat="idioma">Idioma</button>
+          <button class="filtro" data-cat="trabajo">Trabajar</button>
+        </div>
+        <p class="conteo" id="conteo" aria-live="polite"></p>
+        <div class="resultados" id="resultados"></div>
+        <p class="tenue" style="margin-top:1rem">Información revisada en <span class="dato-actualizado">noviembre de 2026</span>. Las bases, cupos y montos cambian cada año: confirma siempre en la fuente oficial antes de postular.</p>
+      </div>
+    </section>
+
+    <!-- ================= 2. CAMINOS ================= -->
+    <section class="seccion lino" id="caminos">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">02</span>
+          <div>
+            <span class="etiqueta">Panorama</span>
+            <h2>Los cuatro caminos para ir a Corea</h2>
+            <p>Casi todas las oportunidades caen en uno de estos caminos. Muchas personas combinan varios: por ejemplo, aprenden coreano en Chile, van con una Working Holiday y después postulan a un posgrado con beca.</p>
+          </div>
+        </div>
+        <div class="columnas">
+          <div class="bloque"><span class="etiqueta">Camino 1</span><h3>Con beca</h3><p>Lo ideal si tu presupuesto es bajo. Las becas <strong>GKS del Gobierno de Corea</strong> cubren todo (pasajes, estudios, mensualidad y un año de idioma). <strong>Becas Chile</strong> financia posgrados, y la <strong>Korea Foundation</strong> apoya a quienes se dedican a los estudios coreanos. Son muy competitivas: requieren buenas notas y preparación.</p></div>
+          <div class="bloque"><span class="etiqueta">Camino 2</span><h3>Estudiar por tu cuenta</h3><p>Intercambio desde tu universidad chilena, programas de idioma, escuelas de verano o una carrera o posgrado autofinanciado. Corea es más barata que EE. UU. o Europa, y las universidades rebajan mucho el arancel a buenos estudiantes extranjeros.</p></div>
+          <div class="bloque"><span class="etiqueta">Camino 3</span><h3>Working Holiday</h3><p>Un año viviendo en Corea, con permiso para trabajar y estudiar cursos cortos, para personas de 18 a 34 años. Necesitas ahorros iniciales, pero luego puedes trabajar. Los cupos son anuales y se agotan.</p></div>
+          <div class="bloque"><span class="etiqueta">Camino 4</span><h3>Trabajar con contrato</h3><p>Para profesionales con título y una oferta de trabajo (visa E-7), profesores de español (E-2 o E-1) e investigadores (E-3). El coreano es casi siempre clave. Es mucho más fácil si ya estudiaste en Corea.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. BECAS ================= -->
+    <section class="seccion" id="becas">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">03</span>
+          <div>
+            <span class="etiqueta">Financiamiento</span>
+            <h2>Becas en detalle</h2>
+            <p>La beca más importante para chilenos es la <strong>Global Korea Scholarship (GKS)</strong>, administrada por el Instituto Nacional para la Educación Internacional (NIIED) del Ministerio de Educación de Corea.</p>
+          </div>
+        </div>
+
+        <div class="tabla-envoltura">
+          <table>
+            <thead><tr><th></th><th>GKS pregrado (GKS-U)</th><th>GKS posgrado (GKS-G)</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Para qué</strong></td><td>Carrera universitaria completa (4 años; más en algunas carreras)</td><td>Magíster (2 años), doctorado (3 años) o programas de investigación</td></tr>
+              <tr><td><strong>Edad</strong></td><td>Menos de 25 años</td><td>Menos de 40 años</td></tr>
+              <tr><td><strong>Estudios previos</strong></td><td>Enseñanza media completa (o por terminar antes de empezar)</td><td>Licenciatura para magíster; magíster para doctorado</td></tr>
+              <tr><td><strong>Notas</strong></td><td>Promedio destacado (en general, 80 % o más del máximo o 20 % superior)</td><td>Promedio del 80 % o más del máximo</td></tr>
+              <tr><td><strong>Cupos Chile 2026</strong></td><td>3 (vía Embajada)</td><td>4 (vía Embajada)</td></tr>
+              <tr><td><strong>Convocatoria</strong></td><td>Septiembre (para comenzar el año siguiente)</td><td>Febrero a marzo (para comenzar en septiembre)</td></tr>
+              <tr><td><strong>Cubre</strong></td><td colspan="2">Pasajes de ida y vuelta, matrícula y arancel, un año de curso de coreano, mensualidad (alrededor de ₩1.000.000), asignación de instalación, seguro médico y, en posgrado, apoyo a la investigación.</td></tr>
+              <tr><td><strong>Coreano</strong></td><td colspan="2">No se exige para postular, pero el TOPIK da puntaje adicional. Si llegas con TOPIK 5 o 6, puedes saltarte el año de idioma.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="columnas">
+          <div class="bloque">
+            <span class="etiqueta">Dos vías de postulación</span>
+            <h3>Vía Embajada y vía Universidad</h3>
+            <ul>
+              <li><strong>Vía Embajada:</strong> postulas en la Embajada de Corea en Chile, que preselecciona candidatos y los envía al NIIED. Puedes elegir hasta 3 universidades.</li>
+              <li><strong>Vía Universidad:</strong> postulas directamente a una universidad coreana participante, que selecciona a sus candidatos.</li>
+              <li>Si pasas la primera etapa por una vía, no puedes postular por la otra el mismo año. Revisa las bases para elegir la estrategia.</li>
+            </ul>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Documentos habituales</span>
+            <h3>Lo que suelen pedir</h3>
+            <ul>
+              <li>Formulario de postulación, carta de motivación (<em>personal statement</em>) y plan de estudio o de investigación.</li>
+              <li>Dos cartas de recomendación (en posgrado, de profesores).</li>
+              <li>Certificados de título y notas, <strong>apostillados</strong> o legalizados (la apostilla se tramita en Chile y toma tiempo).</li>
+              <li>Certificado de salud, copia del pasaporte y certificados de idioma (TOPIK o inglés, si tienes).</li>
+            </ul>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Consejos</span>
+            <h3>Cómo destacar</h3>
+            <ul>
+              <li>Prepara los documentos con meses de anticipación: las apostillas y traducciones demoran.</li>
+              <li>Explica <strong>por qué Corea</strong> y cómo tus estudios aportarán a Chile y a la relación entre ambos países.</li>
+              <li>En posgrado, revisa las líneas de investigación de los profesores de cada universidad y menciónalas en tu plan.</li>
+              <li>Un TOPIK (aunque sea nivel 2 o 3) demuestra compromiso y suma puntos.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="columnas" style="margin-top:1.25rem">
+          <div class="bloque">
+            <span class="etiqueta">Desde Chile</span>
+            <h3>Becas Chile (ANID)</h3>
+            <p>Financia magíster y doctorado en el extranjero, incluidas universidades coreanas que cumplan los criterios de excelencia de las bases. Exige ser chileno o tener permanencia definitiva, estar aceptado en el programa y <strong>volver a Chile</strong> al terminar. Los concursos son anuales: revisa <a href="https://anid.cl" target="_blank" rel="noopener">anid.cl</a> y la ficha de <a href="https://www.chileatiende.gob.cl/fichas/74911-beca-de-magister-en-el-extranjero-becas-chile" target="_blank" rel="noopener">ChileAtiende</a>.</p>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Ya estudiando en Corea</span>
+            <h3>Becas internas y GKS para autofinanciados</h3>
+            <p>Las universidades rebajan el arancel según notas y TOPIK cada semestre. El Gobierno coreano también ofrece una beca para estudiantes extranjeros autofinanciados con excelente rendimiento, que entrega una mensualidad durante un año. Pregunta en la oficina internacional de tu universidad.</p>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Estudios coreanos</span>
+            <h3>Korea Foundation</h3>
+            <p>Becas para estudiantes de posgrado, académicos y profesionales que trabajan en temas relacionados con Corea: formación en idioma, investigación de campo y estudios de posgrado. Revisa <a href="https://www.kf.or.kr" target="_blank" rel="noopener">kf.or.kr</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. ESTUDIAR ================= -->
+    <section class="seccion lino" id="estudiar">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">04</span>
+          <div>
+            <span class="etiqueta">Sistema educativo</span>
+            <h2>Estudiar en Corea: cómo funciona</h2>
+            <p>Lo que conviene saber antes de postular a una universidad coreana.</p>
+          </div>
+        </div>
+        <div class="columnas">
+          <div class="bloque">
+            <span class="etiqueta">Calendario</span>
+            <h3>Dos semestres al año</h3>
+            <p>El año académico comienza en <strong>marzo</strong> (primer semestre) y <strong>septiembre</strong> (segundo semestre). Las postulaciones de extranjeros suelen ser entre septiembre y noviembre para marzo, y entre marzo y mayo para septiembre.</p>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Universidades</span>
+            <h3>Dónde estudiar</h3>
+            <p>Las más conocidas son la Universidad Nacional de Seúl (SNU), Korea University y Yonsei (las «SKY»), KAIST y POSTECH en ciencia y tecnología, y muchas otras con buenos programas y más becas. Las universidades nacionales (públicas) suelen tener aranceles más bajos.</p>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Idioma de las clases</span>
+            <h3>Coreano o inglés</h3>
+            <p>La mayoría de las carreras de pregrado se dictan en coreano y piden TOPIK 3 o 4 para entrar (y a veces nivel 4 o más para titularse). Hay cada vez más programas en inglés, sobre todo en posgrados de ciencia, ingeniería, negocios y relaciones internacionales.</p>
+          </div>
+        </div>
+
+        <div class="columnas" style="margin-top:1.25rem">
+          <div class="bloque">
+            <span class="etiqueta">Visas de estudiante</span>
+            <h3>D-2 y D-4</h3>
+            <ul>
+              <li><strong>D-2:</strong> para carreras, posgrados e intercambios.</li>
+              <li><strong>D-4:</strong> para programas de idioma coreano.</li>
+              <li>Ambas exigen carta de admisión y certificado bancario que demuestre fondos. Las cifras exigidas cambian y varían por consulado: se suelen citar unos <strong>USD 20.000</strong> para la D-2 y <strong>USD 10.000</strong> para la D-4. Los becarios GKS no necesitan demostrar fondos.</li>
+              <li>Se tramitan en la Embajada de Corea en Chile antes de viajar.</li>
+            </ul>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Trabajar mientras estudias</span>
+            <h3>Trabajo de medio tiempo</h3>
+            <ul>
+              <li>Los estudiantes pueden trabajar a tiempo parcial con un <strong>permiso</strong> de Inmigración, en general después de 6 meses en Corea.</li>
+              <li>El límite de horas depende de la visa, del nivel de estudios y del <strong>nivel de TOPIK</strong> (por ejemplo, alrededor de 20 a 25 horas semanales durante el semestre para pregrado con TOPIK suficiente, y más durante las vacaciones).</li>
+              <li>El salario mínimo en 2026 es de <span data-krw="10320">₩10.320</span> por hora.</li>
+              <li>Trabajar sin permiso puede costarte la visa y la expulsión. Consulta siempre las reglas vigentes en HiKorea o con tu universidad.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. IDIOMA ================= -->
+    <section class="seccion" id="idioma">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">05</span>
+          <div>
+            <span class="etiqueta">La llave de todo</span>
+            <h2>Aprender coreano y certificarlo</h2>
+            <p>El coreano no siempre es obligatorio para postular, pero multiplica tus oportunidades: becas, admisión, descuentos de arancel, permisos de trabajo y empleo.</p>
+          </div>
+        </div>
+
+        <div class="columnas">
+          <div class="bloque">
+            <span class="etiqueta">En Chile</span>
+            <h3>Dónde estudiar coreano</h3>
+            <ul>
+              <li><strong>Instituto Rey Sejong Santiago</strong> (Universidad Central de Chile): instituto oficial vinculado a la Embajada de Corea. Contacto: <a href="mailto:sejong@ucentral.cl">sejong@ucentral.cl</a>.</li>
+              <li><strong>Cursos de extensión</strong> de universidades, como los cursos de coreano por niveles de la Universidad de Chile.</li>
+              <li><strong>Clases en línea gratuitas</strong> del Instituto Rey Sejong (plataforma oficial de la fundación <a href="https://www.ksif.or.kr" target="_blank" rel="noopener">KSIF</a>).</li>
+              <li>Y, por supuesto, las lecciones de <a href="/">Irenka Loves Korea</a> para empezar con el Hangul.</li>
+            </ul>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">En Corea</span>
+            <h3>Institutos de idioma universitarios</h3>
+            <p>Cursos intensivos de 10 semanas (unas 20 horas a la semana) con visa D-4, que cuestan alrededor de <span data-krw="1600000-2000000">₩1.600.000–2.000.000</span> por trimestre. Hay 4 inicios al año. Con un año de estudio, muchas personas llegan a TOPIK 3 o 4.</p>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Certificación</span>
+            <h3>TOPIK</h3>
+            <p>El examen oficial de coreano, con 6 niveles: TOPIK I (niveles 1 y 2) y TOPIK II (niveles 3 a 6). Se rinde varias veces al año en Corea y en otros países, incluido Chile. Los resultados valen <strong>2 años</strong>. Fechas e inscripciones en <a href="https://www.topik.go.kr" target="_blank" rel="noopener">topik.go.kr</a> y con el Instituto Rey Sejong.</p>
+          </div>
+        </div>
+
+        <div class="tabla-envoltura">
+          <table>
+            <thead><tr><th>Nivel TOPIK</th><th>Qué significa</th><th>Para qué te sirve</th></tr></thead>
+            <tbody>
+              <tr><td><strong>1–2</strong></td><td>Básico: presentarte, comprar, situaciones cotidianas</td><td>Puntaje adicional en becas; algunos permisos de trabajo para estudiantes de idioma</td></tr>
+              <tr><td><strong>3–4</strong></td><td>Intermedio: vida diaria y temas sociales</td><td>Admisión a la mayoría de las carreras en coreano; más horas de trabajo como estudiante; descuentos de arancel</td></tr>
+              <tr><td><strong>5–6</strong></td><td>Avanzado: ámbitos académicos y profesionales</td><td>Trabajos profesionales, posgrados en coreano, traducción e interpretación; los becarios GKS pueden saltarse el año de idioma</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. TRABAJAR ================= -->
+    <section class="seccion rosa" id="trabajar">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">06</span>
+          <div>
+            <span class="etiqueta">Empleo</span>
+            <h2>Trabajar en Corea</h2>
+            <p>Para trabajar legalmente necesitas una visa que lo permita. Estas son las opciones reales para personas de Chile.</p>
+          </div>
+        </div>
+
+        <div class="aviso">
+          <p><strong>Importante:</strong> el programa de trabajadores para empleos no calificados de Corea (visa E-9, en fábricas, agricultura o construcción) solo funciona con países que tienen convenio, y <strong>Chile no está entre ellos</strong>. Desconfía de cualquier persona o agencia que ofrezca «trabajo en fábricas de Corea» a cambio de dinero.</p>
+        </div>
+
+        <div class="tabla-envoltura">
+          <table>
+            <thead><tr><th>Visa</th><th>Para quién</th><th>Requisitos principales</th></tr></thead>
+            <tbody>
+              <tr><td><strong>H-1</strong> Working Holiday</td><td>Personas de 18 a 34 años</td><td>Cupos anuales; fondos iniciales; seguro. Trabajo complementario permitido durante un año.</td></tr>
+              <tr><td><strong>E-7</strong> Profesional</td><td>Personas con título y experiencia</td><td>Oferta de trabajo de una empresa coreana en una profesión reconocida y un salario sobre el mínimo que fija Inmigración.</td></tr>
+              <tr><td><strong>E-2</strong> Profesor de idioma</td><td>Hablantes nativos de español</td><td>Licenciatura, antecedentes apostillados y oferta de un instituto o escuela para enseñar español.</td></tr>
+              <tr><td><strong>E-1</strong> Profesor universitario</td><td>Académicos</td><td>Posgrado (normalmente) y contratación por una universidad.</td></tr>
+              <tr><td><strong>E-3</strong> Investigador</td><td>Científicos e investigadores</td><td>Magíster o doctorado y contrato con un instituto o empresa de investigación.</td></tr>
+              <tr><td><strong>D-10</strong> Búsqueda de empleo</td><td>Egresados de universidades coreanas</td><td>Permite quedarse buscando trabajo y luego cambiar a E-7.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="columnas">
+          <div class="bloque">
+            <span class="etiqueta">Dónde buscar</span>
+            <h3>Portales y redes</h3>
+            <ul>
+              <li><strong>Contact Korea</strong> (KOTRA): plataforma oficial para atraer talento extranjero calificado.</li>
+              <li><strong>Work24</strong>: portal oficial de empleo del Gobierno de Corea.</li>
+              <li>LinkedIn y los sitios de empleo de empresas coreanas con presencia en Chile y Latinoamérica.</li>
+              <li>Las ferias de empleo para estudiantes extranjeros que organizan las universidades coreanas.</li>
+            </ul>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">La ruta más probable</span>
+            <h3>Estudiar primero, trabajar después</h3>
+            <p>Es mucho más difícil conseguir una visa de trabajo desde Chile sin conexiones en Corea. La ruta más común es: <strong>aprender coreano → estudiar en Corea (con beca o intercambio) → visa D-10 → empleo con visa E-7</strong>. Corea ha facilitado en los últimos años este paso para egresados extranjeros.</p>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Perfiles con más demanda</span>
+            <h3>Dónde hay oportunidades</h3>
+            <ul>
+              <li>Ingeniería, semiconductores, baterías, TI e inteligencia artificial.</li>
+              <li>Comercio internacional con Latinoamérica (Chile y Corea tienen un tratado de libre comercio desde 2004).</li>
+              <li>Traducción e interpretación español–coreano.</li>
+              <li>Enseñanza del español en universidades e institutos.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7. SEGÚN EDAD ================= -->
+    <section class="seccion" id="edad">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">07</span>
+          <div>
+            <span class="etiqueta">Hoja de ruta</span>
+            <h2>Qué hacer según tu edad</h2>
+            <p>No hay una sola edad para ir a Corea: cada etapa tiene sus oportunidades.</p>
+          </div>
+        </div>
+        <div class="rutas">
+          <div class="ruta"><div class="edad">14–17<small>Escolares</small></div><div>
+            <ul>
+              <li>Empieza a aprender coreano (Instituto Rey Sejong, cursos en línea) y rinde el <strong>TOPIK I</strong>.</li>
+              <li>Cuida tus notas: la beca GKS de pregrado exige un promedio destacado.</li>
+              <li>Participa en concursos de oratoria en coreano y actividades culturales de la Embajada.</li>
+              <li>Mejora tu inglés: abre más programas y becas.</li>
+              <li>En 4.º medio, postula a la GKS de pregrado (convocatoria en septiembre).</li>
+            </ul>
+          </div></div>
+          <div class="ruta"><div class="edad">18–24<small>Recién egresados y universitarios</small></div><div>
+            <ul>
+              <li><strong>GKS de pregrado</strong> (hasta los 24 años).</li>
+              <li><strong>Intercambio</strong> desde tu universidad chilena: una de las opciones más accesibles.</li>
+              <li>Escuelas de verano, programas de idioma (D-4) o pregrado autofinanciado.</li>
+              <li><strong>Working Holiday</strong> desde los 18 años.</li>
+            </ul>
+          </div></div>
+          <div class="ruta"><div class="edad">25–34<small>Profesionales jóvenes</small></div><div>
+            <ul>
+              <li><strong>GKS de posgrado</strong> o <strong>Becas Chile</strong> para magíster o doctorado.</li>
+              <li><strong>Working Holiday</strong> (hasta los 34 años).</li>
+              <li>Posgrados con ayudantía de investigación (ciencia e ingeniería).</li>
+              <li>Empleo profesional (E-7) si tienes experiencia y coreano.</li>
+            </ul>
+          </div></div>
+          <div class="ruta"><div class="edad">35–39<small>Profesionales con experiencia</small></div><div>
+            <ul>
+              <li><strong>GKS de posgrado</strong> todavía es posible (menos de 40 años).</li>
+              <li>Becas Chile, becas de la Korea Foundation y posgrados con financiamiento.</li>
+              <li>Visas de trabajo E-7, E-2 (español), E-1 o E-3 según tu perfil.</li>
+            </ul>
+          </div></div>
+          <div class="ruta"><div class="edad">40+<small>Sin límite de edad</small></div><div>
+            <ul>
+              <li>Programas de idioma (D-4), escuelas de verano y posgrados autofinanciados: no tienen límite de edad.</li>
+              <li>Becas Chile (según bases) y becas de la Korea Foundation para académicos.</li>
+              <li>Trabajo profesional, académico o de investigación (E-7, E-1, E-3).</li>
+            </ul>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 8. SEGÚN PRESUPUESTO ================= -->
+    <section class="seccion lino" id="presupuesto">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">08</span>
+          <div>
+            <span class="etiqueta">Condición socioeconómica</span>
+            <h2>Qué hacer según tu presupuesto</h2>
+            <p>Ir a Corea no es solo para quienes tienen dinero. Con planificación, hay caminos para cada situación.</p>
+          </div>
+        </div>
+        <div class="columnas">
+          <div class="bloque">
+            <span class="etiqueta">Presupuesto bajo</span>
+            <h3>Apuesta por becas completas</h3>
+            <ul>
+              <li><strong>GKS</strong> (pregrado y posgrado): cubre pasajes, estudios y vida.</li>
+              <li><strong>Becas Chile</strong> para posgrado.</li>
+              <li>Prepárate con recursos gratuitos o de bajo costo: Instituto Rey Sejong, clases en línea oficiales, bibliotecas, intercambio de idiomas.</li>
+              <li>Ahorra para los gastos que no cubren las becas: trámites, apostillas, certificados médicos y los primeros días (unos $300.000–600.000).</li>
+              <li>Si eres universitario, pregunta por becas de movilidad de tu universidad.</li>
+            </ul>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Presupuesto medio</span>
+            <h3>Combina ahorro y trabajo</h3>
+            <ul>
+              <li><strong>Working Holiday:</strong> con unos $2–4 millones de ahorro inicial (pasajes, depósito de arriendo y primeros meses), puedes luego trabajar.</li>
+              <li><strong>Intercambio:</strong> pagas tu arancel chileno y solo costeas la vida en Corea.</li>
+              <li>Posgrados con <strong>beca de arancel</strong> o ayudantía de investigación.</li>
+            </ul>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Presupuesto alto</span>
+            <h3>Más libertad para elegir</h3>
+            <ul>
+              <li>Programas de idioma en universidades coreanas (D-4).</li>
+              <li>Pregrado o posgrado autofinanciado, postulando a las becas internas desde el segundo semestre.</li>
+              <li>Escuelas de verano o invierno.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 9. COSTOS ================= -->
+    <section class="seccion" id="costos">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">09</span>
+          <div>
+            <span class="etiqueta">Vivir en Corea</span>
+            <h2>Costo de vida mensual de un estudiante</h2>
+            <p>Valores aproximados en Seúl; en otras ciudades suelen ser algo menores. Las conversiones a pesos usan el tipo de cambio indicado al final de la página.</p>
+          </div>
+        </div>
+        <div class="tabla-envoltura">
+          <table>
+            <thead><tr><th>Gasto</th><th>Por mes</th><th>Comentario</th></tr></thead>
+            <tbody>
+              <tr><td>Residencia universitaria</td><td class="precio" data-krw="300000-600000">₩300.000–600.000</td><td>Habitación compartida o individual. La opción más barata y segura para empezar.</td></tr>
+              <tr><td>Goshiwon</td><td class="precio" data-krw="350000-700000">₩350.000–700.000</td><td>Habitación muy pequeña, sin depósito; a veces incluye arroz y kimchi.</td></tr>
+              <tr><td>One-room (departamento estudio)</td><td class="precio" data-krw="500000-900000">₩500.000–900.000</td><td>Más un depósito de garantía alto (suele ser de ₩5–10 millones), que se devuelve al final.</td></tr>
+              <tr><td>Comida</td><td class="precio" data-krw="400000-600000">₩400.000–600.000</td><td>Cocinando a veces y comiendo en comedores universitarios (comidas desde ₩4.000–6.000).</td></tr>
+              <tr><td>Transporte</td><td class="precio" data-krw="60000-100000">₩60.000–100.000</td><td>Metro y bus.</td></tr>
+              <tr><td>Celular</td><td class="precio" data-krw="30000-60000">₩30.000–60.000</td><td>Plan con datos.</td></tr>
+              <tr><td>Seguro de salud nacional</td><td class="precio" data-krw="70000-80000">₩70.000–80.000</td><td>Obligatorio para estudiantes extranjeros; los becarios GKS tienen seguro incluido.</td></tr>
+              <tr><td><strong>Total aproximado</strong></td><td class="precio" data-krw="1000000-1700000"><strong>₩1.000.000–1.700.000</strong></td><td>Sin considerar arancel, viajes ni compras.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="tenue" id="nota-cambio"></p>
+      </div>
+    </section>
+
+    <!-- ================= 10. CALENDARIO ================= -->
+    <section class="seccion lino" id="calendario">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">10</span>
+          <div>
+            <span class="etiqueta">Planificar el año</span>
+            <h2>Calendario aproximado de convocatorias</h2>
+            <p>Las fechas exactas cambian cada año: úsalo para planificar y confirma en cada fuente oficial.</p>
+          </div>
+        </div>
+        <div class="tabla-envoltura">
+          <table>
+            <thead><tr><th>Mes</th><th>Qué suele abrirse o pasar</th></tr></thead>
+            <tbody>
+              <tr><td>Enero – abril</td><td>Postulaciones a escuelas de verano coreanas (junio–agosto). Preparación de documentos para GKS de posgrado.</td></tr>
+              <tr><td>Febrero – marzo</td><td><strong>Convocatoria GKS de posgrado</strong> (vía Embajada y vía Universidad).</td></tr>
+              <tr><td>Marzo – mayo</td><td>Admisión de extranjeros para el semestre de septiembre. Concursos de Becas Chile (fechas según ANID; el de doctorado en el extranjero estuvo abierto en abril y mayo de 2026).</td></tr>
+              <tr><td>Septiembre</td><td><strong>Convocatoria GKS de pregrado</strong> (en 2026, del 15 al 30 de septiembre por la vía Embajada).</td></tr>
+              <tr><td>Septiembre – noviembre</td><td>Admisión de extranjeros para el semestre de marzo.</td></tr>
+              <tr><td>Todo el año</td><td>Programas de idioma (4 inicios al año), TOPIK (varias fechas), ofertas de trabajo. Working Holiday: cupos anuales hasta agotarse.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 11. FUENTES ================= -->
+    <section class="seccion" id="fuentes">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">11</span>
+          <div>
+            <span class="etiqueta">Fuentes oficiales</span>
+            <h2>Instituciones y enlaces</h2>
+            <p>Siempre confirma la información en estas fuentes antes de postular o pagar algo.</p>
+          </div>
+        </div>
+        <div class="columnas">
+          <div class="bloque">
+            <span class="etiqueta">Corea</span>
+            <h3>Gobierno e instituciones coreanas</h3>
+            <ul>
+              <li><a href="https://overseas.mofa.go.kr/cl-es/index.do" target="_blank" rel="noopener">Embajada de la República de Corea en Chile</a>: becas GKS (vía Embajada), Working Holiday y visas.</li>
+              <li><a href="https://www.studyinkorea.go.kr" target="_blank" rel="noopener">Study in Korea (NIIED)</a>: becas GKS, universidades y programas.</li>
+              <li><a href="https://www.visa.go.kr" target="_blank" rel="noopener">Korea Visa Portal</a>: tipos de visa y requisitos.</li>
+              <li><a href="https://www.hikorea.go.kr" target="_blank" rel="noopener">HiKorea</a>: Inmigración de Corea (permisos de trabajo, extensiones, cambios de visa).</li>
+              <li><a href="https://www.topik.go.kr" target="_blank" rel="noopener">TOPIK</a>: examen oficial de coreano.</li>
+              <li><a href="https://www.ksif.or.kr" target="_blank" rel="noopener">Fundación del Instituto Rey Sejong</a>: cursos de coreano.</li>
+              <li><a href="https://www.kf.or.kr" target="_blank" rel="noopener">Korea Foundation</a>: becas para estudios coreanos.</li>
+            </ul>
+          </div>
+          <div class="bloque">
+            <span class="etiqueta">Chile</span>
+            <h3>Instituciones chilenas</h3>
+            <ul>
+              <li><a href="https://anid.cl" target="_blank" rel="noopener">ANID</a>: Becas Chile para magíster y doctorado en el extranjero.</li>
+              <li><a href="https://www.chileatiende.gob.cl/fichas/74911-beca-de-magister-en-el-extranjero-becas-chile" target="_blank" rel="noopener">ChileAtiende</a>: fichas de becas y trámites (apostilla, antecedentes).</li>
+              <li><a href="https://www.gob.cl/noticias/revisa-novedades-programa-working-holiday-vacacionar-trabajar-corea-del-sur/" target="_blank" rel="noopener">Gob.cl</a>: novedades del programa Working Holiday con Corea.</li>
+              <li>Instituto Rey Sejong Santiago, en la Universidad Central de Chile (<a href="mailto:sejong@ucentral.cl">sejong@ucentral.cl</a>).</li>
+              <li>Oficinas de Relaciones Internacionales de tu universidad: intercambios y becas de movilidad.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 12. PRECAUCIONES ================= -->
+    <section class="seccion rosa" id="cuidado">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">12</span>
+          <div>
+            <span class="etiqueta">Evita problemas</span>
+            <h2>Precauciones</h2>
+          </div>
+        </div>
+        <div class="columnas">
+          <div class="bloque"><h3>Agencias y estafas</h3><p>Las becas GKS, la Working Holiday y las visas se postulan directamente y sin intermediarios. No pagues a nadie que «garantice» una beca, un cupo o un trabajo. Las agencias de estudio pueden ayudar con programas de idioma, pero compara precios con la postulación directa a la universidad.</p></div>
+          <div class="bloque"><h3>Trabajo sin permiso</h3><p>Trabajar con visa de turista o sin el permiso correspondiente es ilegal y puede terminar en multa, expulsión y prohibición de volver a entrar a Corea.</p></div>
+          <div class="bloque"><h3>Documentos con tiempo</h3><p>Apostillas, certificados de antecedentes, traducciones y exámenes médicos tardan semanas. Empieza a reunirlos varios meses antes de cada convocatoria.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 13. PREGUNTAS ================= -->
+    <section class="seccion" id="preguntas">
+      <div class="envoltura">
+        <div class="seccion-cabeza">
+          <span class="num">13</span>
+          <div>
+            <span class="etiqueta">Dudas frecuentes</span>
+            <h2>Preguntas frecuentes</h2>
+          </div>
+        </div>
+        <div class="preguntas">
+          <details><summary>¿Necesito saber coreano para postular a la beca GKS?</summary><p>No. Se puede postular sin coreano y la beca incluye un año de idioma. Pero un certificado TOPIK suma puntaje y demuestra compromiso.</p></details>
+          <details><summary>¿Puedo ir a trabajar a Corea sin título universitario?</summary><p>Con contrato es muy difícil: las visas de trabajo para chilenos son para profesionales. La opción realista sin título es la Working Holiday (18 a 34 años), que permite trabajar de forma complementaria durante un año.</p></details>
+          <details><summary>¿Tengo más de 40 años, ya no tengo opciones?</summary><p>Sí tienes: los programas de idioma, las escuelas de verano y los posgrados autofinanciados no tienen límite de edad, y existen visas de trabajo para profesionales, académicos e investigadores. Becas Chile y la Korea Foundation también pueden ser opciones según su convocatoria.</p></details>
+          <details><summary>¿Puedo hacer la Working Holiday dos veces?</summary><p>No. La visa de Working Holiday se otorga una sola vez por persona.</p></details>
+          <details><summary>¿Qué es más fácil: estudiar o trabajar?</summary><p>Estudiar. Las becas, los intercambios y los programas de idioma tienen reglas claras y convocatorias periódicas. El trabajo con contrato depende de que una empresa quiera patrocinar tu visa, lo que es más fácil si ya estudiaste en Corea y hablas coreano.</p></details>
+          <details><summary>¿Cuánto dinero necesito para ir a estudiar coreano un año?</summary><p>Aproximadamente: 4 trimestres de idioma (₩6,4–8 millones), más vida (₩12–20 millones al año), más pasajes. En total, entre ₩20 y 30 millones al año (unos $13–20 millones de pesos chilenos, según el tipo de cambio). Por eso, si tu presupuesto es limitado, conviene aprender en Chile primero y postular a becas.</p></details>
+        </div>
+        <p class="tenue" style="margin-top:2rem">Fuentes consultadas: avisos de la Embajada de Corea en Chile y de las representaciones coreanas (MOFA), guías GKS 2026 del NIIED, Gob.cl, ANID, ChileAtiende y la Universidad Central de Chile. Algunos datos (cifras de certificados bancarios, horas de trabajo y costos) provienen de guías especializadas y cambian con frecuencia. Revisado en <span class="dato-actualizado">noviembre de 2026</span>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="marca-pie">Irenka Loves Korea</div>
+    <p>Guía de oportunidades de estudio y trabajo en Corea para personas de Chile. <span lang="ko">화이팅!</span></p>
+  </footer>
+
+  <script src="/oportunidades/js/oportunidades.js"></script>
+</body>
+</html>

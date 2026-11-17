@@ -68,3 +68,11 @@ Se publica en `/viaje/`.
 
 Los precios aproximados y los tipos de cambio están en [`viaje/datos.json`](viaje/datos.json):
 al cambiar `krwPorUsd` o `clpPorUsd`, todas las conversiones de la página se actualizan solas.
+
+## Otro proyecto: Oportunidades en Corea
+
+En la carpeta [`oportunidades/`](oportunidades) hay una guía de oportunidades de estudio y
+trabajo en Corea para personas de Chile (becas GKS, Becas Chile, intercambios, idioma,
+Working Holiday y visas de trabajo), con un buscador según edad, nivel de estudios y
+presupuesto. Se publica en `/oportunidades/`. Las oportunidades del buscador están en
+[`oportunidades/opciones.json`](oportunidades/opciones.json).

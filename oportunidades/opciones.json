@@ -1,0 +1,389 @@
+{
+  "actualizado": "noviembre de 2026",
+  "tiposDeCambio": {
+    "krwPorUsd": 1450,
+    "clpPorUsd": 980
+  },
+  "niveles": [
+    {
+      "id": "escolar",
+      "nombre": "Enseñanza media en curso"
+    },
+    {
+      "id": "media",
+      "nombre": "Enseñanza media completa"
+    },
+    {
+      "id": "superior-curso",
+      "nombre": "Estudiante técnico o universitario"
+    },
+    {
+      "id": "titulo",
+      "nombre": "Título técnico, profesional o licenciatura"
+    },
+    {
+      "id": "posgrado",
+      "nombre": "Magíster o doctorado"
+    }
+  ],
+  "presupuestos": [
+    {
+      "id": "bajo",
+      "nombre": "Bajo: necesito beca completa"
+    },
+    {
+      "id": "medio",
+      "nombre": "Medio: algunos ahorros (≈ $2–5 mill.)"
+    },
+    {
+      "id": "alto",
+      "nombre": "Alto: puedo autofinanciarme"
+    }
+  ],
+  "opciones": [
+    {
+      "id": "gks-u",
+      "nombre": "Beca del Gobierno de Corea para pregrado (GKS-U)",
+      "tipo": "Beca completa",
+      "categoria": "estudio",
+      "edadMin": 17,
+      "edadMax": 24,
+      "niveles": [
+        "escolar",
+        "media",
+        "superior-curso"
+      ],
+      "presupuestoMin": "bajo",
+      "coreano": "No se exige para postular",
+      "resumen": "Financia una carrera universitaria completa en Corea, con un año previo de idioma coreano.",
+      "cubre": "Pasajes de ida y vuelta, matrícula y arancel completos, un año de curso de coreano, mensualidad (alrededor de ₩1.000.000), asignación de instalación y seguro médico.",
+      "requisitos": "Ser menor de 25 años al inicio del programa, tener la enseñanza media terminada (o terminarla antes de comenzar), un promedio de notas destacado (en general, 80 % o más del máximo, o estar en el 20 % superior) y no tener nacionalidad coreana (tampoco tus padres). No puedes tener ya una licenciatura (si estás estudiando en Chile, puedes postular para empezar una carrera en Corea). Buena salud.",
+      "plazos": "Vía Embajada: la convocatoria se abre a mediados de septiembre de cada año (en 2026 cerró el 30 de septiembre). Chile tuvo 3 cupos en 2026. También existe la vía Universidad, postulando directamente a universidades coreanas participantes.",
+      "fuente": {
+        "nombre": "Study in Korea (NIIED)",
+        "url": "https://www.studyinkorea.go.kr"
+      }
+    },
+    {
+      "id": "gks-g",
+      "nombre": "Beca del Gobierno de Corea para posgrado (GKS-G)",
+      "tipo": "Beca completa",
+      "categoria": "estudio",
+      "edadMin": 20,
+      "edadMax": 39,
+      "niveles": [
+        "superior-curso",
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "bajo",
+      "coreano": "No se exige; con TOPIK se obtiene puntaje adicional",
+      "resumen": "Financia un magíster o doctorado en Corea (y programas de investigación), con un año previo de coreano.",
+      "cubre": "Pasajes, matrícula y arancel, un año de idioma, mensualidad (alrededor de ₩1.000.000), apoyo a la investigación, seguro médico y asignación de instalación.",
+      "requisitos": "Ser menor de 40 años, tener licenciatura (para magíster) o magíster (para doctorado) al momento de comenzar, buen promedio (en general, 80 % o más del máximo) y no tener nacionalidad coreana. Los estudiantes de último año pueden postular si se titulan antes de empezar.",
+      "plazos": "La convocatoria suele publicarse entre febrero y marzo. En 2026, Chile tuvo 4 cupos por la vía Embajada. También se puede postular por la vía Universidad. Quien pasa la primera etapa por una vía no puede postular por la otra.",
+      "fuente": {
+        "nombre": "Study in Korea (NIIED)",
+        "url": "https://www.studyinkorea.go.kr"
+      }
+    },
+    {
+      "id": "becas-chile",
+      "nombre": "Becas Chile (ANID): magíster y doctorado en el extranjero",
+      "tipo": "Beca completa (Chile)",
+      "categoria": "estudio",
+      "edadMin": 21,
+      "edadMax": 99,
+      "niveles": [
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "bajo",
+      "coreano": "Según el programa (muchos posgrados en Corea se dictan en inglés)",
+      "resumen": "Beca del Estado de Chile para estudiar un magíster o doctorado en universidades extranjeras de excelencia, incluidas universidades coreanas.",
+      "cubre": "Arancel, manutención mensual, pasajes, seguro médico y otros beneficios según las bases de cada concurso.",
+      "requisitos": "Ser chileno o extranjero con permanencia definitiva en Chile, tener el grado requerido y estar aceptado (o en proceso de aceptación) en el programa. Exige retornar a Chile al terminar y retribuir. Revisa en las bases si la universidad coreana cumple los criterios de excelencia exigidos.",
+      "plazos": "Los concursos son anuales (el de doctorado en el extranjero estuvo abierto entre abril y mayo de 2026). Revisa el calendario de ANID.",
+      "fuente": {
+        "nombre": "ANID — Becas Chile",
+        "url": "https://anid.cl"
+      }
+    },
+    {
+      "id": "becas-universidad",
+      "nombre": "Becas de las universidades coreanas y ayudantías de investigación",
+      "tipo": "Beca parcial o completa",
+      "categoria": "estudio",
+      "edadMin": 18,
+      "edadMax": 99,
+      "niveles": [
+        "media",
+        "superior-curso",
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "medio",
+      "coreano": "Según el programa; el TOPIK suele aumentar el descuento",
+      "resumen": "La mayoría de las universidades coreanas rebaja entre un 30 y un 100 % del arancel a estudiantes extranjeros según sus notas y su nivel de coreano. En posgrados de ciencia e ingeniería, muchos laboratorios pagan arancel y un estipendio.",
+      "cubre": "Desde descuentos parciales de arancel hasta arancel completo más estipendio mensual (ayudantías de investigación en universidades como KAIST, POSTECH, UNIST o GIST).",
+      "requisitos": "Admisión regular en la universidad. Para posgrados de investigación, lo clave es contactar a un profesor cuyo laboratorio tenga financiamiento, con tu CV y una propuesta.",
+      "plazos": "Las admisiones para extranjeros suelen tener dos convocatorias al año: para el semestre de marzo (postulación entre septiembre y noviembre) y para el de septiembre (postulación entre marzo y mayo).",
+      "fuente": {
+        "nombre": "Study in Korea — buscador de universidades",
+        "url": "https://www.studyinkorea.go.kr"
+      }
+    },
+    {
+      "id": "intercambio",
+      "nombre": "Intercambio desde tu universidad chilena",
+      "tipo": "Intercambio",
+      "categoria": "estudio",
+      "edadMin": 18,
+      "edadMax": 99,
+      "niveles": [
+        "superior-curso"
+      ],
+      "presupuestoMin": "medio",
+      "coreano": "Generalmente no; hay cursos en inglés",
+      "resumen": "Un semestre o un año en una universidad coreana con convenio, pagando el arancel en tu universidad chilena. Es una de las formas más accesibles de estudiar en Corea.",
+      "cubre": "Normalmente no pagas arancel en Corea. Debes costear pasajes, alojamiento y vida. Algunas universidades coreanas y chilenas ofrecen becas de movilidad.",
+      "requisitos": "Ser estudiante regular de una universidad chilena con convenio, tener buen rendimiento y cumplir el nivel de inglés que pida la universidad de destino.",
+      "plazos": "Según tu universidad: por lo general se postula entre 6 y 12 meses antes. Pregunta en la Oficina de Relaciones Internacionales o de Movilidad Estudiantil.",
+      "fuente": {
+        "nombre": "Oficina de Relaciones Internacionales de tu universidad",
+        "url": ""
+      }
+    },
+    {
+      "id": "idioma-d4",
+      "nombre": "Programa de idioma coreano en una universidad (visa D-4)",
+      "tipo": "Autofinanciado",
+      "categoria": "idioma",
+      "edadMin": 18,
+      "edadMax": 99,
+      "niveles": [
+        "media",
+        "superior-curso",
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "alto",
+      "coreano": "No se necesita: hay niveles desde cero",
+      "resumen": "Cursos intensivos de coreano en institutos de idiomas de universidades (Yonsei, Sogang, Ewha, Korea University, SNU y muchas otras), con clases de lunes a viernes.",
+      "cubre": "Autofinanciado. El curso cuesta alrededor de ₩1.600.000–2.000.000 por trimestre de 10 semanas, más la vida en Corea.",
+      "requisitos": "Enseñanza media completa. Para la visa D-4 se piden la carta de admisión y un certificado bancario que demuestre fondos (las cifras varían; se suelen citar unos USD 10.000).",
+      "plazos": "Hay 4 trimestres al año (marzo, junio, septiembre y diciembre). Se postula con 2 a 4 meses de anticipación.",
+      "fuente": {
+        "nombre": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr"
+      }
+    },
+    {
+      "id": "pregrado-d2",
+      "nombre": "Pregrado o posgrado autofinanciado (visa D-2)",
+      "tipo": "Autofinanciado",
+      "categoria": "estudio",
+      "edadMin": 18,
+      "edadMax": 99,
+      "niveles": [
+        "media",
+        "superior-curso",
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "alto",
+      "coreano": "Programas en coreano (TOPIK 3–4 o más) o en inglés",
+      "resumen": "Postular directamente como estudiante internacional a una carrera o un posgrado. Los aranceles son más bajos que en EE. UU. o Europa y existen muchas becas internas.",
+      "cubre": "Autofinanciado, con frecuentes descuentos de arancel por notas o TOPIK. Arancel aproximado por semestre: ₩2.500.000–4.500.000 en universidades nacionales y ₩3.500.000–6.000.000 en privadas (más en medicina, artes e ingeniería).",
+      "requisitos": "Admisión de la universidad, nivel de coreano o inglés según el programa y certificado bancario para la visa D-2 (las cifras varían; se suelen citar unos USD 20.000).",
+      "plazos": "Admisión para marzo (postulación entre septiembre y noviembre) o para septiembre (postulación entre marzo y mayo).",
+      "fuente": {
+        "nombre": "Study in Korea (NIIED)",
+        "url": "https://www.studyinkorea.go.kr"
+      }
+    },
+    {
+      "id": "verano",
+      "nombre": "Escuelas de verano o invierno en universidades coreanas",
+      "tipo": "Programa corto",
+      "categoria": "estudio",
+      "edadMin": 18,
+      "edadMax": 99,
+      "niveles": [
+        "media",
+        "superior-curso",
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "alto",
+      "coreano": "No; las clases suelen ser en inglés",
+      "resumen": "Programas de 3 a 6 semanas con cursos sobre Corea, coreano, negocios o cultura, y actividades culturales. Muchas universidades chilenas convalidan los créditos.",
+      "cubre": "Autofinanciado. Arancel aproximado de USD 1.500–4.000, más alojamiento y pasajes. Algunas universidades ofrecen becas parciales.",
+      "requisitos": "Ser estudiante universitario o tener la enseñanza media completa (según el programa) y nivel de inglés suficiente.",
+      "plazos": "El verano coreano (junio–agosto) coincide con el invierno chileno; se postula entre enero y abril.",
+      "fuente": {
+        "nombre": "Study in Korea (NIIED)",
+        "url": "https://www.studyinkorea.go.kr"
+      }
+    },
+    {
+      "id": "working-holiday",
+      "nombre": "Working Holiday Chile–Corea (visa H-1)",
+      "tipo": "Vacaciones y trabajo",
+      "categoria": "trabajo",
+      "edadMin": 18,
+      "edadMax": 34,
+      "niveles": [
+        "escolar",
+        "media",
+        "superior-curso",
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "medio",
+      "coreano": "No se exige (ayuda mucho para conseguir trabajo)",
+      "resumen": "Permite vivir hasta un año en Corea para conocer el país, con permiso para trabajar de forma complementaria y estudiar cursos cortos. Es la puerta de entrada más directa para jóvenes chilenos.",
+      "cubre": "No es una beca: necesitas ahorros para los primeros meses y los pasajes. Puedes trabajar (el salario mínimo en 2026 es de ₩10.320 por hora).",
+      "requisitos": "Tener entre 18 y 34 años (el límite subió de 30 a 34 con el acuerdo renovado en 2025), ser chileno y residir en Chile, tener pasaporte vigente, fondos suficientes, seguro médico, pasaje y no haber tenido antes esta visa. No se puede viajar con hijos o personas a cargo con esta visa.",
+      "plazos": "Los cupos son anuales y limitados. Los cupos de 2026 se agotaron; la próxima apertura sería en 2027. Revisa la sección de Working Holiday de la Embajada de Corea en Chile.",
+      "fuente": {
+        "nombre": "Embajada de Corea en Chile — Working Holiday",
+        "url": "https://overseas.mofa.go.kr/cl-es/brd/m_22556/view.do?seq=3&page=1"
+      }
+    },
+    {
+      "id": "sejong",
+      "nombre": "Instituto Rey Sejong Santiago (coreano en Chile)",
+      "tipo": "Idioma en Chile",
+      "categoria": "idioma",
+      "edadMin": 14,
+      "edadMax": 99,
+      "niveles": [
+        "escolar",
+        "media",
+        "superior-curso",
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "bajo",
+      "coreano": "Desde cero",
+      "resumen": "Instituto oficial de enseñanza de coreano, vinculado a la Embajada de Corea, que funciona en la Universidad Central de Chile. Ofrece cursos por niveles, actividades culturales y, a veces, becas para que alumnos destacados viajen a Corea.",
+      "cubre": "Cursos con aranceles accesibles. El Instituto Rey Sejong también ofrece clases en línea gratuitas desde Corea.",
+      "requisitos": "Inscribirse en las convocatorias del instituto (consulta la edad mínima de cada curso).",
+      "plazos": "Las inscripciones se abren antes de cada semestre. Contacto: sejong@ucentral.cl.",
+      "fuente": {
+        "nombre": "Fundación del Instituto Rey Sejong (KSIF)",
+        "url": "https://www.ksif.or.kr"
+      }
+    },
+    {
+      "id": "kf",
+      "nombre": "Becas de la Korea Foundation (estudios coreanos)",
+      "tipo": "Beca para investigadores",
+      "categoria": "estudio",
+      "edadMin": 21,
+      "edadMax": 99,
+      "niveles": [
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "bajo",
+      "coreano": "Según la beca",
+      "resumen": "La Korea Foundation ofrece becas para estudiantes de posgrado, académicos y profesionales que se dedican a los estudios coreanos: formación en idioma coreano, investigación de campo en Corea y estudios de posgrado.",
+      "cubre": "Según el programa: estipendio mensual, pasajes y gastos de estudio o investigación.",
+      "requisitos": "En general, estar cursando un posgrado o trabajar en temas relacionados con Corea (historia, cultura, economía, relaciones internacionales, etc.).",
+      "plazos": "Convocatorias anuales; revisa el sitio oficial.",
+      "fuente": {
+        "nombre": "Korea Foundation",
+        "url": "https://www.kf.or.kr"
+      }
+    },
+    {
+      "id": "e7",
+      "nombre": "Trabajo profesional con contrato (visa E-7)",
+      "tipo": "Trabajo",
+      "categoria": "trabajo",
+      "edadMin": 21,
+      "edadMax": 99,
+      "niveles": [
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "bajo",
+      "coreano": "Muchas veces necesario (TOPIK 4–5 o más), salvo en empresas internacionales",
+      "resumen": "Visa para trabajadores calificados con una oferta de trabajo de una empresa en Corea, en profesiones reconocidas (ingeniería, TI, diseño, comercio internacional, traducción, entre otras).",
+      "cubre": "Un empleo formal con contrato. Es la empresa la que patrocina la visa.",
+      "requisitos": "Oferta de trabajo, título relacionado con el cargo (o experiencia equivalente) y un salario que cumpla el mínimo que fija Inmigración. Los egresados de universidades coreanas tienen facilidades.",
+      "plazos": "Todo el año, según las ofertas de trabajo.",
+      "fuente": {
+        "nombre": "HiKorea (Inmigración de Corea)",
+        "url": "https://www.hikorea.go.kr"
+      }
+    },
+    {
+      "id": "e2-espanol",
+      "nombre": "Profesor o profesora de español (visa E-2 o E-1)",
+      "tipo": "Trabajo",
+      "categoria": "trabajo",
+      "edadMin": 22,
+      "edadMax": 99,
+      "niveles": [
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "bajo",
+      "coreano": "Útil, pero no siempre exigido",
+      "resumen": "Las visas para profesores de idiomas permiten a hablantes nativos enseñar su lengua materna en institutos (E-2) o en universidades (E-1, que suele exigir posgrado). La demanda de profesores de español es menor que la de inglés, pero existe, sobre todo en universidades con carreras de español y en institutos.",
+      "cubre": "Empleo con contrato; la institución patrocina la visa.",
+      "requisitos": "Ser hablante nativo, tener licenciatura (posgrado para universidades), certificado de antecedentes apostillado y una oferta de trabajo. Las vacantes de inglés (E-2) son solo para nacionales de países de habla inglesa.",
+      "plazos": "Las universidades suelen contratar para marzo y septiembre.",
+      "fuente": {
+        "nombre": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr"
+      }
+    },
+    {
+      "id": "investigacion",
+      "nombre": "Investigación y academia (visas E-3 y E-1)",
+      "tipo": "Trabajo",
+      "categoria": "trabajo",
+      "edadMin": 24,
+      "edadMax": 99,
+      "niveles": [
+        "posgrado"
+      ],
+      "presupuestoMin": "bajo",
+      "coreano": "Generalmente no, en ciencia e ingeniería",
+      "resumen": "Posiciones de posdoctorado, investigación y docencia en universidades e institutos de investigación coreanos, que invierten fuertemente en ciencia y tecnología.",
+      "cubre": "Salario o estipendio de investigación según la institución.",
+      "requisitos": "Magíster o doctorado, publicaciones y contacto directo con un grupo de investigación.",
+      "plazos": "Todo el año.",
+      "fuente": {
+        "nombre": "Korea Visa Portal",
+        "url": "https://www.visa.go.kr"
+      }
+    },
+    {
+      "id": "d10",
+      "nombre": "Búsqueda de empleo tras estudiar en Corea (visa D-10)",
+      "tipo": "Trabajo",
+      "categoria": "trabajo",
+      "edadMin": 21,
+      "edadMax": 99,
+      "niveles": [
+        "titulo",
+        "posgrado"
+      ],
+      "presupuestoMin": "medio",
+      "coreano": "Muy recomendable",
+      "resumen": "Al terminar una carrera o posgrado en Corea, puedes cambiar a la visa D-10 para quedarte buscando trabajo y luego pasar a una visa E-7. En los últimos años Corea ha facilitado este camino para egresados extranjeros.",
+      "cubre": "Permiso de permanencia para buscar empleo (no permite trabajo de jornada completa).",
+      "requisitos": "Haberse titulado en una universidad coreana (u otros perfiles calificados) y tener fondos para mantenerse.",
+      "plazos": "Se solicita en Corea, normalmente antes de que venza la visa de estudiante.",
+      "fuente": {
+        "nombre": "HiKorea (Inmigración de Corea)",
+        "url": "https://www.hikorea.go.kr"
+      }
+    }
+  ]
+}
