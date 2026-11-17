@@ -76,3 +76,11 @@ trabajo en Corea para personas de Chile (becas GKS, Becas Chile, intercambios, i
 Working Holiday y visas de trabajo), con un buscador según edad, nivel de estudios y
 presupuesto. Se publica en `/oportunidades/`. Las oportunidades del buscador están en
 [`oportunidades/opciones.json`](oportunidades/opciones.json).
+
+## Otro proyecto: Camino a Medicina SNU
+
+En la carpeta [`medicina/`](medicina) hay un plan para prepararse desde Chile hasta el nivel
+académico de quienes ingresan a Medicina en la Universidad Nacional de Seúl: admisión
+(también la internacional), currículo y examen Suneung, equivalencias con AP/IB y el
+currículo chileno, mapa de contenidos con avance guardado, plan de 36 meses, semana tipo,
+recursos en español, inglés y coreano, y alternativas. Se publica en `/medicina/`.
